@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Arial, sans-serif">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dfe7ef"/>
+      <stop offset="1" stop-color="#f3f1ec"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sky)"/>
+  <!-- Ground -->
+  <polygon points="0,520 800,520 800,600 0,600" fill="#e6e3da"/>
+  <ellipse cx="400" cy="525" rx="320" ry="40" fill="#d8d4c8"/>
+
+  <!-- House (isometric) -->
+  <!-- Right face -->
+  <polygon points="400,250 600,330 600,500 400,460" fill="#cfc8bb"/>
+  <!-- Left face -->
+  <polygon points="400,250 200,330 200,500 400,460" fill="#e9e3d6"/>
+  <!-- Roof left -->
+  <polygon points="400,170 200,250 400,250" fill="#b9b2a4"/>
+  <!-- Roof right -->
+  <polygon points="400,170 600,250 600,330 400,250" fill="#9a9384"/>
+  <polygon points="400,170 600,250 400,250" fill="#a7a092"/>
+
+  <!-- Windows left face -->
+  <polygon points="250,355 320,383 320,440 250,412" fill="#7fa7c4" opacity="0.85"/>
+  <polygon points="335,388 380,406 380,452 335,434" fill="#7fa7c4" opacity="0.85"/>
+  <!-- Door / windows right face -->
+  <polygon points="430,360 480,380 480,455 430,435" fill="#5e6b73"/>
+  <polygon points="500,388 560,412 560,460 500,436" fill="#7fa7c4" opacity="0.85"/>
+
+  <text x="400" y="565" font-size="20" fill="#1a1a1a" text-anchor="middle" font-weight="bold">VELAR · 3D-візуалізація (демо)</text>
+</svg>

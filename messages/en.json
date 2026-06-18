@@ -1,0 +1,606 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "portfolio": "Portfolio",
+    "configurator": "Configurator",
+    "design": "Design"
+  },
+  "cta": {
+    "startConfig": "Start configuration",
+    "viewPortfolio": "View portfolio",
+    "viewAllProjects": "View all projects",
+    "viewProject": "View project"
+  },
+  "language": {
+    "label": "Language"
+  },
+  "hero": {
+    "overline": "Premium construction",
+    "title": "Design your villa in 3 minutes",
+    "subtitle": "Choose the layout, materials and finishes — and get the project of your dream home in real time."
+  },
+  "whyUs": {
+    "overline": "Why Velar",
+    "title": "Premium in every detail",
+    "subtitle": "We take responsibility for the result at every stage — from sketch to keys.",
+    "advantages": [
+      {
+        "title": "In-house construction",
+        "description": "A full cycle with no intermediaries — from design to turnkey delivery."
+      },
+      {
+        "title": "Fixed estimate",
+        "description": "The price is locked in the contract and never changes during construction."
+      },
+      {
+        "title": "10-year warranty",
+        "description": "On load-bearing structures and the home's engineering systems."
+      },
+      {
+        "title": "Team of architects",
+        "description": "An individual project tailored to your lifestyle."
+      }
+    ],
+    "stats": [
+      {
+        "value": "120+",
+        "label": "homes built"
+      },
+      {
+        "value": "15",
+        "label": "years on the market"
+      },
+      {
+        "value": "98%",
+        "label": "satisfied clients"
+      },
+      {
+        "value": "8 mo.",
+        "label": "average timeline"
+      }
+    ]
+  },
+  "designPromo": {
+    "overline": "Another service",
+    "title": "We design turnkey house projects",
+    "text": "Need just the architectural project? We develop the full documentation package — from concept to a construction cost estimate. The finished project can be built by any construction team.",
+    "stats": [
+      {
+        "value": "from $15/m²",
+        "label": "Design cost"
+      },
+      {
+        "value": "2–3 mo",
+        "label": "Development time"
+      },
+      {
+        "value": "3 stages",
+        "label": "Payment"
+      }
+    ],
+    "cta": "Learn about design services"
+  },
+  "featured": {
+    "overline": "Portfolio",
+    "title": "Featured projects",
+    "subtitle": "A few of the 120+ homes we have built turnkey."
+  },
+  "showcase": {
+    "overline": "The Velar philosophy",
+    "title": "A home that reflects your lifestyle",
+    "subtitle": "We combine architectural expression, flawless engineering and natural materials — so that every square metre serves you for decades."
+  },
+  "howItWorks": {
+    "overline": "How it works",
+    "title": "Your villa in three simple steps",
+    "subtitle": "No complex briefs. You drive the process, and we prepare the project.",
+    "steps": [
+      {
+        "title": "Choose parameters",
+        "description": "Style, area, number of floors, finishes and extra options — in a convenient configurator."
+      },
+      {
+        "title": "Get the project",
+        "description": "AI floor-plan visualization, a 3D model and an estimated budget — instantly and in real time."
+      },
+      {
+        "title": "Meet your manager",
+        "description": "A PDF presentation by email and a call from an expert who refines the estimate and timeline."
+      }
+    ]
+  },
+  "about": {
+    "hero": {
+      "overline": "About the company",
+      "title": "Velar Development",
+      "subtitle": "We build premium-class houses, villas and cottages turnkey — and bring architecture back to life through careful restoration."
+    },
+    "story": {
+      "overline": "Who we are",
+      "title": "We build homes that outlive generations",
+      "p1": "Velar Development is a team of architects, engineers and builders creating premium-class private houses, villas and cottages. We guide every project through all stages — from the first sketch to handing over the keys.",
+      "p2": "A separate focus is restoration. We bring historic and neglected buildings back to life, preserving their character while equipping them with modern engineering and comfort.",
+      "stats": [
+        {
+          "value": "15",
+          "label": "years of experience"
+        },
+        {
+          "value": "120+",
+          "label": "completed projects"
+        },
+        {
+          "value": "40+",
+          "label": "specialists on the team"
+        },
+        {
+          "value": "100%",
+          "label": "turnkey work"
+        }
+      ]
+    },
+    "services": {
+      "overline": "What we do",
+      "title": "Our services",
+      "subtitle": "A full cycle of premium-segment real estate work.",
+      "items": [
+        {
+          "title": "House construction",
+          "description": "Turnkey private houses — from design to engineering and finishing."
+        },
+        {
+          "title": "Premium villas",
+          "description": "Spacious villas with pools, SPA and full Smart Home integration."
+        },
+        {
+          "title": "Cottages & communities",
+          "description": "Cozy cottages and full-scale development of cottage communities."
+        },
+        {
+          "title": "Restoration",
+          "description": "Restoring historic and old buildings while preserving their character."
+        }
+      ]
+    },
+    "values": {
+      "overline": "Values",
+      "title": "The principles we build on",
+      "subtitle": "What defines every decision we make.",
+      "items": [
+        {
+          "title": "Uncompromising quality",
+          "description": "Proven materials, control at every stage and a guaranteed result."
+        },
+        {
+          "title": "Transparency",
+          "description": "A fixed estimate and honest communication — with no hidden costs."
+        },
+        {
+          "title": "Innovation",
+          "description": "Energy-efficient solutions, Smart Home and modern construction technology."
+        },
+        {
+          "title": "Attention to detail",
+          "description": "Bespoke design and flawless finishing in every square metre."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to build your dream home?",
+      "subtitle": "Configure your own project in three minutes or browse our completed work."
+    }
+  },
+  "design": {
+    "hero": {
+      "overline": "Design",
+      "title": "Turnkey house design projects",
+      "subtitle": "We develop a complete architectural project for your future home — from concept to construction-ready documentation."
+    },
+    "intro": {
+      "overline": "Why design",
+      "title": "A standalone service for those who need just the project",
+      "text": "Order the architectural and structural sections plus a construction cost estimate — and add visualization or support with obtaining a building permit if needed. The finished project can be built by any construction team.",
+      "stats": [
+        {
+          "value": "from $15/m²",
+          "label": "Design cost"
+        },
+        {
+          "value": "2–3 mo",
+          "label": "Development time"
+        },
+        {
+          "value": "3",
+          "label": "Design packages"
+        },
+        {
+          "value": "3",
+          "label": "Payment stages"
+        }
+      ]
+    },
+    "pricing": {
+      "overline": "Pricing",
+      "title": "Choose a design package",
+      "subtitle": "The price depends on the house area and the scope of services.",
+      "perM2": "{price}/m²",
+      "popular": "Popular",
+      "tiers": {
+        "light": {
+          "name": "Light",
+          "price": "$15",
+          "features": [
+            "Architectural section",
+            "Structural section",
+            "Construction cost estimate"
+          ]
+        },
+        "basic": {
+          "name": "Basic",
+          "price": "$17",
+          "features": [
+            "Architectural section",
+            "Structural section",
+            "3D visualization",
+            "Construction cost estimate"
+          ]
+        },
+        "premium": {
+          "name": "Premium",
+          "price": "$17",
+          "priceNote": "+ $200 and additional costs",
+          "features": [
+            "Architectural section",
+            "Structural section",
+            "3D visualization",
+            "Construction cost estimate",
+            "Building permit assistance"
+          ]
+        }
+      }
+    },
+    "payment": {
+      "overline": "Payment",
+      "title": "Pay in 3 stages",
+      "subtitle": "No full upfront payment — pay gradually as the work progresses.",
+      "stages": [
+        {
+          "percent": "30%",
+          "title": "Project kickoff",
+          "description": "After signing the contract — we start work on the architectural section."
+        },
+        {
+          "percent": "30%",
+          "title": "Design development",
+          "description": "Paid during preparation of the structural section and visualization."
+        },
+        {
+          "percent": "40%",
+          "title": "Project completion",
+          "description": "Final payment after delivering the finished project documentation."
+        }
+      ]
+    },
+    "advantages": {
+      "overline": "Advantages",
+      "title": "Why design with Velar",
+      "items": [
+        "Official design contract",
+        "Fully online design process",
+        "Flexible packages for any budget",
+        "Direct contact with the architect online",
+        "Payment split into 3 stages",
+        "Finished project in 2 months"
+      ]
+    },
+    "cta": {
+      "title": "Ready to start your design project?",
+      "text": "Leave your contacts — an architect will reach out, discuss the details and help pick the best package.",
+      "button": "Order a design project"
+    }
+  },
+  "projects": {
+    "overline": "Portfolio",
+    "title": "Our completed projects",
+    "subtitle": "Over 120 premium-class homes built turnkey across the country."
+  },
+  "footer": {
+    "tagline": "Turnkey construction of premium-class private homes. From idea to keys — with a guaranteed result.",
+    "navTitle": "Navigation",
+    "contactsTitle": "Contacts",
+    "address": "Kyiv, 1 Khreshchatyk St.",
+    "rights": "All rights reserved.",
+    "slogan": "Built with attention to detail."
+  },
+  "configurator": {
+    "steps": {
+      "style": "Style",
+      "area": "Area",
+      "details": "Details",
+      "engineering": "Engineering",
+      "options": "Options",
+      "result": "Result"
+    },
+    "nav": {
+      "back": "Back",
+      "next": "Next",
+      "getResult": "Get the result",
+      "estimate": "Estimated cost",
+      "chooseStyle": "Choose a style"
+    },
+    "style": {
+      "heading": "Choose the architectural style",
+      "subtitle": "It defines the character of the home and the base cost.",
+      "perM2": "from {price}/m²",
+      "error": "Please choose a style.",
+      "options": {
+        "classic": {
+          "label": "Classic",
+          "description": "Symmetrical façades, noble proportions, restrained elegance."
+        },
+        "neoclassic": {
+          "label": "Neoclassical",
+          "description": "Symmetry, columns and noble décor."
+        },
+        "baroque": {
+          "label": "Baroque",
+          "description": "Ornate stucco, columns and lavish façades."
+        },
+        "modern": {
+          "label": "Modern",
+          "description": "Clean lines, panoramic glazing, minimalism."
+        },
+        "minimalism": {
+          "label": "Minimalism",
+          "description": "Clean forms and maximum space without excess decor."
+        },
+        "toscana": {
+          "label": "Tuscan",
+          "description": "Warm tones, natural stone, the spirit of an Italian villa."
+        }
+      }
+    },
+    "area": {
+      "heading": "What is the home's area?",
+      "subtitle": "Total floor area in square metres.",
+      "unit": "m²"
+    },
+    "details": {
+      "heading": "Project details",
+      "subtitle": "A few clarifications — and we'll give you a more precise price.",
+      "floors": {
+        "title": "How many floors?",
+        "options": {
+          "1": "1 floor",
+          "2": "2 floors",
+          "3": "3 floors"
+        }
+      },
+      "bedrooms": {
+        "title": "Number of bedrooms"
+      },
+      "finish": {
+        "title": "Finish level",
+        "hint": "Has the biggest impact on the final cost.",
+        "options": {
+          "standard": {
+            "label": "Standard",
+            "description": "Quality mid-segment materials."
+          },
+          "premium": {
+            "label": "Premium",
+            "description": "Designer solutions, natural materials."
+          },
+          "deluxe": {
+            "label": "De Luxe",
+            "description": "Exclusive materials and bespoke design."
+          }
+        }
+      },
+      "timeline": {
+        "title": "Construction timeline",
+        "options": {
+          "standard": {
+            "label": "Standard",
+            "description": "Optimal work schedule."
+          },
+          "fast": {
+            "label": "Accelerated",
+            "description": "Tight deadlines, reinforced crew."
+          }
+        }
+      }
+    },
+    "engineering": {
+      "heading": "Construction & engineering",
+      "subtitle": "Technical decisions that affect comfort and the estimate.",
+      "wall": {
+        "title": "Wall material",
+        "options": {
+          "aerated": {
+            "label": "Aerated concrete",
+            "description": "Optimal price and thermal insulation."
+          },
+          "brick": {
+            "label": "Brick",
+            "description": "Durability and prestige."
+          },
+          "monolith": {
+            "label": "Monolithic frame",
+            "description": "Freedom of layout and height."
+          }
+        }
+      },
+      "roof": {
+        "title": "Roof type",
+        "options": {
+          "flat": {
+            "label": "Flat",
+            "description": "Modern look, usable roof surface."
+          },
+          "pitched": {
+            "label": "Pitched",
+            "description": "A classic with reliable drainage."
+          },
+          "mansard": {
+            "label": "Mansard",
+            "description": "Extra living space."
+          }
+        }
+      },
+      "heating": {
+        "title": "Heating",
+        "options": {
+          "gas": {
+            "label": "Gas boiler",
+            "description": "The standard solution."
+          },
+          "heatPump": {
+            "label": "Heat pump",
+            "description": "Up to 70% savings on heating."
+          },
+          "electric": {
+            "label": "Electric",
+            "description": "Simple connection."
+          }
+        }
+      },
+      "plot": {
+        "title": "Do you have a plot of land?",
+        "hint": "This helps the manager prepare an offer.",
+        "options": {
+          "have": {
+            "label": "I already have one",
+            "description": "We build on your land."
+          },
+          "search": {
+            "label": "I need help",
+            "description": "We'll find a plot for the project."
+          }
+        }
+      }
+    },
+    "options": {
+      "heading": "Extra options",
+      "subtitle": "Choose everything that will make your home perfect.",
+      "plus": "+ {price}",
+      "items": {
+        "pool": {
+          "label": "Pool",
+          "description": "Heating and filtration system."
+        },
+        "spa": {
+          "label": "SPA",
+          "description": "Sauna, hammam, relaxation zone."
+        },
+        "garage": {
+          "label": "Garage",
+          "description": "For 2 cars, with EV charging."
+        },
+        "smartHome": {
+          "label": "Smart Home",
+          "description": "Lighting, climate and security in one app."
+        },
+        "solar": {
+          "label": "Solar panels",
+          "description": "Energy independence and savings."
+        }
+      }
+    },
+    "result": {
+      "title": "Your project is ready",
+      "noAddons": "No extra options",
+      "planTitle": "AI floor-plan visualization",
+      "planCaption": "Generated based on your choices",
+      "view3dTitle": "3D visualization",
+      "view3dCaption": "An interactive model of the house",
+      "demo": "Demo",
+      "paramsTitle": "Project parameters",
+      "specs": {
+        "area": "Area",
+        "floors": "Floors",
+        "bedrooms": "Bedrooms",
+        "wall": "Wall material",
+        "roof": "Roof",
+        "heating": "Heating",
+        "timeline": "Timeline",
+        "plot": "Plot"
+      },
+      "budgetTitle": "Estimated budget",
+      "constructionRow": "Construction ({style}, {finish}, {area} m²)",
+      "bedroomsRow": "Bedrooms ({count})",
+      "budgetNote": "* Estimated cost. The exact quote will be calculated by a manager.",
+      "nextStepOverline": "Next step",
+      "ctaTitle": "Ready to bring the project to life?",
+      "ctaText": "Leave your contacts — and within 24 hours you'll receive a detailed estimate, a full 3D visualization and a personal offer from a manager.",
+      "ctaButton": "Request a consultation",
+      "successTitle": "Request received!",
+      "successText": "Thank you. Your personal manager is already preparing an offer. Here's what happens next:",
+      "nextSteps": [
+        "A manager will contact you within 15 minutes.",
+        "We'll align the details and prepare the final estimate.",
+        "We'll deliver the project, a 3D tour and a personal offer."
+      ],
+      "downloadPdf": "Download PDF",
+      "pdfSnack": "Downloading the PDF presentation...",
+      "edit": "Change parameters"
+    },
+    "callback": {
+      "title": "Manager call",
+      "text": "Leave your contacts — we'll call within 15 minutes.",
+      "name": "Name",
+      "phone": "Phone",
+      "cancel": "Cancel",
+      "submit": "Request a call",
+      "submitting": "Sending...",
+      "successSnack": "Thank you! A manager will call you shortly.",
+      "nameError": "Please enter your name",
+      "phoneError": "Enter a valid phone number"
+    }
+  },
+  "project": {
+    "notFound": "Project not found",
+    "allProjects": "All projects",
+    "about": "About the project",
+    "features": "Features",
+    "specsTitle": "Specifications",
+    "specs": {
+      "area": "Area",
+      "floors": "Floors",
+      "bedrooms": "Bedrooms",
+      "bathrooms": "Bathrooms",
+      "style": "Style",
+      "year": "Year"
+    },
+    "createSimilar": "Create a similar project",
+    "gallery": "Gallery",
+    "photoAlt": "{title} — photo {n}",
+    "likeTitle": "Like this project?",
+    "likeText": "Configure your own villa in three minutes."
+  },
+  "meta": {
+    "defaultTitle": "Velar Development — premium house & villa construction",
+    "defaultDescription": "Velar Development — turnkey construction of premium-class houses, villas and cottages, plus restoration. Design your own villa in our online configurator in 3 minutes.",
+    "home": {
+      "title": "Velar Development — premium house & villa construction",
+      "description": "Turnkey construction of premium-class houses, villas and cottages, plus restoration. Design your own villa in our online configurator in 3 minutes."
+    },
+    "about": {
+      "title": "About",
+      "description": "Velar Development — a team of architects and builders. We build premium-class houses, villas and cottages turnkey, and restore historic buildings."
+    },
+    "projects": {
+      "title": "Portfolio",
+      "description": "Completed turnkey premium-class home projects: modern, neoclassical, chalet and Mediterranean styles. Over 120 finished projects."
+    },
+    "configurator": {
+      "title": "Configurator",
+      "description": "Velar's online house configurator: choose the style, area, finishes and options — and get a project, 3D visualization and an estimated budget in 3 minutes."
+    },
+    "design": {
+      "title": "House Design Projects",
+      "description": "Turnkey architectural design from $15/m², 2–3 months, payment in 3 stages. Light, Basic and Premium packages with cost estimate, visualization and building permit assistance."
+    }
+  }
+}

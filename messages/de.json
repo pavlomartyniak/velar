@@ -1,0 +1,606 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "portfolio": "Portfolio",
+    "configurator": "Konfigurator",
+    "design": "Projektierung"
+  },
+  "cta": {
+    "startConfig": "Konfiguration starten",
+    "viewPortfolio": "Portfolio ansehen",
+    "viewAllProjects": "Alle Projekte ansehen",
+    "viewProject": "Projekt ansehen"
+  },
+  "language": {
+    "label": "Sprache"
+  },
+  "hero": {
+    "overline": "Premium-Bau",
+    "title": "Gestalten Sie Ihre Villa in 3 Minuten",
+    "subtitle": "Wählen Sie Grundriss, Materialien und Ausstattung — und erhalten Sie das Projekt Ihres Traumhauses in Echtzeit."
+  },
+  "whyUs": {
+    "overline": "Warum Velar",
+    "title": "Premium in jedem Detail",
+    "subtitle": "Wir übernehmen die Verantwortung für das Ergebnis in jeder Phase — vom Entwurf bis zur Schlüsselübergabe.",
+    "advantages": [
+      {
+        "title": "Eigener Bau",
+        "description": "Ein kompletter Zyklus ohne Zwischenhändler — vom Entwurf bis zur schlüsselfertigen Übergabe."
+      },
+      {
+        "title": "Festpreis-Kalkulation",
+        "description": "Der Preis ist im Vertrag festgeschrieben und ändert sich während des Baus nicht."
+      },
+      {
+        "title": "10 Jahre Garantie",
+        "description": "Auf tragende Konstruktionen und die Haustechnik."
+      },
+      {
+        "title": "Team aus Architekten",
+        "description": "Ein individuelles Projekt, abgestimmt auf Ihren Lebensstil."
+      }
+    ],
+    "stats": [
+      {
+        "value": "120+",
+        "label": "gebaute Häuser"
+      },
+      {
+        "value": "15",
+        "label": "Jahre am Markt"
+      },
+      {
+        "value": "98%",
+        "label": "zufriedene Kunden"
+      },
+      {
+        "value": "8 Mon.",
+        "label": "durchschnittliche Dauer"
+      }
+    ]
+  },
+  "designPromo": {
+    "overline": "Ein weiterer Bereich",
+    "title": "Wir projektieren schlüsselfertige Häuser",
+    "text": "Brauchen Sie nur das Architekturprojekt? Wir erstellen das komplette Dokumentationspaket — von der Idee bis zur Kostenschätzung für den Bau. Das fertige Projekt kann von jedem Baubetrieb umgesetzt werden.",
+    "stats": [
+      {
+        "value": "ab $15/m²",
+        "label": "Projektierungskosten"
+      },
+      {
+        "value": "2–3 Mon.",
+        "label": "Entwicklungsdauer"
+      },
+      {
+        "value": "3 Etappen",
+        "label": "Zahlung"
+      }
+    ],
+    "cta": "Mehr über die Projektierung"
+  },
+  "featured": {
+    "overline": "Portfolio",
+    "title": "Ausgewählte Projekte",
+    "subtitle": "Einige der über 120 Häuser, die wir schlüsselfertig gebaut haben."
+  },
+  "showcase": {
+    "overline": "Die Velar-Philosophie",
+    "title": "Ein Zuhause, das Ihren Lebensstil widerspiegelt",
+    "subtitle": "Wir verbinden architektonische Ausdruckskraft, einwandfreie Ingenieurskunst und natürliche Materialien — damit jeder Quadratmeter Ihnen über Jahrzehnte dient."
+  },
+  "howItWorks": {
+    "overline": "So funktioniert es",
+    "title": "Ihre Villa in drei einfachen Schritten",
+    "subtitle": "Keine komplizierten Briefings. Sie steuern den Prozess, und wir bereiten das Projekt vor.",
+    "steps": [
+      {
+        "title": "Parameter wählen",
+        "description": "Stil, Fläche, Etagen, Ausstattung und Zusatzoptionen — in einem komfortablen Konfigurator."
+      },
+      {
+        "title": "Projekt erhalten",
+        "description": "KI-Grundrissvisualisierung, ein 3D-Modell und ein geschätztes Budget — sofort und in Echtzeit."
+      },
+      {
+        "title": "Treffen mit dem Manager",
+        "description": "Eine PDF-Präsentation per E-Mail und ein Anruf eines Experten, der Kalkulation und Termine präzisiert."
+      }
+    ]
+  },
+  "about": {
+    "hero": {
+      "overline": "Über das Unternehmen",
+      "title": "Velar Development",
+      "subtitle": "Wir bauen Häuser, Villen und Cottages der Premiumklasse schlüsselfertig — und erwecken Architektur durch sorgfältige Restaurierung zu neuem Leben."
+    },
+    "story": {
+      "overline": "Wer wir sind",
+      "title": "Wir bauen Häuser, die Generationen überdauern",
+      "p1": "Velar Development ist ein Team aus Architekten, Ingenieuren und Bauleuten, das private Häuser, Villen und Cottages der Premiumklasse erschafft. Wir begleiten jedes Projekt durch alle Phasen — vom ersten Entwurf bis zur Schlüsselübergabe.",
+      "p2": "Ein eigener Schwerpunkt ist die Restaurierung. Wir erwecken historische und vernachlässigte Gebäude zu neuem Leben, bewahren ihren Charakter und statten sie zugleich mit moderner Technik und Komfort aus.",
+      "stats": [
+        {
+          "value": "15",
+          "label": "Jahre Erfahrung"
+        },
+        {
+          "value": "120+",
+          "label": "fertiggestellte Objekte"
+        },
+        {
+          "value": "40+",
+          "label": "Fachleute im Team"
+        },
+        {
+          "value": "100%",
+          "label": "schlüsselfertige Arbeiten"
+        }
+      ]
+    },
+    "services": {
+      "overline": "Tätigkeitsbereiche",
+      "title": "Was wir tun",
+      "subtitle": "Ein kompletter Arbeitszyklus im Premium-Immobiliensegment.",
+      "items": [
+        {
+          "title": "Hausbau",
+          "description": "Schlüsselfertige Privathäuser — von der Planung bis zu Technik und Ausbau."
+        },
+        {
+          "title": "Premium-Villen",
+          "description": "Großzügige Villen mit Pools, SPA und vollständiger Smart-Home-Integration."
+        },
+        {
+          "title": "Cottages & Siedlungen",
+          "description": "Gemütliche Cottages und die komplette Erschließung von Cottage-Siedlungen."
+        },
+        {
+          "title": "Restaurierung",
+          "description": "Restaurierung historischer und alter Gebäude unter Wahrung ihres Charakters."
+        }
+      ]
+    },
+    "values": {
+      "overline": "Werte",
+      "title": "Die Prinzipien, auf denen wir bauen",
+      "subtitle": "Das, was jede unserer Entscheidungen bestimmt.",
+      "items": [
+        {
+          "title": "Kompromisslose Qualität",
+          "description": "Bewährte Materialien, Kontrolle in jeder Phase und ein garantiertes Ergebnis."
+        },
+        {
+          "title": "Transparenz",
+          "description": "Ein Festpreis und ehrliche Kommunikation — ohne versteckte Kosten."
+        },
+        {
+          "title": "Innovation",
+          "description": "Energieeffiziente Lösungen, Smart Home und moderne Bautechnologie."
+        },
+        {
+          "title": "Liebe zum Detail",
+          "description": "Maßgeschneidertes Design und makelloser Ausbau in jedem Quadratmeter."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Bereit, Ihr Traumhaus zu bauen?",
+      "subtitle": "Konfigurieren Sie Ihr eigenes Projekt in drei Minuten oder durchstöbern Sie unsere fertigen Arbeiten."
+    }
+  },
+  "design": {
+    "hero": {
+      "overline": "Planung",
+      "title": "Schlüsselfertige Hausprojektierung",
+      "subtitle": "Wir entwickeln das komplette Architekturprojekt für Ihr zukünftiges Haus — von der Idee bis zur baureifen Dokumentation."
+    },
+    "intro": {
+      "overline": "Warum Projektierung",
+      "title": "Ein eigenständiger Service für alle, die nur das Projekt brauchen",
+      "text": "Beauftragen Sie den Architektur- und Konstruktionsteil sowie eine Kostenschätzung für den Bau — und ergänzen Sie bei Bedarf Visualisierung oder Unterstützung bei der Baugenehmigung. Das fertige Projekt kann von jedem Baubetrieb umgesetzt werden.",
+      "stats": [
+        {
+          "value": "ab $15/m²",
+          "label": "Projektierungskosten"
+        },
+        {
+          "value": "2–3 Mon.",
+          "label": "Entwicklungsdauer"
+        },
+        {
+          "value": "3",
+          "label": "Pakete"
+        },
+        {
+          "value": "3",
+          "label": "Zahlungsetappen"
+        }
+      ]
+    },
+    "pricing": {
+      "overline": "Preise",
+      "title": "Wählen Sie Ihr Projektierungspaket",
+      "subtitle": "Der Preis hängt von der Hausfläche und dem Leistungsumfang ab.",
+      "perM2": "{price}/m²",
+      "popular": "Beliebt",
+      "tiers": {
+        "light": {
+          "name": "Light",
+          "price": "$15",
+          "features": [
+            "Architekturteil",
+            "Konstruktionsteil",
+            "Kostenschätzung für den Bau"
+          ]
+        },
+        "basic": {
+          "name": "Basic",
+          "price": "$17",
+          "features": [
+            "Architekturteil",
+            "Konstruktionsteil",
+            "3D-Visualisierung",
+            "Kostenschätzung für den Bau"
+          ]
+        },
+        "premium": {
+          "name": "Premium",
+          "price": "$17",
+          "priceNote": "+ $200 und Nebenkosten",
+          "features": [
+            "Architekturteil",
+            "Konstruktionsteil",
+            "3D-Visualisierung",
+            "Kostenschätzung für den Bau",
+            "Unterstützung bei der Baugenehmigung"
+          ]
+        }
+      }
+    },
+    "payment": {
+      "overline": "Zahlung",
+      "title": "Zahlung in 3 Etappen",
+      "subtitle": "Keine volle Vorauszahlung — Sie zahlen schrittweise nach Projektfortschritt.",
+      "stages": [
+        {
+          "percent": "30%",
+          "title": "Projektstart",
+          "description": "Nach Vertragsunterzeichnung beginnen wir mit dem Architekturteil."
+        },
+        {
+          "percent": "30%",
+          "title": "Projektentwicklung",
+          "description": "Zahlung während der Erstellung des Konstruktionsteils und der Visualisierung."
+        },
+        {
+          "percent": "40%",
+          "title": "Projektabschluss",
+          "description": "Letzte Zahlung nach Übergabe der fertigen Projektdokumentation."
+        }
+      ]
+    },
+    "advantages": {
+      "overline": "Vorteile",
+      "title": "Warum Projektierung mit Velar",
+      "items": [
+        "Offizieller Projektierungsvertrag",
+        "Vollständig online abgewickelt",
+        "Flexible Pakete für jedes Budget",
+        "Direkter Kontakt zum Architekten online",
+        "Zahlung in 3 Etappen aufgeteilt",
+        "Fertiges Projekt in 2 Monaten"
+      ]
+    },
+    "cta": {
+      "title": "Bereit für Ihr Projektierungsvorhaben?",
+      "text": "Hinterlassen Sie Ihre Kontaktdaten — ein Architekt meldet sich, klärt die Details und hilft bei der Paketwahl.",
+      "button": "Projektierung bestellen"
+    }
+  },
+  "projects": {
+    "overline": "Portfolio",
+    "title": "Unsere fertiggestellten Projekte",
+    "subtitle": "Über 120 Häuser der Premiumklasse, schlüsselfertig im ganzen Land gebaut."
+  },
+  "footer": {
+    "tagline": "Schlüsselfertiger Bau privater Häuser der Premiumklasse. Von der Idee bis zum Schlüssel — mit garantiertem Ergebnis.",
+    "navTitle": "Navigation",
+    "contactsTitle": "Kontakte",
+    "address": "Kyjiw, Chreschtschatyk-Str. 1",
+    "rights": "Alle Rechte vorbehalten.",
+    "slogan": "Mit Liebe zum Detail gebaut."
+  },
+  "configurator": {
+    "steps": {
+      "style": "Stil",
+      "area": "Fläche",
+      "details": "Details",
+      "engineering": "Technik",
+      "options": "Optionen",
+      "result": "Ergebnis"
+    },
+    "nav": {
+      "back": "Zurück",
+      "next": "Weiter",
+      "getResult": "Ergebnis erhalten",
+      "estimate": "Geschätzte Kosten",
+      "chooseStyle": "Stil wählen"
+    },
+    "style": {
+      "heading": "Wählen Sie den Architekturstil",
+      "subtitle": "Er bestimmt den Charakter des Hauses und die Grundkosten.",
+      "perM2": "ab {price}/m²",
+      "error": "Bitte wählen Sie einen Stil.",
+      "options": {
+        "classic": {
+          "label": "Klassisch",
+          "description": "Symmetrische Fassaden, edle Proportionen, zurückhaltende Eleganz."
+        },
+        "neoclassic": {
+          "label": "Neoklassik",
+          "description": "Symmetrie, Säulen und edler Dekor."
+        },
+        "baroque": {
+          "label": "Barock",
+          "description": "Üppiger Stuck, Säulen und prachtvolle Fassaden."
+        },
+        "modern": {
+          "label": "Modern",
+          "description": "Klare Linien, Panoramaverglasung, Minimalismus."
+        },
+        "minimalism": {
+          "label": "Minimalismus",
+          "description": "Klare Formen und maximaler Raum ohne überflüssigen Dekor."
+        },
+        "toscana": {
+          "label": "Toskana",
+          "description": "Warme Töne, Naturstein und der Geist einer italienischen Villa."
+        }
+      }
+    },
+    "area": {
+      "heading": "Wie groß ist das Haus?",
+      "subtitle": "Gesamtwohnfläche in Quadratmetern.",
+      "unit": "m²"
+    },
+    "details": {
+      "heading": "Projektdetails",
+      "subtitle": "Ein paar Angaben — und wir nennen Ihnen einen genaueren Preis.",
+      "floors": {
+        "title": "Wie viele Etagen?",
+        "options": {
+          "1": "1 Etage",
+          "2": "2 Etagen",
+          "3": "3 Etagen"
+        }
+      },
+      "bedrooms": {
+        "title": "Anzahl der Schlafzimmer"
+      },
+      "finish": {
+        "title": "Ausstattungsklasse",
+        "hint": "Hat den größten Einfluss auf den Endpreis.",
+        "options": {
+          "standard": {
+            "label": "Standard",
+            "description": "Hochwertige Materialien des mittleren Segments."
+          },
+          "premium": {
+            "label": "Premium",
+            "description": "Designerlösungen, natürliche Materialien."
+          },
+          "deluxe": {
+            "label": "De Luxe",
+            "description": "Exklusive Materialien und individuelles Design."
+          }
+        }
+      },
+      "timeline": {
+        "title": "Bauzeit",
+        "options": {
+          "standard": {
+            "label": "Standard",
+            "description": "Optimaler Arbeitsplan."
+          },
+          "fast": {
+            "label": "Beschleunigt",
+            "description": "Kurze Fristen, verstärktes Team."
+          }
+        }
+      }
+    },
+    "engineering": {
+      "heading": "Konstruktion & Technik",
+      "subtitle": "Technische Entscheidungen, die Komfort und Kalkulation beeinflussen.",
+      "wall": {
+        "title": "Wandmaterial",
+        "options": {
+          "aerated": {
+            "label": "Porenbeton",
+            "description": "Optimaler Preis und Wärmedämmung."
+          },
+          "brick": {
+            "label": "Ziegel",
+            "description": "Langlebigkeit und Prestige."
+          },
+          "monolith": {
+            "label": "Monolithischer Rahmen",
+            "description": "Freiheit bei Grundriss und Höhe."
+          }
+        }
+      },
+      "roof": {
+        "title": "Dachtyp",
+        "options": {
+          "flat": {
+            "label": "Flachdach",
+            "description": "Moderne Optik, nutzbare Dachfläche."
+          },
+          "pitched": {
+            "label": "Satteldach",
+            "description": "Klassik mit zuverlässiger Entwässerung."
+          },
+          "mansard": {
+            "label": "Mansarddach",
+            "description": "Zusätzlicher Wohnraum."
+          }
+        }
+      },
+      "heating": {
+        "title": "Heizung",
+        "options": {
+          "gas": {
+            "label": "Gaskessel",
+            "description": "Die Standardlösung."
+          },
+          "heatPump": {
+            "label": "Wärmepumpe",
+            "description": "Bis zu 70% Einsparung beim Heizen."
+          },
+          "electric": {
+            "label": "Elektrisch",
+            "description": "Einfacher Anschluss."
+          }
+        }
+      },
+      "plot": {
+        "title": "Haben Sie ein Grundstück?",
+        "hint": "Das hilft dem Manager, ein Angebot vorzubereiten.",
+        "options": {
+          "have": {
+            "label": "Ich habe bereits eines",
+            "description": "Wir bauen auf Ihrem Grundstück."
+          },
+          "search": {
+            "label": "Ich brauche Hilfe",
+            "description": "Wir finden ein Grundstück für das Projekt."
+          }
+        }
+      }
+    },
+    "options": {
+      "heading": "Zusatzoptionen",
+      "subtitle": "Wählen Sie alles, was Ihr Zuhause perfekt macht.",
+      "plus": "+ {price}",
+      "items": {
+        "pool": {
+          "label": "Pool",
+          "description": "Heizung und Filtersystem."
+        },
+        "spa": {
+          "label": "SPA",
+          "description": "Sauna, Hammam, Entspannungsbereich."
+        },
+        "garage": {
+          "label": "Garage",
+          "description": "Für 2 Autos, mit E-Auto-Ladung."
+        },
+        "smartHome": {
+          "label": "Smart Home",
+          "description": "Licht, Klima und Sicherheit in einer App."
+        },
+        "solar": {
+          "label": "Solarpaneele",
+          "description": "Energieunabhängigkeit und Einsparung."
+        }
+      }
+    },
+    "result": {
+      "title": "Ihr Projekt ist fertig",
+      "noAddons": "Keine Zusatzoptionen",
+      "planTitle": "KI-Grundrissvisualisierung",
+      "planCaption": "Auf Basis Ihrer Auswahl erstellt",
+      "view3dTitle": "3D-Visualisierung",
+      "view3dCaption": "Ein interaktives Modell des Hauses",
+      "demo": "Demo",
+      "paramsTitle": "Projektparameter",
+      "specs": {
+        "area": "Fläche",
+        "floors": "Etagen",
+        "bedrooms": "Schlafzimmer",
+        "wall": "Wandmaterial",
+        "roof": "Dach",
+        "heating": "Heizung",
+        "timeline": "Bauzeit",
+        "plot": "Grundstück"
+      },
+      "budgetTitle": "Geschätztes Budget",
+      "constructionRow": "Bau ({style}, {finish}, {area} m²)",
+      "bedroomsRow": "Schlafzimmer ({count})",
+      "budgetNote": "* Geschätzte Kosten. Das genaue Angebot berechnet ein Manager.",
+      "nextStepOverline": "Nächster Schritt",
+      "ctaTitle": "Bereit, das Projekt umzusetzen?",
+      "ctaText": "Hinterlassen Sie Ihre Kontaktdaten — und innerhalb von 24 Stunden erhalten Sie eine detaillierte Kalkulation, eine vollständige 3D-Visualisierung und ein persönliches Angebot eines Managers.",
+      "ctaButton": "Beratung anfordern",
+      "successTitle": "Anfrage erhalten!",
+      "successText": "Vielen Dank. Ihr persönlicher Manager bereitet bereits ein Angebot vor. So geht es weiter:",
+      "nextSteps": [
+        "Ein Manager meldet sich innerhalb von 15 Minuten bei Ihnen.",
+        "Wir stimmen die Details ab und erstellen die finale Kalkulation.",
+        "Wir übergeben das Projekt, eine 3D-Tour und ein persönliches Angebot."
+      ],
+      "downloadPdf": "PDF herunterladen",
+      "pdfSnack": "PDF-Präsentation wird heruntergeladen...",
+      "edit": "Parameter ändern"
+    },
+    "callback": {
+      "title": "Anruf eines Managers",
+      "text": "Hinterlassen Sie Ihre Kontaktdaten — wir rufen innerhalb von 15 Minuten an.",
+      "name": "Name",
+      "phone": "Telefon",
+      "cancel": "Abbrechen",
+      "submit": "Anruf anfordern",
+      "submitting": "Wird gesendet...",
+      "successSnack": "Vielen Dank! Ein Manager ruft Sie in Kürze an.",
+      "nameError": "Bitte geben Sie Ihren Namen ein",
+      "phoneError": "Geben Sie eine gültige Telefonnummer ein"
+    }
+  },
+  "project": {
+    "notFound": "Projekt nicht gefunden",
+    "allProjects": "Alle Projekte",
+    "about": "Über das Projekt",
+    "features": "Besonderheiten",
+    "specsTitle": "Eckdaten",
+    "specs": {
+      "area": "Fläche",
+      "floors": "Etagen",
+      "bedrooms": "Schlafzimmer",
+      "bathrooms": "Badezimmer",
+      "style": "Stil",
+      "year": "Jahr"
+    },
+    "createSimilar": "Ähnliches Projekt erstellen",
+    "gallery": "Galerie",
+    "photoAlt": "{title} — Foto {n}",
+    "likeTitle": "Gefällt Ihnen dieses Projekt?",
+    "likeText": "Konfigurieren Sie Ihre eigene Villa in drei Minuten."
+  },
+  "meta": {
+    "defaultTitle": "Velar Development — Premium-Haus- und Villenbau",
+    "defaultDescription": "Velar Development — schlüsselfertiger Bau von Häusern, Villen und Cottages der Premiumklasse sowie Restaurierung. Gestalten Sie Ihre eigene Villa in 3 Minuten im Online-Konfigurator.",
+    "home": {
+      "title": "Velar Development — Premium-Haus- und Villenbau",
+      "description": "Schlüsselfertiger Bau von Häusern, Villen und Cottages der Premiumklasse sowie Restaurierung. Gestalten Sie Ihre eigene Villa in 3 Minuten im Online-Konfigurator."
+    },
+    "about": {
+      "title": "Über uns",
+      "description": "Velar Development — ein Team aus Architekten und Bauleuten. Wir bauen Häuser, Villen und Cottages der Premiumklasse schlüsselfertig und restaurieren historische Gebäude."
+    },
+    "projects": {
+      "title": "Portfolio",
+      "description": "Fertiggestellte schlüsselfertige Projekte der Premiumklasse: Modern, Neoklassik, Chalet und mediterraner Stil. Über 120 abgeschlossene Objekte."
+    },
+    "configurator": {
+      "title": "Konfigurator",
+      "description": "Velars Online-Hauskonfigurator: Wählen Sie Stil, Fläche, Ausstattung und Optionen — und erhalten Sie ein Projekt, eine 3D-Visualisierung und ein geschätztes Budget in 3 Minuten."
+    },
+    "design": {
+      "title": "Hausprojektierung",
+      "description": "Schlüsselfertige Architekturplanung ab $15/m², 2–3 Monate, Zahlung in 3 Etappen. Pakete Light, Basic und Premium mit Kostenschätzung, Visualisierung und Unterstützung bei der Baugenehmigung."
+    }
+  }
+}

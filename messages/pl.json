@@ -1,0 +1,606 @@
+{
+  "nav": {
+    "home": "Strona główna",
+    "about": "O nas",
+    "portfolio": "Portfolio",
+    "configurator": "Konfigurator",
+    "design": "Projektowanie"
+  },
+  "cta": {
+    "startConfig": "Rozpocznij konfigurację",
+    "viewPortfolio": "Zobacz portfolio",
+    "viewAllProjects": "Zobacz wszystkie projekty",
+    "viewProject": "Zobacz projekt"
+  },
+  "language": {
+    "label": "Język"
+  },
+  "hero": {
+    "overline": "Budownictwo premium",
+    "title": "Zaprojektuj swoją willę w 3 minuty",
+    "subtitle": "Wybierz układ, materiały i wykończenie — i otrzymaj projekt wymarzonego domu w czasie rzeczywistym."
+  },
+  "whyUs": {
+    "overline": "Dlaczego Velar",
+    "title": "Premium w każdym detalu",
+    "subtitle": "Bierzemy odpowiedzialność za rezultat na każdym etapie — od szkicu po klucze.",
+    "advantages": [
+      {
+        "title": "Własne wykonawstwo",
+        "description": "Pełny cykl bez pośredników — od projektu po oddanie pod klucz."
+      },
+      {
+        "title": "Stały kosztorys",
+        "description": "Cena zapisana w umowie i niezmienna w trakcie budowy."
+      },
+      {
+        "title": "10 lat gwarancji",
+        "description": "Na konstrukcje nośne i instalacje techniczne domu."
+      },
+      {
+        "title": "Zespół architektów",
+        "description": "Indywidualny projekt dopasowany do Twojego stylu życia."
+      }
+    ],
+    "stats": [
+      {
+        "value": "120+",
+        "label": "wybudowanych domów"
+      },
+      {
+        "value": "15",
+        "label": "lat na rynku"
+      },
+      {
+        "value": "98%",
+        "label": "zadowolonych klientów"
+      },
+      {
+        "value": "8 mies.",
+        "label": "średni czas realizacji"
+      }
+    ]
+  },
+  "designPromo": {
+    "overline": "Kolejny kierunek",
+    "title": "Projektujemy domy pod klucz",
+    "text": "Potrzebujesz tylko projektu architektonicznego? Przygotujemy kompletny pakiet dokumentacji — od koncepcji do kosztorysu budowy. Gotowy projekt może zrealizować dowolna firma budowlana.",
+    "stats": [
+      {
+        "value": "od $15/m²",
+        "label": "Koszt projektowania"
+      },
+      {
+        "value": "2–3 mies.",
+        "label": "Czas realizacji"
+      },
+      {
+        "value": "3 etapy",
+        "label": "Płatność"
+      }
+    ],
+    "cta": "Dowiedz się o projektowaniu"
+  },
+  "featured": {
+    "overline": "Portfolio",
+    "title": "Wybrane projekty",
+    "subtitle": "Kilka z ponad 120 domów, które zbudowaliśmy pod klucz."
+  },
+  "showcase": {
+    "overline": "Filozofia Velar",
+    "title": "Dom, który odzwierciedla Twój styl życia",
+    "subtitle": "Łączymy wyraz architektoniczny, nienaganną inżynierię i naturalne materiały — aby każdy metr kwadratowy służył Ci przez dziesięciolecia."
+  },
+  "howItWorks": {
+    "overline": "Jak to działa",
+    "title": "Twoja willa w trzech prostych krokach",
+    "subtitle": "Żadnych skomplikowanych briefów. Ty sterujesz procesem, a my przygotowujemy projekt.",
+    "steps": [
+      {
+        "title": "Wybierz parametry",
+        "description": "Styl, powierzchnia, liczba kondygnacji, wykończenie i opcje dodatkowe — w wygodnym konfiguratorze."
+      },
+      {
+        "title": "Otrzymaj projekt",
+        "description": "Wizualizacja rzutu z AI, model 3D i szacunkowy budżet — natychmiast i w czasie rzeczywistym."
+      },
+      {
+        "title": "Spotkanie z menedżerem",
+        "description": "Prezentacja PDF na e-mail i rozmowa z ekspertem, który doprecyzuje kosztorys i terminy."
+      }
+    ]
+  },
+  "about": {
+    "hero": {
+      "overline": "O firmie",
+      "title": "Velar Development",
+      "subtitle": "Budujemy domy, wille i domki klasy premium pod klucz — i przywracamy architekturę do życia poprzez staranną renowację."
+    },
+    "story": {
+      "overline": "Kim jesteśmy",
+      "title": "Budujemy domy, które przetrwają pokolenia",
+      "p1": "Velar Development to zespół architektów, inżynierów i budowniczych tworzący prywatne domy, wille i domki klasy premium. Prowadzimy każdy projekt przez wszystkie etapy — od pierwszego szkicu po przekazanie kluczy.",
+      "p2": "Osobnym kierunkiem jest renowacja. Przywracamy do życia historyczne i zaniedbane budynki, zachowując ich charakter, a jednocześnie wyposażając je w nowoczesną inżynierię i komfort.",
+      "stats": [
+        {
+          "value": "15",
+          "label": "lat doświadczenia"
+        },
+        {
+          "value": "120+",
+          "label": "zrealizowanych obiektów"
+        },
+        {
+          "value": "40+",
+          "label": "specjalistów w zespole"
+        },
+        {
+          "value": "100%",
+          "label": "prac pod klucz"
+        }
+      ]
+    },
+    "services": {
+      "overline": "Obszary działalności",
+      "title": "Czym się zajmujemy",
+      "subtitle": "Pełny cykl prac w segmencie nieruchomości premium.",
+      "items": [
+        {
+          "title": "Budowa domów",
+          "description": "Prywatne domy pod klucz — od projektu po inżynierię i wykończenie."
+        },
+        {
+          "title": "Wille premium",
+          "description": "Przestronne wille z basenami, SPA i pełną integracją Smart Home."
+        },
+        {
+          "title": "Domki i osiedla",
+          "description": "Przytulne domki i kompleksowa zabudowa osiedli."
+        },
+        {
+          "title": "Renowacja",
+          "description": "Odnawianie historycznych i starych budynków z zachowaniem ich charakteru."
+        }
+      ]
+    },
+    "values": {
+      "overline": "Wartości",
+      "title": "Zasady, na których budujemy",
+      "subtitle": "To, co kształtuje każdą naszą decyzję.",
+      "items": [
+        {
+          "title": "Jakość bez kompromisów",
+          "description": "Sprawdzone materiały, kontrola na każdym etapie i gwarantowany rezultat."
+        },
+        {
+          "title": "Przejrzystość",
+          "description": "Stały kosztorys i uczciwa komunikacja — bez ukrytych kosztów."
+        },
+        {
+          "title": "Innowacje",
+          "description": "Energooszczędne rozwiązania, Smart Home i nowoczesne technologie budowlane."
+        },
+        {
+          "title": "Dbałość o detale",
+          "description": "Autorski design i nienaganne wykończenie w każdym metrze kwadratowym."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Gotowy zbudować wymarzony dom?",
+      "subtitle": "Skonfiguruj własny projekt w trzy minuty lub przejrzyj nasze realizacje."
+    }
+  },
+  "design": {
+    "hero": {
+      "overline": "Projektowanie",
+      "title": "Projekty domów pod klucz",
+      "subtitle": "Tworzymy kompletny projekt architektoniczny Twojego przyszłego domu — od koncepcji do dokumentacji gotowej do realizacji."
+    },
+    "intro": {
+      "overline": "Dlaczego projektowanie",
+      "title": "Osobna usługa dla tych, którzy potrzebują tylko projektu",
+      "text": "Zamów część architektoniczną i konstrukcyjną oraz kosztorys budowy — a w razie potrzeby dodaj wizualizację lub pomoc w uzyskaniu pozwolenia na budowę. Gotowy projekt może zrealizować dowolna firma budowlana.",
+      "stats": [
+        {
+          "value": "od $15/m²",
+          "label": "Koszt projektowania"
+        },
+        {
+          "value": "2–3 mies.",
+          "label": "Czas realizacji"
+        },
+        {
+          "value": "3",
+          "label": "Pakiety"
+        },
+        {
+          "value": "3",
+          "label": "Etapy płatności"
+        }
+      ]
+    },
+    "pricing": {
+      "overline": "Cennik",
+      "title": "Wybierz pakiet projektowania",
+      "subtitle": "Cena zależy od powierzchni domu i zakresu usług.",
+      "perM2": "{price}/m²",
+      "popular": "Popularny",
+      "tiers": {
+        "light": {
+          "name": "Light",
+          "price": "$15",
+          "features": [
+            "Część architektoniczna",
+            "Część konstrukcyjna",
+            "Kosztorys budowy"
+          ]
+        },
+        "basic": {
+          "name": "Basic",
+          "price": "$17",
+          "features": [
+            "Część architektoniczna",
+            "Część konstrukcyjna",
+            "Wizualizacja 3D",
+            "Kosztorys budowy"
+          ]
+        },
+        "premium": {
+          "name": "Premium",
+          "price": "$17",
+          "priceNote": "+ $200 i koszty dodatkowe",
+          "features": [
+            "Część architektoniczna",
+            "Część konstrukcyjna",
+            "Wizualizacja 3D",
+            "Kosztorys budowy",
+            "Pomoc w uzyskaniu pozwolenia na budowę"
+          ]
+        }
+      }
+    },
+    "payment": {
+      "overline": "Płatność",
+      "title": "Płatność w 3 etapach",
+      "subtitle": "Bez pełnej przedpłaty — płacisz stopniowo, zgodnie z postępem prac.",
+      "stages": [
+        {
+          "percent": "30%",
+          "title": "Start projektu",
+          "description": "Po podpisaniu umowy zaczynamy część architektoniczną."
+        },
+        {
+          "percent": "30%",
+          "title": "Rozwój projektu",
+          "description": "Płatność podczas przygotowania części konstrukcyjnej i wizualizacji."
+        },
+        {
+          "percent": "40%",
+          "title": "Zakończenie projektu",
+          "description": "Ostatnia płatność po przekazaniu gotowej dokumentacji projektowej."
+        }
+      ]
+    },
+    "advantages": {
+      "overline": "Zalety",
+      "title": "Dlaczego projektowanie z Velar",
+      "items": [
+        "Oficjalna umowa na projektowanie",
+        "Proces w pełni online",
+        "Elastyczne pakiety na każdy budżet",
+        "Bezpośredni kontakt z architektem online",
+        "Płatność podzielona na 3 etapy",
+        "Gotowy projekt w 2 miesiące"
+      ]
+    },
+    "cta": {
+      "title": "Gotowy na rozpoczęcie projektowania?",
+      "text": "Zostaw kontakt — architekt się odezwie, omówi szczegóły i pomoże wybrać najlepszy pakiet.",
+      "button": "Zamów projektowanie"
+    }
+  },
+  "projects": {
+    "overline": "Portfolio",
+    "title": "Nasze zrealizowane projekty",
+    "subtitle": "Ponad 120 domów klasy premium wybudowanych pod klucz w całym kraju."
+  },
+  "footer": {
+    "tagline": "Budowa prywatnych domów klasy premium pod klucz. Od pomysłu po klucze — z gwarantowanym rezultatem.",
+    "navTitle": "Nawigacja",
+    "contactsTitle": "Kontakt",
+    "address": "Kijów, ul. Chreszczatyk 1",
+    "rights": "Wszelkie prawa zastrzeżone.",
+    "slogan": "Zbudowano z dbałością o detale."
+  },
+  "configurator": {
+    "steps": {
+      "style": "Styl",
+      "area": "Powierzchnia",
+      "details": "Szczegóły",
+      "engineering": "Inżynieria",
+      "options": "Opcje",
+      "result": "Wynik"
+    },
+    "nav": {
+      "back": "Wstecz",
+      "next": "Dalej",
+      "getResult": "Zobacz wynik",
+      "estimate": "Szacunkowy koszt",
+      "chooseStyle": "Wybierz styl"
+    },
+    "style": {
+      "heading": "Wybierz styl architektoniczny",
+      "subtitle": "Określa charakter domu i koszt bazowy.",
+      "perM2": "od {price}/m²",
+      "error": "Wybierz styl.",
+      "options": {
+        "classic": {
+          "label": "Klasyczny",
+          "description": "Symetryczne fasady, szlachetne proporcje, stonowana elegancja."
+        },
+        "neoclassic": {
+          "label": "Neoklasycyzm",
+          "description": "Symetria, kolumny i szlachetny detal."
+        },
+        "baroque": {
+          "label": "Barok",
+          "description": "Bogate sztukaterie, kolumny i okazałe fasady."
+        },
+        "modern": {
+          "label": "Nowoczesny",
+          "description": "Czyste linie, panoramiczne przeszklenia, minimalizm."
+        },
+        "minimalism": {
+          "label": "Minimalizm",
+          "description": "Czyste formy i maksimum przestrzeni bez zbędnego detalu."
+        },
+        "toscana": {
+          "label": "Toskania",
+          "description": "Ciepłe barwy, naturalny kamień i duch włoskiej willi."
+        }
+      }
+    },
+    "area": {
+      "heading": "Jaka jest powierzchnia domu?",
+      "subtitle": "Całkowita powierzchnia użytkowa w metrach kwadratowych.",
+      "unit": "m²"
+    },
+    "details": {
+      "heading": "Szczegóły projektu",
+      "subtitle": "Kilka doprecyzowań — i podamy dokładniejszą cenę.",
+      "floors": {
+        "title": "Ile kondygnacji?",
+        "options": {
+          "1": "1 kondygnacja",
+          "2": "2 kondygnacje",
+          "3": "3 kondygnacje"
+        }
+      },
+      "bedrooms": {
+        "title": "Liczba sypialni"
+      },
+      "finish": {
+        "title": "Standard wykończenia",
+        "hint": "Najbardziej wpływa na końcowy koszt.",
+        "options": {
+          "standard": {
+            "label": "Standard",
+            "description": "Jakościowe materiały segmentu średniego."
+          },
+          "premium": {
+            "label": "Premium",
+            "description": "Rozwiązania projektowe, naturalne materiały."
+          },
+          "deluxe": {
+            "label": "De Luxe",
+            "description": "Ekskluzywne materiały i autorski design."
+          }
+        }
+      },
+      "timeline": {
+        "title": "Termin budowy",
+        "options": {
+          "standard": {
+            "label": "Standardowy",
+            "description": "Optymalny harmonogram prac."
+          },
+          "fast": {
+            "label": "Przyspieszony",
+            "description": "Krótkie terminy, wzmocniona ekipa."
+          }
+        }
+      }
+    },
+    "engineering": {
+      "heading": "Konstrukcja i inżynieria",
+      "subtitle": "Decyzje techniczne wpływające na komfort i kosztorys.",
+      "wall": {
+        "title": "Materiał ścian",
+        "options": {
+          "aerated": {
+            "label": "Beton komórkowy",
+            "description": "Optymalna cena i izolacja termiczna."
+          },
+          "brick": {
+            "label": "Cegła",
+            "description": "Trwałość i prestiż."
+          },
+          "monolith": {
+            "label": "Konstrukcja monolityczna",
+            "description": "Swoboda układu i wysokości."
+          }
+        }
+      },
+      "roof": {
+        "title": "Rodzaj dachu",
+        "options": {
+          "flat": {
+            "label": "Płaski",
+            "description": "Nowoczesny wygląd, dach użytkowy."
+          },
+          "pitched": {
+            "label": "Spadzisty",
+            "description": "Klasyka z niezawodnym odprowadzaniem wody."
+          },
+          "mansard": {
+            "label": "Mansardowy",
+            "description": "Dodatkowa przestrzeń mieszkalna."
+          }
+        }
+      },
+      "heating": {
+        "title": "Ogrzewanie",
+        "options": {
+          "gas": {
+            "label": "Kocioł gazowy",
+            "description": "Rozwiązanie standardowe."
+          },
+          "heatPump": {
+            "label": "Pompa ciepła",
+            "description": "Do 70% oszczędności na ogrzewaniu."
+          },
+          "electric": {
+            "label": "Elektryczne",
+            "description": "Proste podłączenie."
+          }
+        }
+      },
+      "plot": {
+        "title": "Czy masz działkę?",
+        "hint": "To pomoże menedżerowi przygotować ofertę.",
+        "options": {
+          "have": {
+            "label": "Już mam",
+            "description": "Budujemy na Twojej działce."
+          },
+          "search": {
+            "label": "Potrzebuję pomocy",
+            "description": "Dobierzemy działkę pod projekt."
+          }
+        }
+      }
+    },
+    "options": {
+      "heading": "Opcje dodatkowe",
+      "subtitle": "Wybierz wszystko, co uczyni Twój dom doskonałym.",
+      "plus": "+ {price}",
+      "items": {
+        "pool": {
+          "label": "Basen",
+          "description": "Podgrzewanie i system filtracji."
+        },
+        "spa": {
+          "label": "SPA",
+          "description": "Sauna, hammam, strefa relaksu."
+        },
+        "garage": {
+          "label": "Garaż",
+          "description": "Na 2 auta, z ładowaniem EV."
+        },
+        "smartHome": {
+          "label": "Smart Home",
+          "description": "Światło, klimat i bezpieczeństwo w jednej aplikacji."
+        },
+        "solar": {
+          "label": "Panele słoneczne",
+          "description": "Niezależność energetyczna i oszczędności."
+        }
+      }
+    },
+    "result": {
+      "title": "Twój projekt jest gotowy",
+      "noAddons": "Bez opcji dodatkowych",
+      "planTitle": "Wizualizacja rzutu z AI",
+      "planCaption": "Wygenerowano na podstawie Twoich wyborów",
+      "view3dTitle": "Wizualizacja 3D",
+      "view3dCaption": "Interaktywny model domu",
+      "demo": "Demo",
+      "paramsTitle": "Parametry projektu",
+      "specs": {
+        "area": "Powierzchnia",
+        "floors": "Kondygnacje",
+        "bedrooms": "Sypialnie",
+        "wall": "Materiał ścian",
+        "roof": "Dach",
+        "heating": "Ogrzewanie",
+        "timeline": "Termin",
+        "plot": "Działka"
+      },
+      "budgetTitle": "Szacunkowy budżet",
+      "constructionRow": "Budowa ({style}, {finish}, {area} m²)",
+      "bedroomsRow": "Sypialnie ({count})",
+      "budgetNote": "* Koszt szacunkowy. Dokładny kosztorys obliczy menedżer.",
+      "nextStepOverline": "Następny krok",
+      "ctaTitle": "Gotowy zrealizować projekt?",
+      "ctaText": "Zostaw kontakt — a w ciągu 24 godzin otrzymasz szczegółowy kosztorys, pełną wizualizację 3D i indywidualną ofertę od menedżera.",
+      "ctaButton": "Zamów konsultację",
+      "successTitle": "Zgłoszenie przyjęte!",
+      "successText": "Dziękujemy. Twój osobisty menedżer już przygotowuje ofertę. Oto co dalej:",
+      "nextSteps": [
+        "Menedżer skontaktuje się z Tobą w ciągu 15 minut.",
+        "Ustalimy szczegóły i przygotujemy ostateczny kosztorys.",
+        "Przekażemy projekt, wirtualny spacer 3D i indywidualną ofertę."
+      ],
+      "downloadPdf": "Pobierz PDF",
+      "pdfSnack": "Pobieranie prezentacji PDF...",
+      "edit": "Zmień parametry"
+    },
+    "callback": {
+      "title": "Rozmowa z menedżerem",
+      "text": "Zostaw kontakt — zadzwonimy w ciągu 15 minut.",
+      "name": "Imię",
+      "phone": "Telefon",
+      "cancel": "Anuluj",
+      "submit": "Zamów rozmowę",
+      "submitting": "Wysyłanie...",
+      "successSnack": "Dziękujemy! Menedżer wkrótce zadzwoni.",
+      "nameError": "Podaj imię",
+      "phoneError": "Wpisz poprawny numer telefonu"
+    }
+  },
+  "project": {
+    "notFound": "Nie znaleziono projektu",
+    "allProjects": "Wszystkie projekty",
+    "about": "O projekcie",
+    "features": "Cechy",
+    "specsTitle": "Specyfikacja",
+    "specs": {
+      "area": "Powierzchnia",
+      "floors": "Kondygnacje",
+      "bedrooms": "Sypialnie",
+      "bathrooms": "Łazienki",
+      "style": "Styl",
+      "year": "Rok"
+    },
+    "createSimilar": "Stwórz podobny projekt",
+    "gallery": "Galeria",
+    "photoAlt": "{title} — zdjęcie {n}",
+    "likeTitle": "Podoba Ci się ten projekt?",
+    "likeText": "Skonfiguruj własną willę w trzy minuty."
+  },
+  "meta": {
+    "defaultTitle": "Velar Development — budowa domów i willi premium",
+    "defaultDescription": "Velar Development — budowa domów, willi i domków klasy premium pod klucz oraz renowacja. Zaprojektuj własną willę w konfiguratorze online w 3 minuty.",
+    "home": {
+      "title": "Velar Development — budowa domów i willi premium",
+      "description": "Budowa domów, willi i domków klasy premium pod klucz oraz renowacja. Zaprojektuj własną willę w konfiguratorze online w 3 minuty."
+    },
+    "about": {
+      "title": "O nas",
+      "description": "Velar Development — zespół architektów i budowniczych. Budujemy domy, wille i domki klasy premium pod klucz oraz renowujemy historyczne budynki."
+    },
+    "projects": {
+      "title": "Portfolio",
+      "description": "Zrealizowane projekty premium pod klucz: styl nowoczesny, neoklasyczny, chalet i śródziemnomorski. Ponad 120 ukończonych obiektów."
+    },
+    "configurator": {
+      "title": "Konfigurator",
+      "description": "Konfigurator domu online Velar: wybierz styl, powierzchnię, wykończenie i opcje — i otrzymaj projekt, wizualizację 3D oraz szacunkowy budżet w 3 minuty."
+    },
+    "design": {
+      "title": "Projekty domów",
+      "description": "Projektowanie architektoniczne pod klucz od $15/m², 2–3 miesiące, płatność w 3 etapach. Pakiety Light, Basic i Premium z kosztorysem, wizualizacją i pomocą w uzyskaniu pozwolenia na budowę."
+    }
+  }
+}

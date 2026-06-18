@@ -1,0 +1,606 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Chi siamo",
+    "portfolio": "Portfolio",
+    "configurator": "Configuratore",
+    "design": "Progettazione"
+  },
+  "cta": {
+    "startConfig": "Avvia la configurazione",
+    "viewPortfolio": "Vedi il portfolio",
+    "viewAllProjects": "Vedi tutti i progetti",
+    "viewProject": "Vedi il progetto"
+  },
+  "language": {
+    "label": "Lingua"
+  },
+  "hero": {
+    "overline": "Costruzione premium",
+    "title": "Progetta la tua villa in 3 minuti",
+    "subtitle": "Scegli la pianta, i materiali e le finiture — e ottieni il progetto della casa dei tuoi sogni in tempo reale."
+  },
+  "whyUs": {
+    "overline": "Perché Velar",
+    "title": "Il premium in ogni dettaglio",
+    "subtitle": "Ci assumiamo la responsabilità del risultato in ogni fase — dallo schizzo alle chiavi.",
+    "advantages": [
+      {
+        "title": "Costruzione interna",
+        "description": "Un ciclo completo senza intermediari — dalla progettazione alla consegna chiavi in mano."
+      },
+      {
+        "title": "Preventivo fisso",
+        "description": "Il prezzo è fissato nel contratto e non cambia durante la costruzione."
+      },
+      {
+        "title": "Garanzia 10 anni",
+        "description": "Sulle strutture portanti e sugli impianti tecnici della casa."
+      },
+      {
+        "title": "Team di architetti",
+        "description": "Un progetto su misura adattato al tuo stile di vita."
+      }
+    ],
+    "stats": [
+      {
+        "value": "120+",
+        "label": "case costruite"
+      },
+      {
+        "value": "15",
+        "label": "anni sul mercato"
+      },
+      {
+        "value": "98%",
+        "label": "clienti soddisfatti"
+      },
+      {
+        "value": "8 mesi",
+        "label": "tempo medio"
+      }
+    ]
+  },
+  "designPromo": {
+    "overline": "Un altro servizio",
+    "title": "Progettiamo case chiavi in mano",
+    "text": "Avete bisogno solo del progetto architettonico? Sviluppiamo l'intero pacchetto di documentazione — dall'idea al preventivo dei costi di costruzione. Il progetto finito può essere realizzato da qualsiasi impresa di costruzione.",
+    "stats": [
+      {
+        "value": "da $15/m²",
+        "label": "Costo di progettazione"
+      },
+      {
+        "value": "2–3 mesi",
+        "label": "Tempo di sviluppo"
+      },
+      {
+        "value": "3 fasi",
+        "label": "Pagamento"
+      }
+    ],
+    "cta": "Scopri la progettazione"
+  },
+  "featured": {
+    "overline": "Portfolio",
+    "title": "Progetti selezionati",
+    "subtitle": "Alcune delle oltre 120 case che abbiamo costruito chiavi in mano."
+  },
+  "showcase": {
+    "overline": "La filosofia Velar",
+    "title": "Una casa che riflette il tuo stile di vita",
+    "subtitle": "Uniamo espressione architettonica, ingegneria impeccabile e materiali naturali — perché ogni metro quadro ti serva per decenni."
+  },
+  "howItWorks": {
+    "overline": "Come funziona",
+    "title": "La tua villa in tre semplici passi",
+    "subtitle": "Nessun brief complicato. Tu guidi il processo e noi prepariamo il progetto.",
+    "steps": [
+      {
+        "title": "Scegli i parametri",
+        "description": "Stile, superficie, numero di piani, finiture e opzioni aggiuntive — in un comodo configuratore."
+      },
+      {
+        "title": "Ricevi il progetto",
+        "description": "Visualizzazione della pianta con IA, modello 3D e budget stimato — subito e in tempo reale."
+      },
+      {
+        "title": "Incontra il consulente",
+        "description": "Una presentazione PDF via e-mail e una chiamata di un esperto che precisa preventivo e tempistiche."
+      }
+    ]
+  },
+  "about": {
+    "hero": {
+      "overline": "Sull'azienda",
+      "title": "Velar Development",
+      "subtitle": "Costruiamo case, ville e cottage di classe premium chiavi in mano — e riportiamo in vita l'architettura con un restauro accurato."
+    },
+    "story": {
+      "overline": "Chi siamo",
+      "title": "Costruiamo case che attraversano le generazioni",
+      "p1": "Velar Development è un team di architetti, ingegneri e costruttori che realizza case private, ville e cottage di classe premium. Seguiamo ogni progetto in tutte le fasi — dal primo schizzo alla consegna delle chiavi.",
+      "p2": "Un ambito a sé è il restauro. Riportiamo in vita edifici storici e abbandonati, preservandone il carattere e dotandoli al contempo di ingegneria e comfort moderni.",
+      "stats": [
+        {
+          "value": "15",
+          "label": "anni di esperienza"
+        },
+        {
+          "value": "120+",
+          "label": "progetti completati"
+        },
+        {
+          "value": "40+",
+          "label": "specialisti nel team"
+        },
+        {
+          "value": "100%",
+          "label": "lavori chiavi in mano"
+        }
+      ]
+    },
+    "services": {
+      "overline": "Aree di attività",
+      "title": "Cosa facciamo",
+      "subtitle": "Un ciclo completo di lavori nel segmento immobiliare premium.",
+      "items": [
+        {
+          "title": "Costruzione di case",
+          "description": "Case private chiavi in mano — dalla progettazione all'ingegneria e alle finiture."
+        },
+        {
+          "title": "Ville premium",
+          "description": "Ville spaziose con piscine, SPA e integrazione completa Smart Home."
+        },
+        {
+          "title": "Cottage e residenze",
+          "description": "Cottage accoglienti e sviluppo completo di complessi residenziali."
+        },
+        {
+          "title": "Restauro",
+          "description": "Restauro di edifici storici e antichi preservandone il carattere."
+        }
+      ]
+    },
+    "values": {
+      "overline": "Valori",
+      "title": "I principi su cui costruiamo",
+      "subtitle": "Ciò che definisce ogni nostra decisione.",
+      "items": [
+        {
+          "title": "Qualità senza compromessi",
+          "description": "Materiali comprovati, controllo in ogni fase e risultato garantito."
+        },
+        {
+          "title": "Trasparenza",
+          "description": "Un preventivo fisso e una comunicazione onesta — senza costi nascosti."
+        },
+        {
+          "title": "Innovazione",
+          "description": "Soluzioni a basso consumo, Smart Home e tecnologie costruttive moderne."
+        },
+        {
+          "title": "Cura dei dettagli",
+          "description": "Design su misura e finiture impeccabili in ogni metro quadro."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Pronto a costruire la casa dei tuoi sogni?",
+      "subtitle": "Configura il tuo progetto in tre minuti o sfoglia i nostri lavori realizzati."
+    }
+  },
+  "design": {
+    "hero": {
+      "overline": "Progettazione",
+      "title": "Progetti di case chiavi in mano",
+      "subtitle": "Sviluppiamo il progetto architettonico completo della vostra futura casa — dall'idea alla documentazione pronta per la costruzione."
+    },
+    "intro": {
+      "overline": "Perché la progettazione",
+      "title": "Un servizio a parte per chi ha bisogno solo del progetto",
+      "text": "Ordinate la parte architettonica e strutturale e il preventivo dei costi di costruzione — e aggiungete, se necessario, la visualizzazione o l'assistenza per il permesso di costruire. Il progetto finito può essere realizzato da qualsiasi impresa di costruzione.",
+      "stats": [
+        {
+          "value": "da $15/m²",
+          "label": "Costo di progettazione"
+        },
+        {
+          "value": "2–3 mesi",
+          "label": "Tempo di sviluppo"
+        },
+        {
+          "value": "3",
+          "label": "Pacchetti"
+        },
+        {
+          "value": "3",
+          "label": "Fasi di pagamento"
+        }
+      ]
+    },
+    "pricing": {
+      "overline": "Tariffe",
+      "title": "Scegli il tuo pacchetto di progettazione",
+      "subtitle": "Il prezzo dipende dalla superficie della casa e dall'ampiezza dei servizi.",
+      "perM2": "{price}/m²",
+      "popular": "Popolare",
+      "tiers": {
+        "light": {
+          "name": "Light",
+          "price": "$15",
+          "features": [
+            "Parte architettonica",
+            "Parte strutturale",
+            "Preventivo dei costi di costruzione"
+          ]
+        },
+        "basic": {
+          "name": "Basic",
+          "price": "$17",
+          "features": [
+            "Parte architettonica",
+            "Parte strutturale",
+            "Visualizzazione 3D",
+            "Preventivo dei costi di costruzione"
+          ]
+        },
+        "premium": {
+          "name": "Premium",
+          "price": "$17",
+          "priceNote": "+ $200 e costi aggiuntivi",
+          "features": [
+            "Parte architettonica",
+            "Parte strutturale",
+            "Visualizzazione 3D",
+            "Preventivo dei costi di costruzione",
+            "Assistenza per il permesso di costruire"
+          ]
+        }
+      }
+    },
+    "payment": {
+      "overline": "Pagamento",
+      "title": "Pagamento in 3 fasi",
+      "subtitle": "Nessun pagamento anticipato totale — si paga gradualmente in base all'avanzamento.",
+      "stages": [
+        {
+          "percent": "30%",
+          "title": "Avvio del progetto",
+          "description": "Dopo la firma del contratto iniziamo la parte architettonica."
+        },
+        {
+          "percent": "30%",
+          "title": "Sviluppo del progetto",
+          "description": "Pagamento durante la preparazione della parte strutturale e della visualizzazione."
+        },
+        {
+          "percent": "40%",
+          "title": "Completamento del progetto",
+          "description": "Pagamento finale alla consegna della documentazione di progetto completata."
+        }
+      ]
+    },
+    "advantages": {
+      "overline": "Vantaggi",
+      "title": "Perché progettare con Velar",
+      "items": [
+        "Contratto di progettazione ufficiale",
+        "Processo completamente online",
+        "Pacchetti flessibili per ogni budget",
+        "Contatto diretto online con l'architetto",
+        "Pagamento diviso in 3 fasi",
+        "Progetto pronto in 2 mesi"
+      ]
+    },
+    "cta": {
+      "title": "Pronti per iniziare il vostro progetto?",
+      "text": "Lasciate i vostri contatti — un architetto vi contatterà, discuterà i dettagli e vi aiuterà a scegliere il pacchetto migliore.",
+      "button": "Ordina la progettazione"
+    }
+  },
+  "projects": {
+    "overline": "Portfolio",
+    "title": "I nostri progetti realizzati",
+    "subtitle": "Oltre 120 case di classe premium costruite chiavi in mano in tutto il paese."
+  },
+  "footer": {
+    "tagline": "Costruzione chiavi in mano di case private di classe premium. Dall'idea alle chiavi — con un risultato garantito.",
+    "navTitle": "Navigazione",
+    "contactsTitle": "Contatti",
+    "address": "Kyiv, via Khreshchatyk 1",
+    "rights": "Tutti i diritti riservati.",
+    "slogan": "Costruito con cura dei dettagli."
+  },
+  "configurator": {
+    "steps": {
+      "style": "Stile",
+      "area": "Superficie",
+      "details": "Dettagli",
+      "engineering": "Ingegneria",
+      "options": "Opzioni",
+      "result": "Risultato"
+    },
+    "nav": {
+      "back": "Indietro",
+      "next": "Avanti",
+      "getResult": "Ottieni il risultato",
+      "estimate": "Costo stimato",
+      "chooseStyle": "Scegli uno stile"
+    },
+    "style": {
+      "heading": "Scegli lo stile architettonico",
+      "subtitle": "Definisce il carattere della casa e il costo base.",
+      "perM2": "da {price}/m²",
+      "error": "Scegli uno stile.",
+      "options": {
+        "classic": {
+          "label": "Classico",
+          "description": "Facciate simmetriche, proporzioni nobili, eleganza sobria."
+        },
+        "neoclassic": {
+          "label": "Neoclassico",
+          "description": "Simmetria, colonne e decori nobili."
+        },
+        "baroque": {
+          "label": "Barocco",
+          "description": "Stucchi sontuosi, colonne e facciate lussuose."
+        },
+        "modern": {
+          "label": "Moderno",
+          "description": "Linee pulite, vetrate panoramiche, minimalismo."
+        },
+        "minimalism": {
+          "label": "Minimalismo",
+          "description": "Forme pulite e massimo spazio senza decori superflui."
+        },
+        "toscana": {
+          "label": "Toscana",
+          "description": "Tonalità calde, pietra naturale e lo spirito di una villa italiana."
+        }
+      }
+    },
+    "area": {
+      "heading": "Qual è la superficie della casa?",
+      "subtitle": "Superficie abitabile totale in metri quadri.",
+      "unit": "m²"
+    },
+    "details": {
+      "heading": "Dettagli del progetto",
+      "subtitle": "Qualche precisazione — e ti diamo un prezzo più preciso.",
+      "floors": {
+        "title": "Quanti piani?",
+        "options": {
+          "1": "1 piano",
+          "2": "2 piani",
+          "3": "3 piani"
+        }
+      },
+      "bedrooms": {
+        "title": "Numero di camere da letto"
+      },
+      "finish": {
+        "title": "Livello di finitura",
+        "hint": "È ciò che incide di più sul costo finale.",
+        "options": {
+          "standard": {
+            "label": "Standard",
+            "description": "Materiali di qualità di fascia media."
+          },
+          "premium": {
+            "label": "Premium",
+            "description": "Soluzioni di design, materiali naturali."
+          },
+          "deluxe": {
+            "label": "De Luxe",
+            "description": "Materiali esclusivi e design su misura."
+          }
+        }
+      },
+      "timeline": {
+        "title": "Tempi di costruzione",
+        "options": {
+          "standard": {
+            "label": "Standard",
+            "description": "Cronoprogramma ottimale."
+          },
+          "fast": {
+            "label": "Accelerato",
+            "description": "Tempi stretti, squadra potenziata."
+          }
+        }
+      }
+    },
+    "engineering": {
+      "heading": "Costruzione e ingegneria",
+      "subtitle": "Scelte tecniche che influenzano comfort e preventivo.",
+      "wall": {
+        "title": "Materiale delle pareti",
+        "options": {
+          "aerated": {
+            "label": "Calcestruzzo cellulare",
+            "description": "Prezzo ottimale e isolamento termico."
+          },
+          "brick": {
+            "label": "Mattone",
+            "description": "Durata e prestigio."
+          },
+          "monolith": {
+            "label": "Struttura monolitica",
+            "description": "Libertà di pianta e altezza."
+          }
+        }
+      },
+      "roof": {
+        "title": "Tipo di tetto",
+        "options": {
+          "flat": {
+            "label": "Piano",
+            "description": "Aspetto moderno, copertura praticabile."
+          },
+          "pitched": {
+            "label": "A falde",
+            "description": "Un classico con drenaggio affidabile."
+          },
+          "mansard": {
+            "label": "Mansardato",
+            "description": "Spazio abitabile aggiuntivo."
+          }
+        }
+      },
+      "heating": {
+        "title": "Riscaldamento",
+        "options": {
+          "gas": {
+            "label": "Caldaia a gas",
+            "description": "La soluzione standard."
+          },
+          "heatPump": {
+            "label": "Pompa di calore",
+            "description": "Fino al 70% di risparmio sul riscaldamento."
+          },
+          "electric": {
+            "label": "Elettrico",
+            "description": "Collegamento semplice."
+          }
+        }
+      },
+      "plot": {
+        "title": "Hai un terreno?",
+        "hint": "Aiuta il consulente a preparare un'offerta.",
+        "options": {
+          "have": {
+            "label": "Ne ho già uno",
+            "description": "Costruiamo sul tuo terreno."
+          },
+          "search": {
+            "label": "Ho bisogno di aiuto",
+            "description": "Troveremo un terreno per il progetto."
+          }
+        }
+      }
+    },
+    "options": {
+      "heading": "Opzioni aggiuntive",
+      "subtitle": "Scegli tutto ciò che renderà perfetta la tua casa.",
+      "plus": "+ {price}",
+      "items": {
+        "pool": {
+          "label": "Piscina",
+          "description": "Riscaldamento e sistema di filtrazione."
+        },
+        "spa": {
+          "label": "SPA",
+          "description": "Sauna, hammam, zona relax."
+        },
+        "garage": {
+          "label": "Garage",
+          "description": "Per 2 auto, con ricarica EV."
+        },
+        "smartHome": {
+          "label": "Smart Home",
+          "description": "Luce, clima e sicurezza in un'unica app."
+        },
+        "solar": {
+          "label": "Pannelli solari",
+          "description": "Indipendenza energetica e risparmio."
+        }
+      }
+    },
+    "result": {
+      "title": "Il tuo progetto è pronto",
+      "noAddons": "Nessuna opzione aggiuntiva",
+      "planTitle": "Visualizzazione della pianta con IA",
+      "planCaption": "Generata in base alle tue scelte",
+      "view3dTitle": "Visualizzazione 3D",
+      "view3dCaption": "Un modello interattivo della casa",
+      "demo": "Demo",
+      "paramsTitle": "Parametri del progetto",
+      "specs": {
+        "area": "Superficie",
+        "floors": "Piani",
+        "bedrooms": "Camere",
+        "wall": "Materiale pareti",
+        "roof": "Tetto",
+        "heating": "Riscaldamento",
+        "timeline": "Tempi",
+        "plot": "Terreno"
+      },
+      "budgetTitle": "Budget stimato",
+      "constructionRow": "Costruzione ({style}, {finish}, {area} m²)",
+      "bedroomsRow": "Camere ({count})",
+      "budgetNote": "* Costo stimato. Il preventivo esatto sarà calcolato da un consulente.",
+      "nextStepOverline": "Prossimo passo",
+      "ctaTitle": "Pronto a realizzare il progetto?",
+      "ctaText": "Lascia i tuoi contatti — ed entro 24 ore riceverai un preventivo dettagliato, una visualizzazione 3D completa e un'offerta personalizzata da un consulente.",
+      "ctaButton": "Richiedi una consulenza",
+      "successTitle": "Richiesta ricevuta!",
+      "successText": "Grazie. Il tuo consulente personale sta già preparando un'offerta. Ecco cosa succede ora:",
+      "nextSteps": [
+        "Un consulente ti contatterà entro 15 minuti.",
+        "Definiremo i dettagli e prepareremo il preventivo finale.",
+        "Ti consegneremo il progetto, un tour 3D e un'offerta personalizzata."
+      ],
+      "downloadPdf": "Scarica il PDF",
+      "pdfSnack": "Download della presentazione PDF...",
+      "edit": "Modifica i parametri"
+    },
+    "callback": {
+      "title": "Chiamata di un consulente",
+      "text": "Lascia i tuoi contatti — ti chiameremo entro 15 minuti.",
+      "name": "Nome",
+      "phone": "Telefono",
+      "cancel": "Annulla",
+      "submit": "Richiedi una chiamata",
+      "submitting": "Invio...",
+      "successSnack": "Grazie! Un consulente ti chiamerà a breve.",
+      "nameError": "Inserisci il tuo nome",
+      "phoneError": "Inserisci un numero di telefono valido"
+    }
+  },
+  "project": {
+    "notFound": "Progetto non trovato",
+    "allProjects": "Tutti i progetti",
+    "about": "Informazioni sul progetto",
+    "features": "Caratteristiche",
+    "specsTitle": "Specifiche",
+    "specs": {
+      "area": "Superficie",
+      "floors": "Piani",
+      "bedrooms": "Camere",
+      "bathrooms": "Bagni",
+      "style": "Stile",
+      "year": "Anno"
+    },
+    "createSimilar": "Crea un progetto simile",
+    "gallery": "Galleria",
+    "photoAlt": "{title} — foto {n}",
+    "likeTitle": "Ti piace questo progetto?",
+    "likeText": "Configura la tua villa in tre minuti."
+  },
+  "meta": {
+    "defaultTitle": "Velar Development — costruzione di case e ville premium",
+    "defaultDescription": "Velar Development — costruzione chiavi in mano di case, ville e cottage di classe premium, oltre al restauro. Progetta la tua villa nel configuratore online in 3 minuti.",
+    "home": {
+      "title": "Velar Development — costruzione di case e ville premium",
+      "description": "Costruzione chiavi in mano di case, ville e cottage di classe premium, oltre al restauro. Progetta la tua villa nel configuratore online in 3 minuti."
+    },
+    "about": {
+      "title": "Chi siamo",
+      "description": "Velar Development — un team di architetti e costruttori. Costruiamo case, ville e cottage di classe premium chiavi in mano e restauriamo edifici storici."
+    },
+    "projects": {
+      "title": "Portfolio",
+      "description": "Progetti premium chiavi in mano realizzati: stili moderno, neoclassico, chalet e mediterraneo. Oltre 120 progetti completati."
+    },
+    "configurator": {
+      "title": "Configuratore",
+      "description": "Il configuratore di case online di Velar: scegli stile, superficie, finiture e opzioni — e ottieni un progetto, una visualizzazione 3D e un budget stimato in 3 minuti."
+    },
+    "design": {
+      "title": "Progetti di case",
+      "description": "Progettazione architettonica chiavi in mano da $15/m², 2–3 mesi, pagamento in 3 fasi. Pacchetti Light, Basic e Premium con preventivo, visualizzazione e assistenza per il permesso di costruire."
+    }
+  }
+}

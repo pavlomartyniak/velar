@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Arial, sans-serif">
+  <rect width="800" height="600" fill="#f7f6f3"/>
+  <!-- Outer walls -->
+  <rect x="60" y="60" width="680" height="480" fill="#ffffff" stroke="#1a1a1a" stroke-width="8"/>
+  <!-- Internal walls -->
+  <line x1="380" y1="60" x2="380" y2="320" stroke="#1a1a1a" stroke-width="5"/>
+  <line x1="60" y1="320" x2="740" y2="320" stroke="#1a1a1a" stroke-width="5"/>
+  <line x1="540" y1="320" x2="540" y2="540" stroke="#1a1a1a" stroke-width="5"/>
+  <line x1="240" y1="320" x2="240" y2="540" stroke="#1a1a1a" stroke-width="5"/>
+  <!-- Door gaps (white over walls) -->
+  <rect x="360" y="150" width="40" height="10" fill="#fff"/>
+  <rect x="280" y="315" width="50" height="12" fill="#fff"/>
+  <rect x="540" y="380" width="12" height="50" fill="#fff"/>
+  <!-- Room labels -->
+  <text x="220" y="180" font-size="22" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Вітальня</text>
+  <text x="220" y="208" font-size="15" fill="#888" text-anchor="middle">42 м²</text>
+  <text x="560" y="180" font-size="22" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Кухня-їдальня</text>
+  <text x="560" y="208" font-size="15" fill="#888" text-anchor="middle">30 м²</text>
+  <text x="150" y="440" font-size="20" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Спальня</text>
+  <text x="150" y="466" font-size="15" fill="#888" text-anchor="middle">18 м²</text>
+  <text x="390" y="440" font-size="20" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Спальня</text>
+  <text x="390" y="466" font-size="15" fill="#888" text-anchor="middle">18 м²</text>
+  <text x="640" y="440" font-size="20" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Майстер-спальня</text>
+  <text x="640" y="466" font-size="15" fill="#888" text-anchor="middle">26 м²</text>
+  <!-- Title -->
+  <text x="60" y="40" font-size="18" fill="#1a1a1a" font-weight="bold">VELAR · План 1 поверху (демо)</text>
+</svg>
