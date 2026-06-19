@@ -4,9 +4,7 @@ import { useTranslations } from "next-intl";
 import { motion, type Variants } from "framer-motion";
 import { Box, Container, Stack, Typography } from "@mui/material";
 
-const IMAGE =
-  "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1920&q=80";
-
+const IMAGE = "/modern-house.jpg";
 const container: Variants = {
   hidden: {},
   show: { transition: { staggerChildren: 0.12, delayChildren: 0.05 } },

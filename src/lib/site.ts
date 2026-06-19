@@ -8,8 +8,8 @@ export const siteConfig = {
     "Velar Development — будівництво будинків, вілл і котеджів преміумкласу під ключ та реставрація. Створіть проєкт власної вілли в онлайн-конфігураторі за 3 хвилини.",
   locale: "uk_UA",
   ogImage: "/hero-villa.png",
-  phone: "+380441234567",
-  email: "hello@velar.ua",
+  phone: "+380994407123",
+  email: "velardevelopment@gmail.com",
   address: {
     locality: "Київ",
     street: "вул. Хрещатик, 1",

@@ -4,8 +4,7 @@ import { useTranslations } from "next-intl";
 import { motion, type Variants } from "framer-motion";
 import { Box, Container, Stack, Typography } from "@mui/material";
 
-const IMAGE =
-  "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=75";
+const IMAGE = "/architect-steps.png";
 
 type Stat = { value: string; label: string };
 
@@ -44,16 +43,28 @@ export default function AboutStory() {
             viewport={{ once: true, amount: 0.4 }}
             spacing={2.5}
           >
-            <Typography variant="overline" color="text.secondary" sx={{ letterSpacing: 4 }}>
+            <Typography
+              variant="overline"
+              color="text.secondary"
+              sx={{ letterSpacing: 4 }}
+            >
               {t("overline")}
             </Typography>
             <Typography variant="h3" sx={{ fontWeight: 700 }}>
               {t("title")}
             </Typography>
-            <Typography variant="body1" color="text.secondary" sx={{ fontSize: "1.05rem", lineHeight: 1.7 }}>
+            <Typography
+              variant="body1"
+              color="text.secondary"
+              sx={{ fontSize: "1.05rem", lineHeight: 1.7 }}
+            >
               {t("p1")}
             </Typography>
-            <Typography variant="body1" color="text.secondary" sx={{ fontSize: "1.05rem", lineHeight: 1.7 }}>
+            <Typography
+              variant="body1"
+              color="text.secondary"
+              sx={{ fontSize: "1.05rem", lineHeight: 1.7 }}
+            >
               {t("p2")}
             </Typography>
           </Stack>

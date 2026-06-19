@@ -99,7 +99,11 @@ export default function Footer() {
                   component={IntlLink}
                   href={link.href}
                   underline="hover"
-                  sx={{ color: "common.white", opacity: 0.85, width: "fit-content" }}
+                  sx={{
+                    color: "common.white",
+                    opacity: 0.85,
+                    width: "fit-content",
+                  }}
                 >
                   {tn(link.key)}
                 </Link>
@@ -118,7 +122,7 @@ export default function Footer() {
                 underline="hover"
                 sx={{ color: "common.white", opacity: 0.85 }}
               >
-                +380 (44) 123-45-67
+                +380 (99) 440-71-23
               </Link>
               <Link
                 href={`mailto:${siteConfig.email}`}
@@ -134,7 +138,9 @@ export default function Footer() {
           </Box>
         </Box>
 
-        <Divider sx={{ my: { xs: 4, md: 5 }, borderColor: "rgba(255,255,255,0.15)" }} />
+        <Divider
+          sx={{ my: { xs: 4, md: 5 }, borderColor: "rgba(255,255,255,0.15)" }}
+        />
 
         <Stack
           direction={{ xs: "column", sm: "row" }}
