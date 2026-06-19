@@ -470,7 +470,8 @@
             "label": "Elektryczne",
             "description": "Proste podłączenie."
           }
-        }
+        },
+        "hint": "Możesz wybrać kilka typów — świetnie współpracują ze sobą."
       },
       "plot": {
         "title": "Czy masz działkę?",
@@ -521,7 +522,6 @@
       "planCaption": "Wygenerowano na podstawie Twoich wyborów",
       "view3dTitle": "Wizualizacja 3D",
       "view3dCaption": "Interaktywny model domu",
-      "demo": "Demo",
       "paramsTitle": "Parametry projektu",
       "specs": {
         "area": "Powierzchnia",
@@ -548,9 +548,10 @@
         "Ustalimy szczegóły i przygotujemy ostateczny kosztorys.",
         "Przekażemy projekt, wirtualny spacer 3D i indywidualną ofertę."
       ],
-      "downloadPdf": "Pobierz PDF",
-      "pdfSnack": "Pobieranie prezentacji PDF...",
-      "edit": "Zmień parametry"
+      "edit": "Zmień parametry",
+      "unlockCta": "Otrzymaj wizualizację",
+      "unlockedNote": "Zgłoszenie przyjęte — menedżer wyśle Ci spersonalizowaną wizualizację.",
+      "bigCta": "Otrzymaj wizualizację i konsultację"
     },
     "callback": {
       "title": "Rozmowa z menedżerem",
@@ -562,7 +563,8 @@
       "submitting": "Wysyłanie...",
       "successSnack": "Dziękujemy! Menedżer wkrótce zadzwoni.",
       "nameError": "Podaj imię",
-      "phoneError": "Wpisz poprawny numer telefonu"
+      "phoneError": "Wpisz poprawny numer telefonu",
+      "submitError": "Nie udało się wysłać zgłoszenia. Spróbuj ponownie lub zadzwoń do nas."
     }
   },
   "project": {

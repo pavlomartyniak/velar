@@ -470,7 +470,8 @@
             "label": "Electric",
             "description": "Simple connection."
           }
-        }
+        },
+        "hint": "You can choose several types — they work great in combination."
       },
       "plot": {
         "title": "Do you have a plot of land?",
@@ -521,7 +522,6 @@
       "planCaption": "Generated based on your choices",
       "view3dTitle": "3D visualization",
       "view3dCaption": "An interactive model of the house",
-      "demo": "Demo",
       "paramsTitle": "Project parameters",
       "specs": {
         "area": "Area",
@@ -548,9 +548,10 @@
         "We'll align the details and prepare the final estimate.",
         "We'll deliver the project, a 3D tour and a personal offer."
       ],
-      "downloadPdf": "Download PDF",
-      "pdfSnack": "Downloading the PDF presentation...",
-      "edit": "Change parameters"
+      "edit": "Change parameters",
+      "unlockCta": "Get the visualization",
+      "unlockedNote": "Request received — your manager will send the personalized visualization.",
+      "bigCta": "Get the visualization and a consultation"
     },
     "callback": {
       "title": "Manager call",
@@ -562,7 +563,8 @@
       "submitting": "Sending...",
       "successSnack": "Thank you! A manager will call you shortly.",
       "nameError": "Please enter your name",
-      "phoneError": "Enter a valid phone number"
+      "phoneError": "Enter a valid phone number",
+      "submitError": "Could not send your request. Please try again or call us directly."
     }
   },
   "project": {

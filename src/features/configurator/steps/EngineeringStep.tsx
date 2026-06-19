@@ -50,7 +50,9 @@ export default function EngineeringStep() {
       <ChoiceQuestion
         name="heating"
         title={t("heating.title")}
+        hint={t("heating.hint")}
         options={heating}
+        multiple
       />
       <ChoiceQuestion
         name="plot"

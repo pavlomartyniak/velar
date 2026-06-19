@@ -470,7 +470,8 @@
             "label": "Elettrico",
             "description": "Collegamento semplice."
           }
-        }
+        },
+        "hint": "Puoi scegliere più tipi — funzionano benissimo insieme."
       },
       "plot": {
         "title": "Hai un terreno?",
@@ -521,7 +522,6 @@
       "planCaption": "Generata in base alle tue scelte",
       "view3dTitle": "Visualizzazione 3D",
       "view3dCaption": "Un modello interattivo della casa",
-      "demo": "Demo",
       "paramsTitle": "Parametri del progetto",
       "specs": {
         "area": "Superficie",
@@ -548,9 +548,10 @@
         "Definiremo i dettagli e prepareremo il preventivo finale.",
         "Ti consegneremo il progetto, un tour 3D e un'offerta personalizzata."
       ],
-      "downloadPdf": "Scarica il PDF",
-      "pdfSnack": "Download della presentazione PDF...",
-      "edit": "Modifica i parametri"
+      "edit": "Modifica i parametri",
+      "unlockCta": "Ottieni la visualizzazione",
+      "unlockedNote": "Richiesta ricevuta — il tuo consulente ti invierà la visualizzazione personalizzata.",
+      "bigCta": "Ottieni la visualizzazione e una consulenza"
     },
     "callback": {
       "title": "Chiamata di un consulente",
@@ -562,7 +563,8 @@
       "submitting": "Invio...",
       "successSnack": "Grazie! Un consulente ti chiamerà a breve.",
       "nameError": "Inserisci il tuo nome",
-      "phoneError": "Inserisci un numero di telefono valido"
+      "phoneError": "Inserisci un numero di telefono valido",
+      "submitError": "Impossibile inviare la richiesta. Riprova oppure chiamaci direttamente."
     }
   },
   "project": {

@@ -470,7 +470,8 @@
             "label": "Électrique",
             "description": "Raccordement simple."
           }
-        }
+        },
+        "hint": "Vous pouvez choisir plusieurs types — ils fonctionnent très bien ensemble."
       },
       "plot": {
         "title": "Avez-vous un terrain ?",
@@ -521,7 +522,6 @@
       "planCaption": "Générée à partir de vos choix",
       "view3dTitle": "Visualisation 3D",
       "view3dCaption": "Un modèle interactif de la maison",
-      "demo": "Démo",
       "paramsTitle": "Paramètres du projet",
       "specs": {
         "area": "Surface",
@@ -548,9 +548,10 @@
         "Nous préciserons les détails et préparerons le devis final.",
         "Nous vous remettrons le projet, une visite 3D et une offre personnalisée."
       ],
-      "downloadPdf": "Télécharger le PDF",
-      "pdfSnack": "Téléchargement de la présentation PDF...",
-      "edit": "Modifier les paramètres"
+      "edit": "Modifier les paramètres",
+      "unlockCta": "Obtenir la visualisation",
+      "unlockedNote": "Demande reçue — votre conseiller vous envoie la visualisation personnalisée.",
+      "bigCta": "Obtenir la visualisation et une consultation"
     },
     "callback": {
       "title": "Appel d'un conseiller",
@@ -562,7 +563,8 @@
       "submitting": "Envoi...",
       "successSnack": "Merci ! Un conseiller vous appellera sous peu.",
       "nameError": "Veuillez indiquer votre nom",
-      "phoneError": "Saisissez un numéro de téléphone valide"
+      "phoneError": "Saisissez un numéro de téléphone valide",
+      "submitError": "Impossible d'envoyer votre demande. Veuillez réessayer ou nous appeler directement."
     }
   },
   "project": {

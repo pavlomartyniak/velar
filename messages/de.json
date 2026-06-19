@@ -470,7 +470,8 @@
             "label": "Elektrisch",
             "description": "Einfacher Anschluss."
           }
-        }
+        },
+        "hint": "Sie können mehrere Typen wählen — sie ergänzen sich hervorragend."
       },
       "plot": {
         "title": "Haben Sie ein Grundstück?",
@@ -521,7 +522,6 @@
       "planCaption": "Auf Basis Ihrer Auswahl erstellt",
       "view3dTitle": "3D-Visualisierung",
       "view3dCaption": "Ein interaktives Modell des Hauses",
-      "demo": "Demo",
       "paramsTitle": "Projektparameter",
       "specs": {
         "area": "Fläche",
@@ -548,9 +548,10 @@
         "Wir stimmen die Details ab und erstellen die finale Kalkulation.",
         "Wir übergeben das Projekt, eine 3D-Tour und ein persönliches Angebot."
       ],
-      "downloadPdf": "PDF herunterladen",
-      "pdfSnack": "PDF-Präsentation wird heruntergeladen...",
-      "edit": "Parameter ändern"
+      "edit": "Parameter ändern",
+      "unlockCta": "Visualisierung erhalten",
+      "unlockedNote": "Anfrage erhalten — Ihr Manager sendet Ihnen die persönliche Visualisierung.",
+      "bigCta": "Visualisierung und Beratung erhalten"
     },
     "callback": {
       "title": "Anruf eines Managers",
@@ -562,7 +563,8 @@
       "submitting": "Wird gesendet...",
       "successSnack": "Vielen Dank! Ein Manager ruft Sie in Kürze an.",
       "nameError": "Bitte geben Sie Ihren Namen ein",
-      "phoneError": "Geben Sie eine gültige Telefonnummer ein"
+      "phoneError": "Geben Sie eine gültige Telefonnummer ein",
+      "submitError": "Ihre Anfrage konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder rufen Sie uns an."
     }
   },
   "project": {

@@ -12,11 +12,13 @@ export default function ChoiceQuestion({
   title,
   hint,
   options,
+  multiple = false,
 }: {
   name: Path<ConfiguratorValues>;
   title: string;
   hint?: string;
   options: readonly Option[];
+  multiple?: boolean;
 }) {
   const { control } = useFormContext<ConfiguratorValues>();
   const hasDescriptions = options.some((option) => option.description);
@@ -36,10 +38,15 @@ export default function ChoiceQuestion({
         name={name}
         render={({ field }) => (
           <ToggleButtonGroup
-            exclusive
-            value={field.value ?? null}
+            exclusive={!multiple}
+            value={multiple ? (field.value ?? []) : (field.value ?? null)}
             onChange={(_, value) => {
-              if (value !== null) field.onChange(value);
+              if (multiple) {
+                // не дозволяємо порожній вибір — має лишитись хоча б один тип
+                if (Array.isArray(value) && value.length > 0) field.onChange(value);
+              } else if (value !== null) {
+                field.onChange(value);
+              }
             }}
             sx={{
               flexWrap: "wrap",

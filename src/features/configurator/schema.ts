@@ -96,7 +96,7 @@ export const configuratorSchema = z.object({
   timeline: z.enum(values(TIMELINE_OPTIONS)),
   wallMaterial: z.enum(values(WALL_OPTIONS)),
   roof: z.enum(values(ROOF_OPTIONS)),
-  heating: z.enum(values(HEATING_OPTIONS)),
+  heating: z.array(z.enum(values(HEATING_OPTIONS))).min(1),
   plot: z.enum(values(PLOT_OPTIONS)),
   addons: z.object({
     pool: z.boolean(),
@@ -117,7 +117,7 @@ export const defaultConfiguratorValues = {
   timeline: "standard",
   wallMaterial: "aerated",
   roof: "pitched",
-  heating: "gas",
+  heating: ["gas"],
   plot: "have",
   addons: {
     pool: false,
@@ -151,8 +151,8 @@ const priceOf = <T extends { value: string; price: number }>(
 
 export const bedroomsCostOf = (value: string | undefined) =>
   priceOf(BEDROOMS_OPTIONS, value);
-export const heatingCostOf = (value: string | undefined) =>
-  priceOf(HEATING_OPTIONS, value);
+export const heatingCostOf = (selected: readonly string[] | undefined) =>
+  (selected ?? []).reduce((sum, v) => sum + priceOf(HEATING_OPTIONS, v), 0);
 
 /** Орієнтовний кошторис на основі всіх відповідей конфігуратора. */
 export function computeBudget(v: Partial<ConfiguratorValues>): BudgetBreakdown {
@@ -169,7 +169,7 @@ export function computeBudget(v: Partial<ConfiguratorValues>): BudgetBreakdown {
     multiplierOf(ROOF_OPTIONS, v.roof);
 
   const bedroomsCost = priceOf(BEDROOMS_OPTIONS, v.bedrooms);
-  const heatingCost = priceOf(HEATING_OPTIONS, v.heating);
+  const heatingCost = heatingCostOf(v.heating);
   const addonsTotal = ADDONS.reduce(
     (sum, addon) => sum + (v.addons?.[addon.key] ? addon.price : 0),
     0,

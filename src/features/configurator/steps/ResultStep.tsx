@@ -11,15 +11,14 @@ import {
   Chip,
   Divider,
   Paper,
-  Snackbar,
   Stack,
   Typography,
 } from "@mui/material";
 import CheckCircleRoundedIcon from "@mui/icons-material/CheckCircleRounded";
-import PictureAsPdfRoundedIcon from "@mui/icons-material/PictureAsPdfRounded";
 import PhoneInTalkRoundedIcon from "@mui/icons-material/PhoneInTalkRounded";
 import EditRoundedIcon from "@mui/icons-material/EditRounded";
-import OpenInNewRoundedIcon from "@mui/icons-material/OpenInNewRounded";
+import LockRoundedIcon from "@mui/icons-material/LockRounded";
+import LockOpenRoundedIcon from "@mui/icons-material/LockOpenRounded";
 import {
   ADDONS,
   type ConfiguratorValues,
@@ -33,22 +32,22 @@ function VisualizationPanel({
   image,
   title,
   caption,
-  demoLabel,
+  locked,
+  unlockCtaLabel,
+  unlockedNote,
+  onUnlock,
 }: {
   image: string;
   title: string;
   caption: string;
-  demoLabel: string;
+  locked: boolean;
+  unlockCtaLabel: string;
+  unlockedNote: string;
+  onUnlock: () => void;
 }) {
   return (
     <Card variant="outlined" sx={{ overflow: "hidden" }}>
-      <Box
-        component="a"
-        href={image}
-        target="_blank"
-        rel="noopener noreferrer"
-        sx={{ display: "block", position: "relative" }}
-      >
+      <Box sx={{ display: "block", position: "relative", overflow: "hidden" }}>
         <Box
           component="img"
           src={image}
@@ -59,23 +58,48 @@ function VisualizationPanel({
             aspectRatio: "4 / 3",
             objectFit: "cover",
             bgcolor: "action.hover",
+            filter: "blur(16px)",
+            transform: "scale(1.1)",
           }}
         />
-        <Chip
-          size="small"
-          label={demoLabel}
-          sx={{ position: "absolute", top: 10, right: 10 }}
-        />
-        <OpenInNewRoundedIcon
-          fontSize="small"
+        <Stack
+          spacing={1.5}
           sx={{
             position: "absolute",
-            bottom: 10,
-            right: 10,
+            inset: 0,
+            alignItems: "center",
+            justifyContent: "center",
+            textAlign: "center",
+            px: 2,
+            bgcolor: "rgba(0,0,0,0.4)",
             color: "common.white",
-            filter: "drop-shadow(0 1px 2px rgba(0,0,0,0.6))",
           }}
-        />
+        >
+          {locked ? (
+            <>
+              <LockRoundedIcon />
+              <Button
+                size="small"
+                variant="contained"
+                onClick={onUnlock}
+                sx={{
+                  bgcolor: "common.white",
+                  color: "text.primary",
+                  "&:hover": { bgcolor: "grey.200" },
+                }}
+              >
+                {unlockCtaLabel}
+              </Button>
+            </>
+          ) : (
+            <>
+              <CheckCircleRoundedIcon color="success" />
+              <Typography variant="caption" sx={{ fontWeight: 600, maxWidth: 220 }}>
+                {unlockedNote}
+              </Typography>
+            </>
+          )}
+        </Stack>
       </Box>
       <CardContent sx={{ py: 1.5 }}>
         <Typography variant="subtitle1" sx={{ fontWeight: 600 }}>
@@ -131,12 +155,15 @@ export default function ResultStep({ onEdit }: { onEdit: () => void }) {
     ? tc(`details.finish.options.${values.finish}.label`)
     : "—";
   const addonLabel = (key: string) => tc(`options.items.${key}.label`);
+  const heatingLabel =
+    (values.heating ?? [])
+      .map((h) => tc(`engineering.heating.options.${h}.label`))
+      .join(", ") || "—";
 
   const nextSteps = t.raw("nextSteps") as string[];
 
   const [callOpen, setCallOpen] = useState(false);
   const [submitted, setSubmitted] = useState(false);
-  const [snack, setSnack] = useState<string | null>(null);
 
   return (
     <Stack spacing={4}>
@@ -170,15 +197,36 @@ export default function ResultStep({ onEdit }: { onEdit: () => void }) {
           image="/mock-floor-plan.svg"
           title={t("planTitle")}
           caption={t("planCaption")}
-          demoLabel={t("demo")}
+          locked={!submitted}
+          unlockCtaLabel={t("unlockCta")}
+          unlockedNote={t("unlockedNote")}
+          onUnlock={() => setCallOpen(true)}
         />
         <VisualizationPanel
           image="/mock-3d.svg"
           title={t("view3dTitle")}
           caption={t("view3dCaption")}
-          demoLabel={t("demo")}
+          locked={!submitted}
+          unlockCtaLabel={t("unlockCta")}
+          unlockedNote={t("unlockedNote")}
+          onUnlock={() => setCallOpen(true)}
         />
       </Box>
+
+      {/* CTA — отримати візуалізацію та консультацію */}
+      {!submitted && (
+        <Box sx={{ textAlign: "center" }}>
+          <Button
+            variant="contained"
+            size="large"
+            startIcon={<LockOpenRoundedIcon />}
+            onClick={() => setCallOpen(true)}
+            sx={{ px: 5, py: 1.5 }}
+          >
+            {t("bigCta")}
+          </Button>
+        </Box>
+      )}
 
       {/* Параметри проєкту */}
       <Card variant="outlined">
@@ -208,10 +256,7 @@ export default function ResultStep({ onEdit }: { onEdit: () => void }) {
               label={t("specs.roof")}
               value={tc(`engineering.roof.options.${values.roof}.label`)}
             />
-            <Spec
-              label={t("specs.heating")}
-              value={tc(`engineering.heating.options.${values.heating}.label`)}
-            />
+            <Spec label={t("specs.heating")} value={heatingLabel} />
             <Spec
               label={t("specs.timeline")}
               value={tc(`details.timeline.options.${values.timeline}.label`)}
@@ -251,7 +296,7 @@ export default function ResultStep({ onEdit }: { onEdit: () => void }) {
             )}
             {budget.heatingCost > 0 && (
               <Row
-                label={tc(`engineering.heating.options.${values.heating}.label`)}
+                label={t("specs.heating")}
                 value={formatCurrency(budget.heatingCost)}
               />
             )}
@@ -358,21 +403,7 @@ export default function ResultStep({ onEdit }: { onEdit: () => void }) {
       )}
 
       {/* Другорядні дії */}
-      <Stack
-        direction="row"
-        spacing={1}
-        useFlexGap
-        sx={{ flexWrap: "wrap", justifyContent: "center" }}
-      >
-        <Button
-          component="a"
-          href="/mock-presentation.pdf"
-          download
-          startIcon={<PictureAsPdfRoundedIcon />}
-          onClick={() => setSnack(t("pdfSnack"))}
-        >
-          {t("downloadPdf")}
-        </Button>
+      <Stack direction="row" sx={{ justifyContent: "center" }}>
         <Button startIcon={<EditRoundedIcon />} onClick={onEdit}>
           {t("edit")}
         </Button>
@@ -382,14 +413,8 @@ export default function ResultStep({ onEdit }: { onEdit: () => void }) {
         open={callOpen}
         onClose={() => setCallOpen(false)}
         onSubmitted={() => setSubmitted(true)}
-      />
-
-      <Snackbar
-        open={!!snack}
-        autoHideDuration={4000}
-        onClose={() => setSnack(null)}
-        message={snack ?? ""}
-        anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
+        source="configurator"
+        configuratorValues={values}
       />
     </Stack>
   );

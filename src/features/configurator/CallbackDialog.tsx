@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { useTranslations } from "next-intl";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -15,20 +15,27 @@ import {
   DialogTitle,
   Stack,
   TextField,
+  Typography,
 } from "@mui/material";
+import type { ConfiguratorValues } from "./schema";
 
 interface CallbackDialogProps {
   open: boolean;
   onClose: () => void;
   onSubmitted: () => void;
+  source: string;
+  configuratorValues?: Partial<ConfiguratorValues>;
 }
 
 export default function CallbackDialog({
   open,
   onClose,
   onSubmitted,
+  source,
+  configuratorValues,
 }: CallbackDialogProps) {
   const t = useTranslations("configurator.callback");
+  const [submitError, setSubmitError] = useState(false);
 
   const callbackSchema = useMemo(
     () =>
@@ -54,12 +61,20 @@ export default function CallbackDialog({
   });
 
   const onSubmit = handleSubmit(async (values) => {
-    // TODO: відправити на бекенд, напр. api.post("/callback", values)
-    await new Promise((resolve) => setTimeout(resolve, 600));
-    console.log("callback request", values);
-    reset();
-    onClose();
-    onSubmitted();
+    setSubmitError(false);
+    try {
+      const response = await fetch("/api/lead", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...values, source, configurator: configuratorValues }),
+      });
+      if (!response.ok) throw new Error("failed");
+      reset();
+      onClose();
+      onSubmitted();
+    } catch {
+      setSubmitError(true);
+    }
   });
 
   return (
@@ -85,6 +100,11 @@ export default function CallbackDialog({
               fullWidth
             />
           </Stack>
+          {submitError && (
+            <Typography variant="body2" color="error" sx={{ mt: 2 }}>
+              {t("submitError")}
+            </Typography>
+          )}
         </DialogContent>
         <DialogActions sx={{ px: 3, pb: 2 }}>
           <Button onClick={onClose}>{t("cancel")}</Button>
