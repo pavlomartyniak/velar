@@ -8,22 +8,22 @@ export const CURRENCY = "USD";
  */
 
 export const HOUSE_STYLES = [
-  { value: "classic", pricePerM2: 1800, image: "/house-styles/classic.png" },
-  { value: "neoclassic", pricePerM2: 1950, image: "/house-styles/neo-classic.jpg" },
-  { value: "baroque", pricePerM2: 2200, image: "/house-styles/baroque.jpg" },
-  { value: "modern", pricePerM2: 1650, image: "/house-styles/modern.jpg" },
-  { value: "minimalism", pricePerM2: 1500, image: "/house-styles/minimalism.jpg" },
-  { value: "toscana", pricePerM2: 1850, image: "/house-styles/toscana.jpg" },
+  { value: "classic", pricePerM2: 1560, image: "/house-styles/classic.png" },
+  { value: "neoclassic", pricePerM2: 1440, image: "/house-styles/neo-classic.jpg" },
+  { value: "baroque", pricePerM2: 1750, image: "/house-styles/baroque.jpg" },
+  { value: "modern", pricePerM2: 1625, image: "/house-styles/modern.jpg" },
+  { value: "minimalism", pricePerM2: 1250, image: "/house-styles/minimalism.jpg" },
+  { value: "toscana", pricePerM2: 1375, image: "/house-styles/toscana.jpg" },
 ] as const;
 
 export type HouseStyleValue = (typeof HOUSE_STYLES)[number]["value"];
 
 export const ADDONS = [
-  { key: "pool", price: 45000 },
-  { key: "spa", price: 35000 },
-  { key: "garage", price: 25000 },
-  { key: "smartHome", price: 20000 },
-  { key: "solar", price: 18000 },
+  { key: "pool", price: 24000 },
+  { key: "spa", price: 30000 },
+  { key: "garage", price: 18000 },
+  { key: "smartHome", price: 18000 },
+  { key: "solar", price: 15000 },
 ] as const;
 
 export type AddonKey = (typeof ADDONS)[number]["key"];
