@@ -32,11 +32,11 @@ export default async function Home({ params }: PageProps) {
   return (
     <>
       <Hero />
+      <DesignPromo />
+      <HowItWorks />
       <WhyUs />
       <FeaturedProjects />
       <ShowcaseBanner />
-      <DesignPromo />
-      <HowItWorks />
     </>
   );
 }

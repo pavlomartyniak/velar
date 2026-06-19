@@ -10,24 +10,30 @@
     "startConfig": "Avvia la configurazione",
     "viewPortfolio": "Vedi il portfolio",
     "viewAllProjects": "Vedi tutti i progetti",
-    "viewProject": "Vedi il progetto"
+    "viewProject": "Vedi il progetto",
+    "orderDesign": "Richiedi un progetto",
+    "calcConstruction": "Stima la costruzione"
   },
   "language": {
     "label": "Lingua"
   },
   "hero": {
-    "overline": "Costruzione premium",
-    "title": "Progetta la tua villa in 3 minuti",
-    "subtitle": "Scegli la pianta, i materiali e le finiture — e ottieni il progetto della casa dei tuoi sogni in tempo reale."
+    "overline": "Progettazione architettonica",
+    "title": "Progetta la casa dei tuoi sogni",
+    "subtitle": "Un progetto architettonico chiavi in mano — dall'idea al preventivo dei costi di costruzione. Vuoi realizzarlo? Costruiamo insieme il passo successivo."
   },
   "whyUs": {
     "overline": "Perché Velar",
     "title": "Il premium in ogni dettaglio",
-    "subtitle": "Ci assumiamo la responsabilità del risultato in ogni fase — dallo schizzo alle chiavi.",
+    "subtitle": "Ci assumiamo la responsabilità del risultato in ogni fase — dal progetto architettonico alle chiavi.",
     "advantages": [
       {
-        "title": "Costruzione interna",
-        "description": "Un ciclo completo senza intermediari — dalla progettazione alla consegna chiavi in mano."
+        "title": "Team di architetti",
+        "description": "Un progetto su misura adattato al tuo stile di vita."
+      },
+      {
+        "title": "Progettazione e costruzione",
+        "description": "Sviluppiamo il progetto e, se lo desideri, lo realizziamo chiavi in mano — senza intermediari."
       },
       {
         "title": "Preventivo fisso",
@@ -36,10 +42,6 @@
       {
         "title": "Garanzia 10 anni",
         "description": "Sulle strutture portanti e sugli impianti tecnici della casa."
-      },
-      {
-        "title": "Team di architetti",
-        "description": "Un progetto su misura adattato al tuo stile di vita."
       }
     ],
     "stats": [
@@ -62,7 +64,7 @@
     ]
   },
   "designPromo": {
-    "overline": "Un altro servizio",
+    "overline": "Fase 1 · Progettazione",
     "title": "Progettiamo case chiavi in mano",
     "text": "Avete bisogno solo del progetto architettonico? Sviluppiamo l'intero pacchetto di documentazione — dall'idea al preventivo dei costi di costruzione. Il progetto finito può essere realizzato da qualsiasi impresa di costruzione.",
     "stats": [
@@ -93,20 +95,20 @@
   },
   "howItWorks": {
     "overline": "Come funziona",
-    "title": "La tua villa in tre semplici passi",
-    "subtitle": "Nessun brief complicato. Tu guidi il processo e noi prepariamo il progetto.",
+    "title": "Il tuo progetto in tre semplici passi",
+    "subtitle": "Tutto inizia con il progetto architettonico. La costruzione è il passo successivo, se lo desideri.",
     "steps": [
       {
-        "title": "Scegli i parametri",
-        "description": "Stile, superficie, numero di piani, finiture e opzioni aggiuntive — in un comodo configuratore."
+        "title": "Scegli un pacchetto di progettazione",
+        "description": "Light, Basic o Premium — in base all'estensione di documentazione di cui hai bisogno."
       },
       {
-        "title": "Ricevi il progetto",
-        "description": "Visualizzazione della pianta con IA, modello 3D e budget stimato — subito e in tempo reale."
+        "title": "Ricevi il tuo progetto",
+        "description": "Sezioni architettonica e strutturale, visualizzazione e preventivo dei costi di costruzione — in 2–3 mesi."
       },
       {
-        "title": "Incontra il consulente",
-        "description": "Una presentazione PDF via e-mail e una chiamata di un esperto che precisa preventivo e tempistiche."
+        "title": "Costruiamo insieme (facoltativo)",
+        "description": "Il progetto finito può essere realizzato dal nostro team o da qualsiasi altra impresa di costruzione."
       }
     ]
   },
@@ -114,12 +116,12 @@
     "hero": {
       "overline": "Sull'azienda",
       "title": "Velar Development",
-      "subtitle": "Costruiamo case, ville e cottage di classe premium chiavi in mano — e riportiamo in vita l'architettura con un restauro accurato."
+      "subtitle": "Progettiamo e costruiamo case, ville e cottage di classe premium chiavi in mano — e riportiamo in vita l'architettura con un restauro accurato."
     },
     "story": {
       "overline": "Chi siamo",
-      "title": "Costruiamo case che attraversano le generazioni",
-      "p1": "Velar Development è un team di architetti, ingegneri e costruttori che realizza case private, ville e cottage di classe premium. Seguiamo ogni progetto in tutte le fasi — dal primo schizzo alla consegna delle chiavi.",
+      "title": "Progettiamo e costruiamo case che attraversano le generazioni",
+      "p1": "Velar Development è un team di architetti, ingegneri e costruttori. Tutto inizia con il progetto architettonico: sviluppiamo l'intero pacchetto di documentazione e, se lo desideri, lo realizziamo chiavi in mano — dal primo schizzo alla consegna delle chiavi.",
       "p2": "Un ambito a sé è il restauro. Riportiamo in vita edifici storici e abbandonati, preservandone il carattere e dotandoli al contempo di ingegneria e comfort moderni.",
       "stats": [
         {
@@ -145,6 +147,10 @@
       "title": "Cosa facciamo",
       "subtitle": "Un ciclo completo di lavori nel segmento immobiliare premium.",
       "items": [
+        {
+          "title": "Progettazione architettonica",
+          "description": "Sezioni architettonica e strutturale, visualizzazione e preventivo dei costi di costruzione — dall'idea alla documentazione completa."
+        },
         {
           "title": "Costruzione di case",
           "description": "Case private chiavi in mano — dalla progettazione all'ingegneria e alle finiture."
@@ -187,8 +193,8 @@
       ]
     },
     "cta": {
-      "title": "Pronto a costruire la casa dei tuoi sogni?",
-      "subtitle": "Configura il tuo progetto in tre minuti o sfoglia i nostri lavori realizzati."
+      "title": "Pronto a iniziare il tuo progetto?",
+      "subtitle": "Richiedi un progetto architettonico o sfoglia i nostri lavori realizzati."
     }
   },
   "design": {
@@ -580,15 +586,15 @@
     "likeText": "Configura la tua villa in tre minuti."
   },
   "meta": {
-    "defaultTitle": "Velar Development — costruzione di case e ville premium",
-    "defaultDescription": "Velar Development — costruzione chiavi in mano di case, ville e cottage di classe premium, oltre al restauro. Progetta la tua villa nel configuratore online in 3 minuti.",
+    "defaultTitle": "Velar Development — progettazione architettonica e costruzione di ville premium",
+    "defaultDescription": "Velar Development — progettazione architettonica di case, ville e cottage di classe premium: dall'idea al preventivo dei costi di costruzione. Costruzione e restauro chiavi in mano se vuoi andare oltre.",
     "home": {
-      "title": "Velar Development — costruzione di case e ville premium",
-      "description": "Costruzione chiavi in mano di case, ville e cottage di classe premium, oltre al restauro. Progetta la tua villa nel configuratore online in 3 minuti."
+      "title": "Velar Development — progettazione architettonica e costruzione di ville premium",
+      "description": "Progettazione architettonica di case, ville e cottage di classe premium — dall'idea al preventivo dei costi di costruzione in 2–3 mesi. Costruzione e restauro chiavi in mano per chi vuole andare oltre."
     },
     "about": {
       "title": "Chi siamo",
-      "description": "Velar Development — un team di architetti e costruttori. Costruiamo case, ville e cottage di classe premium chiavi in mano e restauriamo edifici storici."
+      "description": "Velar Development — un team di architetti e costruttori. Iniziamo con il progetto architettonico e costruiamo, se lo desideri, case, ville e cottage di classe premium chiavi in mano, e restauriamo edifici storici."
     },
     "projects": {
       "title": "Portfolio",

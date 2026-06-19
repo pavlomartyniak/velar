@@ -18,8 +18,8 @@ import { siteConfig } from "@/lib/site";
 
 const NAV_HREFS = [
   { key: "home", href: "/" },
-  { key: "about", href: "/about" },
   { key: "design", href: "/design" },
+  { key: "about", href: "/about" },
   { key: "portfolio", href: "/projects" },
   { key: "configurator", href: "/configurator" },
 ] as const;

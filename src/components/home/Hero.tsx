@@ -102,10 +102,15 @@ export default function Hero() {
             {t("subtitle")}
           </Typography>
 
-          <Box component={motion.div} variants={item}>
+          <MotionStack
+            variants={item}
+            direction={{ xs: "column", sm: "row" }}
+            spacing={2.5}
+            sx={{ alignItems: { xs: "flex-start", sm: "center" } }}
+          >
             <Button
               component={Link}
-              href="/configurator"
+              href="/design"
               variant="contained"
               size="large"
               sx={{
@@ -121,9 +126,22 @@ export default function Hero() {
                 },
               }}
             >
-              {tc("startConfig")}
+              {tc("orderDesign")}
             </Button>
-          </Box>
+            <Button
+              component={Link}
+              href="/configurator"
+              variant="text"
+              color="inherit"
+              sx={{
+                textTransform: "none",
+                opacity: 0.85,
+                "&:hover": { opacity: 1, bgcolor: "transparent" },
+              }}
+            >
+              {tc("calcConstruction")} →
+            </Button>
+          </MotionStack>
         </MotionStack>
       </Container>
     </Box>

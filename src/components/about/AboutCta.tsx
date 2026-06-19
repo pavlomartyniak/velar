@@ -49,7 +49,7 @@ export default function AboutCta() {
             sx={{ width: { xs: "100%", sm: "auto" } }}
           >
             <LinkButton
-              href="/configurator"
+              href="/design"
               variant="contained"
               size="large"
               sx={{
@@ -59,7 +59,7 @@ export default function AboutCta() {
                 "&:hover": { bgcolor: "grey.200" },
               }}
             >
-              {tc("startConfig")}
+              {tc("orderDesign")}
             </LinkButton>
             <LinkButton
               href="/projects"

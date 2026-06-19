@@ -11,10 +11,10 @@ import ArchitectureRoundedIcon from "@mui/icons-material/ArchitectureRounded";
 import type { SvgIconComponent } from "@mui/icons-material";
 
 const ICONS: SvgIconComponent[] = [
+  ArchitectureRoundedIcon,
   EngineeringRoundedIcon,
   ReceiptLongRoundedIcon,
   VerifiedRoundedIcon,
-  ArchitectureRoundedIcon,
 ];
 
 type TextItem = { title: string; description: string };

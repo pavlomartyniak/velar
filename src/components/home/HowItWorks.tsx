@@ -7,13 +7,13 @@ import { Box, Button, Container, Stack, Typography } from "@mui/material";
 import SectionHeading from "@/components/ui/SectionHeading";
 import DesignServicesRoundedIcon from "@mui/icons-material/DesignServicesRounded";
 import ViewInArRoundedIcon from "@mui/icons-material/ViewInArRounded";
-import SupportAgentRoundedIcon from "@mui/icons-material/SupportAgentRounded";
+import HomeWorkRoundedIcon from "@mui/icons-material/HomeWorkRounded";
 import type { SvgIconComponent } from "@mui/icons-material";
 
 const ICONS: SvgIconComponent[] = [
   DesignServicesRoundedIcon,
   ViewInArRoundedIcon,
-  SupportAgentRoundedIcon,
+  HomeWorkRoundedIcon,
 ];
 
 type Step = { title: string; description: string };
@@ -122,12 +122,12 @@ export default function HowItWorks() {
         <Box sx={{ textAlign: "center", mt: { xs: 6, md: 8 } }}>
           <Button
             component={Link}
-            href="/configurator"
+            href="/design"
             variant="contained"
             size="large"
             sx={{ px: 5, py: 1.5, fontSize: "1.05rem" }}
           >
-            {tc("startConfig")}
+            {tc("orderDesign")}
           </Button>
         </Box>
       </Container>

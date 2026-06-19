@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import { motion, type Variants } from "framer-motion";
 import { Box, Container, Stack, Typography } from "@mui/material";
+import ArchitectureRoundedIcon from "@mui/icons-material/ArchitectureRounded";
 import HomeWorkRoundedIcon from "@mui/icons-material/HomeWorkRounded";
 import VillaRoundedIcon from "@mui/icons-material/VillaRounded";
 import CottageRoundedIcon from "@mui/icons-material/CottageRounded";
@@ -11,6 +12,7 @@ import type { SvgIconComponent } from "@mui/icons-material";
 import SectionHeading from "@/components/ui/SectionHeading";
 
 const ICONS: SvgIconComponent[] = [
+  ArchitectureRoundedIcon,
   HomeWorkRoundedIcon,
   VillaRoundedIcon,
   CottageRoundedIcon,
@@ -61,7 +63,7 @@ export default function AboutServices() {
             gridTemplateColumns: {
               xs: "1fr",
               sm: "repeat(2, 1fr)",
-              md: "repeat(4, 1fr)",
+              md: "repeat(3, 1fr)",
             },
           }}
         >

@@ -10,24 +10,30 @@
     "startConfig": "Start configuration",
     "viewPortfolio": "View portfolio",
     "viewAllProjects": "View all projects",
-    "viewProject": "View project"
+    "viewProject": "View project",
+    "orderDesign": "Order a design project",
+    "calcConstruction": "Estimate construction"
   },
   "language": {
     "label": "Language"
   },
   "hero": {
-    "overline": "Premium construction",
-    "title": "Design your villa in 3 minutes",
-    "subtitle": "Choose the layout, materials and finishes — and get the project of your dream home in real time."
+    "overline": "Architectural design",
+    "title": "Design the home of your dreams",
+    "subtitle": "A turnkey architectural project — from concept to a construction cost estimate. Want to build it? We'll do that together too."
   },
   "whyUs": {
     "overline": "Why Velar",
     "title": "Premium in every detail",
-    "subtitle": "We take responsibility for the result at every stage — from sketch to keys.",
+    "subtitle": "We take responsibility for the result at every stage — from the architectural project to the keys.",
     "advantages": [
       {
-        "title": "In-house construction",
-        "description": "A full cycle with no intermediaries — from design to turnkey delivery."
+        "title": "Team of architects",
+        "description": "An individual project tailored to your lifestyle."
+      },
+      {
+        "title": "Design and construction",
+        "description": "We develop the project and, if you wish, build it turnkey — with no intermediaries."
       },
       {
         "title": "Fixed estimate",
@@ -36,10 +42,6 @@
       {
         "title": "10-year warranty",
         "description": "On load-bearing structures and the home's engineering systems."
-      },
-      {
-        "title": "Team of architects",
-        "description": "An individual project tailored to your lifestyle."
       }
     ],
     "stats": [
@@ -62,7 +64,7 @@
     ]
   },
   "designPromo": {
-    "overline": "Another service",
+    "overline": "Step 1 · Design",
     "title": "We design turnkey house projects",
     "text": "Need just the architectural project? We develop the full documentation package — from concept to a construction cost estimate. The finished project can be built by any construction team.",
     "stats": [
@@ -93,20 +95,20 @@
   },
   "howItWorks": {
     "overline": "How it works",
-    "title": "Your villa in three simple steps",
-    "subtitle": "No complex briefs. You drive the process, and we prepare the project.",
+    "title": "Your project in three simple steps",
+    "subtitle": "It starts with the architectural project. Construction is the next step, if you want it.",
     "steps": [
       {
-        "title": "Choose parameters",
-        "description": "Style, area, number of floors, finishes and extra options — in a convenient configurator."
+        "title": "Choose a design package",
+        "description": "Light, Basic or Premium — depending on the scope of documentation you need."
       },
       {
-        "title": "Get the project",
-        "description": "AI floor-plan visualization, a 3D model and an estimated budget — instantly and in real time."
+        "title": "Get your project",
+        "description": "Architectural and structural sections, visualization and a construction cost estimate — in 2–3 months."
       },
       {
-        "title": "Meet your manager",
-        "description": "A PDF presentation by email and a call from an expert who refines the estimate and timeline."
+        "title": "Build together (optional)",
+        "description": "The finished project can be built by our team or any other construction company."
       }
     ]
   },
@@ -114,12 +116,12 @@
     "hero": {
       "overline": "About the company",
       "title": "Velar Development",
-      "subtitle": "We build premium-class houses, villas and cottages turnkey — and bring architecture back to life through careful restoration."
+      "subtitle": "We design and build premium-class houses, villas and cottages turnkey — and bring architecture back to life through careful restoration."
     },
     "story": {
       "overline": "Who we are",
-      "title": "We build homes that outlive generations",
-      "p1": "Velar Development is a team of architects, engineers and builders creating premium-class private houses, villas and cottages. We guide every project through all stages — from the first sketch to handing over the keys.",
+      "title": "We design and build homes that outlive generations",
+      "p1": "Velar Development is a team of architects, engineers and builders. It all starts with an architectural project: we develop the full documentation package and, if you wish, build it turnkey — from the first sketch to handing over the keys.",
       "p2": "A separate focus is restoration. We bring historic and neglected buildings back to life, preserving their character while equipping them with modern engineering and comfort.",
       "stats": [
         {
@@ -145,6 +147,10 @@
       "title": "Our services",
       "subtitle": "A full cycle of premium-segment real estate work.",
       "items": [
+        {
+          "title": "Architectural design",
+          "description": "Architectural and structural sections, visualization and a construction cost estimate — from concept to finished documentation."
+        },
         {
           "title": "House construction",
           "description": "Turnkey private houses — from design to engineering and finishing."
@@ -187,8 +193,8 @@
       ]
     },
     "cta": {
-      "title": "Ready to build your dream home?",
-      "subtitle": "Configure your own project in three minutes or browse our completed work."
+      "title": "Ready to start your project?",
+      "subtitle": "Order an architectural design project or browse our completed work."
     }
   },
   "design": {
@@ -580,15 +586,15 @@
     "likeText": "Configure your own villa in three minutes."
   },
   "meta": {
-    "defaultTitle": "Velar Development — premium house & villa construction",
-    "defaultDescription": "Velar Development — turnkey construction of premium-class houses, villas and cottages, plus restoration. Design your own villa in our online configurator in 3 minutes.",
+    "defaultTitle": "Velar Development — architectural design & premium villa construction",
+    "defaultDescription": "Velar Development — architectural design for premium-class houses, villas and cottages: from concept to a construction cost estimate. Turnkey construction and restoration if you want to go further.",
     "home": {
-      "title": "Velar Development — premium house & villa construction",
-      "description": "Turnkey construction of premium-class houses, villas and cottages, plus restoration. Design your own villa in our online configurator in 3 minutes."
+      "title": "Velar Development — architectural design & premium villa construction",
+      "description": "Architectural design for premium-class houses, villas and cottages — from concept to a construction cost estimate in 2–3 months. Turnkey construction and restoration for those who want to go further."
     },
     "about": {
       "title": "About",
-      "description": "Velar Development — a team of architects and builders. We build premium-class houses, villas and cottages turnkey, and restore historic buildings."
+      "description": "Velar Development — a team of architects and builders. We start with the architectural project and, if you wish, build premium-class houses, villas and cottages turnkey, and restore historic buildings."
     },
     "projects": {
       "title": "Portfolio",

@@ -10,24 +10,30 @@
     "startConfig": "Rozpocznij konfigurację",
     "viewPortfolio": "Zobacz portfolio",
     "viewAllProjects": "Zobacz wszystkie projekty",
-    "viewProject": "Zobacz projekt"
+    "viewProject": "Zobacz projekt",
+    "orderDesign": "Zamów projektowanie",
+    "calcConstruction": "Oszacuj budowę"
   },
   "language": {
     "label": "Język"
   },
   "hero": {
-    "overline": "Budownictwo premium",
-    "title": "Zaprojektuj swoją willę w 3 minuty",
-    "subtitle": "Wybierz układ, materiały i wykończenie — i otrzymaj projekt wymarzonego domu w czasie rzeczywistym."
+    "overline": "Projektowanie architektoniczne",
+    "title": "Zaprojektuj dom swoich marzeń",
+    "subtitle": "Projekt architektoniczny pod klucz — od koncepcji do kosztorysu budowy. Chcesz go zrealizować? Zbudujemy go razem."
   },
   "whyUs": {
     "overline": "Dlaczego Velar",
     "title": "Premium w każdym detalu",
-    "subtitle": "Bierzemy odpowiedzialność za rezultat na każdym etapie — od szkicu po klucze.",
+    "subtitle": "Bierzemy odpowiedzialność za rezultat na każdym etapie — od projektu architektonicznego po klucze.",
     "advantages": [
       {
-        "title": "Własne wykonawstwo",
-        "description": "Pełny cykl bez pośredników — od projektu po oddanie pod klucz."
+        "title": "Zespół architektów",
+        "description": "Indywidualny projekt dopasowany do Twojego stylu życia."
+      },
+      {
+        "title": "Projekt i budowa",
+        "description": "Tworzymy projekt, a na życzenie realizujemy go pod klucz — bez pośredników."
       },
       {
         "title": "Stały kosztorys",
@@ -36,10 +42,6 @@
       {
         "title": "10 lat gwarancji",
         "description": "Na konstrukcje nośne i instalacje techniczne domu."
-      },
-      {
-        "title": "Zespół architektów",
-        "description": "Indywidualny projekt dopasowany do Twojego stylu życia."
       }
     ],
     "stats": [
@@ -62,7 +64,7 @@
     ]
   },
   "designPromo": {
-    "overline": "Kolejny kierunek",
+    "overline": "Krok 1 · Projektowanie",
     "title": "Projektujemy domy pod klucz",
     "text": "Potrzebujesz tylko projektu architektonicznego? Przygotujemy kompletny pakiet dokumentacji — od koncepcji do kosztorysu budowy. Gotowy projekt może zrealizować dowolna firma budowlana.",
     "stats": [
@@ -93,20 +95,20 @@
   },
   "howItWorks": {
     "overline": "Jak to działa",
-    "title": "Twoja willa w trzech prostych krokach",
-    "subtitle": "Żadnych skomplikowanych briefów. Ty sterujesz procesem, a my przygotowujemy projekt.",
+    "title": "Twój projekt w trzech prostych krokach",
+    "subtitle": "Wszystko zaczyna się od projektu architektonicznego. Budowa to kolejny krok, jeśli zechcesz.",
     "steps": [
       {
-        "title": "Wybierz parametry",
-        "description": "Styl, powierzchnia, liczba kondygnacji, wykończenie i opcje dodatkowe — w wygodnym konfiguratorze."
+        "title": "Wybierz pakiet projektowania",
+        "description": "Light, Basic lub Premium — w zależności od potrzebnego zakresu dokumentacji."
       },
       {
         "title": "Otrzymaj projekt",
-        "description": "Wizualizacja rzutu z AI, model 3D i szacunkowy budżet — natychmiast i w czasie rzeczywistym."
+        "description": "Część architektoniczna i konstrukcyjna, wizualizacja oraz kosztorys budowy — w 2–3 miesiące."
       },
       {
-        "title": "Spotkanie z menedżerem",
-        "description": "Prezentacja PDF na e-mail i rozmowa z ekspertem, który doprecyzuje kosztorys i terminy."
+        "title": "Budujemy razem (opcjonalnie)",
+        "description": "Gotowy projekt może zrealizować nasz zespół lub dowolna inna firma budowlana."
       }
     ]
   },
@@ -114,12 +116,12 @@
     "hero": {
       "overline": "O firmie",
       "title": "Velar Development",
-      "subtitle": "Budujemy domy, wille i domki klasy premium pod klucz — i przywracamy architekturę do życia poprzez staranną renowację."
+      "subtitle": "Projektujemy i budujemy domy, wille i domki klasy premium pod klucz — i przywracamy architekturę do życia poprzez staranną renowację."
     },
     "story": {
       "overline": "Kim jesteśmy",
-      "title": "Budujemy domy, które przetrwają pokolenia",
-      "p1": "Velar Development to zespół architektów, inżynierów i budowniczych tworzący prywatne domy, wille i domki klasy premium. Prowadzimy każdy projekt przez wszystkie etapy — od pierwszego szkicu po przekazanie kluczy.",
+      "title": "Projektujemy i budujemy domy, które przetrwają pokolenia",
+      "p1": "Velar Development to zespół architektów, inżynierów i budowniczych. Wszystko zaczyna się od projektu architektonicznego: przygotowujemy kompletny pakiet dokumentacji, a na życzenie realizujemy go pod klucz — od pierwszego szkicu po przekazanie kluczy.",
       "p2": "Osobnym kierunkiem jest renowacja. Przywracamy do życia historyczne i zaniedbane budynki, zachowując ich charakter, a jednocześnie wyposażając je w nowoczesną inżynierię i komfort.",
       "stats": [
         {
@@ -145,6 +147,10 @@
       "title": "Czym się zajmujemy",
       "subtitle": "Pełny cykl prac w segmencie nieruchomości premium.",
       "items": [
+        {
+          "title": "Projektowanie architektoniczne",
+          "description": "Część architektoniczna i konstrukcyjna, wizualizacja oraz kosztorys budowy — od koncepcji do kompletnej dokumentacji."
+        },
         {
           "title": "Budowa domów",
           "description": "Prywatne domy pod klucz — od projektu po inżynierię i wykończenie."
@@ -187,8 +193,8 @@
       ]
     },
     "cta": {
-      "title": "Gotowy zbudować wymarzony dom?",
-      "subtitle": "Skonfiguruj własny projekt w trzy minuty lub przejrzyj nasze realizacje."
+      "title": "Gotowy zacząć swój projekt?",
+      "subtitle": "Zamów projekt architektoniczny lub przejrzyj nasze realizacje."
     }
   },
   "design": {
@@ -580,15 +586,15 @@
     "likeText": "Skonfiguruj własną willę w trzy minuty."
   },
   "meta": {
-    "defaultTitle": "Velar Development — budowa domów i willi premium",
-    "defaultDescription": "Velar Development — budowa domów, willi i domków klasy premium pod klucz oraz renowacja. Zaprojektuj własną willę w konfiguratorze online w 3 minuty.",
+    "defaultTitle": "Velar Development — projektowanie architektoniczne i budowa willi premium",
+    "defaultDescription": "Velar Development — projektowanie architektoniczne domów, willi i domków klasy premium: od koncepcji do kosztorysu budowy. Budowa i renowacja pod klucz, jeśli chcesz pójść dalej.",
     "home": {
-      "title": "Velar Development — budowa domów i willi premium",
-      "description": "Budowa domów, willi i domków klasy premium pod klucz oraz renowacja. Zaprojektuj własną willę w konfiguratorze online w 3 minuty."
+      "title": "Velar Development — projektowanie architektoniczne i budowa willi premium",
+      "description": "Projektowanie architektoniczne domów, willi i domków klasy premium — od koncepcji do kosztorysu budowy w 2–3 miesiące. Budowa i renowacja pod klucz dla tych, którzy chcą pójść dalej."
     },
     "about": {
       "title": "O nas",
-      "description": "Velar Development — zespół architektów i budowniczych. Budujemy domy, wille i domki klasy premium pod klucz oraz renowujemy historyczne budynki."
+      "description": "Velar Development — zespół architektów i budowniczych. Zaczynamy od projektu architektonicznego, a na życzenie budujemy pod klucz domy, wille i domki klasy premium oraz renowujemy historyczne budynki."
     },
     "projects": {
       "title": "Portfolio",

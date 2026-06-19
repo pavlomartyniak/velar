@@ -10,24 +10,30 @@
     "startConfig": "Lancer la configuration",
     "viewPortfolio": "Voir le portfolio",
     "viewAllProjects": "Voir tous les projets",
-    "viewProject": "Voir le projet"
+    "viewProject": "Voir le projet",
+    "orderDesign": "Commander un projet",
+    "calcConstruction": "Estimer la construction"
   },
   "language": {
     "label": "Langue"
   },
   "hero": {
-    "overline": "Construction premium",
-    "title": "Concevez votre villa en 3 minutes",
-    "subtitle": "Choisissez le plan, les matériaux et les finitions — et obtenez le projet de la maison de vos rêves en temps réel."
+    "overline": "Conception architecturale",
+    "title": "Concevez la maison de vos rêves",
+    "subtitle": "Un projet architectural clé en main — de l'idée à l'estimation des coûts de construction. Envie de le réaliser ? Construisons-le ensemble."
   },
   "whyUs": {
     "overline": "Pourquoi Velar",
     "title": "Le premium dans chaque détail",
-    "subtitle": "Nous assumons le résultat à chaque étape — de l'esquisse aux clés.",
+    "subtitle": "Nous assumons le résultat à chaque étape — du projet architectural aux clés.",
     "advantages": [
       {
-        "title": "Construction interne",
-        "description": "Un cycle complet sans intermédiaires — de la conception à la livraison clé en main."
+        "title": "Équipe d'architectes",
+        "description": "Un projet individuel adapté à votre style de vie."
+      },
+      {
+        "title": "Conception et construction",
+        "description": "Nous élaborons le projet et, si vous le souhaitez, le réalisons clé en main — sans intermédiaires."
       },
       {
         "title": "Devis fixe",
@@ -36,10 +42,6 @@
       {
         "title": "Garantie 10 ans",
         "description": "Sur les structures porteuses et les systèmes techniques de la maison."
-      },
-      {
-        "title": "Équipe d'architectes",
-        "description": "Un projet individuel adapté à votre style de vie."
       }
     ],
     "stats": [
@@ -62,7 +64,7 @@
     ]
   },
   "designPromo": {
-    "overline": "Un autre service",
+    "overline": "Étape 1 · Conception",
     "title": "Nous concevons des projets de maisons clé en main",
     "text": "Besoin uniquement du projet architectural ? Nous élaborons l'ensemble du dossier — de l'idée à l'estimation des coûts de construction. Le projet final peut être réalisé par n'importe quelle équipe de construction.",
     "stats": [
@@ -93,20 +95,20 @@
   },
   "howItWorks": {
     "overline": "Comment ça marche",
-    "title": "Votre villa en trois étapes simples",
-    "subtitle": "Aucun brief complexe. Vous pilotez le processus, et nous préparons le projet.",
+    "title": "Votre projet en trois étapes simples",
+    "subtitle": "Tout commence par le projet architectural. La construction est l'étape suivante, si vous le souhaitez.",
     "steps": [
       {
-        "title": "Choisissez les paramètres",
-        "description": "Style, surface, nombre d'étages, finitions et options supplémentaires — dans un configurateur pratique."
+        "title": "Choisissez une formule de conception",
+        "description": "Light, Basic ou Premium — selon l'étendue de documentation dont vous avez besoin."
       },
       {
-        "title": "Recevez le projet",
-        "description": "Visualisation du plan par IA, modèle 3D et budget estimatif — instantanément et en temps réel."
+        "title": "Recevez votre projet",
+        "description": "Sections architecturale et structurelle, visualisation et estimation des coûts de construction — en 2–3 mois."
       },
       {
-        "title": "Rencontrez votre conseiller",
-        "description": "Une présentation PDF par e-mail et un appel d'un expert qui précise le devis et les délais."
+        "title": "Construisons ensemble (facultatif)",
+        "description": "Le projet final peut être réalisé par notre équipe ou par n'importe quelle autre entreprise de construction."
       }
     ]
   },
@@ -114,12 +116,12 @@
     "hero": {
       "overline": "À propos de l'entreprise",
       "title": "Velar Development",
-      "subtitle": "Nous construisons des maisons, villas et cottages haut de gamme clé en main — et redonnons vie à l'architecture grâce à une restauration soignée."
+      "subtitle": "Nous concevons et construisons des maisons, villas et cottages haut de gamme clé en main — et redonnons vie à l'architecture grâce à une restauration soignée."
     },
     "story": {
       "overline": "Qui nous sommes",
-      "title": "Nous construisons des maisons qui traversent les générations",
-      "p1": "Velar Development est une équipe d'architectes, d'ingénieurs et de bâtisseurs qui crée des maisons privées, villas et cottages haut de gamme. Nous accompagnons chaque projet à toutes les étapes — du premier croquis à la remise des clés.",
+      "title": "Nous concevons et construisons des maisons qui traversent les générations",
+      "p1": "Velar Development est une équipe d'architectes, d'ingénieurs et de bâtisseurs. Tout commence par le projet architectural : nous élaborons l'ensemble du dossier et, si vous le souhaitez, le réalisons clé en main — du premier croquis à la remise des clés.",
       "p2": "La restauration est un domaine à part entière. Nous redonnons vie aux bâtiments historiques et délaissés, en préservant leur caractère tout en les équipant d'une ingénierie et d'un confort modernes.",
       "stats": [
         {
@@ -145,6 +147,10 @@
       "title": "Ce que nous faisons",
       "subtitle": "Un cycle complet de travaux dans l'immobilier haut de gamme.",
       "items": [
+        {
+          "title": "Conception architecturale",
+          "description": "Sections architecturale et structurelle, visualisation et estimation des coûts de construction — de l'idée au dossier complet."
+        },
         {
           "title": "Construction de maisons",
           "description": "Maisons privées clé en main — de la conception à l'ingénierie et aux finitions."
@@ -187,8 +193,8 @@
       ]
     },
     "cta": {
-      "title": "Prêt à construire la maison de vos rêves ?",
-      "subtitle": "Configurez votre propre projet en trois minutes ou parcourez nos réalisations."
+      "title": "Prêt à démarrer votre projet ?",
+      "subtitle": "Commandez un projet architectural ou parcourez nos réalisations."
     }
   },
   "design": {
@@ -580,15 +586,15 @@
     "likeText": "Configurez votre propre villa en trois minutes."
   },
   "meta": {
-    "defaultTitle": "Velar Development — construction de maisons et villas haut de gamme",
-    "defaultDescription": "Velar Development — construction clé en main de maisons, villas et cottages haut de gamme, ainsi que restauration. Concevez votre villa dans notre configurateur en ligne en 3 minutes.",
+    "defaultTitle": "Velar Development — conception architecturale & construction de villas haut de gamme",
+    "defaultDescription": "Velar Development — conception architecturale de maisons, villas et cottages haut de gamme : de l'idée à l'estimation des coûts de construction. Construction et restauration clé en main si vous souhaitez aller plus loin.",
     "home": {
-      "title": "Velar Development — construction de maisons et villas haut de gamme",
-      "description": "Construction clé en main de maisons, villas et cottages haut de gamme, ainsi que restauration. Concevez votre villa dans notre configurateur en ligne en 3 minutes."
+      "title": "Velar Development — conception architecturale & construction de villas haut de gamme",
+      "description": "Conception architecturale de maisons, villas et cottages haut de gamme — de l'idée à l'estimation des coûts de construction en 2–3 mois. Construction et restauration clé en main pour ceux qui veulent aller plus loin."
     },
     "about": {
       "title": "À propos",
-      "description": "Velar Development — une équipe d'architectes et de bâtisseurs. Nous construisons des maisons, villas et cottages haut de gamme clé en main et restaurons des bâtiments historiques."
+      "description": "Velar Development — une équipe d'architectes et de bâtisseurs. Nous commençons par le projet architectural et construisons, si vous le souhaitez, des maisons, villas et cottages haut de gamme clé en main, et restaurons des bâtiments historiques."
     },
     "projects": {
       "title": "Portfolio",

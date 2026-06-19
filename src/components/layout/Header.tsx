@@ -24,8 +24,8 @@ import LanguageSwitcher from "./LanguageSwitcher";
 
 const NAV_HREFS = [
   { key: "home", href: "/" },
-  { key: "about", href: "/about" },
   { key: "design", href: "/design" },
+  { key: "about", href: "/about" },
   { key: "portfolio", href: "/projects" },
   { key: "configurator", href: "/configurator" },
 ] as const;
@@ -117,7 +117,7 @@ export default function Header() {
               <LanguageSwitcher />
               <Button
                 component={Link}
-                href="/configurator"
+                href="/design"
                 variant={transparent ? "outlined" : "contained"}
                 color="inherit"
                 sx={{
@@ -130,7 +130,7 @@ export default function Header() {
                       }),
                 }}
               >
-                {tc("startConfig")}
+                {tc("orderDesign")}
               </Button>
             </Stack>
 
@@ -194,13 +194,13 @@ export default function Header() {
         <Box sx={{ p: 2, mt: "auto" }}>
           <Button
             component={Link}
-            href="/configurator"
+            href="/design"
             variant="contained"
             fullWidth
             size="large"
             onClick={() => setDrawerOpen(false)}
           >
-            {tc("startConfig")}
+            {tc("orderDesign")}
           </Button>
         </Box>
       </Drawer>

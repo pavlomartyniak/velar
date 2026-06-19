@@ -10,24 +10,30 @@
     "startConfig": "Konfiguration starten",
     "viewPortfolio": "Portfolio ansehen",
     "viewAllProjects": "Alle Projekte ansehen",
-    "viewProject": "Projekt ansehen"
+    "viewProject": "Projekt ansehen",
+    "orderDesign": "Projektierung beauftragen",
+    "calcConstruction": "Bau kalkulieren"
   },
   "language": {
     "label": "Sprache"
   },
   "hero": {
-    "overline": "Premium-Bau",
-    "title": "Gestalten Sie Ihre Villa in 3 Minuten",
-    "subtitle": "Wählen Sie Grundriss, Materialien und Ausstattung — und erhalten Sie das Projekt Ihres Traumhauses in Echtzeit."
+    "overline": "Architekturplanung",
+    "title": "Gestalten Sie das Haus Ihrer Träume",
+    "subtitle": "Ein schlüsselfertiges Architekturprojekt — von der Idee bis zur Baukostenschätzung. Möchten Sie es umsetzen? Dann bauen wir gemeinsam weiter."
   },
   "whyUs": {
     "overline": "Warum Velar",
     "title": "Premium in jedem Detail",
-    "subtitle": "Wir übernehmen die Verantwortung für das Ergebnis in jeder Phase — vom Entwurf bis zur Schlüsselübergabe.",
+    "subtitle": "Wir übernehmen die Verantwortung für das Ergebnis in jeder Phase — vom Architekturprojekt bis zur Schlüsselübergabe.",
     "advantages": [
       {
-        "title": "Eigener Bau",
-        "description": "Ein kompletter Zyklus ohne Zwischenhändler — vom Entwurf bis zur schlüsselfertigen Übergabe."
+        "title": "Team aus Architekten",
+        "description": "Ein individuelles Projekt, abgestimmt auf Ihren Lebensstil."
+      },
+      {
+        "title": "Projektierung und Bau",
+        "description": "Wir entwickeln das Projekt und setzen es auf Wunsch schlüsselfertig um — ohne Zwischenhändler."
       },
       {
         "title": "Festpreis-Kalkulation",
@@ -36,10 +42,6 @@
       {
         "title": "10 Jahre Garantie",
         "description": "Auf tragende Konstruktionen und die Haustechnik."
-      },
-      {
-        "title": "Team aus Architekten",
-        "description": "Ein individuelles Projekt, abgestimmt auf Ihren Lebensstil."
       }
     ],
     "stats": [
@@ -62,7 +64,7 @@
     ]
   },
   "designPromo": {
-    "overline": "Ein weiterer Bereich",
+    "overline": "Schritt 1 · Projektierung",
     "title": "Wir projektieren schlüsselfertige Häuser",
     "text": "Brauchen Sie nur das Architekturprojekt? Wir erstellen das komplette Dokumentationspaket — von der Idee bis zur Kostenschätzung für den Bau. Das fertige Projekt kann von jedem Baubetrieb umgesetzt werden.",
     "stats": [
@@ -93,20 +95,20 @@
   },
   "howItWorks": {
     "overline": "So funktioniert es",
-    "title": "Ihre Villa in drei einfachen Schritten",
-    "subtitle": "Keine komplizierten Briefings. Sie steuern den Prozess, und wir bereiten das Projekt vor.",
+    "title": "Ihr Projekt in drei einfachen Schritten",
+    "subtitle": "Alles beginnt mit dem Architekturprojekt. Der Bau folgt als nächster Schritt, wenn Sie möchten.",
     "steps": [
       {
-        "title": "Parameter wählen",
-        "description": "Stil, Fläche, Etagen, Ausstattung und Zusatzoptionen — in einem komfortablen Konfigurator."
+        "title": "Projektierungspaket wählen",
+        "description": "Light, Basic oder Premium — je nach benötigtem Umfang der Dokumentation."
       },
       {
         "title": "Projekt erhalten",
-        "description": "KI-Grundrissvisualisierung, ein 3D-Modell und ein geschätztes Budget — sofort und in Echtzeit."
+        "description": "Architektur- und Konstruktionsteil, Visualisierung und Baukostenschätzung — in 2–3 Monaten."
       },
       {
-        "title": "Treffen mit dem Manager",
-        "description": "Eine PDF-Präsentation per E-Mail und ein Anruf eines Experten, der Kalkulation und Termine präzisiert."
+        "title": "Gemeinsam bauen (optional)",
+        "description": "Das fertige Projekt kann von unserem Team oder jedem anderen Baubetrieb umgesetzt werden."
       }
     ]
   },
@@ -114,12 +116,12 @@
     "hero": {
       "overline": "Über das Unternehmen",
       "title": "Velar Development",
-      "subtitle": "Wir bauen Häuser, Villen und Cottages der Premiumklasse schlüsselfertig — und erwecken Architektur durch sorgfältige Restaurierung zu neuem Leben."
+      "subtitle": "Wir projektieren und bauen Häuser, Villen und Cottages der Premiumklasse schlüsselfertig — und erwecken Architektur durch sorgfältige Restaurierung zu neuem Leben."
     },
     "story": {
       "overline": "Wer wir sind",
-      "title": "Wir bauen Häuser, die Generationen überdauern",
-      "p1": "Velar Development ist ein Team aus Architekten, Ingenieuren und Bauleuten, das private Häuser, Villen und Cottages der Premiumklasse erschafft. Wir begleiten jedes Projekt durch alle Phasen — vom ersten Entwurf bis zur Schlüsselübergabe.",
+      "title": "Wir projektieren und bauen Häuser, die Generationen überdauern",
+      "p1": "Velar Development ist ein Team aus Architekten, Ingenieuren und Bauleuten. Alles beginnt mit dem Architekturprojekt: Wir erstellen das komplette Dokumentationspaket und setzen es auf Wunsch schlüsselfertig um — vom ersten Entwurf bis zur Schlüsselübergabe.",
       "p2": "Ein eigener Schwerpunkt ist die Restaurierung. Wir erwecken historische und vernachlässigte Gebäude zu neuem Leben, bewahren ihren Charakter und statten sie zugleich mit moderner Technik und Komfort aus.",
       "stats": [
         {
@@ -145,6 +147,10 @@
       "title": "Was wir tun",
       "subtitle": "Ein kompletter Arbeitszyklus im Premium-Immobiliensegment.",
       "items": [
+        {
+          "title": "Architekturplanung",
+          "description": "Architektur- und Konstruktionsteil, Visualisierung und Baukostenschätzung — von der Idee bis zur fertigen Dokumentation."
+        },
         {
           "title": "Hausbau",
           "description": "Schlüsselfertige Privathäuser — von der Planung bis zu Technik und Ausbau."
@@ -187,8 +193,8 @@
       ]
     },
     "cta": {
-      "title": "Bereit, Ihr Traumhaus zu bauen?",
-      "subtitle": "Konfigurieren Sie Ihr eigenes Projekt in drei Minuten oder durchstöbern Sie unsere fertigen Arbeiten."
+      "title": "Bereit, Ihr Projekt zu starten?",
+      "subtitle": "Beauftragen Sie ein Architekturprojekt oder durchstöbern Sie unsere fertigen Arbeiten."
     }
   },
   "design": {
@@ -580,15 +586,15 @@
     "likeText": "Konfigurieren Sie Ihre eigene Villa in drei Minuten."
   },
   "meta": {
-    "defaultTitle": "Velar Development — Premium-Haus- und Villenbau",
-    "defaultDescription": "Velar Development — schlüsselfertiger Bau von Häusern, Villen und Cottages der Premiumklasse sowie Restaurierung. Gestalten Sie Ihre eigene Villa in 3 Minuten im Online-Konfigurator.",
+    "defaultTitle": "Velar Development — Architekturplanung & Premium-Villenbau",
+    "defaultDescription": "Velar Development — Architekturplanung für Häuser, Villen und Cottages der Premiumklasse: von der Idee bis zur Baukostenschätzung. Schlüsselfertiger Bau und Restaurierung, wenn Sie weitergehen möchten.",
     "home": {
-      "title": "Velar Development — Premium-Haus- und Villenbau",
-      "description": "Schlüsselfertiger Bau von Häusern, Villen und Cottages der Premiumklasse sowie Restaurierung. Gestalten Sie Ihre eigene Villa in 3 Minuten im Online-Konfigurator."
+      "title": "Velar Development — Architekturplanung & Premium-Villenbau",
+      "description": "Architekturplanung für Häuser, Villen und Cottages der Premiumklasse — von der Idee bis zur Baukostenschätzung in 2–3 Monaten. Schlüsselfertiger Bau und Restaurierung für alle, die weitergehen möchten."
     },
     "about": {
       "title": "Über uns",
-      "description": "Velar Development — ein Team aus Architekten und Bauleuten. Wir bauen Häuser, Villen und Cottages der Premiumklasse schlüsselfertig und restaurieren historische Gebäude."
+      "description": "Velar Development — ein Team aus Architekten und Bauleuten. Wir beginnen mit dem Architekturprojekt und bauen auf Wunsch Häuser, Villen und Cottages der Premiumklasse schlüsselfertig und restaurieren historische Gebäude."
     },
     "projects": {
       "title": "Portfolio",
