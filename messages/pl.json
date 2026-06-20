@@ -11,8 +11,9 @@
     "viewPortfolio": "Zobacz portfolio",
     "viewAllProjects": "Zobacz wszystkie projekty",
     "viewProject": "Zobacz projekt",
-    "orderDesign": "Zamów projektowanie",
-    "calcConstruction": "Oszacuj budowę"
+    "orderDesign": "Oszacuj projekt",
+    "calcConstruction": "Oszacuj budowę",
+    "orderDesignPage": "Zamów projektowanie"
   },
   "language": {
     "label": "Język"
@@ -191,17 +192,15 @@
           "description": "Autorski design i nienaganne wykończenie w każdym metrze kwadratowym."
         }
       ]
-    },
-    "cta": {
-      "title": "Gotowy zacząć swój projekt?",
-      "subtitle": "Zamów projekt architektoniczny lub przejrzyj nasze realizacje."
     }
   },
   "design": {
     "hero": {
       "overline": "Projektowanie",
       "title": "Projekty domów pod klucz",
-      "subtitle": "Tworzymy kompletny projekt architektoniczny Twojego przyszłego domu — od koncepcji do dokumentacji gotowej do realizacji."
+      "subtitle": "Tworzymy kompletny projekt architektoniczny Twojego przyszłego domu — od koncepcji do dokumentacji gotowej do realizacji.",
+      "cta": "Oblicz koszt projektu",
+      "ctaHint": "Bezpłatnie · ~5 minut · bez rozmowy telefonicznej"
     },
     "intro": {
       "overline": "Dlaczego projektowanie",
@@ -264,7 +263,9 @@
             "Pomoc w uzyskaniu pozwolenia na budowę"
           ]
         }
-      }
+      },
+      "calculatorCta": "Otwórz konfigurator projektu",
+      "calculatorHint": "Odpowiedz na pytania architekta i otrzymaj szczegółowy szacunek kosztów dla Twojego domu."
     },
     "payment": {
       "overline": "Płatność",
@@ -301,9 +302,10 @@
       ]
     },
     "cta": {
-      "title": "Gotowy na rozpoczęcie projektowania?",
-      "text": "Zostaw kontakt — architekt się odezwie, omówi szczegóły i pomoże wybrać najlepszy pakiet.",
-      "button": "Zamów projektowanie"
+      "title": "Gotowy sprawdzić cenę swojego projektu?",
+      "text": "Otwórz konfigurator — odpowiedz na kilka pytań i w kilka minut otrzymaj szacunkową cenę oraz wizualizację. Albo zostaw numer telefonu — architekt się odezwie.",
+      "primaryCta": "Otwórz konfigurator",
+      "phoneCta": "Zostaw numer telefonu"
     }
   },
   "projects": {
@@ -603,12 +605,465 @@
       "description": "Zrealizowane projekty premium pod klucz: styl nowoczesny, neoklasyczny, chalet i śródziemnomorski. Ponad 120 ukończonych obiektów."
     },
     "configurator": {
-      "title": "Konfigurator",
-      "description": "Konfigurator domu online Velar: wybierz styl, powierzchnię, wykończenie i opcje — i otrzymaj projekt, wizualizację 3D oraz szacunkowy budżet w 3 minuty."
+      "title": "Konfiguratory",
+      "description": "Wybierz konfigurator Velar: oblicz koszt budowy domu pod klucz albo koszt projektu architektonicznego — i otrzymaj szacunkowy budżet w kilka minut."
     },
     "design": {
       "title": "Projekty domów",
       "description": "Projektowanie architektoniczne pod klucz od $15/m², 2–3 miesiące, płatność w 3 etapach. Pakiety Light, Basic i Premium z kosztorysem, wizualizacją i pomocą w uzyskaniu pozwolenia na budowę."
+    },
+    "designConfigurator": {
+      "title": "Konfigurator projektu domu",
+      "description": "Oblicz koszt projektu architektonicznego: odpowiedz na pytania architekta o działkę, powierzchnię, pomieszczenia, styl i instalacje — i otrzymaj cenę oraz wizualizację."
+    },
+    "configuratorBuild": {
+      "title": "Konfigurator budowy",
+      "description": "Konfigurator domu online Velar: wybierz styl, powierzchnię, wykończenie i opcje — i otrzymaj projekt, wizualizację 3D oraz szacunkowy budżet w 3 minuty."
     }
+  },
+  "designConfigurator": {
+    "steps": {
+      "plot": "Działka",
+      "house": "Dom",
+      "lifestyle": "Styl życia",
+      "rooms": "Pomieszczenia",
+      "architecture": "Architektura",
+      "engineering": "Instalacje",
+      "scope": "Zakres",
+      "result": "Wynik"
+    },
+    "nav": {
+      "back": "Wstecz",
+      "next": "Dalej",
+      "getResult": "Zobacz wynik",
+      "estimate": "Szacowany koszt projektu"
+    },
+    "plot": {
+      "heading": "Opowiedz o działce",
+      "subtitle": "Wpływa to na posadowienie domu, fundamenty i rozwiązania konstrukcyjne.",
+      "status": {
+        "title": "Czy masz działkę?",
+        "options": {
+          "have": {
+            "label": "Mam działkę",
+            "description": "Projektujemy pod konkretną działkę."
+          },
+          "buying": {
+            "label": "W trakcie zakupu",
+            "description": "Uwzględnimy przyszłą działkę."
+          },
+          "searching": {
+            "label": "Szukam",
+            "description": "Pomożemy wybrać działkę."
+          }
+        }
+      },
+      "terrain": {
+        "title": "Ukształtowanie działki",
+        "options": {
+          "flat": {
+            "label": "Płaska",
+            "description": "Standardowe posadowienie."
+          },
+          "slope": {
+            "label": "Ze spadkiem",
+            "description": "Potrzebne rozwiązania dla różnicy poziomów."
+          },
+          "complex": {
+            "label": "Złożone",
+            "description": "Duży spadek, złożona geologia."
+          }
+        }
+      },
+      "survey": {
+        "title": "Geodezja i geologia",
+        "hint": "Mapa do celów projektowych i badania gruntu są potrzebne do fundamentów.",
+        "options": {
+          "done": {
+            "label": "Już są",
+            "description": "Badania wykonane."
+          },
+          "needHelp": {
+            "label": "Potrzebna pomoc",
+            "description": "Zorganizujemy geodezję i geologię."
+          }
+        }
+      }
+    },
+    "house": {
+      "heading": "Parametry domu",
+      "subtitle": "Kluczowe cechy określające zakres prac projektowych.",
+      "area": {
+        "title": "Przybliżona powierzchnia domu",
+        "unit": "m²"
+      },
+      "floors": {
+        "title": "Liczba kondygnacji",
+        "options": {
+          "1": {
+            "label": "1 kondygnacja",
+            "description": "Dom parterowy."
+          },
+          "2": {
+            "label": "2 kondygnacje",
+            "description": "Klasyczne rozwiązanie."
+          },
+          "3": {
+            "label": "3 kondygnacje",
+            "description": "Maksimum powierzchni użytkowej."
+          },
+          "mansard": {
+            "label": "Z poddaszem",
+            "description": "Kondygnacja + poddasze użytkowe."
+          }
+        }
+      },
+      "basement": {
+        "title": "Piwnica",
+        "options": {
+          "none": {
+            "label": "Bez piwnicy",
+            "description": "Standardowy fundament."
+          },
+          "technical": {
+            "label": "Techniczna",
+            "description": "Kotłownia, schowki, technika."
+          },
+          "living": {
+            "label": "Użytkowa",
+            "description": "Siłownia, SPA, kino itp."
+          }
+        }
+      },
+      "garage": {
+        "title": "Garaż",
+        "options": {
+          "none": {
+            "label": "Bez garażu",
+            "description": "Garaż niepotrzebny."
+          },
+          "integrated1": {
+            "label": "Wbudowany, 1 auto",
+            "description": "Zintegrowany z domem."
+          },
+          "integrated2": {
+            "label": "Wbudowany, 2 auta",
+            "description": "Zintegrowany z domem."
+          },
+          "separate": {
+            "label": "Wolnostojący",
+            "description": "Osobny budynek garażu."
+          }
+        }
+      }
+    },
+    "lifestyle": {
+      "heading": "Kto będzie mieszkał w domu",
+      "subtitle": "To określa liczbę i przeznaczenie pomieszczeń.",
+      "residents": {
+        "title": "Stali mieszkańcy",
+        "options": {
+          "1-2": "1–2",
+          "3-4": "3–4",
+          "5-6": "5–6",
+          "7+": "7+"
+        }
+      },
+      "bedrooms": {
+        "title": "Liczba sypialni",
+        "options": {
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4": "4",
+          "5+": "5+"
+        }
+      },
+      "bathrooms": {
+        "title": "Liczba łazienek",
+        "options": {
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4+": "4+"
+        }
+      },
+      "household": {
+        "title": "Skład gospodarstwa",
+        "hint": "Wpływa na strefowanie domu.",
+        "options": {
+          "single": {
+            "label": "Jedna rodzina",
+            "description": "Wspólna przestrzeń."
+          },
+          "multiGen": {
+            "label": "Wiele pokoleń",
+            "description": "Osobne strefy dla pokoleń."
+          }
+        }
+      }
+    },
+    "rooms": {
+      "heading": "Pomieszczenia i strefy",
+      "subtitle": "Wybierz, co chcesz widzieć w planie domu.",
+      "kitchen": {
+        "title": "Typ kuchni",
+        "options": {
+          "separate": {
+            "label": "Osobna kuchnia",
+            "description": "Zamknięte pomieszczenie."
+          },
+          "open": {
+            "label": "Kuchnia z salonem",
+            "description": "Otwarta przestrzeń."
+          },
+          "island": {
+            "label": "Z wyspą",
+            "description": "Kuchnia z wyspą i jadalnią."
+          }
+        }
+      },
+      "special": {
+        "title": "Dodatkowe pomieszczenia",
+        "hint": "Można wybrać kilka — każde dodawane jest do planu.",
+        "items": {
+          "dressing": "Garderoba",
+          "pantry": "Spiżarnia",
+          "laundry": "Pralnia",
+          "boiler": "Kotłownia",
+          "gym": "Siłownia",
+          "sauna": "Sauna",
+          "poolIndoor": "Basen kryty",
+          "cinema": "Kino domowe",
+          "wineCellar": "Piwniczka na wino",
+          "office": "Gabinet",
+          "workshop": "Warsztat",
+          "guest": "Pokój gościnny",
+          "terrace": "Taras",
+          "fireplace": "Kominek"
+        }
+      }
+    },
+    "architecture": {
+      "heading": "Architektura i elewacja",
+      "subtitle": "Styl i złożoność formy wpływają na zakres rysunków.",
+      "style": {
+        "title": "Styl architektoniczny",
+        "options": {
+          "minimalism": {
+            "label": "Minimalizm",
+            "description": "Oszczędne formy."
+          },
+          "modern": {
+            "label": "Nowoczesny",
+            "description": "Architektura współczesna."
+          },
+          "toscana": {
+            "label": "Toskański",
+            "description": "Styl śródziemnomorski."
+          },
+          "neoclassic": {
+            "label": "Neoklasyczny",
+            "description": "Eleganckie proporcje."
+          },
+          "classic": {
+            "label": "Klasyczny",
+            "description": "Symetria i detal."
+          },
+          "baroque": {
+            "label": "Barokowy",
+            "description": "Bogaty detal elewacji."
+          }
+        }
+      },
+      "roof": {
+        "title": "Typ dachu",
+        "options": {
+          "flat": {
+            "label": "Płaski",
+            "description": "Nowoczesne rozwiązanie."
+          },
+          "pitched": {
+            "label": "Skośny",
+            "description": "Klasyczny dach spadzisty."
+          },
+          "mansard": {
+            "label": "Mansardowy",
+            "description": "Z przestrzenią użytkową pod dachem."
+          },
+          "complex": {
+            "label": "Złożony",
+            "description": "Wielospadowy, złożona geometria."
+          }
+        }
+      },
+      "facade": {
+        "title": "Złożoność elewacji",
+        "hint": "Liczba detali, wykuszy, balkonów, występów.",
+        "options": {
+          "simple": {
+            "label": "Prosta",
+            "description": "Oszczędna elewacja."
+          },
+          "moderate": {
+            "label": "Umiarkowana",
+            "description": "Umiarkowany detal."
+          },
+          "complex": {
+            "label": "Złożona",
+            "description": "Wiele elementów architektonicznych."
+          }
+        }
+      }
+    },
+    "engineering": {
+      "heading": "Instalacje",
+      "subtitle": "Które branże instalacji uwzględnić w projekcie.",
+      "heating": {
+        "title": "Rodzaj ogrzewania",
+        "hint": "Można wybrać kilka rodzajów.",
+        "options": {
+          "gas": {
+            "label": "Gazowe",
+            "description": "Kocioł gazowy."
+          },
+          "heatPump": {
+            "label": "Pompa ciepła",
+            "description": "Ekonomiczne rozwiązanie."
+          },
+          "electric": {
+            "label": "Elektryczne",
+            "description": "Proste podłączenie."
+          },
+          "solidFuel": {
+            "label": "Na paliwo stałe",
+            "description": "Kocioł na paliwo stałe."
+          }
+        }
+      },
+      "systems": {
+        "title": "Dodatkowe systemy",
+        "hint": "Wybierz branże do zaprojektowania.",
+        "items": {
+          "ventilation": "Wentylacja z rekuperacją",
+          "ac": "Klimatyzacja",
+          "smartHome": "Inteligentny dom",
+          "solar": "Panele słoneczne",
+          "well": "Studnia",
+          "septic": "Szambo / oczyszczalnia",
+          "generator": "Zasilanie awaryjne"
+        }
+      }
+    },
+    "scope": {
+      "heading": "Zakres projektu",
+      "subtitle": "Wybierz pakiet projektowy i usługi dodatkowe.",
+      "package": {
+        "title": "Pakiet projektowy",
+        "options": {
+          "light": {
+            "label": "Light · $15/m²",
+            "description": "Branża architektoniczna + konstrukcyjna, kosztorys."
+          },
+          "basic": {
+            "label": "Basic · $17/m²",
+            "description": "Light + wizualizacja 3D."
+          },
+          "premium": {
+            "label": "Premium · $17/m²",
+            "description": "Basic + pozwolenie na budowę (+$200)."
+          }
+        }
+      },
+      "extras": {
+        "title": "Usługi dodatkowe",
+        "hint": "3D i pozwolenie mogą już być w pakiecie.",
+        "items": {
+          "viz3d": "Wizualizacja 3D",
+          "passport": "Pozwolenie na budowę",
+          "interior": "Projekt wnętrz",
+          "landscape": "Projekt krajobrazu",
+          "supervision": "Nadzór autorski"
+        }
+      }
+    },
+    "result": {
+      "title": "Twój projekt jest gotowy do wyceny",
+      "paramsTitle": "Parametry projektu",
+      "priceTitle": "Szacowany koszt projektu",
+      "priceNote": "* Koszt orientacyjny. Dokładną cenę potwierdzi architekt po doprecyzowaniu szczegółów.",
+      "bigCta": "Otrzymaj wizualizację i konsultację",
+      "unlockCta": "Otrzymaj wizualizację",
+      "unlockedNote": "Zgłoszenie przyjęte — architekt prześle wizualizację.",
+      "successTitle": "Zgłoszenie przyjęte!",
+      "successText": "Dziękujemy. Architekt opracuje Twoje parametry i przygotuje plan oraz wizualizację. Co dalej:",
+      "edit": "Zmień parametry",
+      "specs": {
+        "area": "Powierzchnia",
+        "floors": "Kondygnacje",
+        "bedrooms": "Sypialnie",
+        "bathrooms": "Łazienki",
+        "style": "Styl",
+        "roof": "Dach",
+        "package": "Pakiet",
+        "specialRooms": "Dodatkowe pomieszczenia"
+      },
+      "plan": {
+        "title": "Plan AI",
+        "caption": "Wygenerowany na podstawie Twoich parametrów"
+      },
+      "view3d": {
+        "title": "Wizualizacja 3D",
+        "caption": "Widok zewnętrzny domu"
+      },
+      "nextSteps": [
+        "Architekt skontaktuje się w ciągu 15 minut.",
+        "Doprecyzujemy szczegóły i przygotujemy plan oraz wizualizację 3D.",
+        "Uzgodnimy umowę i etapową płatność za projekt."
+      ]
+    }
+  },
+  "configuratorChoice": {
+    "overline": "Kalkulacja online",
+    "title": "Wybierz konfigurator",
+    "subtitle": "Otrzymaj wycenę w kilka minut — wybierz to, czego potrzebujesz.",
+    "build": {
+      "title": "Konfigurator budowy",
+      "description": "Masz już projekt albo chcesz budować na podstawie gotowego układu? Oblicz koszt budowy pod klucz: styl, powierzchnię, wykończenie i instalacje.",
+      "bullets": [
+        "Gotowe style architektoniczne",
+        "Klasa wykończenia i instalacje",
+        "Szacunkowy budżet budowy"
+      ],
+      "cta": "Oblicz koszt budowy"
+    },
+    "design": {
+      "title": "Konfigurator projektowania",
+      "description": "Nie masz jeszcze projektu? Opisz szczegółowo swój przyszły dom i otrzymaj szacunkowy koszt projektu architektonicznego z wizualizacją.",
+      "bullets": [
+        "Szczegółowy brief architektoniczny",
+        "Planowanie pomieszczeń i instalacji",
+        "Szacunkowy koszt projektowania"
+      ],
+      "cta": "Oblicz koszt projektowania"
+    }
+  },
+  "servicesCta": {
+    "overline": "Wycena kosztów",
+    "title": "Gotowy oszacować swój projekt?",
+    "subtitle": "Zaczynamy od projektowania — a jeśli zechcesz, zbudujemy też Twój dom pod klucz. Wybierz, od czego wygodniej zacząć.",
+    "design": {
+      "badge": "Nasz priorytet",
+      "title": "Projektowanie",
+      "description": "Projekt architektoniczny z wizualizacją 3D i szacunkową ceną w kilka minut.",
+      "cta": "Oszacuj projekt"
+    },
+    "build": {
+      "title": "Budowa",
+      "description": "Budowa pod klucz — według Twojego projektu lub gotowego rozwiązania Velar.",
+      "cta": "Oblicz koszt budowy"
+    },
+    "helper": "Nie wiesz, co wybrać?",
+    "helperCta": "Porównaj obie opcje"
   }
 }

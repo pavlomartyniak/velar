@@ -8,6 +8,7 @@ import DesignPromo from "@/components/home/DesignPromo";
 import FeaturedProjects from "@/components/home/FeaturedProjects";
 import ShowcaseBanner from "@/components/home/ShowcaseBanner";
 import HowItWorks from "@/components/home/HowItWorks";
+import ServicesCta from "@/components/shared/ServicesCta";
 
 type PageProps = { params: Promise<{ locale: string }> };
 
@@ -37,6 +38,7 @@ export default async function Home({ params }: PageProps) {
       <WhyUs />
       <FeaturedProjects />
       <ShowcaseBanner />
+      <ServicesCta />
     </>
   );
 }

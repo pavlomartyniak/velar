@@ -130,7 +130,7 @@ export default function Header() {
                       }),
                 }}
               >
-                {tc("orderDesign")}
+                {tc("orderDesignPage")}
               </Button>
             </Stack>
 
@@ -200,7 +200,7 @@ export default function Header() {
             size="large"
             onClick={() => setDrawerOpen(false)}
           >
-            {tc("orderDesign")}
+            {tc("orderDesignPage")}
           </Button>
         </Box>
       </Drawer>

@@ -6,7 +6,7 @@ import AboutHero from "@/components/about/AboutHero";
 import AboutStory from "@/components/about/AboutStory";
 import AboutServices from "@/components/about/AboutServices";
 import AboutValues from "@/components/about/AboutValues";
-import AboutCta from "@/components/about/AboutCta";
+import ServicesCta from "@/components/shared/ServicesCta";
 
 type PageProps = { params: Promise<{ locale: string }> };
 
@@ -33,7 +33,7 @@ export default async function AboutPage({ params }: PageProps) {
       <AboutStory />
       <AboutServices />
       <AboutValues />
-      <AboutCta />
+      <ServicesCta />
     </>
   );
 }

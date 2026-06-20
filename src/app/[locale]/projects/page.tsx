@@ -5,6 +5,7 @@ import type { Locale } from "@/i18n/routing";
 import { createMetadata } from "@/lib/seo";
 import SectionHeading from "@/components/ui/SectionHeading";
 import ProjectsGallery from "@/components/projects/ProjectsGallery";
+import ServicesCta from "@/components/shared/ServicesCta";
 
 type PageProps = { params: Promise<{ locale: string }> };
 
@@ -27,15 +28,18 @@ export default async function ProjectsPage({ params }: PageProps) {
   const t = await getTranslations({ locale, namespace: "projects" });
 
   return (
-    <Container maxWidth="lg" sx={{ py: { xs: 6, md: 9 } }}>
-      <SectionHeading
-        overline={t("overline")}
-        title={t("title")}
-        subtitle={t("subtitle")}
-        titleVariant="h2"
-        animateOn="mount"
-      />
-      <ProjectsGallery />
-    </Container>
+    <>
+      <Container maxWidth="lg" sx={{ py: { xs: 6, md: 9 } }}>
+        <SectionHeading
+          overline={t("overline")}
+          title={t("title")}
+          subtitle={t("subtitle")}
+          titleVariant="h2"
+          animateOn="mount"
+        />
+        <ProjectsGallery />
+      </Container>
+      <ServicesCta />
+    </>
   );
 }

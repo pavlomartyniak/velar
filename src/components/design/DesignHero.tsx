@@ -1,8 +1,10 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { motion, type Variants } from "framer-motion";
-import { Box, Container, Stack, Typography } from "@mui/material";
+import { Box, Button, Container, Stack, Typography } from "@mui/material";
+import CalculateRoundedIcon from "@mui/icons-material/CalculateRounded";
 
 const IMAGE =
   "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1920&q=80";
@@ -75,6 +77,27 @@ export default function DesignHero() {
           >
             {t("subtitle")}
           </Typography>
+          <Stack component={motion.div} variants={item} spacing={1.25}>
+            <Button
+              component={Link}
+              href="/design-configurator"
+              variant="contained"
+              size="large"
+              startIcon={<CalculateRoundedIcon />}
+              sx={{
+                px: 4,
+                py: 1.5,
+                alignSelf: "flex-start",
+                boxShadow: 4,
+                "&:hover": { boxShadow: 6, transform: "translateY(-1px)" },
+              }}
+            >
+              {t("cta")}
+            </Button>
+            <Typography variant="body2" sx={{ opacity: 0.75 }}>
+              {t("ctaHint")}
+            </Typography>
+          </Stack>
         </Stack>
       </Container>
     </Box>

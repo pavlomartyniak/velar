@@ -11,8 +11,9 @@
     "viewPortfolio": "Vedi il portfolio",
     "viewAllProjects": "Vedi tutti i progetti",
     "viewProject": "Vedi il progetto",
-    "orderDesign": "Richiedi un progetto",
-    "calcConstruction": "Stima la costruzione"
+    "orderDesign": "Stima la progettazione",
+    "calcConstruction": "Stima la costruzione",
+    "orderDesignPage": "Richiedi un progetto"
   },
   "language": {
     "label": "Lingua"
@@ -191,17 +192,15 @@
           "description": "Design su misura e finiture impeccabili in ogni metro quadro."
         }
       ]
-    },
-    "cta": {
-      "title": "Pronto a iniziare il tuo progetto?",
-      "subtitle": "Richiedi un progetto architettonico o sfoglia i nostri lavori realizzati."
     }
   },
   "design": {
     "hero": {
       "overline": "Progettazione",
       "title": "Progetti di case chiavi in mano",
-      "subtitle": "Sviluppiamo il progetto architettonico completo della vostra futura casa — dall'idea alla documentazione pronta per la costruzione."
+      "subtitle": "Sviluppiamo il progetto architettonico completo della vostra futura casa — dall'idea alla documentazione pronta per la costruzione.",
+      "cta": "Stima il tuo progetto",
+      "ctaHint": "Gratuito · ~5 minuti · senza chiamate"
     },
     "intro": {
       "overline": "Perché la progettazione",
@@ -264,7 +263,9 @@
             "Assistenza per il permesso di costruire"
           ]
         }
-      }
+      },
+      "calculatorCta": "Apri il configuratore",
+      "calculatorHint": "Rispondi alle domande dell'architetto e ottieni una stima dettagliata su misura per la tua casa."
     },
     "payment": {
       "overline": "Pagamento",
@@ -301,9 +302,10 @@
       ]
     },
     "cta": {
-      "title": "Pronti per iniziare il vostro progetto?",
-      "text": "Lasciate i vostri contatti — un architetto vi contatterà, discuterà i dettagli e vi aiuterà a scegliere il pacchetto migliore.",
-      "button": "Ordina la progettazione"
+      "title": "Pronto a scoprire il prezzo del tuo progetto?",
+      "text": "Apri il configuratore — rispondi a qualche domanda e ottieni un prezzo stimato e una visualizzazione in pochi minuti. Oppure lascia il tuo numero e un architetto ti contatterà.",
+      "primaryCta": "Apri il configuratore",
+      "phoneCta": "Lascia il numero di telefono"
     }
   },
   "projects": {
@@ -603,12 +605,465 @@
       "description": "Progetti premium chiavi in mano realizzati: stili moderno, neoclassico, chalet e mediterraneo. Oltre 120 progetti completati."
     },
     "configurator": {
-      "title": "Configuratore",
-      "description": "Il configuratore di case online di Velar: scegli stile, superficie, finiture e opzioni — e ottieni un progetto, una visualizzazione 3D e un budget stimato in 3 minuti."
+      "title": "Configuratori",
+      "description": "Scegli un configuratore Velar: stima il costo della costruzione chiavi in mano della tua casa oppure quello di un progetto di progettazione architettonica — ottieni un budget stimato in pochi minuti."
     },
     "design": {
       "title": "Progetti di case",
       "description": "Progettazione architettonica chiavi in mano da $15/m², 2–3 mesi, pagamento in 3 fasi. Pacchetti Light, Basic e Premium con preventivo, visualizzazione e assistenza per il permesso di costruire."
+    },
+    "designConfigurator": {
+      "title": "Configuratore di progettazione casa",
+      "description": "Stima il costo del tuo progetto architettonico: rispondi alle domande di un architetto su terreno, superficie, ambienti, stile e impianti — e ottieni prezzo e visualizzazione."
+    },
+    "configuratorBuild": {
+      "title": "Configuratore di costruzione",
+      "description": "Il configuratore di case online di Velar: scegli stile, superficie, finiture e opzioni — e ottieni un progetto, una visualizzazione 3D e un budget stimato in 3 minuti."
     }
+  },
+  "designConfigurator": {
+    "steps": {
+      "plot": "Terreno",
+      "house": "Casa",
+      "lifestyle": "Stile di vita",
+      "rooms": "Ambienti",
+      "architecture": "Architettura",
+      "engineering": "Impianti",
+      "scope": "Ambito",
+      "result": "Risultato"
+    },
+    "nav": {
+      "back": "Indietro",
+      "next": "Avanti",
+      "getResult": "Ottieni il risultato",
+      "estimate": "Costo stimato del progetto"
+    },
+    "plot": {
+      "heading": "Parlaci del terreno",
+      "subtitle": "Influisce sul posizionamento della casa, sulle fondamenta e sulla struttura.",
+      "status": {
+        "title": "Hai un terreno?",
+        "options": {
+          "have": {
+            "label": "Ho un terreno",
+            "description": "Progettiamo per il terreno specifico."
+          },
+          "buying": {
+            "label": "In fase di acquisto",
+            "description": "Terremo conto del futuro terreno."
+          },
+          "searching": {
+            "label": "In cerca",
+            "description": "Ti aiutiamo a scegliere il terreno."
+          }
+        }
+      },
+      "terrain": {
+        "title": "Conformazione del terreno",
+        "options": {
+          "flat": {
+            "label": "Pianeggiante",
+            "description": "Posizionamento standard."
+          },
+          "slope": {
+            "label": "In pendenza",
+            "description": "Servono soluzioni per il dislivello."
+          },
+          "complex": {
+            "label": "Complesso",
+            "description": "Forte pendenza, geologia complessa."
+          }
+        }
+      },
+      "survey": {
+        "title": "Rilievo & geologia",
+        "hint": "Il rilievo topografico e l'indagine geologica servono per le fondamenta.",
+        "options": {
+          "done": {
+            "label": "Già disponibili",
+            "description": "Le indagini sono completate."
+          },
+          "needHelp": {
+            "label": "Serve aiuto",
+            "description": "Organizziamo rilievo e geologia."
+          }
+        }
+      }
+    },
+    "house": {
+      "heading": "Parametri della casa",
+      "subtitle": "Caratteristiche chiave che definiscono l'ambito della progettazione.",
+      "area": {
+        "title": "Superficie approssimativa",
+        "unit": "m²"
+      },
+      "floors": {
+        "title": "Numero di piani",
+        "options": {
+          "1": {
+            "label": "1 piano",
+            "description": "Casa a un piano."
+          },
+          "2": {
+            "label": "2 piani",
+            "description": "Una scelta classica."
+          },
+          "3": {
+            "label": "3 piani",
+            "description": "Massima superficie utile."
+          },
+          "mansard": {
+            "label": "Con mansarda",
+            "description": "Piano + mansarda abitabile."
+          }
+        }
+      },
+      "basement": {
+        "title": "Seminterrato",
+        "options": {
+          "none": {
+            "label": "Senza seminterrato",
+            "description": "Fondazione standard."
+          },
+          "technical": {
+            "label": "Tecnico",
+            "description": "Locale caldaia, ripostigli, impianti."
+          },
+          "living": {
+            "label": "Abitabile",
+            "description": "Palestra, SPA, cinema, ecc."
+          }
+        }
+      },
+      "garage": {
+        "title": "Garage",
+        "options": {
+          "none": {
+            "label": "Senza garage",
+            "description": "Garage non necessario."
+          },
+          "integrated1": {
+            "label": "Integrato, 1 auto",
+            "description": "Integrato nella casa."
+          },
+          "integrated2": {
+            "label": "Integrato, 2 auto",
+            "description": "Integrato nella casa."
+          },
+          "separate": {
+            "label": "Separato",
+            "description": "Edificio garage indipendente."
+          }
+        }
+      }
+    },
+    "lifestyle": {
+      "heading": "Chi abiterà la casa",
+      "subtitle": "Definisce numero e funzione degli ambienti.",
+      "residents": {
+        "title": "Residenti stabili",
+        "options": {
+          "1-2": "1–2",
+          "3-4": "3–4",
+          "5-6": "5–6",
+          "7+": "7+"
+        }
+      },
+      "bedrooms": {
+        "title": "Numero di camere da letto",
+        "options": {
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4": "4",
+          "5+": "5+"
+        }
+      },
+      "bathrooms": {
+        "title": "Numero di bagni",
+        "options": {
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4+": "4+"
+        }
+      },
+      "household": {
+        "title": "Composizione familiare",
+        "hint": "Influisce sulla zonizzazione della casa.",
+        "options": {
+          "single": {
+            "label": "Una famiglia",
+            "description": "Spazio condiviso."
+          },
+          "multiGen": {
+            "label": "Più generazioni",
+            "description": "Zone separate per generazioni."
+          }
+        }
+      }
+    },
+    "rooms": {
+      "heading": "Ambienti & spazi",
+      "subtitle": "Scegli cosa vuoi vedere nella pianta della casa.",
+      "kitchen": {
+        "title": "Tipo di cucina",
+        "options": {
+          "separate": {
+            "label": "Cucina separata",
+            "description": "Ambiente chiuso."
+          },
+          "open": {
+            "label": "Cucina-soggiorno",
+            "description": "Spazio aperto."
+          },
+          "island": {
+            "label": "Con isola",
+            "description": "Cucina con isola e zona pranzo."
+          }
+        }
+      },
+      "special": {
+        "title": "Ambienti aggiuntivi",
+        "hint": "Puoi sceglierne diversi — ognuno viene aggiunto alla pianta.",
+        "items": {
+          "dressing": "Cabina armadio",
+          "pantry": "Dispensa",
+          "laundry": "Lavanderia",
+          "boiler": "Locale caldaia",
+          "gym": "Palestra",
+          "sauna": "Sauna",
+          "poolIndoor": "Piscina interna",
+          "cinema": "Home cinema",
+          "wineCellar": "Cantina vini",
+          "office": "Studio",
+          "workshop": "Laboratorio",
+          "guest": "Camera ospiti",
+          "terrace": "Terrazza",
+          "fireplace": "Camino"
+        }
+      }
+    },
+    "architecture": {
+      "heading": "Architettura & esterni",
+      "subtitle": "Stile e complessità influenzano l'ampiezza degli elaborati.",
+      "style": {
+        "title": "Stile architettonico",
+        "options": {
+          "minimalism": {
+            "label": "Minimalismo",
+            "description": "Forme essenziali."
+          },
+          "modern": {
+            "label": "Moderno",
+            "description": "Architettura contemporanea."
+          },
+          "toscana": {
+            "label": "Toscano",
+            "description": "Stile mediterraneo."
+          },
+          "neoclassic": {
+            "label": "Neoclassico",
+            "description": "Proporzioni eleganti."
+          },
+          "classic": {
+            "label": "Classico",
+            "description": "Simmetria e decoro."
+          },
+          "baroque": {
+            "label": "Barocco",
+            "description": "Ricca decorazione di facciata."
+          }
+        }
+      },
+      "roof": {
+        "title": "Tipo di tetto",
+        "options": {
+          "flat": {
+            "label": "Piano",
+            "description": "Soluzione moderna."
+          },
+          "pitched": {
+            "label": "A falde",
+            "description": "Tetto a falde classico."
+          },
+          "mansard": {
+            "label": "Mansardato",
+            "description": "Con spazio abitabile sotto il tetto."
+          },
+          "complex": {
+            "label": "Complesso",
+            "description": "Più falde, geometria complessa."
+          }
+        }
+      },
+      "facade": {
+        "title": "Complessità della facciata",
+        "hint": "Numero di dettagli, bovindi, balconi, sporgenze.",
+        "options": {
+          "simple": {
+            "label": "Semplice",
+            "description": "Facciata essenziale."
+          },
+          "moderate": {
+            "label": "Moderata",
+            "description": "Dettaglio moderato."
+          },
+          "complex": {
+            "label": "Complessa",
+            "description": "Molti elementi architettonici."
+          }
+        }
+      }
+    },
+    "engineering": {
+      "heading": "Impianti",
+      "subtitle": "Quali sezioni impiantistiche includere nel progetto.",
+      "heating": {
+        "title": "Tipo di riscaldamento",
+        "hint": "Puoi scegliere più tipi.",
+        "options": {
+          "gas": {
+            "label": "Gas",
+            "description": "Caldaia a gas."
+          },
+          "heatPump": {
+            "label": "Pompa di calore",
+            "description": "Soluzione economica."
+          },
+          "electric": {
+            "label": "Elettrico",
+            "description": "Collegamento semplice."
+          },
+          "solidFuel": {
+            "label": "Combustibile solido",
+            "description": "Caldaia a combustibile solido."
+          }
+        }
+      },
+      "systems": {
+        "title": "Sistemi aggiuntivi",
+        "hint": "Scegli le sezioni da progettare.",
+        "items": {
+          "ventilation": "Ventilazione con recupero",
+          "ac": "Climatizzazione",
+          "smartHome": "Casa intelligente",
+          "solar": "Pannelli solari",
+          "well": "Pozzo",
+          "septic": "Fossa / depuratore",
+          "generator": "Alimentazione di riserva"
+        }
+      }
+    },
+    "scope": {
+      "heading": "Ambito del progetto",
+      "subtitle": "Scegli il pacchetto di progettazione e i servizi aggiuntivi.",
+      "package": {
+        "title": "Pacchetto di progettazione",
+        "options": {
+          "light": {
+            "label": "Light · $15/m²",
+            "description": "Sezioni architettonica + strutturale, preventivo."
+          },
+          "basic": {
+            "label": "Basic · $17/m²",
+            "description": "Light + visualizzazione 3D."
+          },
+          "premium": {
+            "label": "Premium · $17/m²",
+            "description": "Basic + permesso di costruire (+$200)."
+          }
+        }
+      },
+      "extras": {
+        "title": "Servizi aggiuntivi",
+        "hint": "3D e permesso potrebbero essere già inclusi.",
+        "items": {
+          "viz3d": "Visualizzazione 3D",
+          "passport": "Permesso di costruire",
+          "interior": "Design d'interni",
+          "landscape": "Progettazione del verde",
+          "supervision": "Direzione artistica"
+        }
+      }
+    },
+    "result": {
+      "title": "Il tuo progetto è pronto per la stima",
+      "paramsTitle": "Parametri del progetto",
+      "priceTitle": "Costo di progettazione stimato",
+      "priceNote": "* Costo stimato. Il prezzo esatto è confermato dall'architetto dopo aver definito i dettagli.",
+      "bigCta": "Ottieni la visualizzazione e una consulenza",
+      "unlockCta": "Ottieni la visualizzazione",
+      "unlockedNote": "Richiesta ricevuta — l'architetto invierà la visualizzazione.",
+      "successTitle": "Richiesta ricevuta!",
+      "successText": "Grazie. L'architetto elaborerà i tuoi parametri e preparerà pianta e visualizzazione. Cosa succede ora:",
+      "edit": "Modifica i parametri",
+      "specs": {
+        "area": "Superficie",
+        "floors": "Piani",
+        "bedrooms": "Camere",
+        "bathrooms": "Bagni",
+        "style": "Stile",
+        "roof": "Tetto",
+        "package": "Pacchetto",
+        "specialRooms": "Ambienti aggiuntivi"
+      },
+      "plan": {
+        "title": "Pianta AI",
+        "caption": "Generata dai tuoi parametri"
+      },
+      "view3d": {
+        "title": "Visualizzazione 3D",
+        "caption": "Vista esterna della casa"
+      },
+      "nextSteps": [
+        "L'architetto ti contatterà entro 15 minuti.",
+        "Definiamo i dettagli e prepariamo pianta e visualizzazione 3D.",
+        "Concordiamo il contratto e il pagamento a tappe della progettazione."
+      ]
+    }
+  },
+  "configuratorChoice": {
+    "overline": "Stima online",
+    "title": "Scegli il tuo configuratore",
+    "subtitle": "Ottieni una stima in pochi minuti — scegli ciò di cui hai bisogno.",
+    "build": {
+      "title": "Configuratore di costruzione",
+      "description": "Hai già un progetto o vuoi costruire da una planimetria pronta? Stima il costo della costruzione chiavi in mano: stile, superficie, finiture e impianti.",
+      "bullets": [
+        "Stili architettonici pronti",
+        "Classe di finitura e impianti",
+        "Budget di costruzione stimato"
+      ],
+      "cta": "Stima la costruzione"
+    },
+    "design": {
+      "title": "Configuratore di progettazione",
+      "description": "Non hai ancora un progetto? Descrivi in dettaglio la tua futura casa e ottieni un costo stimato per il progetto architettonico, con visualizzazione.",
+      "bullets": [
+        "Brief architettonico dettagliato",
+        "Pianificazione di ambienti e impianti",
+        "Costo di progettazione stimato"
+      ],
+      "cta": "Stima la progettazione"
+    }
+  },
+  "servicesCta": {
+    "overline": "Stima dei costi",
+    "title": "Pronto a stimare il tuo progetto?",
+    "subtitle": "Iniziamo con la progettazione — e se lo desideri, costruiamo anche la tua casa chiavi in mano. Scegli da dove partire.",
+    "design": {
+      "badge": "La nostra priorità",
+      "title": "Progettazione",
+      "description": "Un progetto architettonico con visualizzazione 3D e un prezzo stimato in pochi minuti.",
+      "cta": "Stima la progettazione"
+    },
+    "build": {
+      "title": "Costruzione",
+      "description": "Costruzione chiavi in mano — secondo il tuo progetto o un design Velar pronto.",
+      "cta": "Stima la costruzione"
+    },
+    "helper": "Non hai ancora deciso?",
+    "helperCta": "Confronta entrambe le opzioni"
   }
 }

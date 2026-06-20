@@ -17,14 +17,18 @@ import {
   TextField,
   Typography,
 } from "@mui/material";
-import type { ConfiguratorValues } from "./schema";
+/** Тип заявки визначає, який форматер використає бекенд для Telegram-повідомлення. */
+export interface LeadDetails {
+  kind: "construction" | "design";
+  values: Record<string, unknown>;
+}
 
 interface CallbackDialogProps {
   open: boolean;
   onClose: () => void;
   onSubmitted: () => void;
   source: string;
-  configuratorValues?: Partial<ConfiguratorValues>;
+  lead?: LeadDetails;
 }
 
 export default function CallbackDialog({
@@ -32,7 +36,7 @@ export default function CallbackDialog({
   onClose,
   onSubmitted,
   source,
-  configuratorValues,
+  lead,
 }: CallbackDialogProps) {
   const t = useTranslations("configurator.callback");
   const [submitError, setSubmitError] = useState(false);
@@ -66,7 +70,12 @@ export default function CallbackDialog({
       const response = await fetch("/api/lead", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...values, source, configurator: configuratorValues }),
+        body: JSON.stringify({
+          ...values,
+          source,
+          kind: lead?.kind,
+          payload: lead?.values,
+        }),
       });
       if (!response.ok) throw new Error("failed");
       reset();

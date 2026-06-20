@@ -11,8 +11,9 @@
     "viewPortfolio": "Portfolio ansehen",
     "viewAllProjects": "Alle Projekte ansehen",
     "viewProject": "Projekt ansehen",
-    "orderDesign": "Projektierung beauftragen",
-    "calcConstruction": "Bau kalkulieren"
+    "orderDesign": "Planung kalkulieren",
+    "calcConstruction": "Bau kalkulieren",
+    "orderDesignPage": "Projektierung beauftragen"
   },
   "language": {
     "label": "Sprache"
@@ -191,17 +192,15 @@
           "description": "Maßgeschneidertes Design und makelloser Ausbau in jedem Quadratmeter."
         }
       ]
-    },
-    "cta": {
-      "title": "Bereit, Ihr Projekt zu starten?",
-      "subtitle": "Beauftragen Sie ein Architekturprojekt oder durchstöbern Sie unsere fertigen Arbeiten."
     }
   },
   "design": {
     "hero": {
       "overline": "Planung",
       "title": "Schlüsselfertige Hausprojektierung",
-      "subtitle": "Wir entwickeln das komplette Architekturprojekt für Ihr zukünftiges Haus — von der Idee bis zur baureifen Dokumentation."
+      "subtitle": "Wir entwickeln das komplette Architekturprojekt für Ihr zukünftiges Haus — von der Idee bis zur baureifen Dokumentation.",
+      "cta": "Projektkosten berechnen",
+      "ctaHint": "Kostenlos · ca. 5 Minuten · ohne Anruf"
     },
     "intro": {
       "overline": "Warum Projektierung",
@@ -264,7 +263,9 @@
             "Unterstützung bei der Baugenehmigung"
           ]
         }
-      }
+      },
+      "calculatorCta": "Planungskonfigurator öffnen",
+      "calculatorHint": "Beantworten Sie die Fragen des Architekten und erhalten Sie eine detaillierte Kostenschätzung für Ihr Haus."
     },
     "payment": {
       "overline": "Zahlung",
@@ -301,9 +302,10 @@
       ]
     },
     "cta": {
-      "title": "Bereit für Ihr Projektierungsvorhaben?",
-      "text": "Hinterlassen Sie Ihre Kontaktdaten — ein Architekt meldet sich, klärt die Details und hilft bei der Paketwahl.",
-      "button": "Projektierung bestellen"
+      "title": "Bereit, den Preis Ihres Projekts zu sehen?",
+      "text": "Öffnen Sie den Konfigurator — beantworten Sie ein paar Fragen und erhalten Sie in wenigen Minuten einen geschätzten Preis und eine Visualisierung. Oder hinterlassen Sie Ihre Nummer, und ein Architekt meldet sich.",
+      "primaryCta": "Konfigurator öffnen",
+      "phoneCta": "Telefonnummer hinterlassen"
     }
   },
   "projects": {
@@ -603,12 +605,465 @@
       "description": "Fertiggestellte schlüsselfertige Projekte der Premiumklasse: Modern, Neoklassik, Chalet und mediterraner Stil. Über 120 abgeschlossene Objekte."
     },
     "configurator": {
-      "title": "Konfigurator",
-      "description": "Velars Online-Hauskonfigurator: Wählen Sie Stil, Fläche, Ausstattung und Optionen — und erhalten Sie ein Projekt, eine 3D-Visualisierung und ein geschätztes Budget in 3 Minuten."
+      "title": "Konfiguratoren",
+      "description": "Wählen Sie einen Velar-Konfigurator: Berechnen Sie die Kosten für den schlüsselfertigen Hausbau oder für ein architektonisches Planungsprojekt — und erhalten Sie in wenigen Minuten ein geschätztes Budget."
     },
     "design": {
       "title": "Hausprojektierung",
       "description": "Schlüsselfertige Architekturplanung ab $15/m², 2–3 Monate, Zahlung in 3 Etappen. Pakete Light, Basic und Premium mit Kostenschätzung, Visualisierung und Unterstützung bei der Baugenehmigung."
+    },
+    "designConfigurator": {
+      "title": "Konfigurator für Hausplanung",
+      "description": "Berechnen Sie die Kosten Ihres Architekturprojekts: Beantworten Sie die Fragen eines Architekten zu Grundstück, Fläche, Räumen, Stil und Technik — und erhalten Sie Preis und Visualisierung."
+    },
+    "configuratorBuild": {
+      "title": "Baukonfigurator",
+      "description": "Velars Online-Hauskonfigurator: Wählen Sie Stil, Fläche, Ausstattung und Optionen — und erhalten Sie ein Projekt, eine 3D-Visualisierung und ein geschätztes Budget in 3 Minuten."
     }
+  },
+  "designConfigurator": {
+    "steps": {
+      "plot": "Grundstück",
+      "house": "Haus",
+      "lifestyle": "Lebensstil",
+      "rooms": "Räume",
+      "architecture": "Architektur",
+      "engineering": "Technik",
+      "scope": "Umfang",
+      "result": "Ergebnis"
+    },
+    "nav": {
+      "back": "Zurück",
+      "next": "Weiter",
+      "getResult": "Ergebnis erhalten",
+      "estimate": "Geschätzte Projektkosten"
+    },
+    "plot": {
+      "heading": "Erzählen Sie vom Grundstück",
+      "subtitle": "Das beeinflusst die Hausplatzierung, das Fundament und die Konstruktion.",
+      "status": {
+        "title": "Haben Sie ein Grundstück?",
+        "options": {
+          "have": {
+            "label": "Eigenes Grundstück",
+            "description": "Wir planen für das konkrete Grundstück."
+          },
+          "buying": {
+            "label": "Im Kaufprozess",
+            "description": "Wir berücksichtigen das künftige Grundstück."
+          },
+          "searching": {
+            "label": "Auf der Suche",
+            "description": "Wir helfen bei der Auswahl."
+          }
+        }
+      },
+      "terrain": {
+        "title": "Geländebeschaffenheit",
+        "options": {
+          "flat": {
+            "label": "Eben",
+            "description": "Standardplatzierung des Hauses."
+          },
+          "slope": {
+            "label": "Hanglage",
+            "description": "Lösungen für den Höhenunterschied nötig."
+          },
+          "complex": {
+            "label": "Komplex",
+            "description": "Starkes Gefälle, komplexe Geologie."
+          }
+        }
+      },
+      "survey": {
+        "title": "Vermessung & Geologie",
+        "hint": "Vermessung und Bodengutachten sind für die Fundamentplanung nötig.",
+        "options": {
+          "done": {
+            "label": "Bereits vorhanden",
+            "description": "Untersuchungen sind erledigt."
+          },
+          "needHelp": {
+            "label": "Hilfe nötig",
+            "description": "Wir organisieren Vermessung und Geologie."
+          }
+        }
+      }
+    },
+    "house": {
+      "heading": "Hausparameter",
+      "subtitle": "Kernmerkmale, die den Umfang der Planung bestimmen.",
+      "area": {
+        "title": "Ungefähre Hausfläche",
+        "unit": "m²"
+      },
+      "floors": {
+        "title": "Geschosse",
+        "options": {
+          "1": {
+            "label": "1 Geschoss",
+            "description": "Eingeschossiges Haus."
+          },
+          "2": {
+            "label": "2 Geschosse",
+            "description": "Klassische Lösung."
+          },
+          "3": {
+            "label": "3 Geschosse",
+            "description": "Maximale Nutzfläche."
+          },
+          "mansard": {
+            "label": "Mit Dachgeschoss",
+            "description": "Geschoss + ausgebautes Dach."
+          }
+        }
+      },
+      "basement": {
+        "title": "Untergeschoss",
+        "options": {
+          "none": {
+            "label": "Kein Keller",
+            "description": "Standardfundament."
+          },
+          "technical": {
+            "label": "Technisch",
+            "description": "Heizraum, Lager, Technik."
+          },
+          "living": {
+            "label": "Wohnlich",
+            "description": "Fitness, SPA, Kino usw."
+          }
+        }
+      },
+      "garage": {
+        "title": "Garage",
+        "options": {
+          "none": {
+            "label": "Keine Garage",
+            "description": "Keine Garage nötig."
+          },
+          "integrated1": {
+            "label": "Integriert, 1 Auto",
+            "description": "In das Haus integriert."
+          },
+          "integrated2": {
+            "label": "Integriert, 2 Autos",
+            "description": "In das Haus integriert."
+          },
+          "separate": {
+            "label": "Separat",
+            "description": "Freistehendes Garagengebäude."
+          }
+        }
+      }
+    },
+    "lifestyle": {
+      "heading": "Wer im Haus wohnen wird",
+      "subtitle": "Das bestimmt Anzahl und Zweck der Räume.",
+      "residents": {
+        "title": "Dauerhafte Bewohner",
+        "options": {
+          "1-2": "1–2",
+          "3-4": "3–4",
+          "5-6": "5–6",
+          "7+": "7+"
+        }
+      },
+      "bedrooms": {
+        "title": "Anzahl der Schlafzimmer",
+        "options": {
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4": "4",
+          "5+": "5+"
+        }
+      },
+      "bathrooms": {
+        "title": "Anzahl der Bäder",
+        "options": {
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4+": "4+"
+        }
+      },
+      "household": {
+        "title": "Haushalt",
+        "hint": "Beeinflusst die Zonierung des Hauses.",
+        "options": {
+          "single": {
+            "label": "Eine Familie",
+            "description": "Gemeinsamer Wohnraum."
+          },
+          "multiGen": {
+            "label": "Mehrere Generationen",
+            "description": "Getrennte Zonen für Generationen."
+          }
+        }
+      }
+    },
+    "rooms": {
+      "heading": "Räume & Bereiche",
+      "subtitle": "Wählen Sie, was Sie im Hausplan sehen möchten.",
+      "kitchen": {
+        "title": "Küchentyp",
+        "options": {
+          "separate": {
+            "label": "Separate Küche",
+            "description": "Geschlossener Raum."
+          },
+          "open": {
+            "label": "Wohnküche",
+            "description": "Offener Raum."
+          },
+          "island": {
+            "label": "Mit Kochinsel",
+            "description": "Küche mit Insel und Essbereich."
+          }
+        }
+      },
+      "special": {
+        "title": "Zusätzliche Räume",
+        "hint": "Mehrere möglich — jeder wird in den Plan aufgenommen.",
+        "items": {
+          "dressing": "Ankleide",
+          "pantry": "Speisekammer",
+          "laundry": "Waschküche",
+          "boiler": "Heizraum",
+          "gym": "Fitnessraum",
+          "sauna": "Sauna",
+          "poolIndoor": "Hallenbad",
+          "cinema": "Heimkino",
+          "wineCellar": "Weinkeller",
+          "office": "Arbeitszimmer",
+          "workshop": "Werkstatt",
+          "guest": "Gästezimmer",
+          "terrace": "Terrasse",
+          "fireplace": "Kamin"
+        }
+      }
+    },
+    "architecture": {
+      "heading": "Architektur & Fassade",
+      "subtitle": "Stil und Formkomplexität beeinflussen den Umfang der Pläne.",
+      "style": {
+        "title": "Architekturstil",
+        "options": {
+          "minimalism": {
+            "label": "Minimalismus",
+            "description": "Klare, schlichte Formen."
+          },
+          "modern": {
+            "label": "Modern",
+            "description": "Zeitgenössische Architektur."
+          },
+          "toscana": {
+            "label": "Toskanisch",
+            "description": "Mediterraner Stil."
+          },
+          "neoclassic": {
+            "label": "Neoklassik",
+            "description": "Elegante Proportionen."
+          },
+          "classic": {
+            "label": "Klassik",
+            "description": "Symmetrie und Dekor."
+          },
+          "baroque": {
+            "label": "Barock",
+            "description": "Reiche Fassadendekoration."
+          }
+        }
+      },
+      "roof": {
+        "title": "Dachtyp",
+        "options": {
+          "flat": {
+            "label": "Flachdach",
+            "description": "Moderne Lösung."
+          },
+          "pitched": {
+            "label": "Satteldach",
+            "description": "Klassisches Schrägdach."
+          },
+          "mansard": {
+            "label": "Mansarddach",
+            "description": "Mit Wohnraum unter dem Dach."
+          },
+          "complex": {
+            "label": "Komplex",
+            "description": "Mehrere Neigungen, komplexe Geometrie."
+          }
+        }
+      },
+      "facade": {
+        "title": "Fassadenkomplexität",
+        "hint": "Anzahl der Details, Erker, Balkone, Vorsprünge.",
+        "options": {
+          "simple": {
+            "label": "Einfach",
+            "description": "Schlichte Fassade."
+          },
+          "moderate": {
+            "label": "Mittel",
+            "description": "Mäßige Detaillierung."
+          },
+          "complex": {
+            "label": "Komplex",
+            "description": "Viele architektonische Elemente."
+          }
+        }
+      }
+    },
+    "engineering": {
+      "heading": "Gebäudetechnik",
+      "subtitle": "Welche technischen Abschnitte ins Projekt aufgenommen werden.",
+      "heating": {
+        "title": "Heizungsart",
+        "hint": "Mehrere Typen wählbar.",
+        "options": {
+          "gas": {
+            "label": "Gas",
+            "description": "Gaskessel."
+          },
+          "heatPump": {
+            "label": "Wärmepumpe",
+            "description": "Sparsame Lösung."
+          },
+          "electric": {
+            "label": "Elektrisch",
+            "description": "Einfacher Anschluss."
+          },
+          "solidFuel": {
+            "label": "Festbrennstoff",
+            "description": "Festbrennstoffkessel."
+          }
+        }
+      },
+      "systems": {
+        "title": "Zusätzliche Systeme",
+        "hint": "Wählen Sie die zu planenden Abschnitte.",
+        "items": {
+          "ventilation": "Lüftung mit Rückgewinnung",
+          "ac": "Klimaanlage",
+          "smartHome": "Smart Home",
+          "solar": "Solarmodule",
+          "well": "Brunnen",
+          "septic": "Klärgrube / Kläranlage",
+          "generator": "Notstrom"
+        }
+      }
+    },
+    "scope": {
+      "heading": "Projektumfang",
+      "subtitle": "Wählen Sie das Planungspaket und Zusatzleistungen.",
+      "package": {
+        "title": "Planungspaket",
+        "options": {
+          "light": {
+            "label": "Light · $15/m²",
+            "description": "Architektur + Statik, Kostenschätzung."
+          },
+          "basic": {
+            "label": "Basic · $17/m²",
+            "description": "Light + 3D-Visualisierung."
+          },
+          "premium": {
+            "label": "Premium · $17/m²",
+            "description": "Basic + Baugenehmigung (+$200)."
+          }
+        }
+      },
+      "extras": {
+        "title": "Zusatzleistungen",
+        "hint": "3D und Baugenehmigung sind ggf. im Paket enthalten.",
+        "items": {
+          "viz3d": "3D-Visualisierung",
+          "passport": "Baugenehmigung",
+          "interior": "Innenarchitektur",
+          "landscape": "Landschaftsgestaltung",
+          "supervision": "Bauüberwachung"
+        }
+      }
+    },
+    "result": {
+      "title": "Ihr Projekt ist bereit zur Schätzung",
+      "paramsTitle": "Projektparameter",
+      "priceTitle": "Geschätzte Planungskosten",
+      "priceNote": "* Geschätzte Kosten. Den genauen Preis bestätigt der Architekt nach Klärung der Details.",
+      "bigCta": "Visualisierung und Beratung erhalten",
+      "unlockCta": "Visualisierung erhalten",
+      "unlockedNote": "Anfrage erhalten — der Architekt sendet die Visualisierung.",
+      "successTitle": "Anfrage erhalten!",
+      "successText": "Danke. Der Architekt bearbeitet Ihre Parameter und erstellt Plan und Visualisierung. Wie es weitergeht:",
+      "edit": "Parameter ändern",
+      "specs": {
+        "area": "Fläche",
+        "floors": "Geschosse",
+        "bedrooms": "Schlafzimmer",
+        "bathrooms": "Bäder",
+        "style": "Stil",
+        "roof": "Dach",
+        "package": "Paket",
+        "specialRooms": "Zusätzliche Räume"
+      },
+      "plan": {
+        "title": "KI-Grundriss",
+        "caption": "Aus Ihren Parametern generiert"
+      },
+      "view3d": {
+        "title": "3D-Visualisierung",
+        "caption": "Außenansicht des Hauses"
+      },
+      "nextSteps": [
+        "Der Architekt meldet sich innerhalb von 15 Minuten.",
+        "Wir klären die Details und erstellen Plan und 3D-Visualisierung.",
+        "Wir vereinbaren Vertrag und etappenweise Zahlung der Planung."
+      ]
+    }
+  },
+  "configuratorChoice": {
+    "overline": "Online-Berechnung",
+    "title": "Wählen Sie einen Konfigurator",
+    "subtitle": "Erhalten Sie in wenigen Minuten eine Einschätzung — wählen Sie, was Sie brauchen.",
+    "build": {
+      "title": "Baukonfigurator",
+      "description": "Sie haben bereits ein Projekt oder möchten nach einem fertigen Grundriss bauen? Berechnen Sie die Kosten für den schlüsselfertigen Bau: Stil, Fläche, Ausstattung und Technik.",
+      "bullets": [
+        "Fertige Architekturstile",
+        "Ausstattungsklasse & Technik",
+        "Geschätztes Baubudget"
+      ],
+      "cta": "Bau berechnen"
+    },
+    "design": {
+      "title": "Planungskonfigurator",
+      "description": "Noch kein Projekt? Beschreiben Sie Ihr zukünftiges Haus im Detail und erhalten Sie geschätzte Kosten für das Architekturprojekt mit Visualisierung.",
+      "bullets": [
+        "Detailliertes Architekturbriefing",
+        "Raum- und Technikplanung",
+        "Geschätzte Planungskosten"
+      ],
+      "cta": "Planung berechnen"
+    }
+  },
+  "servicesCta": {
+    "overline": "Kosten berechnen",
+    "title": "Bereit, Ihr Projekt zu kalkulieren?",
+    "subtitle": "Wir beginnen mit der Planung — und bauen Ihr Haus auf Wunsch auch schlüsselfertig. Wählen Sie, wo Sie starten möchten.",
+    "design": {
+      "badge": "Unser Fokus",
+      "title": "Planung",
+      "description": "Ein Architekturprojekt mit 3D-Visualisierung und einem geschätzten Preis in wenigen Minuten.",
+      "cta": "Planung kalkulieren"
+    },
+    "build": {
+      "title": "Bau",
+      "description": "Schlüsselfertiger Bau — nach Ihrem Projekt oder einem fertigen Velar-Entwurf.",
+      "cta": "Bau berechnen"
+    },
+    "helper": "Noch unentschlossen?",
+    "helperCta": "Beide Optionen vergleichen"
   }
 }

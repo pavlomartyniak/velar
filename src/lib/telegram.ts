@@ -133,7 +133,7 @@ export function buildFloorPlanPrompt(v: Partial<ConfiguratorValues>): string {
   ].join(" ");
 }
 
-const escapeHtml = (text: string) =>
+export const escapeHtml = (text: string) =>
   text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
 export interface LeadPayload {

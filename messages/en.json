@@ -11,8 +11,9 @@
     "viewPortfolio": "View portfolio",
     "viewAllProjects": "View all projects",
     "viewProject": "View project",
-    "orderDesign": "Order a design project",
-    "calcConstruction": "Estimate construction"
+    "orderDesign": "Estimate the design",
+    "calcConstruction": "Estimate construction",
+    "orderDesignPage": "Order a design project"
   },
   "language": {
     "label": "Language"
@@ -191,17 +192,15 @@
           "description": "Bespoke design and flawless finishing in every square metre."
         }
       ]
-    },
-    "cta": {
-      "title": "Ready to start your project?",
-      "subtitle": "Order an architectural design project or browse our completed work."
     }
   },
   "design": {
     "hero": {
       "overline": "Design",
       "title": "Turnkey house design projects",
-      "subtitle": "We develop a complete architectural project for your future home — from concept to construction-ready documentation."
+      "subtitle": "We develop a complete architectural project for your future home — from concept to construction-ready documentation.",
+      "cta": "Estimate your project",
+      "ctaHint": "Free · ~5 minutes · no calls needed"
     },
     "intro": {
       "overline": "Why design",
@@ -264,7 +263,9 @@
             "Building permit assistance"
           ]
         }
-      }
+      },
+      "calculatorCta": "Open the design configurator",
+      "calculatorHint": "Answer the architect's questions and get a detailed cost estimate tailored to your house."
     },
     "payment": {
       "overline": "Payment",
@@ -301,9 +302,10 @@
       ]
     },
     "cta": {
-      "title": "Ready to start your design project?",
-      "text": "Leave your contacts — an architect will reach out, discuss the details and help pick the best package.",
-      "button": "Order a design project"
+      "title": "Ready to see your project's price?",
+      "text": "Open the configurator — answer a few questions and get an estimated price and visualization in minutes. Or leave your number and an architect will reach out.",
+      "primaryCta": "Open the configurator",
+      "phoneCta": "Leave your phone number"
     }
   },
   "projects": {
@@ -603,12 +605,465 @@
       "description": "Completed turnkey premium-class home projects: modern, neoclassical, chalet and Mediterranean styles. Over 120 finished projects."
     },
     "configurator": {
-      "title": "Configurator",
-      "description": "Velar's online house configurator: choose the style, area, finishes and options — and get a project, 3D visualization and an estimated budget in 3 minutes."
+      "title": "Configurators",
+      "description": "Choose a Velar configurator: estimate the cost of turnkey house construction or of an architectural design project — and get an estimated budget in minutes."
     },
     "design": {
       "title": "House Design Projects",
       "description": "Turnkey architectural design from $15/m², 2–3 months, payment in 3 stages. Light, Basic and Premium packages with cost estimate, visualization and building permit assistance."
+    },
+    "designConfigurator": {
+      "title": "House Design Configurator",
+      "description": "Estimate the cost of your architectural house project: answer an architect's questions about the plot, area, rooms, style and engineering — and get a price and visualization."
+    },
+    "configuratorBuild": {
+      "title": "Construction configurator",
+      "description": "Velar's online house configurator: choose the style, area, finishes and options — and get a project, 3D visualization and an estimated budget in 3 minutes."
     }
+  },
+  "designConfigurator": {
+    "steps": {
+      "plot": "Plot",
+      "house": "House",
+      "lifestyle": "Lifestyle",
+      "rooms": "Rooms",
+      "architecture": "Architecture",
+      "engineering": "Engineering",
+      "scope": "Scope",
+      "result": "Result"
+    },
+    "nav": {
+      "back": "Back",
+      "next": "Next",
+      "getResult": "Get result",
+      "estimate": "Estimated project cost"
+    },
+    "plot": {
+      "heading": "Tell us about the plot",
+      "subtitle": "It affects the house placement, foundation and structural decisions.",
+      "status": {
+        "title": "Do you have a plot?",
+        "options": {
+          "have": {
+            "label": "I have a plot",
+            "description": "We design for the specific plot."
+          },
+          "buying": {
+            "label": "In the process of buying",
+            "description": "We will account for the future plot."
+          },
+          "searching": {
+            "label": "Still searching",
+            "description": "We will help you choose a plot."
+          }
+        }
+      },
+      "terrain": {
+        "title": "Plot terrain",
+        "options": {
+          "flat": {
+            "label": "Flat",
+            "description": "Standard house placement."
+          },
+          "slope": {
+            "label": "Sloped",
+            "description": "Requires solutions for the height difference."
+          },
+          "complex": {
+            "label": "Complex",
+            "description": "Significant slope, complex geology."
+          }
+        }
+      },
+      "survey": {
+        "title": "Survey & geology",
+        "hint": "Topographic and soil surveys are needed for the foundation design.",
+        "options": {
+          "done": {
+            "label": "Already done",
+            "description": "Surveys are completed."
+          },
+          "needHelp": {
+            "label": "Need help",
+            "description": "We arrange the survey and geology."
+          }
+        }
+      }
+    },
+    "house": {
+      "heading": "House parameters",
+      "subtitle": "Core characteristics that define the scope of design work.",
+      "area": {
+        "title": "Approximate house area",
+        "unit": "m²"
+      },
+      "floors": {
+        "title": "Number of floors",
+        "options": {
+          "1": {
+            "label": "1 floor",
+            "description": "Single-story house."
+          },
+          "2": {
+            "label": "2 floors",
+            "description": "A classic choice."
+          },
+          "3": {
+            "label": "3 floors",
+            "description": "Maximum usable area."
+          },
+          "mansard": {
+            "label": "With attic",
+            "description": "Floor + habitable attic."
+          }
+        }
+      },
+      "basement": {
+        "title": "Basement",
+        "options": {
+          "none": {
+            "label": "No basement",
+            "description": "Standard foundation."
+          },
+          "technical": {
+            "label": "Technical",
+            "description": "Boiler room, storage, utilities."
+          },
+          "living": {
+            "label": "Living",
+            "description": "Gym, SPA, cinema, etc."
+          }
+        }
+      },
+      "garage": {
+        "title": "Garage",
+        "options": {
+          "none": {
+            "label": "No garage",
+            "description": "No garage needed."
+          },
+          "integrated1": {
+            "label": "Built-in, 1 car",
+            "description": "Integrated into the house."
+          },
+          "integrated2": {
+            "label": "Built-in, 2 cars",
+            "description": "Integrated into the house."
+          },
+          "separate": {
+            "label": "Separate",
+            "description": "A standalone garage building."
+          }
+        }
+      }
+    },
+    "lifestyle": {
+      "heading": "Who will live in the house",
+      "subtitle": "This defines the number and purpose of the rooms.",
+      "residents": {
+        "title": "Permanent residents",
+        "options": {
+          "1-2": "1–2",
+          "3-4": "3–4",
+          "5-6": "5–6",
+          "7+": "7+"
+        }
+      },
+      "bedrooms": {
+        "title": "Number of bedrooms",
+        "options": {
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4": "4",
+          "5+": "5+"
+        }
+      },
+      "bathrooms": {
+        "title": "Number of bathrooms",
+        "options": {
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4+": "4+"
+        }
+      },
+      "household": {
+        "title": "Household",
+        "hint": "Affects the zoning of the house.",
+        "options": {
+          "single": {
+            "label": "Single family",
+            "description": "Shared living space."
+          },
+          "multiGen": {
+            "label": "Multi-generational",
+            "description": "Separate zones for generations."
+          }
+        }
+      }
+    },
+    "rooms": {
+      "heading": "Rooms & spaces",
+      "subtitle": "Choose exactly what you want to see in the house plan.",
+      "kitchen": {
+        "title": "Kitchen type",
+        "options": {
+          "separate": {
+            "label": "Separate kitchen",
+            "description": "A closed room."
+          },
+          "open": {
+            "label": "Kitchen-living room",
+            "description": "An open-plan space."
+          },
+          "island": {
+            "label": "With island",
+            "description": "Kitchen with island and dining."
+          }
+        }
+      },
+      "special": {
+        "title": "Additional rooms",
+        "hint": "You can pick several — each is added to the plan.",
+        "items": {
+          "dressing": "Dressing room",
+          "pantry": "Pantry",
+          "laundry": "Laundry",
+          "boiler": "Boiler room",
+          "gym": "Gym",
+          "sauna": "Sauna",
+          "poolIndoor": "Indoor pool",
+          "cinema": "Home cinema",
+          "wineCellar": "Wine cellar",
+          "office": "Office",
+          "workshop": "Workshop",
+          "guest": "Guest room",
+          "terrace": "Terrace",
+          "fireplace": "Fireplace"
+        }
+      }
+    },
+    "architecture": {
+      "heading": "Architecture & exterior",
+      "subtitle": "Style and form complexity affect the scope of drawings.",
+      "style": {
+        "title": "Architectural style",
+        "options": {
+          "minimalism": {
+            "label": "Minimalism",
+            "description": "Clean, concise forms."
+          },
+          "modern": {
+            "label": "Modern",
+            "description": "Contemporary architecture."
+          },
+          "toscana": {
+            "label": "Tuscan",
+            "description": "Mediterranean style."
+          },
+          "neoclassic": {
+            "label": "Neoclassical",
+            "description": "Elegant proportions."
+          },
+          "classic": {
+            "label": "Classic",
+            "description": "Symmetry and decor."
+          },
+          "baroque": {
+            "label": "Baroque",
+            "description": "Rich facade decoration."
+          }
+        }
+      },
+      "roof": {
+        "title": "Roof type",
+        "options": {
+          "flat": {
+            "label": "Flat",
+            "description": "A modern solution."
+          },
+          "pitched": {
+            "label": "Pitched",
+            "description": "A classic pitched roof."
+          },
+          "mansard": {
+            "label": "Mansard",
+            "description": "With habitable space under the roof."
+          },
+          "complex": {
+            "label": "Complex",
+            "description": "Multi-slope, complex geometry."
+          }
+        }
+      },
+      "facade": {
+        "title": "Facade complexity",
+        "hint": "Number of details, bays, balconies, projections.",
+        "options": {
+          "simple": {
+            "label": "Simple",
+            "description": "A clean facade."
+          },
+          "moderate": {
+            "label": "Moderate",
+            "description": "Moderate detailing."
+          },
+          "complex": {
+            "label": "Complex",
+            "description": "Many architectural elements."
+          }
+        }
+      }
+    },
+    "engineering": {
+      "heading": "Engineering systems",
+      "subtitle": "Which engineering sections to include in the project.",
+      "heating": {
+        "title": "Heating type",
+        "hint": "You can choose several types.",
+        "options": {
+          "gas": {
+            "label": "Gas",
+            "description": "Gas boiler."
+          },
+          "heatPump": {
+            "label": "Heat pump",
+            "description": "An economical solution."
+          },
+          "electric": {
+            "label": "Electric",
+            "description": "Simple connection."
+          },
+          "solidFuel": {
+            "label": "Solid fuel",
+            "description": "Solid-fuel boiler."
+          }
+        }
+      },
+      "systems": {
+        "title": "Additional systems",
+        "hint": "Choose the sections that need to be designed.",
+        "items": {
+          "ventilation": "Ventilation with recovery",
+          "ac": "Air conditioning",
+          "smartHome": "Smart home",
+          "solar": "Solar panels",
+          "well": "Water well",
+          "septic": "Septic / treatment plant",
+          "generator": "Backup power"
+        }
+      }
+    },
+    "scope": {
+      "heading": "Project scope",
+      "subtitle": "Choose the design package and additional services.",
+      "package": {
+        "title": "Design package",
+        "options": {
+          "light": {
+            "label": "Light · $15/m²",
+            "description": "Architectural + structural sections, estimate."
+          },
+          "basic": {
+            "label": "Basic · $17/m²",
+            "description": "Light + 3D visualization."
+          },
+          "premium": {
+            "label": "Premium · $17/m²",
+            "description": "Basic + building permit (+$200)."
+          }
+        }
+      },
+      "extras": {
+        "title": "Additional services",
+        "hint": "3D and building permit may already be in the package.",
+        "items": {
+          "viz3d": "3D visualization",
+          "passport": "Building permit",
+          "interior": "Interior design",
+          "landscape": "Landscape design",
+          "supervision": "Author's supervision"
+        }
+      }
+    },
+    "result": {
+      "title": "Your project is ready to estimate",
+      "paramsTitle": "Project parameters",
+      "priceTitle": "Estimated design cost",
+      "priceNote": "* Estimated cost. The exact price is confirmed by the architect after clarifying the details.",
+      "bigCta": "Get the visualization and a consultation",
+      "unlockCta": "Get the visualization",
+      "unlockedNote": "Request received — the architect will send the visualization.",
+      "successTitle": "Request received!",
+      "successText": "Thank you. The architect will process your parameters and prepare the plan and visualization. What's next:",
+      "edit": "Change parameters",
+      "specs": {
+        "area": "Area",
+        "floors": "Floors",
+        "bedrooms": "Bedrooms",
+        "bathrooms": "Bathrooms",
+        "style": "Style",
+        "roof": "Roof",
+        "package": "Package",
+        "specialRooms": "Additional rooms"
+      },
+      "plan": {
+        "title": "AI floor plan",
+        "caption": "Generated from your parameters"
+      },
+      "view3d": {
+        "title": "3D visualization",
+        "caption": "Exterior view of the house"
+      },
+      "nextSteps": [
+        "The architect will contact you within 15 minutes.",
+        "We clarify the details and prepare the plan and 3D visualization.",
+        "We agree on the contract and staged payment for the design."
+      ]
+    }
+  },
+  "configuratorChoice": {
+    "overline": "Online estimate",
+    "title": "Choose your configurator",
+    "subtitle": "Get an estimate in a few minutes — pick what you need.",
+    "build": {
+      "title": "Construction configurator",
+      "description": "Already have a project or want to build from a ready layout? Estimate the cost of turnkey construction: style, area, finishes and engineering.",
+      "bullets": [
+        "Ready architectural styles",
+        "Finish class & engineering",
+        "Estimated construction budget"
+      ],
+      "cta": "Estimate construction"
+    },
+    "design": {
+      "title": "Design configurator",
+      "description": "No project yet? Describe your future house in detail and get an estimated cost for the architectural design, with visualization.",
+      "bullets": [
+        "Detailed architectural brief",
+        "Room & engineering planning",
+        "Estimated design cost"
+      ],
+      "cta": "Estimate design"
+    }
+  },
+  "servicesCta": {
+    "overline": "Get an estimate",
+    "title": "Ready to price your project?",
+    "subtitle": "We start with design — and if you'd like, we'll build your house turnkey too. Choose where it's easier to begin.",
+    "design": {
+      "badge": "Our focus",
+      "title": "Design",
+      "description": "An architectural project with 3D visualization and an estimated price in minutes.",
+      "cta": "Estimate the design"
+    },
+    "build": {
+      "title": "Construction",
+      "description": "Turnkey construction — built on your project or one of Velar's ready designs.",
+      "cta": "Estimate construction"
+    },
+    "helper": "Not sure which to choose?",
+    "helperCta": "Compare both options"
   }
 }

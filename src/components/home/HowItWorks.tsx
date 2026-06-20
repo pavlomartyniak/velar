@@ -122,7 +122,7 @@ export default function HowItWorks() {
         <Box sx={{ textAlign: "center", mt: { xs: 6, md: 8 } }}>
           <Button
             component={Link}
-            href="/design"
+            href="/design-configurator"
             variant="contained"
             size="large"
             sx={{ px: 5, py: 1.5, fontSize: "1.05rem" }}

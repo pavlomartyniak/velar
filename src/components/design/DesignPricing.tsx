@@ -1,9 +1,11 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { motion, type Variants } from "framer-motion";
-import { Box, Card, Chip, Container, Stack, Typography } from "@mui/material";
+import { Box, Button, Card, Chip, Container, Stack, Typography } from "@mui/material";
 import CheckRoundedIcon from "@mui/icons-material/CheckRounded";
+import CalculateRoundedIcon from "@mui/icons-material/CalculateRounded";
 import SectionHeading from "@/components/ui/SectionHeading";
 
 const TIER_KEYS = ["light", "basic", "premium"] as const;
@@ -117,6 +119,22 @@ export default function DesignPricing() {
             );
           })}
         </Box>
+
+        <Stack spacing={1.5} sx={{ alignItems: "center", mt: { xs: 5, md: 7 } }}>
+          <Typography color="text.secondary" sx={{ textAlign: "center" }}>
+            {t("calculatorHint")}
+          </Typography>
+          <Button
+            component={Link}
+            href="/design-configurator"
+            variant="contained"
+            size="large"
+            startIcon={<CalculateRoundedIcon />}
+            sx={{ px: 4, py: 1.5 }}
+          >
+            {t("calculatorCta")}
+          </Button>
+        </Stack>
       </Container>
     </Box>
   );

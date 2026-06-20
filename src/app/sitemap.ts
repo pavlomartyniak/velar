@@ -9,6 +9,8 @@ const STATIC_PATHS = [
   { path: "/design", changeFrequency: "monthly" as const, priority: 0.8 },
   { path: "/projects", changeFrequency: "weekly" as const, priority: 0.8 },
   { path: "/configurator", changeFrequency: "monthly" as const, priority: 0.9 },
+  { path: "/configurator/build", changeFrequency: "monthly" as const, priority: 0.8 },
+  { path: "/design-configurator", changeFrequency: "monthly" as const, priority: 0.8 },
 ];
 
 /** Альтернативні мовні версії для одного шляху (hreflang у sitemap). */

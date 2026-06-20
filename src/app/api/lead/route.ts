@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { formatLeadMessage, sendTelegramMessage } from "@/lib/telegram";
+import { formatDesignLeadMessage } from "@/lib/design-lead";
 
 export async function POST(request: Request) {
   const body = await request.json().catch(() => null);
@@ -8,12 +9,20 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "invalid_payload" }, { status: 400 });
   }
 
-  const message = formatLeadMessage({
-    name: body.name,
-    phone: body.phone,
-    source: typeof body.source === "string" ? body.source : "site",
-    configurator: body.configurator,
-  });
+  const source = typeof body.source === "string" ? body.source : "site";
+
+  let message: string;
+  if (body.kind === "design") {
+    message = formatDesignLeadMessage(body.name, body.phone, body.payload ?? {});
+  } else {
+    // construction / звичайна заявка (configurator — для зворотної сумісності)
+    message = formatLeadMessage({
+      name: body.name,
+      phone: body.phone,
+      source,
+      configurator: body.payload ?? body.configurator,
+    });
+  }
 
   const delivered = await sendTelegramMessage(message);
 

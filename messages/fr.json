@@ -11,8 +11,9 @@
     "viewPortfolio": "Voir le portfolio",
     "viewAllProjects": "Voir tous les projets",
     "viewProject": "Voir le projet",
-    "orderDesign": "Commander un projet",
-    "calcConstruction": "Estimer la construction"
+    "orderDesign": "Estimer la conception",
+    "calcConstruction": "Estimer la construction",
+    "orderDesignPage": "Commander un projet"
   },
   "language": {
     "label": "Langue"
@@ -191,17 +192,15 @@
           "description": "Design sur mesure et finitions impeccables dans chaque mètre carré."
         }
       ]
-    },
-    "cta": {
-      "title": "Prêt à démarrer votre projet ?",
-      "subtitle": "Commandez un projet architectural ou parcourez nos réalisations."
     }
   },
   "design": {
     "hero": {
       "overline": "Conception",
       "title": "Projets de maisons clé en main",
-      "subtitle": "Nous développons le projet architectural complet de votre future maison — de l'idée aux documents prêts pour la construction."
+      "subtitle": "Nous développons le projet architectural complet de votre future maison — de l'idée aux documents prêts pour la construction.",
+      "cta": "Estimer votre projet",
+      "ctaHint": "Gratuit · ~5 minutes · sans appel"
     },
     "intro": {
       "overline": "Pourquoi la conception",
@@ -264,7 +263,9 @@
             "Aide à l'obtention du permis de construire"
           ]
         }
-      }
+      },
+      "calculatorCta": "Ouvrir le configurateur",
+      "calculatorHint": "Répondez aux questions de l'architecte et obtenez une estimation détaillée adaptée à votre maison."
     },
     "payment": {
       "overline": "Paiement",
@@ -301,9 +302,10 @@
       ]
     },
     "cta": {
-      "title": "Prêt à lancer votre projet de conception ?",
-      "text": "Laissez vos coordonnées — un architecte vous contactera, discutera des détails et vous aidera à choisir la formule adaptée.",
-      "button": "Commander une conception"
+      "title": "Prêt à découvrir le prix de votre projet ?",
+      "text": "Ouvrez le configurateur — répondez à quelques questions et obtenez un prix estimatif et une visualisation en quelques minutes. Ou laissez votre numéro, un architecte vous contactera.",
+      "primaryCta": "Ouvrir le configurateur",
+      "phoneCta": "Laisser mon numéro"
     }
   },
   "projects": {
@@ -603,12 +605,465 @@
       "description": "Projets clé en main haut de gamme réalisés : styles moderne, néoclassique, chalet et méditerranéen. Plus de 120 projets achevés."
     },
     "configurator": {
-      "title": "Configurateur",
-      "description": "Le configurateur de maison en ligne de Velar : choisissez le style, la surface, les finitions et les options — et obtenez un projet, une visualisation 3D et un budget estimatif en 3 minutes."
+      "title": "Configurateurs",
+      "description": "Choisissez un configurateur Velar : estimez le coût de la construction clé en main de votre maison ou celui d'un projet de conception architecturale — obtenez un budget estimatif en quelques minutes."
     },
     "design": {
       "title": "Projets de conception de maisons",
       "description": "Conception architecturale clé en main à partir de 15$/m², 2–3 mois, paiement en 3 étapes. Formules Light, Basic et Premium avec estimation des coûts, visualisation et aide au permis de construire."
+    },
+    "designConfigurator": {
+      "title": "Configurateur de conception de maison",
+      "description": "Estimez le coût de votre projet architectural : répondez aux questions d'un architecte sur le terrain, la surface, les pièces, le style et la technique — et obtenez un prix et une visualisation."
+    },
+    "configuratorBuild": {
+      "title": "Configurateur de construction",
+      "description": "Le configurateur de maison en ligne de Velar : choisissez le style, la surface, les finitions et les options — et obtenez un projet, une visualisation 3D et un budget estimatif en 3 minutes."
     }
+  },
+  "designConfigurator": {
+    "steps": {
+      "plot": "Terrain",
+      "house": "Maison",
+      "lifestyle": "Mode de vie",
+      "rooms": "Pièces",
+      "architecture": "Architecture",
+      "engineering": "Technique",
+      "scope": "Périmètre",
+      "result": "Résultat"
+    },
+    "nav": {
+      "back": "Retour",
+      "next": "Suivant",
+      "getResult": "Obtenir le résultat",
+      "estimate": "Coût estimé du projet"
+    },
+    "plot": {
+      "heading": "Parlez-nous du terrain",
+      "subtitle": "Cela influence l'implantation de la maison, les fondations et la structure.",
+      "status": {
+        "title": "Avez-vous un terrain ?",
+        "options": {
+          "have": {
+            "label": "J'ai un terrain",
+            "description": "Nous concevons pour le terrain précis."
+          },
+          "buying": {
+            "label": "En cours d'achat",
+            "description": "Nous tiendrons compte du futur terrain."
+          },
+          "searching": {
+            "label": "En recherche",
+            "description": "Nous vous aidons à choisir un terrain."
+          }
+        }
+      },
+      "terrain": {
+        "title": "Relief du terrain",
+        "options": {
+          "flat": {
+            "label": "Plat",
+            "description": "Implantation standard."
+          },
+          "slope": {
+            "label": "En pente",
+            "description": "Solutions pour la dénivellation nécessaires."
+          },
+          "complex": {
+            "label": "Complexe",
+            "description": "Forte pente, géologie complexe."
+          }
+        }
+      },
+      "survey": {
+        "title": "Géomètre & géologie",
+        "hint": "Le levé topographique et l'étude de sol sont nécessaires pour les fondations.",
+        "options": {
+          "done": {
+            "label": "Déjà fait",
+            "description": "Les études sont réalisées."
+          },
+          "needHelp": {
+            "label": "Besoin d'aide",
+            "description": "Nous organisons le levé et la géologie."
+          }
+        }
+      }
+    },
+    "house": {
+      "heading": "Paramètres de la maison",
+      "subtitle": "Caractéristiques clés qui définissent l'ampleur des études.",
+      "area": {
+        "title": "Surface approximative de la maison",
+        "unit": "m²"
+      },
+      "floors": {
+        "title": "Nombre d'étages",
+        "options": {
+          "1": {
+            "label": "1 étage",
+            "description": "Maison de plain-pied."
+          },
+          "2": {
+            "label": "2 étages",
+            "description": "Un choix classique."
+          },
+          "3": {
+            "label": "3 étages",
+            "description": "Surface utile maximale."
+          },
+          "mansard": {
+            "label": "Avec combles",
+            "description": "Étage + combles habitables."
+          }
+        }
+      },
+      "basement": {
+        "title": "Sous-sol",
+        "options": {
+          "none": {
+            "label": "Sans sous-sol",
+            "description": "Fondation standard."
+          },
+          "technical": {
+            "label": "Technique",
+            "description": "Chaufferie, rangements, technique."
+          },
+          "living": {
+            "label": "Habitable",
+            "description": "Salle de sport, SPA, cinéma, etc."
+          }
+        }
+      },
+      "garage": {
+        "title": "Garage",
+        "options": {
+          "none": {
+            "label": "Sans garage",
+            "description": "Pas de garage nécessaire."
+          },
+          "integrated1": {
+            "label": "Intégré, 1 voiture",
+            "description": "Intégré à la maison."
+          },
+          "integrated2": {
+            "label": "Intégré, 2 voitures",
+            "description": "Intégré à la maison."
+          },
+          "separate": {
+            "label": "Séparé",
+            "description": "Bâtiment de garage indépendant."
+          }
+        }
+      }
+    },
+    "lifestyle": {
+      "heading": "Qui habitera la maison",
+      "subtitle": "Cela définit le nombre et la fonction des pièces.",
+      "residents": {
+        "title": "Résidents permanents",
+        "options": {
+          "1-2": "1–2",
+          "3-4": "3–4",
+          "5-6": "5–6",
+          "7+": "7+"
+        }
+      },
+      "bedrooms": {
+        "title": "Nombre de chambres",
+        "options": {
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4": "4",
+          "5+": "5+"
+        }
+      },
+      "bathrooms": {
+        "title": "Nombre de salles de bain",
+        "options": {
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4+": "4+"
+        }
+      },
+      "household": {
+        "title": "Composition du foyer",
+        "hint": "Influence le zonage de la maison.",
+        "options": {
+          "single": {
+            "label": "Une famille",
+            "description": "Espace de vie commun."
+          },
+          "multiGen": {
+            "label": "Plusieurs générations",
+            "description": "Zones séparées par génération."
+          }
+        }
+      }
+    },
+    "rooms": {
+      "heading": "Pièces & espaces",
+      "subtitle": "Choisissez ce que vous voulez voir dans le plan.",
+      "kitchen": {
+        "title": "Type de cuisine",
+        "options": {
+          "separate": {
+            "label": "Cuisine séparée",
+            "description": "Pièce fermée."
+          },
+          "open": {
+            "label": "Cuisine-séjour",
+            "description": "Espace ouvert."
+          },
+          "island": {
+            "label": "Avec îlot",
+            "description": "Cuisine avec îlot et coin repas."
+          }
+        }
+      },
+      "special": {
+        "title": "Pièces supplémentaires",
+        "hint": "Plusieurs choix possibles — chacune est ajoutée au plan.",
+        "items": {
+          "dressing": "Dressing",
+          "pantry": "Cellier",
+          "laundry": "Buanderie",
+          "boiler": "Chaufferie",
+          "gym": "Salle de sport",
+          "sauna": "Sauna",
+          "poolIndoor": "Piscine intérieure",
+          "cinema": "Home cinéma",
+          "wineCellar": "Cave à vin",
+          "office": "Bureau",
+          "workshop": "Atelier",
+          "guest": "Chambre d'amis",
+          "terrace": "Terrasse",
+          "fireplace": "Cheminée"
+        }
+      }
+    },
+    "architecture": {
+      "heading": "Architecture & extérieur",
+      "subtitle": "Le style et la complexité influencent l'ampleur des plans.",
+      "style": {
+        "title": "Style architectural",
+        "options": {
+          "minimalism": {
+            "label": "Minimalisme",
+            "description": "Formes épurées."
+          },
+          "modern": {
+            "label": "Moderne",
+            "description": "Architecture contemporaine."
+          },
+          "toscana": {
+            "label": "Toscan",
+            "description": "Style méditerranéen."
+          },
+          "neoclassic": {
+            "label": "Néoclassique",
+            "description": "Proportions élégantes."
+          },
+          "classic": {
+            "label": "Classique",
+            "description": "Symétrie et décor."
+          },
+          "baroque": {
+            "label": "Baroque",
+            "description": "Décor de façade riche."
+          }
+        }
+      },
+      "roof": {
+        "title": "Type de toit",
+        "options": {
+          "flat": {
+            "label": "Plat",
+            "description": "Solution moderne."
+          },
+          "pitched": {
+            "label": "À pans",
+            "description": "Toit en pente classique."
+          },
+          "mansard": {
+            "label": "Mansardé",
+            "description": "Avec espace habitable sous le toit."
+          },
+          "complex": {
+            "label": "Complexe",
+            "description": "Plusieurs pentes, géométrie complexe."
+          }
+        }
+      },
+      "facade": {
+        "title": "Complexité de la façade",
+        "hint": "Nombre de détails, bow-windows, balcons, saillies.",
+        "options": {
+          "simple": {
+            "label": "Simple",
+            "description": "Façade épurée."
+          },
+          "moderate": {
+            "label": "Modérée",
+            "description": "Détails modérés."
+          },
+          "complex": {
+            "label": "Complexe",
+            "description": "Nombreux éléments architecturaux."
+          }
+        }
+      }
+    },
+    "engineering": {
+      "heading": "Systèmes techniques",
+      "subtitle": "Quelles sections techniques inclure dans le projet.",
+      "heating": {
+        "title": "Type de chauffage",
+        "hint": "Plusieurs types possibles.",
+        "options": {
+          "gas": {
+            "label": "Gaz",
+            "description": "Chaudière à gaz."
+          },
+          "heatPump": {
+            "label": "Pompe à chaleur",
+            "description": "Solution économique."
+          },
+          "electric": {
+            "label": "Électrique",
+            "description": "Raccordement simple."
+          },
+          "solidFuel": {
+            "label": "Combustible solide",
+            "description": "Chaudière à combustible solide."
+          }
+        }
+      },
+      "systems": {
+        "title": "Systèmes additionnels",
+        "hint": "Choisissez les sections à concevoir.",
+        "items": {
+          "ventilation": "Ventilation double flux",
+          "ac": "Climatisation",
+          "smartHome": "Maison connectée",
+          "solar": "Panneaux solaires",
+          "well": "Puits",
+          "septic": "Fosse / station d'épuration",
+          "generator": "Alimentation de secours"
+        }
+      }
+    },
+    "scope": {
+      "heading": "Périmètre du projet",
+      "subtitle": "Choisissez la formule de conception et les services additionnels.",
+      "package": {
+        "title": "Formule de conception",
+        "options": {
+          "light": {
+            "label": "Light · $15/m²",
+            "description": "Sections architecture + structure, estimation."
+          },
+          "basic": {
+            "label": "Basic · $17/m²",
+            "description": "Light + visualisation 3D."
+          },
+          "premium": {
+            "label": "Premium · $17/m²",
+            "description": "Basic + permis de construire (+$200)."
+          }
+        }
+      },
+      "extras": {
+        "title": "Services additionnels",
+        "hint": "La 3D et le permis peuvent déjà être inclus.",
+        "items": {
+          "viz3d": "Visualisation 3D",
+          "passport": "Permis de construire",
+          "interior": "Design d'intérieur",
+          "landscape": "Aménagement paysager",
+          "supervision": "Supervision d'architecte"
+        }
+      }
+    },
+    "result": {
+      "title": "Votre projet est prêt à être estimé",
+      "paramsTitle": "Paramètres du projet",
+      "priceTitle": "Coût de conception estimé",
+      "priceNote": "* Coût estimatif. Le prix exact est confirmé par l'architecte après précision des détails.",
+      "bigCta": "Obtenir la visualisation et une consultation",
+      "unlockCta": "Obtenir la visualisation",
+      "unlockedNote": "Demande reçue — l'architecte enverra la visualisation.",
+      "successTitle": "Demande reçue !",
+      "successText": "Merci. L'architecte traitera vos paramètres et préparera le plan et la visualisation. La suite :",
+      "edit": "Modifier les paramètres",
+      "specs": {
+        "area": "Surface",
+        "floors": "Étages",
+        "bedrooms": "Chambres",
+        "bathrooms": "Salles de bain",
+        "style": "Style",
+        "roof": "Toit",
+        "package": "Formule",
+        "specialRooms": "Pièces supplémentaires"
+      },
+      "plan": {
+        "title": "Plan IA",
+        "caption": "Généré selon vos paramètres"
+      },
+      "view3d": {
+        "title": "Visualisation 3D",
+        "caption": "Vue extérieure de la maison"
+      },
+      "nextSteps": [
+        "L'architecte vous contactera sous 15 minutes.",
+        "Nous précisons les détails et préparons le plan et la visualisation 3D.",
+        "Nous convenons du contrat et du paiement échelonné de la conception."
+      ]
+    }
+  },
+  "configuratorChoice": {
+    "overline": "Estimation en ligne",
+    "title": "Choisissez votre configurateur",
+    "subtitle": "Obtenez une estimation en quelques minutes — choisissez ce dont vous avez besoin.",
+    "build": {
+      "title": "Configurateur de construction",
+      "description": "Vous avez déjà un projet ou souhaitez construire à partir d'un plan existant ? Estimez le coût d'une construction clé en main : style, surface, finitions et techniques.",
+      "bullets": [
+        "Styles architecturaux prêts à l'emploi",
+        "Classe de finition et techniques",
+        "Budget de construction estimatif"
+      ],
+      "cta": "Estimer la construction"
+    },
+    "design": {
+      "title": "Configurateur de conception",
+      "description": "Pas encore de projet ? Décrivez en détail votre future maison et obtenez un coût estimatif pour la conception architecturale, avec visualisation.",
+      "bullets": [
+        "Brief architectural détaillé",
+        "Planification des pièces et techniques",
+        "Coût de conception estimatif"
+      ],
+      "cta": "Estimer la conception"
+    }
+  },
+  "servicesCta": {
+    "overline": "Estimation des coûts",
+    "title": "Prêt à estimer votre projet ?",
+    "subtitle": "Nous commençons par la conception — et si vous le souhaitez, nous construisons aussi votre maison clé en main. Choisissez par où commencer.",
+    "design": {
+      "badge": "Notre priorité",
+      "title": "Conception",
+      "description": "Un projet architectural avec visualisation 3D et un prix estimatif en quelques minutes.",
+      "cta": "Estimer la conception"
+    },
+    "build": {
+      "title": "Construction",
+      "description": "Construction clé en main — selon votre projet ou un design Velar prêt à l'emploi.",
+      "cta": "Estimer la construction"
+    },
+    "helper": "Pas encore décidé ?",
+    "helperCta": "Comparer les deux options"
   }
 }

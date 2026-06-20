@@ -4,6 +4,8 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { motion, type Variants } from "framer-motion";
 import { Box, Button, Container, Stack, Typography } from "@mui/material";
+import ArchitectureRoundedIcon from "@mui/icons-material/ArchitectureRounded";
+import ConstructionRoundedIcon from "@mui/icons-material/ConstructionRounded";
 
 const MotionStack = motion.create(Stack);
 
@@ -110,36 +112,29 @@ export default function Hero() {
           >
             <Button
               component={Link}
-              href="/design"
+              href="/design-configurator"
               variant="contained"
               size="large"
-              sx={{
-                px: 5,
-                py: 1.75,
-                fontSize: "1.05rem",
-                borderRadius: 0,
-                textTransform: "none",
-                transition: "transform 0.2s ease, box-shadow 0.2s ease",
-                "&:hover": {
-                  transform: "translateY(-2px)",
-                  boxShadow: 6,
-                },
-              }}
+              startIcon={<ArchitectureRoundedIcon />}
+              sx={{ px: 4, py: 1.5 }}
             >
               {tc("orderDesign")}
             </Button>
             <Button
               component={Link}
               href="/configurator"
-              variant="text"
+              variant="outlined"
               color="inherit"
+              size="large"
+              startIcon={<ConstructionRoundedIcon />}
               sx={{
-                textTransform: "none",
-                opacity: 0.85,
-                "&:hover": { opacity: 1, bgcolor: "transparent" },
+                px: 4,
+                py: 1.5,
+                borderColor: "rgba(255,255,255,0.6)",
+                "&:hover": { borderColor: "common.white", bgcolor: "rgba(255,255,255,0.08)" },
               }}
             >
-              {tc("calcConstruction")} →
+              {tc("calcConstruction")}
             </Button>
           </MotionStack>
         </MotionStack>
