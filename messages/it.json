@@ -229,7 +229,7 @@
       "overline": "Tariffe",
       "title": "Scegli il tuo pacchetto di progettazione",
       "subtitle": "Il prezzo dipende dalla superficie della casa e dall'ampiezza dei servizi.",
-      "perM2": "{price}/m²",
+      "perM2": "da {price}/m²",
       "popular": "Popolare",
       "tiers": {
         "light": {
@@ -265,7 +265,8 @@
         }
       },
       "calculatorCta": "Apri il configuratore",
-      "calculatorHint": "Rispondi alle domande dell'architetto e ottieni una stima dettagliata su misura per la tua casa."
+      "calculatorHint": "Rispondi alle domande dell'architetto e ottieni una stima dettagliata su misura per la tua casa.",
+      "priceDisclaimer": "Tariffa base per una configurazione semplice (1 piano, tetto piano, senza stanze aggiuntive). Il costo finale dipende dal numero di piani, dal terreno, dallo stile architettonico e dall'elenco delle stanze — ottieni una stima precisa nel configuratore."
     },
     "payment": {
       "overline": "Pagamento",
@@ -1020,7 +1021,14 @@
         "L'architetto ti contatterà entro 15 minuti.",
         "Definiamo i dettagli e prepariamo pianta e visualizzazione 3D.",
         "Concordiamo il contratto e il pagamento a tappe della progettazione."
-      ]
+      ],
+      "breakdown": {
+        "title": "Come si compone il prezzo",
+        "base": "Tariffa base al m²",
+        "adjustments": "Sovrapprezzo per i parametri della casa (piani, tetto, stile, facciata)",
+        "fixedFees": "Garage, stanze, impiantistica e servizi aggiuntivi",
+        "supervision": "Supervisione del progetto (10%)"
+      }
     }
   },
   "configuratorChoice": {

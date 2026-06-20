@@ -229,7 +229,7 @@
       "overline": "Cennik",
       "title": "Wybierz pakiet projektowania",
       "subtitle": "Cena zależy od powierzchni domu i zakresu usług.",
-      "perM2": "{price}/m²",
+      "perM2": "od {price}/m²",
       "popular": "Popularny",
       "tiers": {
         "light": {
@@ -265,7 +265,8 @@
         }
       },
       "calculatorCta": "Otwórz konfigurator projektu",
-      "calculatorHint": "Odpowiedz na pytania architekta i otrzymaj szczegółowy szacunek kosztów dla Twojego domu."
+      "calculatorHint": "Odpowiedz na pytania architekta i otrzymaj szczegółowy szacunek kosztów dla Twojego domu.",
+      "priceDisclaimer": "Stawka bazowa dla prostej konfiguracji (1 piętro, płaski dach, bez dodatkowych pomieszczeń). Ostateczny koszt zależy od liczby pięter, terenu działki, stylu architektonicznego i listy pomieszczeń — dokładną kalkulację uzyskasz w konfiguratorze."
     },
     "payment": {
       "overline": "Płatność",
@@ -1020,7 +1021,14 @@
         "Architekt skontaktuje się w ciągu 15 minut.",
         "Doprecyzujemy szczegóły i przygotujemy plan oraz wizualizację 3D.",
         "Uzgodnimy umowę i etapową płatność za projekt."
-      ]
+      ],
+      "breakdown": {
+        "title": "Z czego składa się cena",
+        "base": "Stawka bazowa za m²",
+        "adjustments": "Dopłata za parametry domu (piętra, dach, styl, fasada)",
+        "fixedFees": "Garaż, pomieszczenia, instalacje i usługi dodatkowe",
+        "supervision": "Nadzór autorski (10%)"
+      }
     }
   },
   "configuratorChoice": {

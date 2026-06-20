@@ -121,6 +121,9 @@ export default function DesignPricing() {
         </Box>
 
         <Stack spacing={1.5} sx={{ alignItems: "center", mt: { xs: 5, md: 7 } }}>
+          <Typography variant="caption" color="text.secondary" sx={{ textAlign: "center", maxWidth: 560 }}>
+            {t("priceDisclaimer")}
+          </Typography>
           <Typography color="text.secondary" sx={{ textAlign: "center" }}>
             {t("calculatorHint")}
           </Typography>

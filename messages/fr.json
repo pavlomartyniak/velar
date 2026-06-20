@@ -229,7 +229,7 @@
       "overline": "Tarifs",
       "title": "Choisissez votre formule de conception",
       "subtitle": "Le prix dépend de la surface de la maison et de l'étendue des services.",
-      "perM2": "{price}/m²",
+      "perM2": "à partir de {price}/m²",
       "popular": "Populaire",
       "tiers": {
         "light": {
@@ -265,7 +265,8 @@
         }
       },
       "calculatorCta": "Ouvrir le configurateur",
-      "calculatorHint": "Répondez aux questions de l'architecte et obtenez une estimation détaillée adaptée à votre maison."
+      "calculatorHint": "Répondez aux questions de l'architecte et obtenez une estimation détaillée adaptée à votre maison.",
+      "priceDisclaimer": "Tarif de base pour une configuration simple (1 étage, toit plat, sans pièces supplémentaires). Le coût final dépend du nombre d'étages, du terrain, du style architectural et de la liste des pièces — obtenez une estimation précise dans le configurateur."
     },
     "payment": {
       "overline": "Paiement",
@@ -1020,7 +1021,14 @@
         "L'architecte vous contactera sous 15 minutes.",
         "Nous précisons les détails et préparons le plan et la visualisation 3D.",
         "Nous convenons du contrat et du paiement échelonné de la conception."
-      ]
+      ],
+      "breakdown": {
+        "title": "Comment le prix est calculé",
+        "base": "Tarif de base au m²",
+        "adjustments": "Majoration selon les paramètres de la maison (étages, toit, style, façade)",
+        "fixedFees": "Garage, pièces, ingénierie et services complémentaires",
+        "supervision": "Suivi de chantier par l'architecte (10 %)"
+      }
     }
   },
   "configuratorChoice": {

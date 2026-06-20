@@ -229,7 +229,7 @@
       "overline": "Preise",
       "title": "Wählen Sie Ihr Projektierungspaket",
       "subtitle": "Der Preis hängt von der Hausfläche und dem Leistungsumfang ab.",
-      "perM2": "{price}/m²",
+      "perM2": "ab {price}/m²",
       "popular": "Beliebt",
       "tiers": {
         "light": {
@@ -265,7 +265,8 @@
         }
       },
       "calculatorCta": "Planungskonfigurator öffnen",
-      "calculatorHint": "Beantworten Sie die Fragen des Architekten und erhalten Sie eine detaillierte Kostenschätzung für Ihr Haus."
+      "calculatorHint": "Beantworten Sie die Fragen des Architekten und erhalten Sie eine detaillierte Kostenschätzung für Ihr Haus.",
+      "priceDisclaimer": "Basistarif für eine einfache Konfiguration (1 Geschoss, Flachdach, ohne Zusatzräume). Der endgültige Preis hängt von Geschosszahl, Grundstücksgelände, Architekturstil und Raumliste ab — die genaue Berechnung liefert der Konfigurator."
     },
     "payment": {
       "overline": "Zahlung",
@@ -1020,7 +1021,14 @@
         "Der Architekt meldet sich innerhalb von 15 Minuten.",
         "Wir klären die Details und erstellen Plan und 3D-Visualisierung.",
         "Wir vereinbaren Vertrag und etappenweise Zahlung der Planung."
-      ]
+      ],
+      "breakdown": {
+        "title": "Woraus sich der Preis zusammensetzt",
+        "base": "Basistarif pro m²",
+        "adjustments": "Aufschlag für Hausparameter (Geschosse, Dach, Stil, Fassade)",
+        "fixedFees": "Garage, Räume, Haustechnik und Zusatzleistungen",
+        "supervision": "Bauüberwachung durch den Architekten (10%)"
+      }
     }
   },
   "configuratorChoice": {

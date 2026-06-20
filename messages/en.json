@@ -229,7 +229,7 @@
       "overline": "Pricing",
       "title": "Choose a design package",
       "subtitle": "The price depends on the house area and the scope of services.",
-      "perM2": "{price}/m²",
+      "perM2": "from {price}/m²",
       "popular": "Popular",
       "tiers": {
         "light": {
@@ -265,7 +265,8 @@
         }
       },
       "calculatorCta": "Open the design configurator",
-      "calculatorHint": "Answer the architect's questions and get a detailed cost estimate tailored to your house."
+      "calculatorHint": "Answer the architect's questions and get a detailed cost estimate tailored to your house.",
+      "priceDisclaimer": "Base rate for a simple configuration (1 floor, flat roof, no extra rooms). The final cost depends on the number of floors, plot terrain, architectural style and room list — get an exact estimate in the configurator."
     },
     "payment": {
       "overline": "Payment",
@@ -1020,7 +1021,14 @@
         "The architect will contact you within 15 minutes.",
         "We clarify the details and prepare the plan and 3D visualization.",
         "We agree on the contract and staged payment for the design."
-      ]
+      ],
+      "breakdown": {
+        "title": "What the price includes",
+        "base": "Base rate per m²",
+        "adjustments": "Surcharge for house parameters (floors, roof, style, facade)",
+        "fixedFees": "Garage, rooms, engineering and add-on services",
+        "supervision": "Design supervision (10%)"
+      }
     }
   },
   "configuratorChoice": {

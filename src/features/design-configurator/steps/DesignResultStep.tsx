@@ -120,6 +120,19 @@ function Spec({ label, value }: { label: string; value: string }) {
   );
 }
 
+function BreakdownRow({ label, value }: { label: string; value: string }) {
+  return (
+    <Stack direction="row" sx={{ justifyContent: "space-between", gap: 2 }}>
+      <Typography variant="body2" color="text.secondary">
+        {label}
+      </Typography>
+      <Typography variant="body2" sx={{ fontWeight: 600, whiteSpace: "nowrap" }}>
+        {value}
+      </Typography>
+    </Stack>
+  );
+}
+
 export default function DesignResultStep({ onEdit }: { onEdit: () => void }) {
   const { control } = useFormContext<DesignConfiguratorValues>();
   const values = useWatch({ control }) as Partial<DesignConfiguratorValues>;
@@ -235,6 +248,34 @@ export default function DesignResultStep({ onEdit }: { onEdit: () => void }) {
           <Typography variant="h3" sx={{ fontWeight: 800 }}>
             {formatDesignCurrency(price.min)} – {formatDesignCurrency(price.max)}
           </Typography>
+
+          <Divider sx={{ my: 2 }} />
+
+          <Typography variant="subtitle2" sx={{ fontWeight: 700, mb: 1.25 }}>
+            {t("breakdown.title")}
+          </Typography>
+          <Stack spacing={1}>
+            <BreakdownRow label={t("breakdown.base")} value={formatDesignCurrency(price.base)} />
+            {price.designCore > price.base && (
+              <BreakdownRow
+                label={t("breakdown.adjustments")}
+                value={`+${formatDesignCurrency(price.designCore - price.base)}`}
+              />
+            )}
+            {price.fixedFees > 0 && (
+              <BreakdownRow
+                label={t("breakdown.fixedFees")}
+                value={`+${formatDesignCurrency(price.fixedFees)}`}
+              />
+            )}
+            {price.supervision > 0 && (
+              <BreakdownRow
+                label={t("breakdown.supervision")}
+                value={`+${formatDesignCurrency(price.supervision)}`}
+              />
+            )}
+          </Stack>
+
           <Divider sx={{ my: 2 }} />
           <Typography variant="caption" color="text.secondary" sx={{ display: "block" }}>
             {t("priceNote")}
