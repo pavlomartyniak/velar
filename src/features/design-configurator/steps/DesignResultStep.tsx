@@ -325,10 +325,23 @@ export default function DesignResultStep({ onEdit }: { onEdit: () => void }) {
         </Paper>
       )}
 
-      <Stack direction="row" sx={{ justifyContent: "center" }}>
+      <Stack
+        direction={{ xs: "column", sm: "row" }}
+        spacing={2}
+        sx={{ justifyContent: "center", alignItems: "center" }}
+      >
         <Button startIcon={<EditRoundedIcon />} onClick={onEdit}>
           {t("edit")}
         </Button>
+        {!submitted && (
+          <Button
+            variant="contained"
+            startIcon={<LockOpenRoundedIcon />}
+            onClick={() => setCallOpen(true)}
+          >
+            {t("bigCta")}
+          </Button>
+        )}
       </Stack>
 
       <CallbackDialog

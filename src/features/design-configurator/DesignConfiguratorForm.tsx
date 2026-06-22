@@ -95,6 +95,9 @@ export default function DesignConfiguratorForm() {
   const goTo = (index: number) => {
     setActiveStep(index);
     setMaxReached((max) => Math.max(max, index));
+    if (typeof window !== "undefined") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
   };
 
   const handleStep = async (index: number) => {
@@ -116,29 +119,37 @@ export default function DesignConfiguratorForm() {
   return (
     <FormProvider {...methods}>
       <Container maxWidth="md" sx={{ py: { xs: 4, md: 8 } }}>
-        <Stepper
-          nonLinear
-          activeStep={activeStep}
-          alternativeLabel
-          sx={{
-            mb: { xs: 4, md: 6 },
-            "& .MuiStepLabel-label": {
-              fontSize: { xs: "0.65rem", sm: "0.8rem" },
-              mt: { xs: 0.5, sm: 1 },
-            },
-            "& .MuiStepIcon-root": {
-              fontSize: { xs: "1.4rem", sm: "1.6rem" },
-            },
-          }}
-        >
-          {STEP_KEYS.map((key, index) => (
-            <Step key={key} completed={index < maxReached}>
-              <StepButton color="inherit" onClick={() => handleStep(index)}>
-                {t(`steps.${key}`)}
-              </StepButton>
-            </Step>
-          ))}
-        </Stepper>
+        <Box sx={{ overflowX: "auto", mb: { xs: 4, md: 6 }, pb: 1 }}>
+          <Stepper
+            nonLinear
+            activeStep={activeStep}
+            alternativeLabel
+            sx={{
+              minWidth: { xs: 760, sm: 880, md: "100%" },
+              "& .MuiStep-root": {
+                flex: { xs: "0 0 auto", sm: "0 0 auto", md: 1 },
+                minWidth: { xs: 92, sm: 110, md: 0 },
+                px: { xs: 0.5, sm: 1, md: 0 },
+              },
+              "& .MuiStepLabel-label": {
+                fontSize: { xs: "0.65rem", sm: "0.8rem" },
+                mt: { xs: 0.5, sm: 1 },
+                whiteSpace: "nowrap",
+              },
+              "& .MuiStepIcon-root": {
+                fontSize: { xs: "1.4rem", sm: "1.6rem" },
+              },
+            }}
+          >
+            {STEP_KEYS.map((key, index) => (
+              <Step key={key} completed={index < maxReached}>
+                <StepButton color="inherit" onClick={() => handleStep(index)}>
+                  {t(`steps.${key}`)}
+                </StepButton>
+              </Step>
+            ))}
+          </Stepper>
+        </Box>
 
         <Box sx={{ minHeight: { xs: 280, md: 360 } }}>
           <AnimatePresence mode="wait">
