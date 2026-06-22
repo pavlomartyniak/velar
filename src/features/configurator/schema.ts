@@ -8,11 +8,18 @@ export const CURRENCY = "USD";
  */
 
 export const HOUSE_STYLES = [
-  { value: "classic", pricePerM2: 1560, image: "/house-styles/classic.png" },
-  { value: "neoclassic", pricePerM2: 1440, image: "/house-styles/neo-classic.jpg" },
-  { value: "baroque", pricePerM2: 1750, image: "/house-styles/baroque.jpg" },
+  { value: "classic", pricePerM2: 1560, image: "/house-styles/classic.jpg" },
+  {
+    value: "neoclassic",
+    pricePerM2: 1440,
+    image: "/house-styles/neo-classic.png",
+  },
   { value: "modern", pricePerM2: 1625, image: "/house-styles/modern.jpg" },
-  { value: "minimalism", pricePerM2: 1250, image: "/house-styles/minimalism.jpg" },
+  {
+    value: "minimalism",
+    pricePerM2: 1250,
+    image: "/house-styles/minimalism.jpg",
+  },
   { value: "toscana", pricePerM2: 1375, image: "/house-styles/toscana.jpg" },
 ] as const;
 
@@ -74,10 +81,7 @@ export const HEATING_OPTIONS = [
   { value: "electric", price: 5000 },
 ] as const;
 
-export const PLOT_OPTIONS = [
-  { value: "have" },
-  { value: "search" },
-] as const;
+export const PLOT_OPTIONS = [{ value: "have" }, { value: "search" }] as const;
 
 const values = <T extends { value: string }>(opts: readonly T[]) =>
   opts.map((o) => o.value) as [T["value"], ...T["value"][]];
@@ -194,4 +198,5 @@ const currencyFormatter = new Intl.NumberFormat("uk-UA", {
   maximumFractionDigits: 0,
 });
 
-export const formatCurrency = (value: number) => currencyFormatter.format(value);
+export const formatCurrency = (value: number) =>
+  currencyFormatter.format(value);

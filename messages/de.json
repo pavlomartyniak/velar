@@ -306,10 +306,6 @@
           "label": "Neoklassik",
           "description": "Symmetrie, Säulen und edler Dekor."
         },
-        "baroque": {
-          "label": "Barock",
-          "description": "Üppiger Stuck, Säulen und prachtvolle Fassaden."
-        },
         "modern": {
           "label": "Modern",
           "description": "Klare Linien, Panoramaverglasung, Minimalismus."
@@ -497,7 +493,7 @@
       "nextStepOverline": "Nächster Schritt",
       "ctaTitle": "Bereit, das Projekt umzusetzen?",
       "ctaText": "Hinterlassen Sie Ihre Kontaktdaten — und innerhalb von 24 Stunden erhalten Sie eine detaillierte Kalkulation, eine vollständige 3D-Visualisierung und ein persönliches Angebot eines Managers.",
-      "ctaButton": "Beratung anfordern",
+      "ctaButton": "Visualisierung und Beratung erhalten",
       "successTitle": "Anfrage erhalten!",
       "successText": "Vielen Dank. Ihr persönlicher Manager bereitet bereits ein Angebot vor. So geht es weiter:",
       "nextSteps": [
@@ -820,10 +816,6 @@
           "classic": {
             "label": "Klassik",
             "description": "Symmetrie und Dekor."
-          },
-          "baroque": {
-            "label": "Barock",
-            "description": "Reiche Fassadendekoration."
           }
         }
       },

@@ -306,10 +306,6 @@
           "label": "Neoklasycyzm",
           "description": "Symetria, kolumny i szlachetny detal."
         },
-        "baroque": {
-          "label": "Barok",
-          "description": "Bogate sztukaterie, kolumny i okazałe fasady."
-        },
         "modern": {
           "label": "Nowoczesny",
           "description": "Czyste linie, panoramiczne przeszklenia, minimalizm."
@@ -497,7 +493,7 @@
       "nextStepOverline": "Następny krok",
       "ctaTitle": "Gotowy zrealizować projekt?",
       "ctaText": "Zostaw kontakt — a w ciągu 24 godzin otrzymasz szczegółowy kosztorys, pełną wizualizację 3D i indywidualną ofertę od menedżera.",
-      "ctaButton": "Zamów konsultację",
+      "ctaButton": "Otrzymaj wizualizację i konsultację",
       "successTitle": "Zgłoszenie przyjęte!",
       "successText": "Dziękujemy. Twój osobisty menedżer już przygotowuje ofertę. Oto co dalej:",
       "nextSteps": [
@@ -820,10 +816,6 @@
           "classic": {
             "label": "Klasyczny",
             "description": "Symetria i detal."
-          },
-          "baroque": {
-            "label": "Barokowy",
-            "description": "Bogaty detal elewacji."
           }
         }
       },

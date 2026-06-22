@@ -306,10 +306,6 @@
           "label": "Neoclassico",
           "description": "Simmetria, colonne e decori nobili."
         },
-        "baroque": {
-          "label": "Barocco",
-          "description": "Stucchi sontuosi, colonne e facciate lussuose."
-        },
         "modern": {
           "label": "Moderno",
           "description": "Linee pulite, vetrate panoramiche, minimalismo."
@@ -497,7 +493,7 @@
       "nextStepOverline": "Prossimo passo",
       "ctaTitle": "Pronto a realizzare il progetto?",
       "ctaText": "Lascia i tuoi contatti — ed entro 24 ore riceverai un preventivo dettagliato, una visualizzazione 3D completa e un'offerta personalizzata da un consulente.",
-      "ctaButton": "Richiedi una consulenza",
+      "ctaButton": "Ottieni la visualizzazione e una consulenza",
       "successTitle": "Richiesta ricevuta!",
       "successText": "Grazie. Il tuo consulente personale sta già preparando un'offerta. Ecco cosa succede ora:",
       "nextSteps": [
@@ -820,10 +816,6 @@
           "classic": {
             "label": "Classico",
             "description": "Simmetria e decoro."
-          },
-          "baroque": {
-            "label": "Barocco",
-            "description": "Ricca decorazione di facciata."
           }
         }
       },

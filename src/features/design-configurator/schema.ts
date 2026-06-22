@@ -125,7 +125,6 @@ export const DESIGN_STYLE_OPTIONS = [
   { value: "toscana", multiplier: 1.08 },
   { value: "neoclassic", multiplier: 1.12 },
   { value: "classic", multiplier: 1.18 },
-  { value: "baroque", multiplier: 1.3 },
 ] as const;
 
 export const DESIGN_ROOF_OPTIONS = [

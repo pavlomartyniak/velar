@@ -54,7 +54,6 @@ const STYLE: Record<string, string> = {
   toscana: "Тоскана",
   neoclassic: "Неокласика",
   classic: "Класика",
-  baroque: "Бароко",
 };
 const ROOF: Record<string, string> = {
   flat: "Плаский",
@@ -119,7 +118,6 @@ const STYLE_PROMPT_EN: Record<string, string> = {
   toscana: "Tuscan villa architecture with warm, spacious living areas",
   neoclassic: "neoclassical architecture with elegant proportions and a formal layout",
   classic: "classic European architecture with a symmetrical, formal room layout",
-  baroque: "grand baroque-influenced architecture with ornate, spacious rooms",
 };
 const FLOORS_PROMPT_EN: Record<string, string> = {
   "1": "single-story",

@@ -8,7 +8,6 @@ const SOURCE_LABELS: Record<string, string> = {
 const STYLE_LABELS: Record<string, string> = {
   classic: "Класика",
   neoclassic: "Неокласика",
-  baroque: "Бароко",
   modern: "Модерн (сецесія)",
   minimalism: "Мінімалізм",
   toscana: "Тоскана",
@@ -61,7 +60,6 @@ const ADDON_LABELS: Record<string, string> = {
 const STYLE_PROMPT_EN: Record<string, string> = {
   classic: "classic European architecture with a symmetrical, formal room layout",
   neoclassic: "neoclassical architecture with elegant proportions and a formal layout",
-  baroque: "grand baroque-influenced architecture with ornate, spacious rooms",
   modern: "Art Nouveau (secession) style with flowing, organic spatial planning",
   minimalism: "minimalist modern architecture with an open-plan, clean rectangular layout",
   toscana: "Tuscan villa architecture with warm, spacious living areas",

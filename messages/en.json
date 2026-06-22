@@ -306,10 +306,6 @@
           "label": "Neoclassical",
           "description": "Symmetry, columns and noble décor."
         },
-        "baroque": {
-          "label": "Baroque",
-          "description": "Ornate stucco, columns and lavish façades."
-        },
         "modern": {
           "label": "Modern",
           "description": "Clean lines, panoramic glazing, minimalism."
@@ -497,7 +493,7 @@
       "nextStepOverline": "Next step",
       "ctaTitle": "Ready to bring the project to life?",
       "ctaText": "Leave your contacts — and within 24 hours you'll receive a detailed estimate, a full 3D visualization and a personal offer from a manager.",
-      "ctaButton": "Request a consultation",
+      "ctaButton": "Get the visualization and a consultation",
       "successTitle": "Request received!",
       "successText": "Thank you. Your personal manager is already preparing an offer. Here's what happens next:",
       "nextSteps": [
@@ -820,10 +816,6 @@
           "classic": {
             "label": "Classic",
             "description": "Symmetry and decor."
-          },
-          "baroque": {
-            "label": "Baroque",
-            "description": "Rich facade decoration."
           }
         }
       },
