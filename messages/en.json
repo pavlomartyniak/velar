@@ -60,7 +60,10 @@
         "label": "Payment"
       }
     ],
-    "cta": "Learn about design services"
+    "cta": "Learn about design services",
+    "compareBefore": "Blueprint",
+    "compareAfter": "Finished result",
+    "compareHint": "Drag to compare"
   },
   "showcase": {
     "overline": "The Velar philosophy",

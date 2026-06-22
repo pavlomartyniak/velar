@@ -60,7 +60,10 @@
         "label": "Pagamento"
       }
     ],
-    "cta": "Scopri la progettazione"
+    "cta": "Scopri la progettazione",
+    "compareBefore": "Progetto tecnico",
+    "compareAfter": "Risultato finale",
+    "compareHint": "Trascina per confrontare"
   },
   "showcase": {
     "overline": "La filosofia Velar",

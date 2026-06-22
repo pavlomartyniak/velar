@@ -60,7 +60,10 @@
         "label": "Zahlung"
       }
     ],
-    "cta": "Mehr über die Projektierung"
+    "cta": "Mehr über die Projektierung",
+    "compareBefore": "Bauplan",
+    "compareAfter": "Fertiges Ergebnis",
+    "compareHint": "Ziehen zum Vergleichen"
   },
   "showcase": {
     "overline": "Die Velar-Philosophie",

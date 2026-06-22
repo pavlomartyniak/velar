@@ -5,8 +5,10 @@ import { Link } from "@/i18n/navigation";
 import { motion, type Variants } from "framer-motion";
 import { Box, Button, Container, Stack, Typography } from "@mui/material";
 import ArrowForwardRoundedIcon from "@mui/icons-material/ArrowForwardRounded";
+import CompareSlider from "@/components/shared/CompareSlider";
 
-const IMAGE = "/architector.avif";
+const BLUEPRINT_IMAGE = "/moder-house-scetch.png";
+const RESULT_IMAGE = "/modern-house.jpg";
 
 type Stat = { value: string; label: string };
 
@@ -33,28 +35,34 @@ export default function DesignPromo() {
           sx={{
             display: "grid",
             gap: { xs: 4, md: 8 },
-            gridTemplateColumns: { xs: "1fr", md: "0.9fr 1.1fr" },
+            gridTemplateColumns: { xs: "1fr", md: "1.15fr 1fr" },
             alignItems: "center",
           }}
         >
           <Box
-            component={motion.img}
+            component={motion.div}
             variants={fade}
             initial="hidden"
             whileInView="show"
             viewport={{ once: true, amount: 0.4 }}
-            src={IMAGE}
-            alt="Velar Development — проєктування"
-            loading="lazy"
-            sx={{
-              width: "100%",
-              aspectRatio: "4 / 5",
-              objectFit: "cover",
-              borderRadius: 3,
-              display: "block",
-              bgcolor: "action.hover",
-            }}
-          />
+          >
+            <CompareSlider
+              beforeSrc={BLUEPRINT_IMAGE}
+              afterSrc={RESULT_IMAGE}
+              beforeAlt="Velar Development — архітектурне креслення"
+              afterAlt="Velar Development — готовий будинок"
+              beforeLabel={t("compareBefore")}
+              afterLabel={t("compareAfter")}
+              aspectRatio="4 / 3"
+            />
+            <Typography
+              variant="caption"
+              color="text.secondary"
+              sx={{ display: "block", textAlign: "center", mt: 1.5 }}
+            >
+              {t("compareHint")}
+            </Typography>
+          </Box>
 
           <Stack
             component={motion.div}
