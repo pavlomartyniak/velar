@@ -6,8 +6,7 @@ import { motion, type Variants } from "framer-motion";
 import { Box, Button, Container, Stack, Typography } from "@mui/material";
 import CalculateRoundedIcon from "@mui/icons-material/CalculateRounded";
 
-const IMAGE =
-  "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1920&q=80";
+const IMAGE = "/architector.avif";
 
 const container: Variants = {
   hidden: {},

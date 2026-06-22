@@ -6,8 +6,7 @@ import { motion, type Variants } from "framer-motion";
 import { Box, Button, Container, Stack, Typography } from "@mui/material";
 import ArrowForwardRoundedIcon from "@mui/icons-material/ArrowForwardRounded";
 
-const IMAGE =
-  "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1000&q=75";
+const IMAGE = "/architector.avif";
 
 type Stat = { value: string; label: string };
 
@@ -25,7 +24,10 @@ export default function DesignPromo() {
   const stats = t.raw("stats") as Stat[];
 
   return (
-    <Box component="section" sx={{ bgcolor: "background.paper", py: { xs: 8, md: 12 } }}>
+    <Box
+      component="section"
+      sx={{ bgcolor: "background.paper", py: { xs: 8, md: 12 } }}
+    >
       <Container maxWidth="lg">
         <Box
           sx={{
@@ -62,7 +64,11 @@ export default function DesignPromo() {
             viewport={{ once: true, amount: 0.4 }}
             spacing={2.5}
           >
-            <Typography variant="overline" color="text.secondary" sx={{ letterSpacing: 4 }}>
+            <Typography
+              variant="overline"
+              color="text.secondary"
+              sx={{ letterSpacing: 4 }}
+            >
               {t("overline")}
             </Typography>
             <Typography variant="h3" sx={{ fontWeight: 700 }}>
@@ -88,7 +94,10 @@ export default function DesignPromo() {
                 <Box key={stat.label}>
                   <Typography
                     variant="h5"
-                    sx={{ fontWeight: 800, fontSize: { xs: "1.15rem", sm: "1.5rem" } }}
+                    sx={{
+                      fontWeight: 800,
+                      fontSize: { xs: "1.15rem", sm: "1.5rem" },
+                    }}
                   >
                     {stat.value}
                   </Typography>

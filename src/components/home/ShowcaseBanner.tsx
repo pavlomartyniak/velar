@@ -5,8 +5,7 @@ import { Link } from "@/i18n/navigation";
 import { motion, type Variants } from "framer-motion";
 import { Box, Button, Container, Stack, Typography } from "@mui/material";
 
-const IMAGE =
-  "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1920&q=80";
+const IMAGE = "/home-example.avif";
 
 const container: Variants = {
   hidden: {},
