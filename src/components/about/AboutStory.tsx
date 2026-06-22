@@ -6,8 +6,6 @@ import { Box, Container, Stack, Typography } from "@mui/material";
 
 const IMAGE = "/architect-steps.png";
 
-type Stat = { value: string; label: string };
-
 const fade: Variants = {
   hidden: { opacity: 0, y: 28 },
   show: {
@@ -19,7 +17,6 @@ const fade: Variants = {
 
 export default function AboutStory() {
   const t = useTranslations("about.story");
-  const stats = t.raw("stats") as Stat[];
 
   return (
     <Box
@@ -87,31 +84,6 @@ export default function AboutStory() {
               bgcolor: "action.hover",
             }}
           />
-        </Box>
-
-        {/* Статистика */}
-        <Box
-          sx={{
-            display: "grid",
-            gridTemplateColumns: { xs: "1fr 1fr", md: "repeat(4, 1fr)" },
-            gap: 3,
-            mt: { xs: 7, md: 10 },
-            pt: { xs: 5, md: 6 },
-            borderTop: 1,
-            borderColor: "divider",
-            textAlign: "center",
-          }}
-        >
-          {stats.map((stat) => (
-            <Box key={stat.label}>
-              <Typography variant="h3" sx={{ fontWeight: 800 }}>
-                {stat.value}
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                {stat.label}
-              </Typography>
-            </Box>
-          ))}
         </Box>
       </Container>
     </Box>

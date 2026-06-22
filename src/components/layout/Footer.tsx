@@ -9,6 +9,7 @@ import {
   IconButton,
   Link,
   Stack,
+  Tooltip,
   Typography,
 } from "@mui/material";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -20,7 +21,6 @@ const NAV_HREFS = [
   { key: "home", href: "/" },
   { key: "design", href: "/design" },
   { key: "about", href: "/about" },
-  { key: "portfolio", href: "/projects" },
   { key: "configurator", href: "/configurator" },
 ] as const;
 
@@ -65,23 +65,38 @@ export default function Footer() {
             <Stack direction="row" spacing={1} sx={{ mt: 2.5 }}>
               {SOCIALS.map((social) => {
                 const Icon = social.icon;
-                return (
+                const disabled = !social.href;
+                const button = (
                   <IconButton
-                    key={social.label}
-                    component="a"
-                    href={social.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    component={disabled ? "button" : "a"}
+                    href={disabled ? undefined : social.href}
+                    target={disabled ? undefined : "_blank"}
+                    rel={disabled ? undefined : "noopener noreferrer"}
+                    disabled={disabled}
                     aria-label={social.label}
                     sx={{
                       color: "common.white",
                       border: 1,
                       borderColor: "rgba(255,255,255,0.25)",
                       "&:hover": { borderColor: "common.white" },
+                      "&.Mui-disabled": {
+                        color: "rgba(255,255,255,0.35)",
+                        borderColor: "rgba(255,255,255,0.12)",
+                      },
                     }}
                   >
                     <Icon fontSize="small" />
                   </IconButton>
+                );
+
+                if (!disabled) {
+                  return <Box key={social.label}>{button}</Box>;
+                }
+
+                return (
+                  <Tooltip key={social.label} title={t("comingSoon")}>
+                    <Box component="span">{button}</Box>
+                  </Tooltip>
                 );
               })}
             </Stack>

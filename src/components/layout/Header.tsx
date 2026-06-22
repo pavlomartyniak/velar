@@ -26,7 +26,6 @@ const NAV_HREFS = [
   { key: "home", href: "/" },
   { key: "design", href: "/design" },
   { key: "about", href: "/about" },
-  { key: "portfolio", href: "/projects" },
   { key: "configurator", href: "/configurator" },
 ] as const;
 

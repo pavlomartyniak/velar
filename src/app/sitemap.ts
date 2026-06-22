@@ -1,13 +1,11 @@
 import type { MetadataRoute } from "next";
 import { siteConfig } from "@/lib/site";
 import { routing } from "@/i18n/routing";
-import { PROJECTS } from "@/data/projects";
 
 const STATIC_PATHS = [
   { path: "", changeFrequency: "monthly" as const, priority: 1 },
   { path: "/about", changeFrequency: "monthly" as const, priority: 0.7 },
   { path: "/design", changeFrequency: "monthly" as const, priority: 0.8 },
-  { path: "/projects", changeFrequency: "weekly" as const, priority: 0.8 },
   { path: "/configurator", changeFrequency: "monthly" as const, priority: 0.9 },
   { path: "/configurator/build", changeFrequency: "monthly" as const, priority: 0.8 },
   { path: "/design-configurator", changeFrequency: "monthly" as const, priority: 0.8 },
@@ -33,17 +31,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: now,
         changeFrequency,
         priority,
-        alternates: { languages: languageAlternates(path) },
-      });
-    }
-
-    for (const project of PROJECTS) {
-      const path = `/projects/${project.slug}`;
-      entries.push({
-        url: `${siteConfig.url}/${locale}${path}`,
-        lastModified: now,
-        changeFrequency: "yearly",
-        priority: 0.6,
         alternates: { languages: languageAlternates(path) },
       });
     }

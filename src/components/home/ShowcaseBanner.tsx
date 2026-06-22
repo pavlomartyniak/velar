@@ -82,7 +82,7 @@ export default function ShowcaseBanner() {
           <Box component={motion.div} variants={item}>
             <Button
               component={Link}
-              href="/projects"
+              href="/configurator"
               variant="outlined"
               size="large"
               sx={{
@@ -93,7 +93,7 @@ export default function ShowcaseBanner() {
                 "&:hover": { borderColor: "common.white" },
               }}
             >
-              {tc("viewPortfolio")}
+              {tc("startConfig")}
             </Button>
           </Box>
         </Stack>

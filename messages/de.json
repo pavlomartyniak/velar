@@ -2,15 +2,11 @@
   "nav": {
     "home": "Startseite",
     "about": "Über uns",
-    "portfolio": "Portfolio",
     "configurator": "Konfigurator",
     "design": "Projektierung"
   },
   "cta": {
     "startConfig": "Konfiguration starten",
-    "viewPortfolio": "Portfolio ansehen",
-    "viewAllProjects": "Alle Projekte ansehen",
-    "viewProject": "Projekt ansehen",
     "orderDesign": "Planung kalkulieren",
     "calcConstruction": "Bau kalkulieren",
     "orderDesignPage": "Projektierung beauftragen"
@@ -29,38 +25,20 @@
     "subtitle": "Wir übernehmen die Verantwortung für das Ergebnis in jeder Phase — vom Architekturprojekt bis zur Schlüsselübergabe.",
     "advantages": [
       {
-        "title": "Team aus Architekten",
-        "description": "Ein individuelles Projekt, abgestimmt auf Ihren Lebensstil."
+        "title": "Ein Ansprechpartner für alles",
+        "description": "Wir koordinieren Architekten, Ingenieure und Bauunternehmen, damit Sie mit einer Person sprechen statt mit einem Dutzend Auftragnehmern."
       },
       {
-        "title": "Projektierung und Bau",
-        "description": "Wir entwickeln das Projekt und setzen es auf Wunsch schlüsselfertig um — ohne Zwischenhändler."
+        "title": "Erst die Planung, dann der Bau",
+        "description": "Wir beginnen mit dem Architekturprojekt. Entscheiden Sie sich für die Umsetzung, begleiten wir den Bau unter derselben Kontrolle."
       },
       {
         "title": "Festpreis-Kalkulation",
         "description": "Der Preis ist im Vertrag festgeschrieben und ändert sich während des Baus nicht."
       },
       {
-        "title": "10 Jahre Garantie",
-        "description": "Auf tragende Konstruktionen und die Haustechnik."
-      }
-    ],
-    "stats": [
-      {
-        "value": "120+",
-        "label": "gebaute Häuser"
-      },
-      {
-        "value": "15",
-        "label": "Jahre am Markt"
-      },
-      {
-        "value": "98%",
-        "label": "zufriedene Kunden"
-      },
-      {
-        "value": "8 Mon.",
-        "label": "durchschnittliche Dauer"
+        "title": "Ratenzahlung",
+        "description": "Sie zahlen abgeschlossene Etappen — nie die volle Summe im Voraus."
       }
     ]
   },
@@ -83,11 +61,6 @@
       }
     ],
     "cta": "Mehr über die Projektierung"
-  },
-  "featured": {
-    "overline": "Portfolio",
-    "title": "Ausgewählte Projekte",
-    "subtitle": "Einige der über 120 Häuser, die wir schlüsselfertig gebaut haben."
   },
   "showcase": {
     "overline": "Die Velar-Philosophie",
@@ -122,26 +95,8 @@
     "story": {
       "overline": "Wer wir sind",
       "title": "Wir projektieren und bauen Häuser, die Generationen überdauern",
-      "p1": "Velar Development ist ein Team aus Architekten, Ingenieuren und Bauleuten. Alles beginnt mit dem Architekturprojekt: Wir erstellen das komplette Dokumentationspaket und setzen es auf Wunsch schlüsselfertig um — vom ersten Entwurf bis zur Schlüsselübergabe.",
-      "p2": "Ein eigener Schwerpunkt ist die Restaurierung. Wir erwecken historische und vernachlässigte Gebäude zu neuem Leben, bewahren ihren Charakter und statten sie zugleich mit moderner Technik und Komfort aus.",
-      "stats": [
-        {
-          "value": "15",
-          "label": "Jahre Erfahrung"
-        },
-        {
-          "value": "120+",
-          "label": "fertiggestellte Objekte"
-        },
-        {
-          "value": "40+",
-          "label": "Fachleute im Team"
-        },
-        {
-          "value": "100%",
-          "label": "schlüsselfertige Arbeiten"
-        }
-      ]
+      "p1": "Velar Development begleitet Ihr Projekt von der Idee bis zur Schlüsselübergabe. Wir koordinieren Architekten, Ingenieure und Baufirmen unter einem Vertrag, damit Sie einen Ansprechpartner haben statt mit einem Dutzend einzelner Auftragnehmer zu verhandeln. Alles beginnt mit dem Architekturprojekt: Wir erstellen das komplette Dokumentationspaket und setzen es auf Wunsch schlüsselfertig um.",
+      "p2": "Ein eigenständiger Service ist die Restaurierung: die behutsame Wiederbelebung historischer und vernachlässigter Gebäude, bei der ihr Charakter erhalten und zugleich moderne Technik und Komfort integriert werden."
     },
     "services": {
       "overline": "Tätigkeitsbereiche",
@@ -309,18 +264,14 @@
       "phoneCta": "Telefonnummer hinterlassen"
     }
   },
-  "projects": {
-    "overline": "Portfolio",
-    "title": "Unsere fertiggestellten Projekte",
-    "subtitle": "Über 120 Häuser der Premiumklasse, schlüsselfertig im ganzen Land gebaut."
-  },
   "footer": {
     "tagline": "Schlüsselfertiger Bau privater Häuser der Premiumklasse. Von der Idee bis zum Schlüssel — mit garantiertem Ergebnis.",
     "navTitle": "Navigation",
     "contactsTitle": "Kontakte",
     "address": "Lemberg",
     "rights": "Alle Rechte vorbehalten.",
-    "slogan": "Mit Liebe zum Detail gebaut."
+    "slogan": "Sorgfalt in jedem Detail — von der Planung bis zur Übergabe.",
+    "comingSoon": "Demnächst verfügbar"
   },
   "configurator": {
     "steps": {
@@ -599,11 +550,7 @@
     },
     "about": {
       "title": "Über uns",
-      "description": "Velar Development — ein Team aus Architekten und Bauleuten. Wir beginnen mit dem Architekturprojekt und bauen auf Wunsch Häuser, Villen und Cottages der Premiumklasse schlüsselfertig und restaurieren historische Gebäude."
-    },
-    "projects": {
-      "title": "Portfolio",
-      "description": "Fertiggestellte schlüsselfertige Projekte der Premiumklasse: Modern, Neoklassik, Chalet und mediterraner Stil. Über 120 abgeschlossene Objekte."
+      "description": "Velar Development begleitet die Planung und den Bau von Premium-Häusern, Villen und Cottages von der Idee bis zur Schlüsselübergabe sowie die Restaurierung historischer Gebäude."
     },
     "configurator": {
       "title": "Konfiguratoren",

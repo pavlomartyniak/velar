@@ -2,15 +2,11 @@
   "nav": {
     "home": "Home",
     "about": "About",
-    "portfolio": "Portfolio",
     "configurator": "Configurator",
     "design": "Design"
   },
   "cta": {
     "startConfig": "Start configuration",
-    "viewPortfolio": "View portfolio",
-    "viewAllProjects": "View all projects",
-    "viewProject": "View project",
     "orderDesign": "Estimate the design",
     "calcConstruction": "Estimate construction",
     "orderDesignPage": "Order a design project"
@@ -29,38 +25,20 @@
     "subtitle": "We take responsibility for the result at every stage — from the architectural project to the keys.",
     "advantages": [
       {
-        "title": "Team of architects",
-        "description": "An individual project tailored to your lifestyle."
+        "title": "One point of contact",
+        "description": "We coordinate architects, engineers and builders, so you deal with one person instead of a dozen separate contractors."
       },
       {
-        "title": "Design and construction",
-        "description": "We develop the project and, if you wish, build it turnkey — with no intermediaries."
+        "title": "Design first, build if you want",
+        "description": "We start with the architectural project. If you decide to build it, we continue under the same oversight."
       },
       {
         "title": "Fixed estimate",
         "description": "The price is locked in the contract and never changes during construction."
       },
       {
-        "title": "10-year warranty",
-        "description": "On load-bearing structures and the home's engineering systems."
-      }
-    ],
-    "stats": [
-      {
-        "value": "120+",
-        "label": "homes built"
-      },
-      {
-        "value": "15",
-        "label": "years on the market"
-      },
-      {
-        "value": "98%",
-        "label": "satisfied clients"
-      },
-      {
-        "value": "8 mo.",
-        "label": "average timeline"
+        "title": "Staged payments",
+        "description": "You pay for completed stages, never the full amount upfront."
       }
     ]
   },
@@ -83,11 +61,6 @@
       }
     ],
     "cta": "Learn about design services"
-  },
-  "featured": {
-    "overline": "Portfolio",
-    "title": "Featured projects",
-    "subtitle": "A few of the 120+ homes we have built turnkey."
   },
   "showcase": {
     "overline": "The Velar philosophy",
@@ -122,26 +95,8 @@
     "story": {
       "overline": "Who we are",
       "title": "We design and build homes that outlive generations",
-      "p1": "Velar Development is a team of architects, engineers and builders. It all starts with an architectural project: we develop the full documentation package and, if you wish, build it turnkey — from the first sketch to handing over the keys.",
-      "p2": "A separate focus is restoration. We bring historic and neglected buildings back to life, preserving their character while equipping them with modern engineering and comfort.",
-      "stats": [
-        {
-          "value": "15",
-          "label": "years of experience"
-        },
-        {
-          "value": "120+",
-          "label": "completed projects"
-        },
-        {
-          "value": "40+",
-          "label": "specialists on the team"
-        },
-        {
-          "value": "100%",
-          "label": "turnkey work"
-        }
-      ]
+      "p1": "Velar Development manages your project from idea to keys. We coordinate architects, engineers and construction teams under a single contract, so you have one point of contact instead of negotiating with a dozen separate contractors. It all starts with the architectural project: we develop the full documentation package and, if you wish, build it turnkey.",
+      "p2": "A separate service is restoration: careful revival of historic and neglected buildings, preserving their character while upgrading them with modern engineering and comfort."
     },
     "services": {
       "overline": "What we do",
@@ -309,18 +264,14 @@
       "phoneCta": "Leave your phone number"
     }
   },
-  "projects": {
-    "overline": "Portfolio",
-    "title": "Our completed projects",
-    "subtitle": "Over 120 premium-class homes built turnkey across the country."
-  },
   "footer": {
     "tagline": "Turnkey construction of premium-class private homes. From idea to keys — with a guaranteed result.",
     "navTitle": "Navigation",
     "contactsTitle": "Contacts",
     "address": "Lviv",
     "rights": "All rights reserved.",
-    "slogan": "Built with attention to detail."
+    "slogan": "Care for every detail — from design to handover.",
+    "comingSoon": "Coming soon"
   },
   "configurator": {
     "steps": {
@@ -599,11 +550,7 @@
     },
     "about": {
       "title": "About",
-      "description": "Velar Development — a team of architects and builders. We start with the architectural project and, if you wish, build premium-class houses, villas and cottages turnkey, and restore historic buildings."
-    },
-    "projects": {
-      "title": "Portfolio",
-      "description": "Completed turnkey premium-class home projects: modern, neoclassical, chalet and Mediterranean styles. Over 120 finished projects."
+      "description": "Velar Development manages the design and construction of premium-class houses, villas and cottages from idea to keys, as well as the restoration of historic buildings."
     },
     "configurator": {
       "title": "Configurators",

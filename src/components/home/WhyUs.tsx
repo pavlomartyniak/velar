@@ -18,7 +18,6 @@ const ICONS: SvgIconComponent[] = [
 ];
 
 type TextItem = { title: string; description: string };
-type Stat = { value: string; label: string };
 
 const container: Variants = {
   hidden: {},
@@ -37,7 +36,6 @@ const item: Variants = {
 export default function WhyUs() {
   const t = useTranslations("whyUs");
   const advantages = t.raw("advantages") as TextItem[];
-  const stats = t.raw("stats") as Stat[];
 
   return (
     <Box
@@ -101,31 +99,6 @@ export default function WhyUs() {
               </Stack>
             );
           })}
-        </Box>
-
-        {/* Статистика */}
-        <Box
-          sx={{
-            display: "grid",
-            gridTemplateColumns: { xs: "1fr 1fr", md: "repeat(4, 1fr)" },
-            gap: 3,
-            mt: { xs: 7, md: 10 },
-            pt: { xs: 5, md: 6 },
-            borderTop: 1,
-            borderColor: "divider",
-            textAlign: "center",
-          }}
-        >
-          {stats.map((stat) => (
-            <Box key={stat.label}>
-              <Typography variant="h3" sx={{ fontWeight: 800 }}>
-                {stat.value}
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                {stat.label}
-              </Typography>
-            </Box>
-          ))}
         </Box>
       </Container>
     </Box>

@@ -15,11 +15,7 @@ export const siteConfig = {
     street: "вул. Хрещатик, 1",
     country: "UA",
   },
-  socials: [
-    "https://instagram.com",
-    "https://facebook.com",
-    "https://youtube.com",
-  ],
+  socials: ["https://www.instagram.com/velar_development", "", ""],
   keywords: [
     "будівництво будинків",
     "будівництво вілл",

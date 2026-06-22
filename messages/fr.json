@@ -2,15 +2,11 @@
   "nav": {
     "home": "Accueil",
     "about": "À propos",
-    "portfolio": "Portfolio",
     "configurator": "Configurateur",
     "design": "Conception"
   },
   "cta": {
     "startConfig": "Lancer la configuration",
-    "viewPortfolio": "Voir le portfolio",
-    "viewAllProjects": "Voir tous les projets",
-    "viewProject": "Voir le projet",
     "orderDesign": "Estimer la conception",
     "calcConstruction": "Estimer la construction",
     "orderDesignPage": "Commander un projet"
@@ -29,38 +25,20 @@
     "subtitle": "Nous assumons le résultat à chaque étape — du projet architectural aux clés.",
     "advantages": [
       {
-        "title": "Équipe d'architectes",
-        "description": "Un projet individuel adapté à votre style de vie."
+        "title": "Un seul interlocuteur",
+        "description": "Nous coordonnons architectes, ingénieurs et constructeurs pour que vous ayez affaire à une seule personne, pas à dix prestataires."
       },
       {
-        "title": "Conception et construction",
-        "description": "Nous élaborons le projet et, si vous le souhaitez, le réalisons clé en main — sans intermédiaires."
+        "title": "La conception d'abord, la construction ensuite",
+        "description": "Nous commençons par le projet architectural. Si vous décidez de le construire, nous poursuivons sous le même contrôle."
       },
       {
         "title": "Devis fixe",
         "description": "Le prix est fixé dans le contrat et ne change pas pendant la construction."
       },
       {
-        "title": "Garantie 10 ans",
-        "description": "Sur les structures porteuses et les systèmes techniques de la maison."
-      }
-    ],
-    "stats": [
-      {
-        "value": "120+",
-        "label": "maisons construites"
-      },
-      {
-        "value": "15",
-        "label": "ans sur le marché"
-      },
-      {
-        "value": "98%",
-        "label": "clients satisfaits"
-      },
-      {
-        "value": "8 mois",
-        "label": "délai moyen"
+        "title": "Paiement échelonné",
+        "description": "Vous payez les étapes réalisées, jamais la totalité à l'avance."
       }
     ]
   },
@@ -83,11 +61,6 @@
       }
     ],
     "cta": "En savoir plus sur la conception"
-  },
-  "featured": {
-    "overline": "Portfolio",
-    "title": "Projets sélectionnés",
-    "subtitle": "Quelques-unes des plus de 120 maisons que nous avons construites clé en main."
   },
   "showcase": {
     "overline": "La philosophie Velar",
@@ -122,26 +95,8 @@
     "story": {
       "overline": "Qui nous sommes",
       "title": "Nous concevons et construisons des maisons qui traversent les générations",
-      "p1": "Velar Development est une équipe d'architectes, d'ingénieurs et de bâtisseurs. Tout commence par le projet architectural : nous élaborons l'ensemble du dossier et, si vous le souhaitez, le réalisons clé en main — du premier croquis à la remise des clés.",
-      "p2": "La restauration est un domaine à part entière. Nous redonnons vie aux bâtiments historiques et délaissés, en préservant leur caractère tout en les équipant d'une ingénierie et d'un confort modernes.",
-      "stats": [
-        {
-          "value": "15",
-          "label": "ans d'expérience"
-        },
-        {
-          "value": "120+",
-          "label": "projets réalisés"
-        },
-        {
-          "value": "40+",
-          "label": "spécialistes dans l'équipe"
-        },
-        {
-          "value": "100%",
-          "label": "travaux clé en main"
-        }
-      ]
+      "p1": "Velar Development pilote votre projet de l'idée jusqu'aux clés. Nous coordonnons architectes, ingénieurs et équipes de construction sous un seul contrat, afin que vous ayez un seul interlocuteur plutôt que de négocier avec une dizaine de prestataires. Tout commence par le projet architectural : nous élaborons l'ensemble du dossier et, si vous le souhaitez, le réalisons clé en main.",
+      "p2": "La restauration est un service à part : la remise en valeur soignée de bâtiments historiques et délaissés, en préservant leur caractère tout en les dotant d'une ingénierie et d'un confort modernes."
     },
     "services": {
       "overline": "Domaines d'activité",
@@ -309,18 +264,14 @@
       "phoneCta": "Laisser mon numéro"
     }
   },
-  "projects": {
-    "overline": "Portfolio",
-    "title": "Nos projets réalisés",
-    "subtitle": "Plus de 120 maisons haut de gamme construites clé en main dans tout le pays."
-  },
   "footer": {
     "tagline": "Construction clé en main de maisons privées haut de gamme. De l'idée aux clés — avec un résultat garanti.",
     "navTitle": "Navigation",
     "contactsTitle": "Contacts",
     "address": "Lviv",
     "rights": "Tous droits réservés.",
-    "slogan": "Construit avec le souci du détail."
+    "slogan": "Le souci du détail — de la conception à la remise des clés.",
+    "comingSoon": "Bientôt disponible"
   },
   "configurator": {
     "steps": {
@@ -599,11 +550,7 @@
     },
     "about": {
       "title": "À propos",
-      "description": "Velar Development — une équipe d'architectes et de bâtisseurs. Nous commençons par le projet architectural et construisons, si vous le souhaitez, des maisons, villas et cottages haut de gamme clé en main, et restaurons des bâtiments historiques."
-    },
-    "projects": {
-      "title": "Portfolio",
-      "description": "Projets clé en main haut de gamme réalisés : styles moderne, néoclassique, chalet et méditerranéen. Plus de 120 projets achevés."
+      "description": "Velar Development pilote la conception et la construction de maisons, villas et cottages haut de gamme, de l'idée aux clés, ainsi que la restauration de bâtiments historiques."
     },
     "configurator": {
       "title": "Configurateurs",

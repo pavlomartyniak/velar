@@ -5,7 +5,6 @@ import { createMetadata } from "@/lib/seo";
 import Hero from "@/components/home/Hero";
 import WhyUs from "@/components/home/WhyUs";
 import DesignPromo from "@/components/home/DesignPromo";
-import FeaturedProjects from "@/components/home/FeaturedProjects";
 import ShowcaseBanner from "@/components/home/ShowcaseBanner";
 import HowItWorks from "@/components/home/HowItWorks";
 import ServicesCta from "@/components/shared/ServicesCta";
@@ -36,7 +35,6 @@ export default async function Home({ params }: PageProps) {
       <DesignPromo />
       <HowItWorks />
       <WhyUs />
-      <FeaturedProjects />
       <ShowcaseBanner />
       <ServicesCta />
     </>

@@ -2,15 +2,11 @@
   "nav": {
     "home": "Home",
     "about": "Chi siamo",
-    "portfolio": "Portfolio",
     "configurator": "Configuratore",
     "design": "Progettazione"
   },
   "cta": {
     "startConfig": "Avvia la configurazione",
-    "viewPortfolio": "Vedi il portfolio",
-    "viewAllProjects": "Vedi tutti i progetti",
-    "viewProject": "Vedi il progetto",
     "orderDesign": "Stima la progettazione",
     "calcConstruction": "Stima la costruzione",
     "orderDesignPage": "Richiedi un progetto"
@@ -29,38 +25,20 @@
     "subtitle": "Ci assumiamo la responsabilità del risultato in ogni fase — dal progetto architettonico alle chiavi.",
     "advantages": [
       {
-        "title": "Team di architetti",
-        "description": "Un progetto su misura adattato al tuo stile di vita."
+        "title": "Un solo referente",
+        "description": "Coordiniamo architetti, ingegneri e costruttori, così parli con una sola persona invece di dieci fornitori diversi."
       },
       {
-        "title": "Progettazione e costruzione",
-        "description": "Sviluppiamo il progetto e, se lo desideri, lo realizziamo chiavi in mano — senza intermediari."
+        "title": "Prima il progetto, poi la costruzione",
+        "description": "Iniziamo con il progetto architettonico. Se decidi di realizzarlo, continuiamo sotto lo stesso controllo."
       },
       {
         "title": "Preventivo fisso",
         "description": "Il prezzo è fissato nel contratto e non cambia durante la costruzione."
       },
       {
-        "title": "Garanzia 10 anni",
-        "description": "Sulle strutture portanti e sugli impianti tecnici della casa."
-      }
-    ],
-    "stats": [
-      {
-        "value": "120+",
-        "label": "case costruite"
-      },
-      {
-        "value": "15",
-        "label": "anni sul mercato"
-      },
-      {
-        "value": "98%",
-        "label": "clienti soddisfatti"
-      },
-      {
-        "value": "8 mesi",
-        "label": "tempo medio"
+        "title": "Pagamento a fasi",
+        "description": "Paghi le fasi completate, mai l'intera somma in anticipo."
       }
     ]
   },
@@ -83,11 +61,6 @@
       }
     ],
     "cta": "Scopri la progettazione"
-  },
-  "featured": {
-    "overline": "Portfolio",
-    "title": "Progetti selezionati",
-    "subtitle": "Alcune delle oltre 120 case che abbiamo costruito chiavi in mano."
   },
   "showcase": {
     "overline": "La filosofia Velar",
@@ -122,26 +95,8 @@
     "story": {
       "overline": "Chi siamo",
       "title": "Progettiamo e costruiamo case che attraversano le generazioni",
-      "p1": "Velar Development è un team di architetti, ingegneri e costruttori. Tutto inizia con il progetto architettonico: sviluppiamo l'intero pacchetto di documentazione e, se lo desideri, lo realizziamo chiavi in mano — dal primo schizzo alla consegna delle chiavi.",
-      "p2": "Un ambito a sé è il restauro. Riportiamo in vita edifici storici e abbandonati, preservandone il carattere e dotandoli al contempo di ingegneria e comfort moderni.",
-      "stats": [
-        {
-          "value": "15",
-          "label": "anni di esperienza"
-        },
-        {
-          "value": "120+",
-          "label": "progetti completati"
-        },
-        {
-          "value": "40+",
-          "label": "specialisti nel team"
-        },
-        {
-          "value": "100%",
-          "label": "lavori chiavi in mano"
-        }
-      ]
+      "p1": "Velar Development gestisce il tuo progetto dall'idea alle chiavi. Coordiniamo architetti, ingegneri e squadre di costruzione sotto un unico contratto, così hai un solo referente invece di trattare con dieci fornitori diversi. Tutto inizia con il progetto architettonico: sviluppiamo l'intero pacchetto di documentazione e, se lo desideri, lo realizziamo chiavi in mano.",
+      "p2": "Un servizio a parte è il restauro: il recupero attento di edifici storici e abbandonati, preservandone il carattere e dotandoli al contempo di impiantistica e comfort moderni."
     },
     "services": {
       "overline": "Aree di attività",
@@ -309,18 +264,14 @@
       "phoneCta": "Lascia il numero di telefono"
     }
   },
-  "projects": {
-    "overline": "Portfolio",
-    "title": "I nostri progetti realizzati",
-    "subtitle": "Oltre 120 case di classe premium costruite chiavi in mano in tutto il paese."
-  },
   "footer": {
     "tagline": "Costruzione chiavi in mano di case private di classe premium. Dall'idea alle chiavi — con un risultato garantito.",
     "navTitle": "Navigazione",
     "contactsTitle": "Contatti",
     "address": "Leopoli",
     "rights": "Tutti i diritti riservati.",
-    "slogan": "Costruito con cura dei dettagli."
+    "slogan": "Cura per ogni dettaglio — dalla progettazione alla consegna.",
+    "comingSoon": "Disponibile a breve"
   },
   "configurator": {
     "steps": {
@@ -599,11 +550,7 @@
     },
     "about": {
       "title": "Chi siamo",
-      "description": "Velar Development — un team di architetti e costruttori. Iniziamo con il progetto architettonico e costruiamo, se lo desideri, case, ville e cottage di classe premium chiavi in mano, e restauriamo edifici storici."
-    },
-    "projects": {
-      "title": "Portfolio",
-      "description": "Progetti premium chiavi in mano realizzati: stili moderno, neoclassico, chalet e mediterraneo. Oltre 120 progetti completati."
+      "description": "Velar Development gestisce la progettazione e la costruzione di case, ville e cottage di classe premium dall'idea alle chiavi, oltre al restauro di edifici storici."
     },
     "configurator": {
       "title": "Configuratori",

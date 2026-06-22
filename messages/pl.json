@@ -2,15 +2,11 @@
   "nav": {
     "home": "Strona główna",
     "about": "O nas",
-    "portfolio": "Portfolio",
     "configurator": "Konfigurator",
     "design": "Projektowanie"
   },
   "cta": {
     "startConfig": "Rozpocznij konfigurację",
-    "viewPortfolio": "Zobacz portfolio",
-    "viewAllProjects": "Zobacz wszystkie projekty",
-    "viewProject": "Zobacz projekt",
     "orderDesign": "Oszacuj projekt",
     "calcConstruction": "Oszacuj budowę",
     "orderDesignPage": "Zamów projektowanie"
@@ -29,38 +25,20 @@
     "subtitle": "Bierzemy odpowiedzialność za rezultat na każdym etapie — od projektu architektonicznego po klucze.",
     "advantages": [
       {
-        "title": "Zespół architektów",
-        "description": "Indywidualny projekt dopasowany do Twojego stylu życia."
+        "title": "Jeden kontakt na cały projekt",
+        "description": "Koordynujemy architektów, inżynierów i wykonawców, dzięki czemu rozmawiasz z jedną osobą, a nie z dziesiątką podwykonawców."
       },
       {
-        "title": "Projekt i budowa",
-        "description": "Tworzymy projekt, a na życzenie realizujemy go pod klucz — bez pośredników."
+        "title": "Najpierw projekt, potem budowa",
+        "description": "Zaczynamy od projektu architektonicznego. Jeśli zdecydujesz się go zrealizować, kontynuujemy budowę pod tą samą kontrolą."
       },
       {
         "title": "Stały kosztorys",
         "description": "Cena zapisana w umowie i niezmienna w trakcie budowy."
       },
       {
-        "title": "10 lat gwarancji",
-        "description": "Na konstrukcje nośne i instalacje techniczne domu."
-      }
-    ],
-    "stats": [
-      {
-        "value": "120+",
-        "label": "wybudowanych domów"
-      },
-      {
-        "value": "15",
-        "label": "lat na rynku"
-      },
-      {
-        "value": "98%",
-        "label": "zadowolonych klientów"
-      },
-      {
-        "value": "8 mies.",
-        "label": "średni czas realizacji"
+        "title": "Płatność etapami",
+        "description": "Płacisz za zrealizowane etapy, nigdy całość z góry."
       }
     ]
   },
@@ -83,11 +61,6 @@
       }
     ],
     "cta": "Dowiedz się o projektowaniu"
-  },
-  "featured": {
-    "overline": "Portfolio",
-    "title": "Wybrane projekty",
-    "subtitle": "Kilka z ponad 120 domów, które zbudowaliśmy pod klucz."
   },
   "showcase": {
     "overline": "Filozofia Velar",
@@ -122,26 +95,8 @@
     "story": {
       "overline": "Kim jesteśmy",
       "title": "Projektujemy i budujemy domy, które przetrwają pokolenia",
-      "p1": "Velar Development to zespół architektów, inżynierów i budowniczych. Wszystko zaczyna się od projektu architektonicznego: przygotowujemy kompletny pakiet dokumentacji, a na życzenie realizujemy go pod klucz — od pierwszego szkicu po przekazanie kluczy.",
-      "p2": "Osobnym kierunkiem jest renowacja. Przywracamy do życia historyczne i zaniedbane budynki, zachowując ich charakter, a jednocześnie wyposażając je w nowoczesną inżynierię i komfort.",
-      "stats": [
-        {
-          "value": "15",
-          "label": "lat doświadczenia"
-        },
-        {
-          "value": "120+",
-          "label": "zrealizowanych obiektów"
-        },
-        {
-          "value": "40+",
-          "label": "specjalistów w zespole"
-        },
-        {
-          "value": "100%",
-          "label": "prac pod klucz"
-        }
-      ]
+      "p1": "Velar Development prowadzi Twój projekt od idei po przekazanie kluczy. Koordynujemy architektów, inżynierów i zespoły budowlane w ramach jednej umowy, dzięki czemu masz jeden punkt kontaktu, a nie dziesiątkę podwykonawców do uzgadniania osobno. Wszystko zaczyna się od projektu architektonicznego: przygotowujemy kompletny pakiet dokumentacji, a na życzenie realizujemy go pod klucz.",
+      "p2": "Osobną usługą jest renowacja: troskliwe przywracanie do życia historycznych i zaniedbanych budynków, z zachowaniem ich charakteru i jednoczesnym wyposażeniem w nowoczesną instalację i komfort."
     },
     "services": {
       "overline": "Obszary działalności",
@@ -309,18 +264,14 @@
       "phoneCta": "Zostaw numer telefonu"
     }
   },
-  "projects": {
-    "overline": "Portfolio",
-    "title": "Nasze zrealizowane projekty",
-    "subtitle": "Ponad 120 domów klasy premium wybudowanych pod klucz w całym kraju."
-  },
   "footer": {
     "tagline": "Budowa prywatnych domów klasy premium pod klucz. Od pomysłu po klucze — z gwarantowanym rezultatem.",
     "navTitle": "Nawigacja",
     "contactsTitle": "Kontakt",
     "address": "Lwów",
     "rights": "Wszelkie prawa zastrzeżone.",
-    "slogan": "Zbudowano z dbałością o detale."
+    "slogan": "Dbałość o każdy detal — od projektu do przekazania kluczy.",
+    "comingSoon": "Wkrótce dostępne"
   },
   "configurator": {
     "steps": {
@@ -599,11 +550,7 @@
     },
     "about": {
       "title": "O nas",
-      "description": "Velar Development — zespół architektów i budowniczych. Zaczynamy od projektu architektonicznego, a na życzenie budujemy pod klucz domy, wille i domki klasy premium oraz renowujemy historyczne budynki."
-    },
-    "projects": {
-      "title": "Portfolio",
-      "description": "Zrealizowane projekty premium pod klucz: styl nowoczesny, neoklasyczny, chalet i śródziemnomorski. Ponad 120 ukończonych obiektów."
+      "description": "Velar Development prowadzi projektowanie i budowę domów, willi i domków klasy premium od idei po przekazanie kluczy, a także renowację historycznych budynków."
     },
     "configurator": {
       "title": "Konfiguratory",
