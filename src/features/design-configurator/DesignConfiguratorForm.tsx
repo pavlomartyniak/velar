@@ -119,7 +119,13 @@ export default function DesignConfiguratorForm() {
   return (
     <FormProvider {...methods}>
       <Container maxWidth="md" sx={{ py: { xs: 4, md: 8 } }}>
-        <Box sx={{ overflowX: "auto", mb: { xs: 4, md: 6 }, pb: 1 }}>
+        <Box
+          sx={{
+            overflowX: { xs: "auto", md: "visible" },
+            mb: { xs: 4, md: 6 },
+            pb: 1,
+          }}
+        >
           <Stepper
             nonLinear
             activeStep={activeStep}

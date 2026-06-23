@@ -283,7 +283,9 @@
       "details": "Details",
       "engineering": "Engineering",
       "options": "Options",
-      "result": "Result"
+      "result": "Result",
+      "plot": "Plot",
+      "structure": "Structure"
     },
     "nav": {
       "back": "Back",
@@ -425,20 +427,6 @@
           }
         },
         "hint": "You can choose several types — they work great in combination."
-      },
-      "plot": {
-        "title": "Do you have a plot of land?",
-        "hint": "This helps the manager prepare an offer.",
-        "options": {
-          "have": {
-            "label": "I already have one",
-            "description": "We build on your land."
-          },
-          "search": {
-            "label": "I need help",
-            "description": "We'll find a plot for the project."
-          }
-        }
       }
     },
     "options": {
@@ -484,7 +472,11 @@
         "roof": "Roof",
         "heating": "Heating",
         "timeline": "Timeline",
-        "plot": "Plot"
+        "plot": "Plot",
+        "terrain": "Terrain",
+        "foundation": "Foundation",
+        "basement": "Basement",
+        "windows": "Windows"
       },
       "budgetTitle": "Estimated budget",
       "constructionRow": "Construction ({style}, {finish}, {area} m²)",
@@ -518,6 +510,110 @@
       "nameError": "Please enter your name",
       "phoneError": "Enter a valid phone number",
       "submitError": "Could not send your request. Please try again or call us directly."
+    },
+    "plot": {
+      "heading": "Tell us about the plot",
+      "subtitle": "Terrain, foundation and utilities significantly affect the estimate.",
+      "status": {
+        "title": "Do you already have a plot?",
+        "hint": "This helps the manager prepare a proposal.",
+        "options": {
+          "have": {
+            "label": "I already have a plot",
+            "description": "We build on your land."
+          },
+          "search": {
+            "label": "I need help",
+            "description": "We'll help you choose a plot for the project."
+          }
+        }
+      },
+      "terrain": {
+        "title": "Plot terrain",
+        "options": {
+          "flat": {
+            "label": "Flat",
+            "description": "Standard house placement."
+          },
+          "slope": {
+            "label": "Sloped",
+            "description": "Requires solutions for elevation changes."
+          },
+          "complex": {
+            "label": "Complex",
+            "description": "Significant slope, difficult geology."
+          }
+        }
+      },
+      "foundation": {
+        "title": "Foundation type",
+        "hint": "The optimal type depends on the soil and terrain — we'll advise if needed.",
+        "options": {
+          "slab": {
+            "label": "Slab",
+            "description": "A versatile solution for most soils."
+          },
+          "strip": {
+            "label": "Strip",
+            "description": "A classic choice for stable soils."
+          },
+          "pile": {
+            "label": "Pile",
+            "description": "For weak soils and difficult terrain."
+          }
+        }
+      },
+      "utilities": {
+        "title": "Utilities on site",
+        "hint": "Mark which utilities still need to be connected — this will be added to the estimate.",
+        "items": {
+          "water": "Water connection",
+          "gas": "Gas connection",
+          "electricity": "Electricity connection",
+          "sewage": "Sewage connection"
+        },
+        "plus": "+{price}"
+      }
+    },
+    "structure": {
+      "heading": "Structural decisions",
+      "subtitle": "The basement level and windows affect comfort, energy efficiency and the estimate.",
+      "basement": {
+        "title": "Basement level",
+        "hint": "Extra space under the house — technical or livable.",
+        "options": {
+          "none": {
+            "label": "No basement",
+            "description": "Standard foundation."
+          },
+          "technical": {
+            "label": "Technical",
+            "description": "Boiler room, storage, utility spaces."
+          },
+          "living": {
+            "label": "Livable",
+            "description": "Gym, spa, home cinema, etc."
+          }
+        }
+      },
+      "windows": {
+        "title": "Window type",
+        "hint": "Affects thermal insulation and the facade's appearance.",
+        "options": {
+          "standard": {
+            "label": "Standard",
+            "description": "Double-glazed unit, optimal price."
+          },
+          "energyEfficient": {
+            "label": "Energy-efficient",
+            "description": "Triple-chamber profile, enhanced insulation."
+          },
+          "premium": {
+            "label": "Premium",
+            "description": "Large-format windows, maximum energy efficiency."
+          }
+        }
+      }
     }
   },
   "project": {

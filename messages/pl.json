@@ -283,7 +283,9 @@
       "details": "Szczegóły",
       "engineering": "Inżynieria",
       "options": "Opcje",
-      "result": "Wynik"
+      "result": "Wynik",
+      "plot": "Działka",
+      "structure": "Konstrukcja"
     },
     "nav": {
       "back": "Wstecz",
@@ -425,20 +427,6 @@
           }
         },
         "hint": "Możesz wybrać kilka typów — świetnie współpracują ze sobą."
-      },
-      "plot": {
-        "title": "Czy masz działkę?",
-        "hint": "To pomoże menedżerowi przygotować ofertę.",
-        "options": {
-          "have": {
-            "label": "Już mam",
-            "description": "Budujemy na Twojej działce."
-          },
-          "search": {
-            "label": "Potrzebuję pomocy",
-            "description": "Dobierzemy działkę pod projekt."
-          }
-        }
       }
     },
     "options": {
@@ -484,7 +472,11 @@
         "roof": "Dach",
         "heating": "Ogrzewanie",
         "timeline": "Termin",
-        "plot": "Działka"
+        "plot": "Działka",
+        "terrain": "Teren",
+        "foundation": "Fundament",
+        "basement": "Piwnica",
+        "windows": "Okna"
       },
       "budgetTitle": "Szacunkowy budżet",
       "constructionRow": "Budowa ({style}, {finish}, {area} m²)",
@@ -518,6 +510,110 @@
       "nameError": "Podaj imię",
       "phoneError": "Wpisz poprawny numer telefonu",
       "submitError": "Nie udało się wysłać zgłoszenia. Spróbuj ponownie lub zadzwoń do nas."
+    },
+    "plot": {
+      "heading": "Opowiedz nam o działce",
+      "subtitle": "Ukształtowanie terenu, fundament i przyłącza znacząco wpływają na kosztorys.",
+      "status": {
+        "title": "Czy masz już działkę?",
+        "hint": "To pomoże menedżerowi przygotować ofertę.",
+        "options": {
+          "have": {
+            "label": "Mam już działkę",
+            "description": "Budujemy na Twojej działce."
+          },
+          "search": {
+            "label": "Potrzebuję pomocy",
+            "description": "Pomożemy wybrać działkę pod projekt."
+          }
+        }
+      },
+      "terrain": {
+        "title": "Ukształtowanie działki",
+        "options": {
+          "flat": {
+            "label": "Płaska",
+            "description": "Standardowe usytuowanie domu."
+          },
+          "slope": {
+            "label": "Ze spadkiem",
+            "description": "Wymaga rozwiązań na różnice wysokości."
+          },
+          "complex": {
+            "label": "Złożona",
+            "description": "Znaczny spadek, skomplikowana geologia."
+          }
+        }
+      },
+      "foundation": {
+        "title": "Typ fundamentu",
+        "hint": "Optymalny typ zależy od gruntu i terenu — doradzimy w razie potrzeby.",
+        "options": {
+          "slab": {
+            "label": "Płyta fundamentowa",
+            "description": "Uniwersalne rozwiązanie dla większości gruntów."
+          },
+          "strip": {
+            "label": "Ławy fundamentowe",
+            "description": "Klasyczny wybór dla stabilnych gruntów."
+          },
+          "pile": {
+            "label": "Fundament palowy",
+            "description": "Dla słabych gruntów i trudnego terenu."
+          }
+        }
+      },
+      "utilities": {
+        "title": "Przyłącza na działce",
+        "hint": "Zaznacz, jakie przyłącza trzeba jeszcze wykonać — zostanie to dodane do kosztorysu.",
+        "items": {
+          "water": "Przyłącze wody",
+          "gas": "Przyłącze gazu",
+          "electricity": "Przyłącze elektryczne",
+          "sewage": "Przyłącze kanalizacyjne"
+        },
+        "plus": "+{price}"
+      }
+    },
+    "structure": {
+      "heading": "Decyzje konstrukcyjne",
+      "subtitle": "Poziom podpiwniczenia i okna wpływają na komfort, efektywność energetyczną i kosztorys.",
+      "basement": {
+        "title": "Podpiwniczenie",
+        "hint": "Dodatkowa przestrzeń pod domem — techniczna lub mieszkalna.",
+        "options": {
+          "none": {
+            "label": "Bez piwnicy",
+            "description": "Standardowy fundament."
+          },
+          "technical": {
+            "label": "Techniczna",
+            "description": "Kotłownia, schowki, pomieszczenia techniczne."
+          },
+          "living": {
+            "label": "Mieszkalna",
+            "description": "Siłownia, spa, kino domowe itp."
+          }
+        }
+      },
+      "windows": {
+        "title": "Typ okien",
+        "hint": "Wpływa na izolację termiczną i wygląd elewacji.",
+        "options": {
+          "standard": {
+            "label": "Standardowe",
+            "description": "Pakiet dwukomorowy, optymalna cena."
+          },
+          "energyEfficient": {
+            "label": "Energooszczędne",
+            "description": "Profil trzykomorowy, wzmocniona izolacja."
+          },
+          "premium": {
+            "label": "Premium",
+            "description": "Wielkoformatowe okna, maksymalna efektywność energetyczna."
+          }
+        }
+      }
     }
   },
   "project": {

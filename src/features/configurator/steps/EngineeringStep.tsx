@@ -2,12 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { Box, Stack, Typography } from "@mui/material";
-import {
-  HEATING_OPTIONS,
-  PLOT_OPTIONS,
-  ROOF_OPTIONS,
-  WALL_OPTIONS,
-} from "../schema";
+import { HEATING_OPTIONS, ROOF_OPTIONS, WALL_OPTIONS } from "../schema";
 import ChoiceQuestion from "./ChoiceQuestion";
 
 export default function EngineeringStep() {
@@ -27,11 +22,6 @@ export default function EngineeringStep() {
     value: o.value,
     label: t(`heating.options.${o.value}.label`),
     description: t(`heating.options.${o.value}.description`),
-  }));
-  const plot = PLOT_OPTIONS.map((o) => ({
-    value: o.value,
-    label: t(`plot.options.${o.value}.label`),
-    description: t(`plot.options.${o.value}.description`),
   }));
 
   return (
@@ -53,12 +43,6 @@ export default function EngineeringStep() {
         hint={t("heating.hint")}
         options={heating}
         multiple
-      />
-      <ChoiceQuestion
-        name="plot"
-        title={t("plot.title")}
-        hint={t("plot.hint")}
-        options={plot}
       />
     </Stack>
   );

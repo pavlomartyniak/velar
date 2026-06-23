@@ -23,6 +23,7 @@ import {
   ADDONS,
   type ConfiguratorValues,
   HOUSE_STYLES,
+  UTILITIES,
   computeBudget,
   formatCurrency,
 } from "../schema";
@@ -149,6 +150,9 @@ export default function ResultStep({ onEdit }: { onEdit: () => void }) {
   const budget = computeBudget(values);
   const style = HOUSE_STYLES.find((s) => s.value === values.style);
   const selectedAddons = ADDONS.filter((addon) => values.addons?.[addon.key]);
+  const selectedUtilities = UTILITIES.filter(
+    (utility) => values.utilities?.[utility.key],
+  );
 
   const styleLabel = style ? tc(`style.options.${style.value}.label`) : "—";
   const finishLabel = values.finish
@@ -263,7 +267,23 @@ export default function ResultStep({ onEdit }: { onEdit: () => void }) {
             />
             <Spec
               label={t("specs.plot")}
-              value={tc(`engineering.plot.options.${values.plot}.label`)}
+              value={tc(`plot.status.options.${values.plotStatus}.label`)}
+            />
+            <Spec
+              label={t("specs.terrain")}
+              value={tc(`plot.terrain.options.${values.terrain}.label`)}
+            />
+            <Spec
+              label={t("specs.foundation")}
+              value={tc(`plot.foundation.options.${values.foundation}.label`)}
+            />
+            <Spec
+              label={t("specs.basement")}
+              value={tc(`structure.basement.options.${values.basement}.label`)}
+            />
+            <Spec
+              label={t("specs.windows")}
+              value={tc(`structure.windows.options.${values.windows}.label`)}
             />
           </Box>
         </CardContent>
@@ -300,6 +320,13 @@ export default function ResultStep({ onEdit }: { onEdit: () => void }) {
                 value={formatCurrency(budget.heatingCost)}
               />
             )}
+            {selectedUtilities.map((utility) => (
+              <Row
+                key={utility.key}
+                label={tc(`plot.utilities.items.${utility.key}`)}
+                value={formatCurrency(utility.price)}
+              />
+            ))}
             {selectedAddons.map((addon) => (
               <Row
                 key={addon.key}

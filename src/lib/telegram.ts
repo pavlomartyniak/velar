@@ -1,4 +1,4 @@
-import { ADDONS, HOUSE_STYLES, computeBudget, formatCurrency, type ConfiguratorValues } from "@/features/configurator/schema";
+import { ADDONS, HOUSE_STYLES, UTILITIES, computeBudget, formatCurrency, type ConfiguratorValues } from "@/features/configurator/schema";
 
 const SOURCE_LABELS: Record<string, string> = {
   configurator: "Конфігуратор",
@@ -45,6 +45,37 @@ const HEATING_LABELS: Record<string, string> = {
 const PLOT_LABELS: Record<string, string> = {
   have: "Є власна ділянка",
   search: "Потрібна допомога з ділянкою",
+};
+
+const TERRAIN_LABELS: Record<string, string> = {
+  flat: "Рівна",
+  slope: "З ухилом",
+  complex: "Складний рельєф",
+};
+
+const FOUNDATION_LABELS: Record<string, string> = {
+  slab: "Плитний фундамент",
+  strip: "Стрічковий фундамент",
+  pile: "Пальовий фундамент",
+};
+
+const BASEMENT_LABELS: Record<string, string> = {
+  none: "Без цоколя",
+  technical: "Технічний цоколь",
+  living: "Житловий цоколь",
+};
+
+const WINDOWS_LABELS: Record<string, string> = {
+  standard: "Стандартні вікна",
+  energyEfficient: "Енергоефективні вікна",
+  premium: "Преміум вікна",
+};
+
+const UTILITY_LABELS: Record<string, string> = {
+  water: "Підключення води",
+  gas: "Підключення газу",
+  electricity: "Підключення електрики",
+  sewage: "Підключення каналізації",
 };
 
 const ADDON_LABELS: Record<string, string> = {
@@ -156,6 +187,9 @@ export function formatLeadMessage({ name, phone, source, configurator }: LeadPay
     const addons = ADDONS.filter((addon) => configurator.addons?.[addon.key]).map(
       (addon) => ADDON_LABELS[addon.key],
     );
+    const utilities = UTILITIES.filter(
+      (utility) => configurator.utilities?.[utility.key],
+    ).map((utility) => UTILITY_LABELS[utility.key]);
 
     lines.push(
       "",
@@ -169,7 +203,12 @@ export function formatLeadMessage({ name, phone, source, configurator }: LeadPay
       `Стіни: ${configurator.wallMaterial ? WALL_LABELS[configurator.wallMaterial] : "—"}`,
       `Дах: ${configurator.roof ? ROOF_LABELS[configurator.roof] : "—"}`,
       `Опалення: ${configurator.heating?.length ? configurator.heating.map((h) => HEATING_LABELS[h]).join(", ") : "—"}`,
-      `Ділянка: ${configurator.plot ? PLOT_LABELS[configurator.plot] : "—"}`,
+      `Ділянка: ${configurator.plotStatus ? PLOT_LABELS[configurator.plotStatus] : "—"}`,
+      `Рельєф: ${configurator.terrain ? TERRAIN_LABELS[configurator.terrain] : "—"}`,
+      `Фундамент: ${configurator.foundation ? FOUNDATION_LABELS[configurator.foundation] : "—"}`,
+      `Мережі, що потребують підключення: ${utilities.length ? utilities.join(", ") : "—"}`,
+      `Цоколь: ${configurator.basement ? BASEMENT_LABELS[configurator.basement] : "—"}`,
+      `Вікна: ${configurator.windows ? WINDOWS_LABELS[configurator.windows] : "—"}`,
       `Опції: ${addons.length ? addons.join(", ") : "—"}`,
       `Орієнтовний бюджет: ${formatCurrency(budget.min)} – ${formatCurrency(budget.max)}`,
       "",

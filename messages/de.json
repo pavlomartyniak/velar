@@ -283,7 +283,9 @@
       "details": "Details",
       "engineering": "Technik",
       "options": "Optionen",
-      "result": "Ergebnis"
+      "result": "Ergebnis",
+      "plot": "Grundstück",
+      "structure": "Konstruktion"
     },
     "nav": {
       "back": "Zurück",
@@ -425,20 +427,6 @@
           }
         },
         "hint": "Sie können mehrere Typen wählen — sie ergänzen sich hervorragend."
-      },
-      "plot": {
-        "title": "Haben Sie ein Grundstück?",
-        "hint": "Das hilft dem Manager, ein Angebot vorzubereiten.",
-        "options": {
-          "have": {
-            "label": "Ich habe bereits eines",
-            "description": "Wir bauen auf Ihrem Grundstück."
-          },
-          "search": {
-            "label": "Ich brauche Hilfe",
-            "description": "Wir finden ein Grundstück für das Projekt."
-          }
-        }
       }
     },
     "options": {
@@ -484,7 +472,11 @@
         "roof": "Dach",
         "heating": "Heizung",
         "timeline": "Bauzeit",
-        "plot": "Grundstück"
+        "plot": "Grundstück",
+        "terrain": "Gelände",
+        "foundation": "Fundament",
+        "basement": "Untergeschoss",
+        "windows": "Fenster"
       },
       "budgetTitle": "Geschätztes Budget",
       "constructionRow": "Bau ({style}, {finish}, {area} m²)",
@@ -518,6 +510,110 @@
       "nameError": "Bitte geben Sie Ihren Namen ein",
       "phoneError": "Geben Sie eine gültige Telefonnummer ein",
       "submitError": "Ihre Anfrage konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder rufen Sie uns an."
+    },
+    "plot": {
+      "heading": "Erzählen Sie uns von Ihrem Grundstück",
+      "subtitle": "Geländeform, Fundament und Anschlüsse beeinflussen den Kostenvoranschlag erheblich.",
+      "status": {
+        "title": "Haben Sie bereits ein Grundstück?",
+        "hint": "Das hilft dem Manager, ein Angebot vorzubereiten.",
+        "options": {
+          "have": {
+            "label": "Ich habe bereits ein Grundstück",
+            "description": "Wir bauen auf Ihrem Grundstück."
+          },
+          "search": {
+            "label": "Ich brauche Hilfe",
+            "description": "Wir helfen Ihnen, ein passendes Grundstück zu finden."
+          }
+        }
+      },
+      "terrain": {
+        "title": "Geländeform",
+        "options": {
+          "flat": {
+            "label": "Flach",
+            "description": "Standardmäßige Hausplatzierung."
+          },
+          "slope": {
+            "label": "Hängig",
+            "description": "Erfordert Lösungen für Höhenunterschiede."
+          },
+          "complex": {
+            "label": "Komplex",
+            "description": "Starkes Gefälle, schwierige Geologie."
+          }
+        }
+      },
+      "foundation": {
+        "title": "Fundamenttyp",
+        "hint": "Der optimale Typ hängt vom Boden und Gelände ab — wir beraten Sie bei Bedarf.",
+        "options": {
+          "slab": {
+            "label": "Plattenfundament",
+            "description": "Vielseitige Lösung für die meisten Böden."
+          },
+          "strip": {
+            "label": "Streifenfundament",
+            "description": "Klassische Wahl für stabile Böden."
+          },
+          "pile": {
+            "label": "Pfahlfundament",
+            "description": "Für schwache Böden und schwieriges Gelände."
+          }
+        }
+      },
+      "utilities": {
+        "title": "Erschließung des Grundstücks",
+        "hint": "Markieren Sie, welche Anschlüsse noch benötigt werden — dies wird dem Kostenvoranschlag hinzugefügt.",
+        "items": {
+          "water": "Wasseranschluss",
+          "gas": "Gasanschluss",
+          "electricity": "Stromanschluss",
+          "sewage": "Abwasseranschluss"
+        },
+        "plus": "+{price}"
+      }
+    },
+    "structure": {
+      "heading": "Konstruktive Entscheidungen",
+      "subtitle": "Das Untergeschoss und die Fenster beeinflussen Komfort, Energieeffizienz und Kosten.",
+      "basement": {
+        "title": "Untergeschoss",
+        "hint": "Zusätzlicher Raum unter dem Haus — technisch oder wohnlich.",
+        "options": {
+          "none": {
+            "label": "Ohne Untergeschoss",
+            "description": "Standardfundament."
+          },
+          "technical": {
+            "label": "Technisch",
+            "description": "Heizraum, Lager, technische Räume."
+          },
+          "living": {
+            "label": "Wohnlich",
+            "description": "Fitnessraum, Spa, Heimkino usw."
+          }
+        }
+      },
+      "windows": {
+        "title": "Fenstertyp",
+        "hint": "Beeinflusst die Wärmedämmung und das Erscheinungsbild der Fassade.",
+        "options": {
+          "standard": {
+            "label": "Standard",
+            "description": "Zweifachverglasung, optimaler Preis."
+          },
+          "energyEfficient": {
+            "label": "Energieeffizient",
+            "description": "Dreikammerprofil, verstärkte Dämmung."
+          },
+          "premium": {
+            "label": "Premium",
+            "description": "Großformatige Fenster, maximale Energieeffizienz."
+          }
+        }
+      }
     }
   },
   "project": {

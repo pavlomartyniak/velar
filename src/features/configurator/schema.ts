@@ -83,6 +83,43 @@ export const HEATING_OPTIONS = [
 
 export const PLOT_OPTIONS = [{ value: "have" }, { value: "search" }] as const;
 
+/* ───────────────── Крок «Ділянка» ───────────────── */
+
+export const TERRAIN_OPTIONS = [
+  { value: "flat", multiplier: 1 },
+  { value: "slope", multiplier: 1.08 },
+  { value: "complex", multiplier: 1.15 },
+] as const;
+
+export const FOUNDATION_OPTIONS = [
+  { value: "slab", multiplier: 1 },
+  { value: "strip", multiplier: 1.05 },
+  { value: "pile", multiplier: 1.12 },
+] as const;
+
+export const UTILITIES = [
+  { key: "water", price: 3000 },
+  { key: "gas", price: 2500 },
+  { key: "electricity", price: 4000 },
+  { key: "sewage", price: 3500 },
+] as const;
+
+export type UtilityKey = (typeof UTILITIES)[number]["key"];
+
+/* ───────────────── Крок «Конструкція» ───────────────── */
+
+export const BASEMENT_OPTIONS = [
+  { value: "none", multiplier: 1 },
+  { value: "technical", multiplier: 1.05 },
+  { value: "living", multiplier: 1.12 },
+] as const;
+
+export const WINDOWS_OPTIONS = [
+  { value: "standard", multiplier: 1 },
+  { value: "energyEfficient", multiplier: 1.06 },
+  { value: "premium", multiplier: 1.12 },
+] as const;
+
 const values = <T extends { value: string }>(opts: readonly T[]) =>
   opts.map((o) => o.value) as [T["value"], ...T["value"][]];
 
@@ -101,7 +138,17 @@ export const configuratorSchema = z.object({
   wallMaterial: z.enum(values(WALL_OPTIONS)),
   roof: z.enum(values(ROOF_OPTIONS)),
   heating: z.array(z.enum(values(HEATING_OPTIONS))).min(1),
-  plot: z.enum(values(PLOT_OPTIONS)),
+  plotStatus: z.enum(values(PLOT_OPTIONS)),
+  terrain: z.enum(values(TERRAIN_OPTIONS)),
+  foundation: z.enum(values(FOUNDATION_OPTIONS)),
+  utilities: z.object({
+    water: z.boolean(),
+    gas: z.boolean(),
+    electricity: z.boolean(),
+    sewage: z.boolean(),
+  }),
+  basement: z.enum(values(BASEMENT_OPTIONS)),
+  windows: z.enum(values(WINDOWS_OPTIONS)),
   addons: z.object({
     pool: z.boolean(),
     spa: z.boolean(),
@@ -122,7 +169,17 @@ export const defaultConfiguratorValues = {
   wallMaterial: "aerated",
   roof: "pitched",
   heating: ["gas"],
-  plot: "have",
+  plotStatus: "have",
+  terrain: "flat",
+  foundation: "slab",
+  utilities: {
+    water: false,
+    gas: false,
+    electricity: false,
+    sewage: false,
+  },
+  basement: "none",
+  windows: "standard",
   addons: {
     pool: false,
     spa: false,
@@ -137,6 +194,7 @@ export interface BudgetBreakdown {
   construction: number;
   bedroomsCost: number;
   heatingCost: number;
+  utilitiesCost: number;
   addonsTotal: number;
   total: number;
   min: number;
@@ -157,6 +215,13 @@ export const bedroomsCostOf = (value: string | undefined) =>
   priceOf(BEDROOMS_OPTIONS, value);
 export const heatingCostOf = (selected: readonly string[] | undefined) =>
   (selected ?? []).reduce((sum, v) => sum + priceOf(HEATING_OPTIONS, v), 0);
+export const utilitiesCostOf = (
+  utilities: Partial<ConfiguratorValues["utilities"]> | undefined,
+) =>
+  UTILITIES.reduce(
+    (sum, u) => sum + (utilities?.[u.key] ? u.price : 0),
+    0,
+  );
 
 /** Орієнтовний кошторис на основі всіх відповідей конфігуратора. */
 export function computeBudget(v: Partial<ConfiguratorValues>): BudgetBreakdown {
@@ -170,21 +235,28 @@ export function computeBudget(v: Partial<ConfiguratorValues>): BudgetBreakdown {
     multiplierOf(FLOORS_OPTIONS, v.floors) *
     multiplierOf(TIMELINE_OPTIONS, v.timeline) *
     multiplierOf(WALL_OPTIONS, v.wallMaterial) *
-    multiplierOf(ROOF_OPTIONS, v.roof);
+    multiplierOf(ROOF_OPTIONS, v.roof) *
+    multiplierOf(TERRAIN_OPTIONS, v.terrain) *
+    multiplierOf(FOUNDATION_OPTIONS, v.foundation) *
+    multiplierOf(BASEMENT_OPTIONS, v.basement) *
+    multiplierOf(WINDOWS_OPTIONS, v.windows);
 
   const bedroomsCost = priceOf(BEDROOMS_OPTIONS, v.bedrooms);
   const heatingCost = heatingCostOf(v.heating);
+  const utilitiesCost = utilitiesCostOf(v.utilities);
   const addonsTotal = ADDONS.reduce(
     (sum, addon) => sum + (v.addons?.[addon.key] ? addon.price : 0),
     0,
   );
-  const total = construction + bedroomsCost + heatingCost + addonsTotal;
+  const total =
+    construction + bedroomsCost + heatingCost + utilitiesCost + addonsTotal;
 
   return {
     base,
     construction: Math.round(construction),
     bedroomsCost,
     heatingCost,
+    utilitiesCost,
     addonsTotal,
     total,
     min: Math.round((total * 0.95) / 1000) * 1000,

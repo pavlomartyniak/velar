@@ -31,7 +31,9 @@ import {
 } from "./schema";
 import StyleStep from "./steps/StyleStep";
 import AreaStep from "./steps/AreaStep";
+import PlotStep from "./steps/PlotStep";
 import DetailsStep from "./steps/DetailsStep";
+import StructureStep from "./steps/StructureStep";
 import EngineeringStep from "./steps/EngineeringStep";
 import OptionsStep from "./steps/OptionsStep";
 import ResultStep from "./steps/ResultStep";
@@ -39,7 +41,9 @@ import ResultStep from "./steps/ResultStep";
 const STEP_KEYS = [
   "style",
   "area",
+  "plot",
   "details",
+  "structure",
   "engineering",
   "options",
   "result",
@@ -48,9 +52,11 @@ const STEP_KEYS = [
 const stepFields: Record<number, Path<ConfiguratorValues>[]> = {
   0: ["style"],
   1: ["area"],
-  2: ["floors", "bedrooms", "finish", "timeline"],
-  3: ["wallMaterial", "roof", "heating", "plot"],
-  4: [],
+  2: ["plotStatus", "terrain", "foundation"],
+  3: ["floors", "bedrooms", "finish", "timeline"],
+  4: ["basement", "windows"],
+  5: ["wallMaterial", "roof", "heating"],
+  6: [],
 };
 
 /** Закріплена панель із бюджетом, що оновлюється на кожну зміну форми. */
@@ -124,25 +130,31 @@ export default function ConfiguratorForm() {
   return (
     <FormProvider {...methods}>
       <Container maxWidth="md" sx={{ py: { xs: 4, md: 8 } }}>
-        <Box sx={{ overflowX: "auto", mb: { xs: 4, md: 6 }, pb: 1 }}>
+        <Box
+          sx={{
+            overflowX: { xs: "auto", md: "visible" },
+            mb: { xs: 4, md: 6 },
+            pb: 1,
+          }}
+        >
           <Stepper
             nonLinear
             activeStep={activeStep}
             alternativeLabel
             sx={{
-              minWidth: { xs: 640, sm: 720, md: "100%" },
+              minWidth: { xs: 760, sm: 880, md: "100%" },
               "& .MuiStep-root": {
                 flex: { xs: "0 0 auto", sm: "0 0 auto", md: 1 },
-                minWidth: { xs: 100, sm: 120, md: 0 },
+                minWidth: { xs: 92, sm: 110, md: 0 },
                 px: { xs: 0.5, sm: 1, md: 0 },
               },
               "& .MuiStepLabel-label": {
-                fontSize: { xs: "0.7rem", sm: "0.875rem" },
+                fontSize: { xs: "0.65rem", sm: "0.8rem" },
                 mt: { xs: 0.5, sm: 1 },
                 whiteSpace: "nowrap",
               },
               "& .MuiStepIcon-root": {
-                fontSize: { xs: "1.5rem", sm: "1.75rem" },
+                fontSize: { xs: "1.4rem", sm: "1.6rem" },
               },
             }}
           >
@@ -167,10 +179,12 @@ export default function ConfiguratorForm() {
             >
               {activeStep === 0 && <StyleStep />}
               {activeStep === 1 && <AreaStep />}
-              {activeStep === 2 && <DetailsStep />}
-              {activeStep === 3 && <EngineeringStep />}
-              {activeStep === 4 && <OptionsStep />}
-              {activeStep === 5 && (
+              {activeStep === 2 && <PlotStep />}
+              {activeStep === 3 && <DetailsStep />}
+              {activeStep === 4 && <StructureStep />}
+              {activeStep === 5 && <EngineeringStep />}
+              {activeStep === 6 && <OptionsStep />}
+              {activeStep === 7 && (
                 <ResultStep onEdit={() => goTo(0)} />
               )}
             </motion.div>

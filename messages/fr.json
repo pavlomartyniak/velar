@@ -283,7 +283,9 @@
       "details": "Détails",
       "engineering": "Ingénierie",
       "options": "Options",
-      "result": "Résultat"
+      "result": "Résultat",
+      "plot": "Terrain",
+      "structure": "Structure"
     },
     "nav": {
       "back": "Retour",
@@ -425,20 +427,6 @@
           }
         },
         "hint": "Vous pouvez choisir plusieurs types — ils fonctionnent très bien ensemble."
-      },
-      "plot": {
-        "title": "Avez-vous un terrain ?",
-        "hint": "Cela aide le conseiller à préparer une offre.",
-        "options": {
-          "have": {
-            "label": "J'en ai déjà un",
-            "description": "Nous construisons sur votre terrain."
-          },
-          "search": {
-            "label": "J'ai besoin d'aide",
-            "description": "Nous trouverons un terrain pour le projet."
-          }
-        }
       }
     },
     "options": {
@@ -484,7 +472,11 @@
         "roof": "Toit",
         "heating": "Chauffage",
         "timeline": "Délai",
-        "plot": "Terrain"
+        "plot": "Terrain",
+        "terrain": "Relief",
+        "foundation": "Fondation",
+        "basement": "Sous-sol",
+        "windows": "Fenêtres"
       },
       "budgetTitle": "Budget estimatif",
       "constructionRow": "Construction ({style}, {finish}, {area} m²)",
@@ -518,6 +510,110 @@
       "nameError": "Veuillez indiquer votre nom",
       "phoneError": "Saisissez un numéro de téléphone valide",
       "submitError": "Impossible d'envoyer votre demande. Veuillez réessayer ou nous appeler directement."
+    },
+    "plot": {
+      "heading": "Parlez-nous de votre terrain",
+      "subtitle": "Le relief, les fondations et les raccordements influencent fortement le devis.",
+      "status": {
+        "title": "Avez-vous déjà un terrain ?",
+        "hint": "Cela aide le responsable à préparer une proposition.",
+        "options": {
+          "have": {
+            "label": "J'ai déjà un terrain",
+            "description": "Nous construisons sur votre terrain."
+          },
+          "search": {
+            "label": "J'ai besoin d'aide",
+            "description": "Nous vous aiderons à choisir un terrain pour le projet."
+          }
+        }
+      },
+      "terrain": {
+        "title": "Relief du terrain",
+        "options": {
+          "flat": {
+            "label": "Plat",
+            "description": "Implantation standard de la maison."
+          },
+          "slope": {
+            "label": "En pente",
+            "description": "Nécessite des solutions pour les dénivelés."
+          },
+          "complex": {
+            "label": "Complexe",
+            "description": "Forte pente, géologie difficile."
+          }
+        }
+      },
+      "foundation": {
+        "title": "Type de fondation",
+        "hint": "Le type optimal dépend du sol et du relief — nous vous conseillerons si besoin.",
+        "options": {
+          "slab": {
+            "label": "Radier",
+            "description": "Solution polyvalente pour la plupart des sols."
+          },
+          "strip": {
+            "label": "Semelle filante",
+            "description": "Choix classique pour les sols stables."
+          },
+          "pile": {
+            "label": "Pieux",
+            "description": "Pour les sols faibles et les terrains difficiles."
+          }
+        }
+      },
+      "utilities": {
+        "title": "Réseaux sur le terrain",
+        "hint": "Indiquez les réseaux qui doivent encore être raccordés — cela sera ajouté au devis.",
+        "items": {
+          "water": "Raccordement à l'eau",
+          "gas": "Raccordement au gaz",
+          "electricity": "Raccordement à l'électricité",
+          "sewage": "Raccordement aux égouts"
+        },
+        "plus": "+{price}"
+      }
+    },
+    "structure": {
+      "heading": "Décisions structurelles",
+      "subtitle": "Le sous-sol et les fenêtres influencent le confort, l'efficacité énergétique et le devis.",
+      "basement": {
+        "title": "Sous-sol",
+        "hint": "Espace supplémentaire sous la maison — technique ou habitable.",
+        "options": {
+          "none": {
+            "label": "Sans sous-sol",
+            "description": "Fondation standard."
+          },
+          "technical": {
+            "label": "Technique",
+            "description": "Chaufferie, rangements, locaux techniques."
+          },
+          "living": {
+            "label": "Habitable",
+            "description": "Salle de sport, spa, cinéma maison, etc."
+          }
+        }
+      },
+      "windows": {
+        "title": "Type de fenêtres",
+        "hint": "Influence l'isolation thermique et l'aspect de la façade.",
+        "options": {
+          "standard": {
+            "label": "Standard",
+            "description": "Double vitrage, prix optimal."
+          },
+          "energyEfficient": {
+            "label": "Économes en énergie",
+            "description": "Profil à trois chambres, isolation renforcée."
+          },
+          "premium": {
+            "label": "Premium",
+            "description": "Fenêtres grand format, efficacité énergétique maximale."
+          }
+        }
+      }
     }
   },
   "project": {

@@ -283,7 +283,9 @@
       "details": "Dettagli",
       "engineering": "Ingegneria",
       "options": "Opzioni",
-      "result": "Risultato"
+      "result": "Risultato",
+      "plot": "Terreno",
+      "structure": "Struttura"
     },
     "nav": {
       "back": "Indietro",
@@ -425,20 +427,6 @@
           }
         },
         "hint": "Puoi scegliere più tipi — funzionano benissimo insieme."
-      },
-      "plot": {
-        "title": "Hai un terreno?",
-        "hint": "Aiuta il consulente a preparare un'offerta.",
-        "options": {
-          "have": {
-            "label": "Ne ho già uno",
-            "description": "Costruiamo sul tuo terreno."
-          },
-          "search": {
-            "label": "Ho bisogno di aiuto",
-            "description": "Troveremo un terreno per il progetto."
-          }
-        }
       }
     },
     "options": {
@@ -484,7 +472,11 @@
         "roof": "Tetto",
         "heating": "Riscaldamento",
         "timeline": "Tempi",
-        "plot": "Terreno"
+        "plot": "Terreno",
+        "terrain": "Rilievo",
+        "foundation": "Fondazione",
+        "basement": "Interrato",
+        "windows": "Finestre"
       },
       "budgetTitle": "Budget stimato",
       "constructionRow": "Costruzione ({style}, {finish}, {area} m²)",
@@ -518,6 +510,110 @@
       "nameError": "Inserisci il tuo nome",
       "phoneError": "Inserisci un numero di telefono valido",
       "submitError": "Impossibile inviare la richiesta. Riprova oppure chiamaci direttamente."
+    },
+    "plot": {
+      "heading": "Parlaci del tuo terreno",
+      "subtitle": "Il rilievo, le fondamenta e gli allacci incidono molto sul preventivo.",
+      "status": {
+        "title": "Hai già un terreno?",
+        "hint": "Questo aiuta il manager a preparare una proposta.",
+        "options": {
+          "have": {
+            "label": "Ho già un terreno",
+            "description": "Costruiamo sul tuo terreno."
+          },
+          "search": {
+            "label": "Ho bisogno di aiuto",
+            "description": "Ti aiuteremo a scegliere un terreno per il progetto."
+          }
+        }
+      },
+      "terrain": {
+        "title": "Rilievo del terreno",
+        "options": {
+          "flat": {
+            "label": "Pianeggiante",
+            "description": "Posizionamento standard della casa."
+          },
+          "slope": {
+            "label": "In pendenza",
+            "description": "Richiede soluzioni per i dislivelli."
+          },
+          "complex": {
+            "label": "Complesso",
+            "description": "Pendenza significativa, geologia difficile."
+          }
+        }
+      },
+      "foundation": {
+        "title": "Tipo di fondazione",
+        "hint": "Il tipo ottimale dipende dal terreno e dal rilievo — ti consiglieremo se necessario.",
+        "options": {
+          "slab": {
+            "label": "Platea",
+            "description": "Soluzione versatile per la maggior parte dei terreni."
+          },
+          "strip": {
+            "label": "Fondazione a nastro",
+            "description": "Scelta classica per terreni stabili."
+          },
+          "pile": {
+            "label": "Su pali",
+            "description": "Per terreni deboli e rilievi complessi."
+          }
+        }
+      },
+      "utilities": {
+        "title": "Reti tecnologiche sul terreno",
+        "hint": "Indica quali reti devono ancora essere collegate — verranno aggiunte al preventivo.",
+        "items": {
+          "water": "Collegamento acqua",
+          "gas": "Collegamento gas",
+          "electricity": "Collegamento elettrico",
+          "sewage": "Collegamento fognario"
+        },
+        "plus": "+{price}"
+      }
+    },
+    "structure": {
+      "heading": "Decisioni strutturali",
+      "subtitle": "Il piano interrato e le finestre influenzano il confort, l'efficienza energetica e il preventivo.",
+      "basement": {
+        "title": "Piano interrato",
+        "hint": "Spazio aggiuntivo sotto la casa — tecnico o abitabile.",
+        "options": {
+          "none": {
+            "label": "Senza interrato",
+            "description": "Fondazione standard."
+          },
+          "technical": {
+            "label": "Tecnico",
+            "description": "Locale caldaia, ripostigli, vani tecnici."
+          },
+          "living": {
+            "label": "Abitabile",
+            "description": "Palestra, spa, home cinema, ecc."
+          }
+        }
+      },
+      "windows": {
+        "title": "Tipo di finestre",
+        "hint": "Influisce sull'isolamento termico e sull'aspetto della facciata.",
+        "options": {
+          "standard": {
+            "label": "Standard",
+            "description": "Vetro doppio, prezzo ottimale."
+          },
+          "energyEfficient": {
+            "label": "Efficienti energeticamente",
+            "description": "Profilo a tre camere, isolamento rinforzato."
+          },
+          "premium": {
+            "label": "Premium",
+            "description": "Finestre di grande formato, massima efficienza energetica."
+          }
+        }
+      }
     }
   },
   "project": {
