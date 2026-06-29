@@ -122,7 +122,7 @@ export default function Hero() {
             </Button>
             <Button
               component={Link}
-              href="/configurator"
+              href="/configurator/build"
               variant="outlined"
               color="inherit"
               size="large"
@@ -131,7 +131,10 @@ export default function Hero() {
                 px: 4,
                 py: 1.5,
                 borderColor: "rgba(255,255,255,0.6)",
-                "&:hover": { borderColor: "common.white", bgcolor: "rgba(255,255,255,0.08)" },
+                "&:hover": {
+                  borderColor: "common.white",
+                  bgcolor: "rgba(255,255,255,0.08)",
+                },
               }}
             >
               {tc("calcConstruction")}
