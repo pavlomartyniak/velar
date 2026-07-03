@@ -19,7 +19,7 @@
   "hero": {
     "overline": "Architekturplanung",
     "title": "Gestalten Sie das Haus Ihrer Träume",
-    "subtitle": "Ein schlüsselfertiges Architekturprojekt — von der Idee bis zur Baukostenschätzung. Möchten Sie es umsetzen? Dann bauen wir gemeinsam weiter.",
+    "subtitle": "Ein schlüsselfertiges Hausprojekt — von der Idee bis zur Baukostenschätzung. Möchten Sie es umsetzen? Dann bauen wir gemeinsam weiter.",
     "imageAlt": "Moderne Premium-Villa, entworfen von Velar Development"
   },
   "whyUs": {
@@ -282,6 +282,7 @@
     "comingSoon": "Demnächst verfügbar"
   },
   "configurator": {
+    "pageTitle": "Baukostenrechner",
     "steps": {
       "style": "Stil",
       "area": "Fläche",
@@ -653,20 +654,20 @@
       "description": "Velar Development begleitet die Planung und den Bau von Premium-Häusern, Villen und Cottages von der Idee bis zur Schlüsselübergabe sowie die Restaurierung historischer Gebäude."
     },
     "configurator": {
-      "title": "Konfiguratoren",
-      "description": "Wählen Sie einen Velar-Konfigurator: Berechnen Sie die Kosten für den schlüsselfertigen Hausbau oder für ein architektonisches Planungsprojekt — und erhalten Sie in wenigen Minuten ein geschätztes Budget."
+      "title": "Bau- und Planungsrechner",
+      "description": "Wählen Sie einen Velar-Rechner: Berechnen Sie die Kosten für den schlüsselfertigen Hausbau oder für ein architektonisches Planungsprojekt — und erhalten Sie in wenigen Minuten ein geschätztes Budget."
     },
     "design": {
       "title": "Hausprojektierung",
       "description": "Schlüsselfertige Architekturplanung ab $15/m², 2–3 Monate, Zahlung in 3 Etappen. Pakete Light, Basic und Premium mit Kostenschätzung, Visualisierung und Unterstützung bei der Baugenehmigung."
     },
     "designConfigurator": {
-      "title": "Konfigurator für Hausplanung",
-      "description": "Berechnen Sie die Kosten Ihres Architekturprojekts: Beantworten Sie die Fragen eines Architekten zu Grundstück, Fläche, Räumen, Stil und Technik — und erhalten Sie Preis und Visualisierung."
+      "title": "Kostenrechner für Hausplanung",
+      "description": "Berechnen Sie die Kosten für die Planung Ihres Hauses: Beantworten Sie die Fragen eines Architekten zu Grundstück, Fläche, Räumen, Stil und Technik — und erhalten Sie Preis und Visualisierung."
     },
     "configuratorBuild": {
-      "title": "Baukonfigurator",
-      "description": "Velars Online-Hauskonfigurator: Wählen Sie Stil, Fläche, Ausstattung und Optionen — und erhalten Sie ein Projekt, eine 3D-Visualisierung und ein geschätztes Budget in 3 Minuten."
+      "title": "Baukostenrechner",
+      "description": "Velars Online-Baurechner: Wählen Sie Stil, Fläche, Ausstattung und Optionen — berechnen Sie die Baukosten und erhalten Sie ein Projekt, eine 3D-Visualisierung und ein geschätztes Budget in 3 Minuten."
     },
     "faq": {
       "title": "Häufig gestellte Fragen",
@@ -678,6 +679,7 @@
     }
   },
   "designConfigurator": {
+    "pageTitle": "Kostenrechner für Hausplanung",
     "steps": {
       "plot": "Grundstück",
       "house": "Haus",
@@ -1083,9 +1085,9 @@
     }
   },
   "configuratorChoice": {
-    "overline": "Online-Berechnung",
-    "title": "Wählen Sie einen Konfigurator",
-    "subtitle": "Erhalten Sie in wenigen Minuten eine Einschätzung — wählen Sie, was Sie brauchen.",
+    "overline": "Online-Rechner",
+    "title": "Bau- und Planungsrechner",
+    "subtitle": "Berechnen Sie die Kosten für den Hausbau oder die Hausplanung in wenigen Minuten — wählen Sie, was Sie brauchen.",
     "build": {
       "title": "Baukonfigurator",
       "description": "Sie haben bereits ein Projekt oder möchten nach einem fertigen Grundriss bauen? Berechnen Sie die Kosten für den schlüsselfertigen Bau: Stil, Fläche, Ausstattung und Technik.",
@@ -1094,7 +1096,7 @@
         "Ausstattungsklasse & Technik",
         "Geschätztes Baubudget"
       ],
-      "cta": "Bau berechnen"
+      "cta": "Hausbau berechnen"
     },
     "design": {
       "title": "Planungskonfigurator",
@@ -1104,7 +1106,7 @@
         "Raum- und Technikplanung",
         "Geschätzte Planungskosten"
       ],
-      "cta": "Planung berechnen"
+      "cta": "Hausplanung berechnen"
     }
   },
   "servicesCta": {
@@ -1115,12 +1117,12 @@
       "badge": "Unser Fokus",
       "title": "Planung",
       "description": "Ein Architekturprojekt mit 3D-Visualisierung und einem geschätzten Preis in wenigen Minuten.",
-      "cta": "Planung kalkulieren"
+      "cta": "Hausplanung berechnen"
     },
     "build": {
       "title": "Bau",
       "description": "Schlüsselfertiger Bau — nach Ihrem Projekt oder einem fertigen Velar-Entwurf.",
-      "cta": "Bau berechnen"
+      "cta": "Hausbau berechnen"
     },
     "helper": "Noch unentschlossen?",
     "helperCta": "Beide Optionen vergleichen"
@@ -1131,8 +1133,12 @@
     "subtitle": "Alles, was Sie über Planung und Bau mit Velar wissen sollten — bevor Sie sich an einen Manager wenden.",
     "items": [
       {
-        "question": "Wie viel kostet die Architekturplanung eines Hauses?",
+        "question": "Wie viel kostet die Hausplanung?",
         "answer": "Die Planung beginnt bei 15 $/m², abhängig vom gewählten Paket — Light, Basic oder Premium. Den genauen Preis für Ihr Haus berechnet der Projektierungs-Konfigurator in wenigen Minuten anhand von Fläche, Geschossanzahl, Stil und Technik."
+      },
+      {
+        "question": "Wie viel kostet der Hausbau?",
+        "answer": "Einen einzigen festen Preis «pro m²» gibt es nicht — die Kosten hängen von Stil, Geschossanzahl, Ausstattungsklasse, Technik und dem Grundstück selbst ab. Premium- oder De-Luxe-Ausstattung oder eine Wärmepumpe statt Gasheizung können die Summe deutlich verändern. Der schnellste und genaueste Weg, die Kosten für Ihr konkretes Haus zu erfahren, ist der Baukostenrechner: Er berücksichtigt alle Ihre Parameter und liefert in wenigen Minuten ein geschätztes Budget und eine 3D-Visualisierung."
       },
       {
         "question": "Wie lange dauert die Projektentwicklung?",

@@ -130,6 +130,14 @@ export default function ConfiguratorForm() {
   return (
     <FormProvider {...methods}>
       <Container maxWidth="md" sx={{ py: { xs: 4, md: 8 } }}>
+        <Typography
+          component="h1"
+          variant="overline"
+          color="text.secondary"
+          sx={{ display: "block", mb: 1.5, letterSpacing: 2 }}
+        >
+          {t("pageTitle")}
+        </Typography>
         <Box
           sx={{
             overflowX: { xs: "auto", md: "visible" },

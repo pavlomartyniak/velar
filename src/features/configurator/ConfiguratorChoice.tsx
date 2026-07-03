@@ -40,6 +40,7 @@ export default function ConfiguratorChoice() {
           title={t("title")}
           subtitle={t("subtitle")}
           titleVariant="h2"
+          as="h1"
           animateOn="mount"
         />
 

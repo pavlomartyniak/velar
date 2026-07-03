@@ -19,7 +19,7 @@
   "hero": {
     "overline": "Progettazione architettonica",
     "title": "Progetta la casa dei tuoi sogni",
-    "subtitle": "Un progetto architettonico chiavi in mano — dall'idea al preventivo dei costi di costruzione. Vuoi realizzarlo? Costruiamo insieme il passo successivo.",
+    "subtitle": "Un progetto di casa chiavi in mano — dall'idea al preventivo dei costi di costruzione. Vuoi realizzarlo? Costruiamo insieme il passo successivo.",
     "imageAlt": "Villa moderna di classe premium progettata da Velar Development"
   },
   "whyUs": {
@@ -282,6 +282,7 @@
     "comingSoon": "Disponibile a breve"
   },
   "configurator": {
+    "pageTitle": "Calcolatore costi di costruzione",
     "steps": {
       "style": "Stile",
       "area": "Superficie",
@@ -653,20 +654,20 @@
       "description": "Velar Development gestisce la progettazione e la costruzione di case, ville e cottage di classe premium dall'idea alle chiavi, oltre al restauro di edifici storici."
     },
     "configurator": {
-      "title": "Configuratori",
-      "description": "Scegli un configuratore Velar: stima il costo della costruzione chiavi in mano della tua casa oppure quello di un progetto di progettazione architettonica — ottieni un budget stimato in pochi minuti."
+      "title": "Calcolatore di costruzione e progettazione",
+      "description": "Scegli un calcolatore Velar: stima il costo della costruzione chiavi in mano della tua casa oppure quello di un progetto di progettazione architettonica — ottieni un budget stimato in pochi minuti."
     },
     "design": {
       "title": "Progetti di case",
       "description": "Progettazione architettonica chiavi in mano da $15/m², 2–3 mesi, pagamento in 3 fasi. Pacchetti Light, Basic e Premium con preventivo, visualizzazione e assistenza per il permesso di costruire."
     },
     "designConfigurator": {
-      "title": "Configuratore di progettazione casa",
-      "description": "Stima il costo del tuo progetto architettonico: rispondi alle domande di un architetto su terreno, superficie, ambienti, stile e impianti — e ottieni prezzo e visualizzazione."
+      "title": "Calcolatore costi progettazione casa",
+      "description": "Calcola il costo della progettazione della tua casa: rispondi alle domande di un architetto su terreno, superficie, ambienti, stile e impianti — e ottieni prezzo e visualizzazione."
     },
     "configuratorBuild": {
-      "title": "Configuratore di costruzione",
-      "description": "Il configuratore di case online di Velar: scegli stile, superficie, finiture e opzioni — e ottieni un progetto, una visualizzazione 3D e un budget stimato in 3 minuti."
+      "title": "Calcolatore costi di costruzione",
+      "description": "Il calcolatore di costruzione online di Velar: scegli stile, superficie, finiture e opzioni — calcola il costo di costruzione e ottieni un progetto, una visualizzazione 3D e un budget stimato in 3 minuti."
     },
     "faq": {
       "title": "Domande frequenti",
@@ -678,6 +679,7 @@
     }
   },
   "designConfigurator": {
+    "pageTitle": "Calcolatore costi progettazione casa",
     "steps": {
       "plot": "Terreno",
       "house": "Casa",
@@ -1083,9 +1085,9 @@
     }
   },
   "configuratorChoice": {
-    "overline": "Stima online",
-    "title": "Scegli il tuo configuratore",
-    "subtitle": "Ottieni una stima in pochi minuti — scegli ciò di cui hai bisogno.",
+    "overline": "Calcolatore online",
+    "title": "Calcolatore di costruzione e progettazione",
+    "subtitle": "Calcola il costo della costruzione o della progettazione di una casa in pochi minuti — scegli ciò di cui hai bisogno.",
     "build": {
       "title": "Configuratore di costruzione",
       "description": "Hai già un progetto o vuoi costruire da una planimetria pronta? Stima il costo della costruzione chiavi in mano: stile, superficie, finiture e impianti.",
@@ -1094,7 +1096,7 @@
         "Classe di finitura e impianti",
         "Budget di costruzione stimato"
       ],
-      "cta": "Stima la costruzione"
+      "cta": "Calcola la costruzione della casa"
     },
     "design": {
       "title": "Configuratore di progettazione",
@@ -1104,7 +1106,7 @@
         "Pianificazione di ambienti e impianti",
         "Costo di progettazione stimato"
       ],
-      "cta": "Stima la progettazione"
+      "cta": "Calcola la progettazione della casa"
     }
   },
   "servicesCta": {
@@ -1115,12 +1117,12 @@
       "badge": "La nostra priorità",
       "title": "Progettazione",
       "description": "Un progetto architettonico con visualizzazione 3D e un prezzo stimato in pochi minuti.",
-      "cta": "Stima la progettazione"
+      "cta": "Calcola la progettazione della casa"
     },
     "build": {
       "title": "Costruzione",
       "description": "Costruzione chiavi in mano — secondo il tuo progetto o un design Velar pronto.",
-      "cta": "Stima la costruzione"
+      "cta": "Calcola la costruzione della casa"
     },
     "helper": "Non hai ancora deciso?",
     "helperCta": "Confronta entrambe le opzioni"
@@ -1131,8 +1133,12 @@
     "subtitle": "Tutto ciò che è utile sapere sulla progettazione e la costruzione con Velar — prima di contattare un manager.",
     "items": [
       {
-        "question": "Quanto costa la progettazione architettonica di una casa?",
+        "question": "Quanto costa la progettazione di una casa?",
         "answer": "La progettazione parte da 15 $/m², a seconda del pacchetto scelto — Light, Basic o Premium. Il configuratore di progettazione calcola il prezzo esatto per la tua casa in pochi minuti, in base a superficie, numero di piani, stile e impianti."
+      },
+      {
+        "question": "Quanto costa costruire una casa?",
+        "answer": "Non esiste un prezzo fisso unico «al m²»: il costo dipende da stile, numero di piani, classe di finitura, impianti e dal terreno stesso. Una finitura premium o de luxe, oppure una pompa di calore al posto del riscaldamento a gas, possono cambiare sensibilmente la cifra totale. Il modo più rapido e preciso per conoscere il costo della tua casa specifica è il calcolatore di costruzione: tiene conto di tutti i tuoi parametri e fornisce un budget stimato e una visualizzazione 3D in pochi minuti."
       },
       {
         "question": "Quanto tempo richiede lo sviluppo di un progetto?",

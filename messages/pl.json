@@ -19,7 +19,7 @@
   "hero": {
     "overline": "Projektowanie architektoniczne",
     "title": "Zaprojektuj dom swoich marzeń",
-    "subtitle": "Projekt architektoniczny pod klucz — od koncepcji do kosztorysu budowy. Chcesz go zrealizować? Zbudujemy go razem.",
+    "subtitle": "Projekt domu pod klucz — od koncepcji do kosztorysu budowy. Chcesz go zrealizować? Zbudujemy go razem.",
     "imageAlt": "Nowoczesna willa klasy premium zaprojektowana przez Velar Development"
   },
   "whyUs": {
@@ -282,6 +282,7 @@
     "comingSoon": "Wkrótce dostępne"
   },
   "configurator": {
+    "pageTitle": "Kalkulator kosztów budowy",
     "steps": {
       "style": "Styl",
       "area": "Powierzchnia",
@@ -653,20 +654,20 @@
       "description": "Velar Development prowadzi projektowanie i budowę domów, willi i domków klasy premium od idei po przekazanie kluczy, a także renowację historycznych budynków."
     },
     "configurator": {
-      "title": "Konfiguratory",
-      "description": "Wybierz konfigurator Velar: oblicz koszt budowy domu pod klucz albo koszt projektu architektonicznego — i otrzymaj szacunkowy budżet w kilka minut."
+      "title": "Kalkulator budowy i projektowania",
+      "description": "Wybierz kalkulator Velar: oblicz koszt budowy domu pod klucz albo koszt projektu architektonicznego — i otrzymaj szacunkowy budżet w kilka minut."
     },
     "design": {
       "title": "Projekty domów",
       "description": "Projektowanie architektoniczne pod klucz od $15/m², 2–3 miesiące, płatność w 3 etapach. Pakiety Light, Basic i Premium z kosztorysem, wizualizacją i pomocą w uzyskaniu pozwolenia na budowę."
     },
     "designConfigurator": {
-      "title": "Konfigurator projektu domu",
-      "description": "Oblicz koszt projektu architektonicznego: odpowiedz na pytania architekta o działkę, powierzchnię, pomieszczenia, styl i instalacje — i otrzymaj cenę oraz wizualizację."
+      "title": "Kalkulator kosztów projektu domu",
+      "description": "Oblicz koszt projektu swojego domu: odpowiedz na pytania architekta o działkę, powierzchnię, pomieszczenia, styl i instalacje — i otrzymaj cenę oraz wizualizację."
     },
     "configuratorBuild": {
-      "title": "Konfigurator budowy",
-      "description": "Konfigurator domu online Velar: wybierz styl, powierzchnię, wykończenie i opcje — i otrzymaj projekt, wizualizację 3D oraz szacunkowy budżet w 3 minuty."
+      "title": "Kalkulator kosztów budowy",
+      "description": "Kalkulator budowy online Velar: wybierz styl, powierzchnię, wykończenie i opcje — oblicz koszt budowy i otrzymaj projekt, wizualizację 3D oraz szacunkowy budżet w 3 minuty."
     },
     "faq": {
       "title": "Najczęstsze pytania",
@@ -678,6 +679,7 @@
     }
   },
   "designConfigurator": {
+    "pageTitle": "Kalkulator kosztów projektu domu",
     "steps": {
       "plot": "Działka",
       "house": "Dom",
@@ -1083,9 +1085,9 @@
     }
   },
   "configuratorChoice": {
-    "overline": "Kalkulacja online",
-    "title": "Wybierz konfigurator",
-    "subtitle": "Otrzymaj wycenę w kilka minut — wybierz to, czego potrzebujesz.",
+    "overline": "Kalkulator online",
+    "title": "Kalkulator budowy i projektowania",
+    "subtitle": "Oblicz koszt budowy lub projektu domu w kilka minut — wybierz to, czego potrzebujesz.",
     "build": {
       "title": "Konfigurator budowy",
       "description": "Masz już projekt albo chcesz budować na podstawie gotowego układu? Oblicz koszt budowy pod klucz: styl, powierzchnię, wykończenie i instalacje.",
@@ -1094,7 +1096,7 @@
         "Klasa wykończenia i instalacje",
         "Szacunkowy budżet budowy"
       ],
-      "cta": "Oblicz koszt budowy"
+      "cta": "Oblicz koszt budowy domu"
     },
     "design": {
       "title": "Konfigurator projektowania",
@@ -1104,7 +1106,7 @@
         "Planowanie pomieszczeń i instalacji",
         "Szacunkowy koszt projektowania"
       ],
-      "cta": "Oblicz koszt projektowania"
+      "cta": "Oblicz koszt projektu domu"
     }
   },
   "servicesCta": {
@@ -1115,12 +1117,12 @@
       "badge": "Nasz priorytet",
       "title": "Projektowanie",
       "description": "Projekt architektoniczny z wizualizacją 3D i szacunkową ceną w kilka minut.",
-      "cta": "Oszacuj projekt"
+      "cta": "Oblicz koszt projektu domu"
     },
     "build": {
       "title": "Budowa",
       "description": "Budowa pod klucz — według Twojego projektu lub gotowego rozwiązania Velar.",
-      "cta": "Oblicz koszt budowy"
+      "cta": "Oblicz koszt budowy domu"
     },
     "helper": "Nie wiesz, co wybrać?",
     "helperCta": "Porównaj obie opcje"
@@ -1131,8 +1133,12 @@
     "subtitle": "Wszystko, co warto wiedzieć o projektowaniu i budowie z Velar — zanim skontaktujesz się z menedżerem.",
     "items": [
       {
-        "question": "Ile kosztuje projekt architektoniczny domu?",
+        "question": "Ile kosztuje projekt domu?",
         "answer": "Cena projektowania zaczyna się od 15 $/m², w zależności od wybranego pakietu — Light, Basic lub Premium. Dokładną cenę dla Twojego domu obliczy konfigurator projektowania w kilka minut, na podstawie powierzchni, liczby kondygnacji, stylu i instalacji."
+      },
+      {
+        "question": "Ile kosztuje budowa domu?",
+        "answer": "Nie ma jednej stałej ceny „za m²” — koszt zależy od stylu, liczby kondygnacji, klasy wykończenia, instalacji i samej działki. Wykończenie premium lub de luxe, albo pompa ciepła zamiast ogrzewania gazowego, mogą znacząco zmienić sumę. Najszybszym i najdokładniejszym sposobem, by poznać koszt dla Twojego konkretnego domu, jest kalkulator budowy: uwzględnia wszystkie Twoje parametry i w kilka minut podaje szacunkowy budżet oraz wizualizację 3D."
       },
       {
         "question": "Ile trwa opracowanie projektu?",

@@ -19,7 +19,7 @@
   "hero": {
     "overline": "Architectural design",
     "title": "Design the home of your dreams",
-    "subtitle": "A turnkey architectural project — from concept to a construction cost estimate. Want to build it? We'll do that together too.",
+    "subtitle": "A turnkey architectural house project — from concept to a construction cost estimate. Want to build it? We'll do that together too.",
     "imageAlt": "Modern premium-class villa designed by Velar Development"
   },
   "whyUs": {
@@ -282,6 +282,7 @@
     "comingSoon": "Coming soon"
   },
   "configurator": {
+    "pageTitle": "Construction Cost Calculator",
     "steps": {
       "style": "Style",
       "area": "Area",
@@ -653,20 +654,20 @@
       "description": "Velar Development manages the design and construction of premium-class houses, villas and cottages from idea to keys, as well as the restoration of historic buildings."
     },
     "configurator": {
-      "title": "Configurators",
-      "description": "Choose a Velar configurator: estimate the cost of turnkey house construction or of an architectural design project — and get an estimated budget in minutes."
+      "title": "Construction & Design Calculator",
+      "description": "Choose a Velar calculator: estimate the cost of turnkey house construction or of an architectural design project — and get an estimated budget in minutes."
     },
     "design": {
       "title": "House Design Projects",
       "description": "Turnkey architectural design from $15/m², 2–3 months, payment in 3 stages. Light, Basic and Premium packages with cost estimate, visualization and building permit assistance."
     },
     "designConfigurator": {
-      "title": "House Design Configurator",
-      "description": "Estimate the cost of your architectural house project: answer an architect's questions about the plot, area, rooms, style and engineering — and get a price and visualization."
+      "title": "House Design Cost Calculator",
+      "description": "Calculate the cost of designing your house: answer an architect's questions about the plot, area, rooms, style and engineering — and get a price and visualization."
     },
     "configuratorBuild": {
-      "title": "Construction configurator",
-      "description": "Velar's online house configurator: choose the style, area, finishes and options — and get a project, 3D visualization and an estimated budget in 3 minutes."
+      "title": "Construction Cost Calculator",
+      "description": "Velar's online construction calculator: choose the style, area, finishes and options — calculate construction cost and get a project, 3D visualization and an estimated budget in 3 minutes."
     },
     "faq": {
       "title": "FAQ",
@@ -678,6 +679,7 @@
     }
   },
   "designConfigurator": {
+    "pageTitle": "House Design Cost Calculator",
     "steps": {
       "plot": "Plot",
       "house": "House",
@@ -1083,9 +1085,9 @@
     }
   },
   "configuratorChoice": {
-    "overline": "Online estimate",
-    "title": "Choose your configurator",
-    "subtitle": "Get an estimate in a few minutes — pick what you need.",
+    "overline": "Online calculator",
+    "title": "Construction & Design Calculator",
+    "subtitle": "Calculate the cost of building or designing a house in a few minutes — pick what you need.",
     "build": {
       "title": "Construction configurator",
       "description": "Already have a project or want to build from a ready layout? Estimate the cost of turnkey construction: style, area, finishes and engineering.",
@@ -1094,7 +1096,7 @@
         "Finish class & engineering",
         "Estimated construction budget"
       ],
-      "cta": "Estimate construction"
+      "cta": "Calculate house construction"
     },
     "design": {
       "title": "Design configurator",
@@ -1104,7 +1106,7 @@
         "Room & engineering planning",
         "Estimated design cost"
       ],
-      "cta": "Estimate design"
+      "cta": "Calculate house design"
     }
   },
   "servicesCta": {
@@ -1115,12 +1117,12 @@
       "badge": "Our focus",
       "title": "Design",
       "description": "An architectural project with 3D visualization and an estimated price in minutes.",
-      "cta": "Estimate the design"
+      "cta": "Calculate house design"
     },
     "build": {
       "title": "Construction",
       "description": "Turnkey construction — built on your project or one of Velar's ready designs.",
-      "cta": "Estimate construction"
+      "cta": "Calculate house construction"
     },
     "helper": "Not sure which to choose?",
     "helperCta": "Compare both options"
@@ -1131,8 +1133,12 @@
     "subtitle": "Everything worth knowing about design and construction with Velar — before you reach out to a manager.",
     "items": [
       {
-        "question": "How much does architectural design cost?",
+        "question": "How much does house design cost?",
         "answer": "Design starts from $15/m², depending on the package you choose — Light, Basic or Premium. Get an exact price for your house in minutes using the design configurator, based on area, number of floors, style and engineering."
+      },
+      {
+        "question": "How much does it cost to build a house?",
+        "answer": "There's no single fixed price \"per m²\" — the cost depends on style, number of floors, finishing class, engineering and the plot itself. Premium or de luxe finishing, or a heat pump instead of gas heating, can change the total significantly. The fastest and most accurate way to find out the cost for your specific house is the construction calculator: it accounts for all your parameters and gives you an estimated budget and 3D visualization within minutes."
       },
       {
         "question": "How long does it take to develop a project?",
