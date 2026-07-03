@@ -27,6 +27,8 @@ const NAV_HREFS = [
   { key: "design", href: "/design" },
   { key: "about", href: "/about" },
   { key: "configurator", href: "/configurator" },
+  { key: "blog", href: "/blog" },
+  { key: "faq", href: "/faq" },
 ] as const;
 
 export default function Header() {

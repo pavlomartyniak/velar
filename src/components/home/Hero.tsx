@@ -2,6 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import Image from "next/image";
 import { motion, type Variants } from "framer-motion";
 import { Box, Button, Container, Stack, Typography } from "@mui/material";
 import ArchitectureRoundedIcon from "@mui/icons-material/ArchitectureRounded";
@@ -47,14 +48,17 @@ export default function Hero() {
         initial={{ scale: 1.08 }}
         animate={{ scale: 1 }}
         transition={{ duration: 1.8, ease: [0.22, 1, 0.36, 1] }}
-        sx={{
-          position: "absolute",
-          inset: 0,
-          backgroundImage: "url('/hero-villa.png')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      />
+        sx={{ position: "absolute", inset: 0 }}
+      >
+        <Image
+          src="/hero-villa.png"
+          alt={t("imageAlt")}
+          fill
+          priority
+          sizes="100vw"
+          style={{ objectFit: "cover", objectPosition: "center" }}
+        />
+      </Box>
       {/* Затемнення для читабельності тексту */}
       <Box
         sx={{

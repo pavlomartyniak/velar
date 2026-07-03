@@ -3,7 +3,9 @@
     "home": "Accueil",
     "about": "À propos",
     "configurator": "Configurateur",
-    "design": "Conception"
+    "design": "Conception",
+    "faq": "FAQ",
+    "blog": "Blog"
   },
   "cta": {
     "startConfig": "Lancer la configuration",
@@ -17,7 +19,8 @@
   "hero": {
     "overline": "Conception architecturale",
     "title": "Concevez la maison de vos rêves",
-    "subtitle": "Un projet architectural clé en main — de l'idée à l'estimation des coûts de construction. Envie de le réaliser ? Construisons-le ensemble."
+    "subtitle": "Un projet architectural clé en main — de l'idée à l'estimation des coûts de construction. Envie de le réaliser ? Construisons-le ensemble.",
+    "imageAlt": "Villa moderne haut de gamme conçue par Velar Development"
   },
   "whyUs": {
     "overline": "Pourquoi Velar",
@@ -93,7 +96,8 @@
     "hero": {
       "overline": "À propos de l'entreprise",
       "title": "Velar Development",
-      "subtitle": "Nous concevons et construisons des maisons, villas et cottages haut de gamme clé en main — et redonnons vie à l'architecture grâce à une restauration soignée."
+      "subtitle": "Nous concevons et construisons des maisons, villas et cottages haut de gamme clé en main — et redonnons vie à l'architecture grâce à une restauration soignée.",
+      "imageAlt": "Maison haut de gamme construite par Velar Development"
     },
     "story": {
       "overline": "Qui nous sommes",
@@ -158,7 +162,8 @@
       "title": "Projets de maisons clé en main",
       "subtitle": "Nous développons le projet architectural complet de votre future maison — de l'idée aux documents prêts pour la construction.",
       "cta": "Estimer votre projet",
-      "ctaHint": "Gratuit · ~5 minutes · sans appel"
+      "ctaHint": "Gratuit · ~5 minutes · sans appel",
+      "imageAlt": "Projet architectural de maison Velar Development"
     },
     "intro": {
       "overline": "Pourquoi la conception",
@@ -662,6 +667,14 @@
     "configuratorBuild": {
       "title": "Configurateur de construction",
       "description": "Le configurateur de maison en ligne de Velar : choisissez le style, la surface, les finitions et les options — et obtenez un projet, une visualisation 3D et un budget estimatif en 3 minutes."
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "description": "Réponses aux questions fréquentes sur la conception, la construction, les prix, les délais et le paiement des maisons, villas et cottages Velar Development."
+    },
+    "blog": {
+      "title": "Blog Velar Development",
+      "description": "Articles sur la construction, la conception et le coût des maisons, villas et cottages : conseils pratiques de Velar Development."
     }
   },
   "designConfigurator": {
@@ -1111,5 +1124,51 @@
     },
     "helper": "Pas encore décidé ?",
     "helperCta": "Comparer les deux options"
+  },
+  "faq": {
+    "overline": "Questions et réponses",
+    "title": "Questions fréquentes",
+    "subtitle": "Tout ce qu'il faut savoir sur la conception et la construction avec Velar — avant de contacter un manager.",
+    "items": [
+      {
+        "question": "Combien coûte la conception architecturale d'une maison ?",
+        "answer": "La conception démarre à partir de 15 $/m², selon le forfait choisi — Light, Basic ou Premium. Le configurateur de conception calcule un prix précis pour votre maison en quelques minutes, selon la surface, le nombre d'étages, le style et les systèmes techniques."
+      },
+      {
+        "question": "Combien de temps prend le développement d'un projet ?",
+        "answer": "En général 2 à 3 mois, selon la complexité du style architectural, la surface de la maison et le forfait choisi."
+      },
+      {
+        "question": "Puis-je commencer par la conception et commander la construction plus tard, ou avec une autre équipe ?",
+        "answer": "Oui. La conception est un service distinct. Le projet terminé peut être réalisé par notre équipe de construction ou par toute autre équipe de votre choix."
+      },
+      {
+        "question": "Comment se déroule le paiement ?",
+        "answer": "Le paiement est échelonné, sans paiement intégral à l'avance : 30 % au démarrage, 30 % pendant le développement du projet et 40 % après la livraison de la documentation finale. La construction est également payée par étapes, selon les résultats."
+      },
+      {
+        "question": "Le passeport de construction est-il inclus dans le forfait de conception ?",
+        "answer": "L'obtention du passeport de construction est incluse dans le forfait Premium. Dans les forfaits Light et Basic, ce service peut être commandé séparément."
+      },
+      {
+        "question": "Dans quelles régions travaillez-vous ?",
+        "answer": "Nous accompagnons des projets dans toute l'Ukraine. La conception se fait entièrement en ligne, votre terrain peut donc se trouver dans n'importe quelle région."
+      },
+      {
+        "question": "Faites-vous de la restauration ?",
+        "answer": "Oui, la restauration est un domaine d'activité à part : la rénovation soignée de bâtiments historiques et délaissés, en préservant leur caractère et en modernisant leurs équipements techniques."
+      },
+      {
+        "question": "Comment estimer mon budget de construction ?",
+        "answer": "Utilisez le configurateur de construction : choisissez le style, la surface, les finitions et les options — et obtenez un budget estimatif et une visualisation 3D en quelques minutes."
+      }
+    ]
+  },
+  "blog": {
+    "overline": "Blog Velar",
+    "title": "Articles utiles sur la construction et la conception",
+    "subtitle": "Des réponses pratiques aux questions les plus fréquentes avant de commencer la construction de sa propre maison.",
+    "readMore": "Lire l'article",
+    "backToBlog": "Retour aux articles"
   }
 }

@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { siteConfig } from "@/lib/site";
-import { routing } from "@/i18n/routing";
+import { routing, type Locale } from "@/i18n/routing";
+import { BLOG_SLUGS, getPostBySlug } from "@/lib/blog";
 
 const STATIC_PATHS = [
   { path: "", changeFrequency: "monthly" as const, priority: 1 },
@@ -9,6 +10,8 @@ const STATIC_PATHS = [
   { path: "/configurator", changeFrequency: "monthly" as const, priority: 0.9 },
   { path: "/configurator/build", changeFrequency: "monthly" as const, priority: 0.8 },
   { path: "/design-configurator", changeFrequency: "monthly" as const, priority: 0.8 },
+  { path: "/faq", changeFrequency: "monthly" as const, priority: 0.6 },
+  { path: "/blog", changeFrequency: "weekly" as const, priority: 0.6 },
 ];
 
 /** Альтернативні мовні версії для одного шляху (hreflang у sitemap). */
@@ -32,6 +35,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency,
         priority,
         alternates: { languages: languageAlternates(path) },
+      });
+    }
+
+    for (const slug of BLOG_SLUGS) {
+      const post = getPostBySlug(locale as Locale, slug);
+      entries.push({
+        url: `${siteConfig.url}/${locale}/blog/${slug}`,
+        lastModified: post ? new Date(post.publishedAt) : now,
+        changeFrequency: "monthly",
+        priority: 0.5,
+        alternates: { languages: languageAlternates(`/blog/${slug}`) },
       });
     }
   }

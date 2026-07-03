@@ -3,7 +3,9 @@
     "home": "Strona główna",
     "about": "O nas",
     "configurator": "Konfigurator",
-    "design": "Projektowanie"
+    "design": "Projektowanie",
+    "faq": "FAQ",
+    "blog": "Blog"
   },
   "cta": {
     "startConfig": "Rozpocznij konfigurację",
@@ -17,7 +19,8 @@
   "hero": {
     "overline": "Projektowanie architektoniczne",
     "title": "Zaprojektuj dom swoich marzeń",
-    "subtitle": "Projekt architektoniczny pod klucz — od koncepcji do kosztorysu budowy. Chcesz go zrealizować? Zbudujemy go razem."
+    "subtitle": "Projekt architektoniczny pod klucz — od koncepcji do kosztorysu budowy. Chcesz go zrealizować? Zbudujemy go razem.",
+    "imageAlt": "Nowoczesna willa klasy premium zaprojektowana przez Velar Development"
   },
   "whyUs": {
     "overline": "Dlaczego Velar",
@@ -93,7 +96,8 @@
     "hero": {
       "overline": "O firmie",
       "title": "Velar Development",
-      "subtitle": "Projektujemy i budujemy domy, wille i domki klasy premium pod klucz — i przywracamy architekturę do życia poprzez staranną renowację."
+      "subtitle": "Projektujemy i budujemy domy, wille i domki klasy premium pod klucz — i przywracamy architekturę do życia poprzez staranną renowację.",
+      "imageAlt": "Dom klasy premium zbudowany przez Velar Development"
     },
     "story": {
       "overline": "Kim jesteśmy",
@@ -158,7 +162,8 @@
       "title": "Projekty domów pod klucz",
       "subtitle": "Tworzymy kompletny projekt architektoniczny Twojego przyszłego domu — od koncepcji do dokumentacji gotowej do realizacji.",
       "cta": "Oblicz koszt projektu",
-      "ctaHint": "Bezpłatnie · ~5 minut · bez rozmowy telefonicznej"
+      "ctaHint": "Bezpłatnie · ~5 minut · bez rozmowy telefonicznej",
+      "imageAlt": "Projekt architektoniczny domu Velar Development"
     },
     "intro": {
       "overline": "Dlaczego projektowanie",
@@ -662,6 +667,14 @@
     "configuratorBuild": {
       "title": "Konfigurator budowy",
       "description": "Konfigurator domu online Velar: wybierz styl, powierzchnię, wykończenie i opcje — i otrzymaj projekt, wizualizację 3D oraz szacunkowy budżet w 3 minuty."
+    },
+    "faq": {
+      "title": "Najczęstsze pytania",
+      "description": "Odpowiedzi na najczęstsze pytania dotyczące projektowania, budowy, cen, terminów i płatności za domy, wille i domki Velar Development."
+    },
+    "blog": {
+      "title": "Blog Velar Development",
+      "description": "Artykuły o budowie, projektowaniu i kosztach domów, willi i domków: praktyczne porady od Velar Development."
     }
   },
   "designConfigurator": {
@@ -1111,5 +1124,51 @@
     },
     "helper": "Nie wiesz, co wybrać?",
     "helperCta": "Porównaj obie opcje"
+  },
+  "faq": {
+    "overline": "Pytania i odpowiedzi",
+    "title": "Najczęstsze pytania",
+    "subtitle": "Wszystko, co warto wiedzieć o projektowaniu i budowie z Velar — zanim skontaktujesz się z menedżerem.",
+    "items": [
+      {
+        "question": "Ile kosztuje projekt architektoniczny domu?",
+        "answer": "Cena projektowania zaczyna się od 15 $/m², w zależności od wybranego pakietu — Light, Basic lub Premium. Dokładną cenę dla Twojego domu obliczy konfigurator projektowania w kilka minut, na podstawie powierzchni, liczby kondygnacji, stylu i instalacji."
+      },
+      {
+        "question": "Ile trwa opracowanie projektu?",
+        "answer": "Zwykle 2–3 miesiące — w zależności od złożoności stylu architektonicznego, powierzchni domu i wybranego pakietu usług."
+      },
+      {
+        "question": "Czy mogę zacząć od projektu, a budowę zamówić później lub w innej ekipie?",
+        "answer": "Tak. Projektowanie to odrębna usługa. Gotowy projekt można zrealizować z naszą ekipą budowlaną lub z dowolną inną wybraną przez Ciebie."
+      },
+      {
+        "question": "Jak wygląda płatność?",
+        "answer": "Płatność jest podzielona na etapy, bez pełnej przedpłaty: 30% na starcie, 30% podczas opracowywania projektu i 40% po przekazaniu gotowej dokumentacji. Budowa również jest opłacana etapami, zgodnie z postępem prac."
+      },
+      {
+        "question": "Czy paszport budowlany jest wliczony w pakiet projektowy?",
+        "answer": "Uzyskanie paszportu budowlanego jest wliczone w pakiet Premium. W pakietach Light i Basic usługę tę można zamówić osobno."
+      },
+      {
+        "question": "W jakich regionach działacie?",
+        "answer": "Prowadzimy projekty na terenie całej Ukrainy. Projektowanie odbywa się w pełni online, więc Twoja działka może znajdować się w dowolnym regionie."
+      },
+      {
+        "question": "Czy zajmujecie się renowacją?",
+        "answer": "Tak, renowacja to odrębny kierunek naszej działalności: staranne odtwarzanie zabytkowych i zaniedbanych budynków z zachowaniem ich charakteru i modernizacją instalacji."
+      },
+      {
+        "question": "Jak obliczyć orientacyjny budżet budowy?",
+        "answer": "Skorzystaj z konfiguratora budowy: wybierz styl, metraż, wykończenie i opcje — a w kilka minut otrzymasz orientacyjny budżet i wizualizację 3D."
+      }
+    ]
+  },
+  "blog": {
+    "overline": "Blog Velar",
+    "title": "Przydatne artykuły o budowie i projektowaniu",
+    "subtitle": "Praktyczne odpowiedzi na pytania, które najczęściej pojawiają się przed rozpoczęciem budowy własnego domu.",
+    "readMore": "Czytaj artykuł",
+    "backToBlog": "Wróć do wszystkich artykułów"
   }
 }

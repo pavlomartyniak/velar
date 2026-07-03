@@ -7,12 +7,13 @@ export const siteConfig = {
   description:
     "Velar Development — будівництво будинків, вілл і котеджів преміумкласу під ключ та реставрація. Створіть проєкт власної вілли в онлайн-конфігураторі за 3 хвилини.",
   locale: "uk_UA",
-  ogImage: "/hero-villa.png",
+  ogImage: "/og-image.jpg",
   phone: "+380994407123",
   email: "velardevelopment@gmail.com",
+  // TODO: замінити street на реальну юридичну/офісну адресу у Львові
   address: {
-    locality: "Київ",
-    street: "вул. Хрещатик, 1",
+    locality: "Львів",
+    street: "",
     country: "UA",
   },
   socials: ["https://www.instagram.com/velar_development", "", ""],

@@ -3,7 +3,9 @@
     "home": "Home",
     "about": "Chi siamo",
     "configurator": "Configuratore",
-    "design": "Progettazione"
+    "design": "Progettazione",
+    "faq": "FAQ",
+    "blog": "Blog"
   },
   "cta": {
     "startConfig": "Avvia la configurazione",
@@ -17,7 +19,8 @@
   "hero": {
     "overline": "Progettazione architettonica",
     "title": "Progetta la casa dei tuoi sogni",
-    "subtitle": "Un progetto architettonico chiavi in mano — dall'idea al preventivo dei costi di costruzione. Vuoi realizzarlo? Costruiamo insieme il passo successivo."
+    "subtitle": "Un progetto architettonico chiavi in mano — dall'idea al preventivo dei costi di costruzione. Vuoi realizzarlo? Costruiamo insieme il passo successivo.",
+    "imageAlt": "Villa moderna di classe premium progettata da Velar Development"
   },
   "whyUs": {
     "overline": "Perché Velar",
@@ -93,7 +96,8 @@
     "hero": {
       "overline": "Sull'azienda",
       "title": "Velar Development",
-      "subtitle": "Progettiamo e costruiamo case, ville e cottage di classe premium chiavi in mano — e riportiamo in vita l'architettura con un restauro accurato."
+      "subtitle": "Progettiamo e costruiamo case, ville e cottage di classe premium chiavi in mano — e riportiamo in vita l'architettura con un restauro accurato.",
+      "imageAlt": "Casa di classe premium costruita da Velar Development"
     },
     "story": {
       "overline": "Chi siamo",
@@ -158,7 +162,8 @@
       "title": "Progetti di case chiavi in mano",
       "subtitle": "Sviluppiamo il progetto architettonico completo della vostra futura casa — dall'idea alla documentazione pronta per la costruzione.",
       "cta": "Stima il tuo progetto",
-      "ctaHint": "Gratuito · ~5 minuti · senza chiamate"
+      "ctaHint": "Gratuito · ~5 minuti · senza chiamate",
+      "imageAlt": "Progetto architettonico di casa Velar Development"
     },
     "intro": {
       "overline": "Perché la progettazione",
@@ -662,6 +667,14 @@
     "configuratorBuild": {
       "title": "Configuratore di costruzione",
       "description": "Il configuratore di case online di Velar: scegli stile, superficie, finiture e opzioni — e ottieni un progetto, una visualizzazione 3D e un budget stimato in 3 minuti."
+    },
+    "faq": {
+      "title": "Domande frequenti",
+      "description": "Risposte alle domande più frequenti su progettazione, costruzione, prezzi, tempistiche e pagamento di case, ville e cottage Velar Development."
+    },
+    "blog": {
+      "title": "Blog di Velar Development",
+      "description": "Articoli su costruzione, progettazione e costo di case, ville e cottage: consigli pratici di Velar Development."
     }
   },
   "designConfigurator": {
@@ -1111,5 +1124,51 @@
     },
     "helper": "Non hai ancora deciso?",
     "helperCta": "Confronta entrambe le opzioni"
+  },
+  "faq": {
+    "overline": "Domande e risposte",
+    "title": "Domande frequenti",
+    "subtitle": "Tutto ciò che è utile sapere sulla progettazione e la costruzione con Velar — prima di contattare un manager.",
+    "items": [
+      {
+        "question": "Quanto costa la progettazione architettonica di una casa?",
+        "answer": "La progettazione parte da 15 $/m², a seconda del pacchetto scelto — Light, Basic o Premium. Il configuratore di progettazione calcola il prezzo esatto per la tua casa in pochi minuti, in base a superficie, numero di piani, stile e impianti."
+      },
+      {
+        "question": "Quanto tempo richiede lo sviluppo di un progetto?",
+        "answer": "Solitamente 2–3 mesi, a seconda della complessità dello stile architettonico, della superficie della casa e del pacchetto di servizi scelto."
+      },
+      {
+        "question": "Posso iniziare con la progettazione e ordinare la costruzione più tardi, o con un altro team?",
+        "answer": "Sì. La progettazione è un servizio separato. Il progetto finito può essere realizzato dal nostro team di costruzione o da qualsiasi altro team a tua scelta."
+      },
+      {
+        "question": "Come funziona il pagamento?",
+        "answer": "Il pagamento è rateizzato, senza acconto totale anticipato: 30% all'avvio, 30% durante lo sviluppo del progetto e 40% dopo la consegna della documentazione finale. Anche la costruzione viene pagata a fasi, in base ai risultati."
+      },
+      {
+        "question": "Il passaporto edilizio è incluso nel pacchetto di progettazione?",
+        "answer": "L'ottenimento del passaporto edilizio è incluso nel pacchetto Premium. Nei pacchetti Light e Basic questo servizio può essere ordinato separatamente."
+      },
+      {
+        "question": "In quali regioni operate?",
+        "answer": "Seguiamo progetti in tutta l'Ucraina. La progettazione avviene interamente online, quindi il tuo terreno può trovarsi in qualsiasi regione."
+      },
+      {
+        "question": "Vi occupate anche di restauro?",
+        "answer": "Sì, il restauro è un ambito separato della nostra attività: il ripristino accurato di edifici storici e trascurati, preservandone il carattere e modernizzandone gli impianti."
+      },
+      {
+        "question": "Come stimo il budget di costruzione?",
+        "answer": "Usa il configuratore di costruzione: scegli stile, superficie, finiture e opzioni — e ottieni un budget stimato e una visualizzazione 3D in pochi minuti."
+      }
+    ]
+  },
+  "blog": {
+    "overline": "Blog Velar",
+    "title": "Articoli utili su costruzione e progettazione",
+    "subtitle": "Risposte pratiche alle domande più frequenti prima di iniziare a costruire la propria casa.",
+    "readMore": "Leggi l'articolo",
+    "backToBlog": "Torna a tutti gli articoli"
   }
 }

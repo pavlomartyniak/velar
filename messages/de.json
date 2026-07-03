@@ -3,7 +3,9 @@
     "home": "Startseite",
     "about": "Über uns",
     "configurator": "Konfigurator",
-    "design": "Projektierung"
+    "design": "Projektierung",
+    "faq": "FAQ",
+    "blog": "Blog"
   },
   "cta": {
     "startConfig": "Konfiguration starten",
@@ -17,7 +19,8 @@
   "hero": {
     "overline": "Architekturplanung",
     "title": "Gestalten Sie das Haus Ihrer Träume",
-    "subtitle": "Ein schlüsselfertiges Architekturprojekt — von der Idee bis zur Baukostenschätzung. Möchten Sie es umsetzen? Dann bauen wir gemeinsam weiter."
+    "subtitle": "Ein schlüsselfertiges Architekturprojekt — von der Idee bis zur Baukostenschätzung. Möchten Sie es umsetzen? Dann bauen wir gemeinsam weiter.",
+    "imageAlt": "Moderne Premium-Villa, entworfen von Velar Development"
   },
   "whyUs": {
     "overline": "Warum Velar",
@@ -93,7 +96,8 @@
     "hero": {
       "overline": "Über das Unternehmen",
       "title": "Velar Development",
-      "subtitle": "Wir projektieren und bauen Häuser, Villen und Cottages der Premiumklasse schlüsselfertig — und erwecken Architektur durch sorgfältige Restaurierung zu neuem Leben."
+      "subtitle": "Wir projektieren und bauen Häuser, Villen und Cottages der Premiumklasse schlüsselfertig — und erwecken Architektur durch sorgfältige Restaurierung zu neuem Leben.",
+      "imageAlt": "Von Velar Development gebautes Haus der Premiumklasse"
     },
     "story": {
       "overline": "Wer wir sind",
@@ -158,7 +162,8 @@
       "title": "Schlüsselfertige Hausprojektierung",
       "subtitle": "Wir entwickeln das komplette Architekturprojekt für Ihr zukünftiges Haus — von der Idee bis zur baureifen Dokumentation.",
       "cta": "Projektkosten berechnen",
-      "ctaHint": "Kostenlos · ca. 5 Minuten · ohne Anruf"
+      "ctaHint": "Kostenlos · ca. 5 Minuten · ohne Anruf",
+      "imageAlt": "Architekturprojekt eines Hauses von Velar Development"
     },
     "intro": {
       "overline": "Warum Projektierung",
@@ -662,6 +667,14 @@
     "configuratorBuild": {
       "title": "Baukonfigurator",
       "description": "Velars Online-Hauskonfigurator: Wählen Sie Stil, Fläche, Ausstattung und Optionen — und erhalten Sie ein Projekt, eine 3D-Visualisierung und ein geschätztes Budget in 3 Minuten."
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Antworten auf häufige Fragen zu Planung, Bau, Kosten, Terminen und Zahlung von Häusern, Villen und Cottages von Velar Development."
+    },
+    "blog": {
+      "title": "Velar Development Blog",
+      "description": "Artikel über Bau, Planung und die Kosten von Häusern, Villen und Cottages: praktische Ratschläge von Velar Development."
     }
   },
   "designConfigurator": {
@@ -1111,5 +1124,51 @@
     },
     "helper": "Noch unentschlossen?",
     "helperCta": "Beide Optionen vergleichen"
+  },
+  "faq": {
+    "overline": "Fragen & Antworten",
+    "title": "Häufig gestellte Fragen",
+    "subtitle": "Alles, was Sie über Planung und Bau mit Velar wissen sollten — bevor Sie sich an einen Manager wenden.",
+    "items": [
+      {
+        "question": "Wie viel kostet die Architekturplanung eines Hauses?",
+        "answer": "Die Planung beginnt bei 15 $/m², abhängig vom gewählten Paket — Light, Basic oder Premium. Den genauen Preis für Ihr Haus berechnet der Projektierungs-Konfigurator in wenigen Minuten anhand von Fläche, Geschossanzahl, Stil und Technik."
+      },
+      {
+        "question": "Wie lange dauert die Projektentwicklung?",
+        "answer": "In der Regel 2–3 Monate — abhängig von der Komplexität des Architekturstils, der Hausfläche und dem gewählten Servicepaket."
+      },
+      {
+        "question": "Kann ich mit der Planung beginnen und den Bau später oder mit einem anderen Team beauftragen?",
+        "answer": "Ja. Die Planung ist eine eigenständige Leistung. Das fertige Projekt kann mit unserem Bauteam oder mit einem beliebigen anderen Team umgesetzt werden."
+      },
+      {
+        "question": "Wie erfolgt die Zahlung?",
+        "answer": "Die Zahlung erfolgt in Etappen, ohne vollständige Vorauszahlung: 30 % zu Beginn, 30 % während der Projektentwicklung und 40 % nach Übergabe der fertigen Dokumentation. Auch der Bau wird schrittweise nach Ergebnis bezahlt."
+      },
+      {
+        "question": "Ist der Baupass im Planungspaket enthalten?",
+        "answer": "Die Beschaffung des Baupasses ist im Premium-Paket enthalten. Bei Light und Basic kann diese Leistung separat bestellt werden."
+      },
+      {
+        "question": "In welchen Regionen sind Sie tätig?",
+        "answer": "Wir begleiten Projekte in der gesamten Ukraine. Die Planung erfolgt vollständig online, sodass sich Ihr Grundstück in jeder Region befinden kann."
+      },
+      {
+        "question": "Führen Sie auch Restaurierungen durch?",
+        "answer": "Ja, die Restaurierung ist ein eigener Tätigkeitsbereich: die sorgfältige Wiederherstellung historischer und vernachlässigter Gebäude unter Erhaltung ihres Charakters und Modernisierung der Technik."
+      },
+      {
+        "question": "Wie berechne ich mein Baubudget?",
+        "answer": "Nutzen Sie den Bau-Konfigurator: wählen Sie Stil, Fläche, Ausstattung und Optionen — und erhalten Sie in wenigen Minuten ein geschätztes Budget und eine 3D-Visualisierung."
+      }
+    ]
+  },
+  "blog": {
+    "overline": "Velar Blog",
+    "title": "Nützliche Artikel über Bau und Planung",
+    "subtitle": "Praktische Antworten auf die Fragen, die vor dem Baubeginn eines eigenen Hauses am häufigsten gestellt werden.",
+    "readMore": "Artikel lesen",
+    "backToBlog": "Zu allen Artikeln"
   }
 }

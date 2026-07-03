@@ -80,10 +80,12 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
   setRequestLocale(locale);
 
   const t = await getTranslations({ locale, namespace: "meta" });
+  const tServices = await getTranslations({ locale, namespace: "about.services" });
 
   const organizationJsonLd = {
     "@context": "https://schema.org",
     "@type": "GeneralContractor",
+    "@id": `${siteConfig.url}/${locale}#organization`,
     name: siteConfig.name,
     url: siteConfig.url,
     description: t("defaultDescription"),
@@ -94,11 +96,23 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
     address: {
       "@type": "PostalAddress",
       addressLocality: siteConfig.address.locality,
-      streetAddress: siteConfig.address.street,
+      ...(siteConfig.address.street ? { streetAddress: siteConfig.address.street } : {}),
       addressCountry: siteConfig.address.country,
     },
     areaServed: "UA",
-    sameAs: siteConfig.socials,
+    sameAs: siteConfig.socials.filter(Boolean),
+  };
+
+  const serviceItems = tServices.raw("items") as { title: string; description: string }[];
+  const servicesJsonLd = {
+    "@context": "https://schema.org",
+    "@graph": serviceItems.map((item) => ({
+      "@type": "Service",
+      name: item.title,
+      description: item.description,
+      provider: { "@id": `${siteConfig.url}/${locale}#organization` },
+      areaServed: "UA",
+    })),
   };
 
   return (
@@ -108,6 +122,12 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(organizationJsonLd),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(servicesJsonLd),
           }}
         />
         <AppRouterCacheProvider>

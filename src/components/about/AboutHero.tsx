@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 import { motion, type Variants } from "framer-motion";
 import { Box, Container, Stack, Typography } from "@mui/material";
 
@@ -31,12 +32,26 @@ export default function AboutHero() {
         alignItems: "center",
         minHeight: { xs: 380, md: 480 },
         color: "common.white",
-        backgroundImage: `linear-gradient(to right, rgba(0,0,0,0.78) 0%, rgba(0,0,0,0.45) 60%, rgba(0,0,0,0.25) 100%), url('${IMAGE}')`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
+        overflow: "hidden",
       }}
     >
-      <Container maxWidth="lg">
+      <Image
+        src={IMAGE}
+        alt={t("imageAlt")}
+        fill
+        priority
+        sizes="100vw"
+        style={{ objectFit: "cover", objectPosition: "center" }}
+      />
+      <Box
+        sx={{
+          position: "absolute",
+          inset: 0,
+          background:
+            "linear-gradient(to right, rgba(0,0,0,0.78) 0%, rgba(0,0,0,0.45) 60%, rgba(0,0,0,0.25) 100%)",
+        }}
+      />
+      <Container maxWidth="lg" sx={{ position: "relative" }}>
         <Stack
           component={motion.div}
           variants={container}
