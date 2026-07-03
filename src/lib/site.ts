@@ -15,6 +15,7 @@ export const siteConfig = {
     street: "",
     country: "UA",
   },
+  // Facebook та YouTube поки не запущені — порожні рядки відфільтровуються в JSON-LD sameAs.
   socials: ["https://www.instagram.com/velar_development", "", ""],
   keywords: [
     "будівництво будинків",
