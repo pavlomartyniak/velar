@@ -2,8 +2,7 @@
 export const siteConfig = {
   name: "Velar Development",
   shortName: "Velar",
-  // TODO: замінити на реальний продакшн-домен
-  url: "https://velar.ua",
+  url: "https://velar-development.com",
   description:
     "Velar Development — будівництво будинків, вілл і котеджів преміумкласу під ключ та реставрація. Створіть проєкт власної вілли в онлайн-конфігураторі за 3 хвилини.",
   locale: "uk_UA",
