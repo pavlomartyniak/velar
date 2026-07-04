@@ -9,6 +9,7 @@ import theme from "@/theme";
 import QueryProvider from "@/providers/query-provider";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import GoogleAnalytics from "@/components/shared/GoogleAnalytics";
 import { siteConfig } from "@/lib/site";
 import { OG_LOCALES, type Locale, routing } from "@/i18n/routing";
 import "../globals.css";
@@ -118,6 +119,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
   return (
     <html lang={locale}>
       <body suppressHydrationWarning>
+        <GoogleAnalytics />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
