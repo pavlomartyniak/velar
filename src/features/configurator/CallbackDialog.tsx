@@ -78,6 +78,7 @@ export default function CallbackDialog({
         }),
       });
       if (!response.ok) throw new Error("failed");
+      window.gtag?.("event", "generate_lead", { source, kind: lead?.kind });
       reset();
       onClose();
       onSubmitted();
