@@ -1,32 +1,38 @@
 "use client";
 
 import { Link } from "@/i18n/navigation";
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import MenuBookRoundedIcon from "@mui/icons-material/MenuBookRounded";
-import ArrowForwardRoundedIcon from "@mui/icons-material/ArrowForwardRounded";
+import OpenInNewRoundedIcon from "@mui/icons-material/OpenInNewRounded";
 
-/** Невелике посилання на статтю блогу для питань, де вибір неочевидний. */
+/** Помітний блок-підказка з посиланням на статтю блогу — для питань, де вибір неочевидний. */
 export default function ArticleLinkHint({ slug, label }: { slug: string; label: string }) {
   return (
     <Box
       component={Link}
       href={`/blog/${slug}`}
+      target="_blank"
+      rel="noopener noreferrer"
       sx={{
-        display: "inline-flex",
+        display: "flex",
         alignItems: "center",
-        gap: 0.75,
-        mt: -0.5,
-        fontSize: 13,
-        fontWeight: 600,
-        color: "primary.main",
+        gap: 1.5,
+        p: 1.75,
+        borderRadius: 2,
+        border: 1,
+        borderColor: "primary.main",
+        bgcolor: "action.hover",
         textDecoration: "none",
-        width: "fit-content",
-        "&:hover": { textDecoration: "underline" },
+        color: "text.primary",
+        transition: "background-color .2s ease, box-shadow .2s ease",
+        "&:hover": { bgcolor: "action.selected", boxShadow: 1 },
       }}
     >
-      <MenuBookRoundedIcon sx={{ fontSize: 16 }} />
-      {label}
-      <ArrowForwardRoundedIcon sx={{ fontSize: 14 }} />
+      <MenuBookRoundedIcon color="primary" />
+      <Typography variant="body2" sx={{ fontWeight: 600, flexGrow: 1 }}>
+        {label}
+      </Typography>
+      <OpenInNewRoundedIcon sx={{ fontSize: 18 }} color="primary" />
     </Box>
   );
 }
