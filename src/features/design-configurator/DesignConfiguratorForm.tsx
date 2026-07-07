@@ -141,9 +141,10 @@ export default function DesignConfiguratorForm() {
         <Box
           sx={{
             display: "flex",
-            alignItems: "center",
+            flexDirection: { xs: "column", sm: "row" },
+            alignItems: { xs: "flex-start", sm: "center" },
             justifyContent: "space-between",
-            gap: 2,
+            gap: { xs: 1, sm: 2 },
             mb: 1.5,
           }}
         >
@@ -160,7 +161,7 @@ export default function DesignConfiguratorForm() {
             color="inherit"
             onClick={handleReset}
             startIcon={<RestartAltRoundedIcon />}
-            sx={{ color: "text.secondary", flexShrink: 0 }}
+            sx={{ color: "text.secondary", flexShrink: 0, ml: { xs: -1, sm: 0 } }}
           >
             {t("nav.reset")}
           </Button>
