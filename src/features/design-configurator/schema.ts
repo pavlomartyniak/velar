@@ -327,3 +327,6 @@ const currencyFormatter = new Intl.NumberFormat("uk-UA", {
 });
 
 export const formatDesignCurrency = (value: number) => currencyFormatter.format(value);
+
+/** Ключ sessionStorage для збереження прогресу конфігуратора проєктування. */
+export const DESIGN_CONFIGURATOR_STORAGE_KEY = "velar:configurator:design";

@@ -23,12 +23,14 @@ import {
 import ArrowBackRoundedIcon from "@mui/icons-material/ArrowBackRounded";
 import ArrowForwardRoundedIcon from "@mui/icons-material/ArrowForwardRounded";
 import {
+  CONFIGURATOR_STORAGE_KEY,
   type ConfiguratorValues,
   computeBudget,
   configuratorSchema,
   defaultConfiguratorValues,
   formatCurrency,
 } from "./schema";
+import { usePersistedWizard } from "@/lib/usePersistedWizard";
 import StyleStep from "./steps/StyleStep";
 import AreaStep from "./steps/AreaStep";
 import PlotStep from "./steps/PlotStep";
@@ -98,6 +100,15 @@ export default function ConfiguratorForm() {
     defaultValues: defaultConfiguratorValues,
     mode: "onChange",
   });
+
+  usePersistedWizard(
+    CONFIGURATOR_STORAGE_KEY,
+    methods,
+    activeStep,
+    maxReached,
+    setActiveStep,
+    setMaxReached,
+  );
 
   const lastStep = STEP_KEYS.length - 1;
   const isResult = activeStep === lastStep;

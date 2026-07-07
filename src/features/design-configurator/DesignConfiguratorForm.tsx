@@ -23,12 +23,14 @@ import {
 import ArrowBackRoundedIcon from "@mui/icons-material/ArrowBackRounded";
 import ArrowForwardRoundedIcon from "@mui/icons-material/ArrowForwardRounded";
 import {
+  DESIGN_CONFIGURATOR_STORAGE_KEY,
   type DesignConfiguratorValues,
   computeDesignPrice,
   defaultDesignValues,
   designConfiguratorSchema,
   formatDesignCurrency,
 } from "./schema";
+import { usePersistedWizard } from "@/lib/usePersistedWizard";
 import PlotStep from "./steps/PlotStep";
 import HouseStep from "./steps/HouseStep";
 import LifestyleStep from "./steps/LifestyleStep";
@@ -88,6 +90,15 @@ export default function DesignConfiguratorForm() {
     defaultValues: defaultDesignValues,
     mode: "onChange",
   });
+
+  usePersistedWizard(
+    DESIGN_CONFIGURATOR_STORAGE_KEY,
+    methods,
+    activeStep,
+    maxReached,
+    setActiveStep,
+    setMaxReached,
+  );
 
   const lastStep = STEP_KEYS.length - 1;
   const isResult = activeStep === lastStep;

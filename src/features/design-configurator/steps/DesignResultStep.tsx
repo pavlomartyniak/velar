@@ -18,12 +18,14 @@ import LockRoundedIcon from "@mui/icons-material/LockRounded";
 import LockOpenRoundedIcon from "@mui/icons-material/LockOpenRounded";
 import EditRoundedIcon from "@mui/icons-material/EditRounded";
 import {
+  DESIGN_CONFIGURATOR_STORAGE_KEY,
   DESIGN_PACKAGES,
   SPECIAL_ROOMS,
   computeDesignPrice,
   formatDesignCurrency,
   type DesignConfiguratorValues,
 } from "../schema";
+import { clearPersistedWizard } from "@/lib/usePersistedWizard";
 import CallbackDialog from "@/features/configurator/CallbackDialog";
 
 function VisualizationPanel({
@@ -347,7 +349,10 @@ export default function DesignResultStep({ onEdit }: { onEdit: () => void }) {
       <CallbackDialog
         open={callOpen}
         onClose={() => setCallOpen(false)}
-        onSubmitted={() => setSubmitted(true)}
+        onSubmitted={() => {
+          setSubmitted(true);
+          clearPersistedWizard(DESIGN_CONFIGURATOR_STORAGE_KEY);
+        }}
         source="design-configurator"
         lead={{ kind: "design", values }}
       />

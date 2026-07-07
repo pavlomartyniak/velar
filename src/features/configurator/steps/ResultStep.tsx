@@ -21,6 +21,7 @@ import LockRoundedIcon from "@mui/icons-material/LockRounded";
 import LockOpenRoundedIcon from "@mui/icons-material/LockOpenRounded";
 import {
   ADDONS,
+  CONFIGURATOR_STORAGE_KEY,
   type ConfiguratorValues,
   HOUSE_STYLES,
   UTILITIES,
@@ -28,6 +29,7 @@ import {
   formatCurrency,
 } from "../schema";
 import CallbackDialog from "../CallbackDialog";
+import { clearPersistedWizard } from "@/lib/usePersistedWizard";
 
 function VisualizationPanel({
   image,
@@ -439,7 +441,10 @@ export default function ResultStep({ onEdit }: { onEdit: () => void }) {
       <CallbackDialog
         open={callOpen}
         onClose={() => setCallOpen(false)}
-        onSubmitted={() => setSubmitted(true)}
+        onSubmitted={() => {
+          setSubmitted(true);
+          clearPersistedWizard(CONFIGURATOR_STORAGE_KEY);
+        }}
         source="configurator"
         lead={{ kind: "construction", values }}
       />
