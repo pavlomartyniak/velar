@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { Box, Stack, Typography } from "@mui/material";
 import { DESIGN_HEATING_OPTIONS, ENGINEERING_SYSTEMS } from "../schema";
 import DesignChoiceQuestion from "./DesignChoiceQuestion";
+import ArticleLinkHint from "@/components/shared/ArticleLinkHint";
 
 export default function EngineeringStep() {
   const t = useTranslations("designConfigurator.engineering");
@@ -36,6 +37,10 @@ export default function EngineeringStep() {
         options={heating}
         multiple
         preventEmpty
+      />
+      <ArticleLinkHint
+        slug="teplovyi-nasos-chy-gazovyi-kotel"
+        label={t("heating.articleLink")}
       />
       <DesignChoiceQuestion
         name="systems"

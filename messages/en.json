@@ -432,7 +432,8 @@
             "description": "Simple connection."
           }
         },
-        "hint": "You can choose several types — they work great in combination."
+        "hint": "You can choose several types — they work great in combination.",
+        "articleLink": "Heat pump or gas boiler: which to choose"
       }
     },
     "options": {
@@ -567,7 +568,8 @@
             "label": "Pile",
             "description": "For weak soils and difficult terrain."
           }
-        }
+        },
+        "articleLink": "Strip, slab or pile: how to choose a foundation"
       },
       "utilities": {
         "title": "Utilities on site",
@@ -993,7 +995,8 @@
             "label": "Solid fuel",
             "description": "Solid-fuel boiler."
           }
-        }
+        },
+        "articleLink": "Heat pump or gas boiler: which to choose"
       },
       "systems": {
         "title": "Additional systems",

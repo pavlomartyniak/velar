@@ -19,6 +19,7 @@ import {
   formatCurrency,
 } from "../schema";
 import ChoiceQuestion from "./ChoiceQuestion";
+import ArticleLinkHint from "@/components/shared/ArticleLinkHint";
 
 export default function PlotStep() {
   const { control } = useFormContext<ConfiguratorValues>();
@@ -63,6 +64,10 @@ export default function PlotStep() {
         title={t("foundation.title")}
         hint={t("foundation.hint")}
         options={foundation}
+      />
+      <ArticleLinkHint
+        slug="strichkovyi-plytnyi-chy-palovyi-fundament"
+        label={t("foundation.articleLink")}
       />
 
       <Box>

@@ -432,7 +432,8 @@
             "description": "Collegamento semplice."
           }
         },
-        "hint": "Puoi scegliere più tipi — funzionano benissimo insieme."
+        "hint": "Puoi scegliere più tipi — funzionano benissimo insieme.",
+        "articleLink": "Pompa di calore o caldaia a gas: cosa scegliere"
       }
     },
     "options": {
@@ -567,7 +568,8 @@
             "label": "Su pali",
             "description": "Per terreni deboli e rilievi complessi."
           }
-        }
+        },
+        "articleLink": "Nastro, platea o pali: come scegliere la fondazione"
       },
       "utilities": {
         "title": "Reti tecnologiche sul terreno",
@@ -993,7 +995,8 @@
             "label": "Combustibile solido",
             "description": "Caldaia a combustibile solido."
           }
-        }
+        },
+        "articleLink": "Pompa di calore o caldaia a gas: cosa scegliere"
       },
       "systems": {
         "title": "Sistemi aggiuntivi",

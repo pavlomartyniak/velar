@@ -432,7 +432,8 @@
             "description": "Einfacher Anschluss."
           }
         },
-        "hint": "Sie können mehrere Typen wählen — sie ergänzen sich hervorragend."
+        "hint": "Sie können mehrere Typen wählen — sie ergänzen sich hervorragend.",
+        "articleLink": "Wärmepumpe oder Gaskessel: was wählen"
       }
     },
     "options": {
@@ -567,7 +568,8 @@
             "label": "Pfahlfundament",
             "description": "Für schwache Böden und schwieriges Gelände."
           }
-        }
+        },
+        "articleLink": "Streifen-, Platten- oder Pfahlfundament: wie wählen"
       },
       "utilities": {
         "title": "Erschließung des Grundstücks",
@@ -993,7 +995,8 @@
             "label": "Festbrennstoff",
             "description": "Festbrennstoffkessel."
           }
-        }
+        },
+        "articleLink": "Wärmepumpe oder Gaskessel: was wählen"
       },
       "systems": {
         "title": "Zusätzliche Systeme",

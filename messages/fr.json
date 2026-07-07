@@ -432,7 +432,8 @@
             "description": "Raccordement simple."
           }
         },
-        "hint": "Vous pouvez choisir plusieurs types — ils fonctionnent très bien ensemble."
+        "hint": "Vous pouvez choisir plusieurs types — ils fonctionnent très bien ensemble.",
+        "articleLink": "Pompe à chaleur ou chaudière à gaz : que choisir"
       }
     },
     "options": {
@@ -567,7 +568,8 @@
             "label": "Pieux",
             "description": "Pour les sols faibles et les terrains difficiles."
           }
-        }
+        },
+        "articleLink": "Semelle filante, dalle ou pieux : comment choisir"
       },
       "utilities": {
         "title": "Réseaux sur le terrain",
@@ -993,7 +995,8 @@
             "label": "Combustible solide",
             "description": "Chaudière à combustible solide."
           }
-        }
+        },
+        "articleLink": "Pompe à chaleur ou chaudière à gaz : que choisir"
       },
       "systems": {
         "title": "Systèmes additionnels",

@@ -432,7 +432,8 @@
             "description": "Proste podłączenie."
           }
         },
-        "hint": "Możesz wybrać kilka typów — świetnie współpracują ze sobą."
+        "hint": "Możesz wybrać kilka typów — świetnie współpracują ze sobą.",
+        "articleLink": "Pompa ciepła czy kocioł gazowy: co wybrać"
       }
     },
     "options": {
@@ -567,7 +568,8 @@
             "label": "Fundament palowy",
             "description": "Dla słabych gruntów i trudnego terenu."
           }
-        }
+        },
+        "articleLink": "Ława, płyta czy pale: jak wybrać fundament"
       },
       "utilities": {
         "title": "Przyłącza na działce",
@@ -993,7 +995,8 @@
             "label": "Na paliwo stałe",
             "description": "Kocioł na paliwo stałe."
           }
-        }
+        },
+        "articleLink": "Pompa ciepła czy kocioł gazowy: co wybrać"
       },
       "systems": {
         "title": "Dodatkowe systemy",
