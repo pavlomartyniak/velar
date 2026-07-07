@@ -260,4 +260,90 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "teplovyi-nasos-chy-gazovyi-kotel",
+    title: "Heat pump or gas boiler: which heating to choose for your house",
+    description:
+      "Comparing a heat pump, a gas boiler and electric heating for a private house: installation cost, running savings, and when each option pays off.",
+    excerpt:
+      "More expensive upfront or more expensive every month — the choice of heating system always comes down to this. We break down when a heat pump earns its keep and when gas is still the better call.",
+    publishedAt: "2026-07-06",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "The heating system is one of the decisions that's hard to change once construction is finished, so it's worth weighing up in advance. Let's compare the three main options not by trend, but by real numbers: what it costs to install, and what it costs to run.",
+      },
+      { type: "heading", text: "Gas boiler" },
+      {
+        type: "paragraph",
+        text: "The cheapest option upfront and still the most common solution wherever a gas line is available. Predictable running costs, familiar servicing, a wide choice of technicians. The main condition is that gas must already reach the plot; if not, connecting the network becomes a separate, and not always cheap, line item.",
+      },
+      { type: "heading", text: "Heat pump" },
+      {
+        type: "paragraph",
+        text: "Costs significantly more to install, but saves up to 70% on heating compared with gas or electricity — a pump doesn't generate heat, it moves it from the environment, so it uses far less electricity for the same amount of warmth. The gap in installation cost pays for itself over a few heating seasons, and after that it works purely in your favor every month.",
+      },
+      { type: "heading", text: "Electric heating" },
+      {
+        type: "paragraph",
+        text: "The simplest connection, with no network needed besides electricity. A logical choice as the primary source in mild climates, or as a backup alongside a heat pump or boiler — not for continuously heating a large house through winter, where bills can end up the highest of the three options.",
+      },
+      { type: "heading", text: "Which option pays off when" },
+      {
+        type: "list",
+        items: [
+          "Gas is already on the plot and the upfront budget is tight — a gas boiler remains a sensible standard",
+          "You plan to live in the house long-term and can invest more upfront — a heat pump pays for itself through monthly savings",
+          "You need a backup or supplementary heat source — electric heating as a second circuit",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "In the construction configurator you can select several heating types at once — they work well together. Choose an option or a combination and see straight away how it affects the estimated budget for your house.",
+      },
+    ],
+  },
+  {
+    slug: "strichkovyi-plytnyi-chy-palovyi-fundament",
+    title: "Strip, slab or pile foundation: how to choose",
+    description:
+      "Comparing three private-house foundation types — slab, strip and pile: which soil and terrain each suits, and how it affects construction cost.",
+    excerpt:
+      "The foundation is the one thing you can't redo once the walls are up. Here's which soil and terrain each type suits, so the decision is informed rather than a guess.",
+    publishedAt: "2026-07-13",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "The foundation type isn't a matter of preference — it's determined by the plot: its terrain and soil properties. A mistake here costs more than almost any other, because unlike finishing, the foundation can't be redone once the house is already standing.",
+      },
+      { type: "heading", text: "Slab foundation" },
+      {
+        type: "paragraph",
+        text: "A monolithic slab under the entire footprint of the house — a universal solution for level plots with stable soil. It spreads the load evenly, performs well on frost-heave-prone soil, and combined with insulation serves as the base for underfloor heating. The baseline, most predictable option in terms of cost.",
+      },
+      { type: "heading", text: "Strip foundation" },
+      {
+        type: "paragraph",
+        text: "A classic for stable soils: a reinforced-concrete strip runs under the load-bearing walls rather than the whole footprint, so it uses less material than a slab. It holds wall loads well and suits a house with a planned basement or cellar level.",
+      },
+      { type: "heading", text: "Pile foundation" },
+      {
+        type: "paragraph",
+        text: "Piles transfer the load to deep, dense soil layers, bypassing weak upper ones — the solution for difficult terrain, weak or uneven soil, and significant elevation changes. More expensive than a slab or strip, but exactly where other foundation types are risky, it's the one that delivers reliability.",
+      },
+      { type: "heading", text: "How terrain shapes the choice" },
+      {
+        type: "list",
+        items: [
+          "A level plot with stable soil — a slab foundation as the baseline, most economical option",
+          "A sloped plot — a strip or pile foundation is often more appropriate, depending on the elevation change",
+          "Difficult terrain or weak soil — a pile foundation, despite the higher cost, reduces risk down the line",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The final decision is always made after a soil survey of the plot — no online calculator replaces an actual ground investigation. But you can already see the estimated impact of terrain and foundation type on the budget in the construction configurator.",
+      },
+    ],
+  },
 ];

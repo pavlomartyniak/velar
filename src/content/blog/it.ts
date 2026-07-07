@@ -260,4 +260,90 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "teplovyi-nasos-chy-gazovyi-kotel",
+    title: "Pompa di calore o caldaia a gas: quale riscaldamento scegliere per la casa",
+    description:
+      "Confronto tra pompa di calore, caldaia a gas e riscaldamento elettrico per una casa privata: costo di installazione, risparmio in esercizio e quando conviene ciascuna opzione.",
+    excerpt:
+      "Più caro all'inizio o più caro ogni mese — la scelta del sistema di riscaldamento si riduce sempre a questo. Spieghiamo quando una pompa di calore si ripaga e quando il gas resta la scelta migliore.",
+    publishedAt: "2026-07-06",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Il tipo di riscaldamento è una delle decisioni difficili da cambiare una volta terminata la costruzione, quindi vale la pena valutarla in anticipo. Confrontiamo le tre opzioni principali non secondo le mode, ma secondo numeri reali: quanto costa installare e quanto costa mantenere.",
+      },
+      { type: "heading", text: "Caldaia a gas" },
+      {
+        type: "paragraph",
+        text: "L'opzione più economica all'inizio e ancora la soluzione più diffusa dove è disponibile la rete del gas. Costi di esercizio prevedibili, manutenzione consueta, ampia scelta di tecnici. La condizione principale: il gas deve già arrivare al terreno; altrimenti, l'allacciamento alla rete diventa una voce di spesa a parte, non sempre economica.",
+      },
+      { type: "heading", text: "Pompa di calore" },
+      {
+        type: "paragraph",
+        text: "Costa decisamente di più all'installazione, ma fa risparmiare fino al 70% sul riscaldamento rispetto a gas o elettricità — una pompa non genera calore, lo trasferisce dall'ambiente, quindi consuma molta meno elettricità per la stessa quantità di calore. La differenza nel costo di installazione si ripaga in poche stagioni di riscaldamento, dopodiché lavora solo a tuo vantaggio ogni mese.",
+      },
+      { type: "heading", text: "Riscaldamento elettrico" },
+      {
+        type: "paragraph",
+        text: "Il collegamento più semplice, senza alcuna rete oltre a quella elettrica. Una scelta logica come fonte principale nei climi miti, o come riserva accanto a una pompa di calore o a una caldaia — non per riscaldare in continuo una casa grande durante l'inverno, dove le bollette possono risultare le più alte tra le tre opzioni.",
+      },
+      { type: "heading", text: "Quando conviene ciascuna opzione" },
+      {
+        type: "list",
+        items: [
+          "Il gas è già sul terreno e il budget iniziale è limitato: la caldaia a gas resta uno standard ragionevole",
+          "Prevedi di vivere a lungo nella casa e puoi investire di più all'inizio: la pompa di calore si ripaga con il risparmio mensile",
+          "Serve una fonte di riserva o supplementare: il riscaldamento elettrico come secondo circuito",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Nel configuratore di costruzione puoi scegliere più tipi di riscaldamento contemporaneamente — funzionano bene insieme. Scegli un'opzione o una combinazione e vedi subito come incide sul budget stimato della tua casa.",
+      },
+    ],
+  },
+  {
+    slug: "strichkovyi-plytnyi-chy-palovyi-fundament",
+    title: "Fondazione a nastro, a platea o su pali: come scegliere",
+    description:
+      "Confronto tra tre tipi di fondazione per case private — platea, nastro e pali: a quale terreno e conformazione si adatta ciascuno e come incide sul costo di costruzione.",
+    excerpt:
+      "La fondazione è l'unica cosa che non si può rifare una volta alzate le pareti. Spieghiamo a quale terreno e conformazione corrisponde ciascun tipo, per una decisione consapevole e non casuale.",
+    publishedAt: "2026-07-13",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Il tipo di fondazione non è una questione di preferenza: è determinato dal terreno, dalla sua conformazione e dalle proprietà del suolo. Un errore qui costa più di quasi qualsiasi altro — a differenza delle finiture, la fondazione non può essere rifatta quando la casa è già in piedi.",
+      },
+      { type: "heading", text: "Platea" },
+      {
+        type: "paragraph",
+        text: "Una platea monolitica sotto l'intera impronta della casa — soluzione universale per terreni piani con suolo stabile. Distribuisce il carico uniformemente, si comporta bene su suoli soggetti a rigonfiamento da gelo e, combinata con l'isolamento, funge da base per il riscaldamento a pavimento. L'opzione di base, la più prevedibile in termini di costo.",
+      },
+      { type: "heading", text: "Fondazione a nastro" },
+      {
+        type: "paragraph",
+        text: "Un classico per suoli stabili: una fascia in cemento armato corre sotto i muri portanti anziché sotto l'intera superficie, quindi utilizza meno materiale rispetto a una platea. Regge bene i carichi dei muri ed è adatta se è previsto un seminterrato o una cantina.",
+      },
+      { type: "heading", text: "Pali" },
+      {
+        type: "paragraph",
+        text: "I pali trasferiscono il carico a strati di suolo profondi e densi, aggirando quelli superiori deboli — la soluzione per terreni difficili, suoli deboli o disomogenei e forti dislivelli. Più costosi di platea e nastro, ma proprio dove gli altri tipi di fondazione sono rischiosi, sono quelli che garantiscono affidabilità.",
+      },
+      { type: "heading", text: "Come la conformazione del terreno influenza la scelta" },
+      {
+        type: "list",
+        items: [
+          "Terreno pianeggiante con suolo stabile: la platea come opzione di base, la più economica",
+          "Terreno in pendenza: spesso è più adatta una fondazione a nastro o su pali, a seconda del dislivello",
+          "Terreno difficile o suoli deboli: i pali, nonostante il costo maggiore, riducono i rischi in seguito",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "La decisione finale si prende sempre dopo un'indagine geologica del terreno — nessun calcolatore online sostituisce una vera indagine del suolo. Ma l'impatto stimato del terreno e del tipo di fondazione sul budget si può già vedere ora nel configuratore di costruzione.",
+      },
+    ],
+  },
 ];

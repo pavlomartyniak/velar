@@ -260,4 +260,90 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "teplovyi-nasos-chy-gazovyi-kotel",
+    title: "Wärmepumpe oder Gaskessel: welche Heizung für Ihr Haus wählen",
+    description:
+      "Vergleich von Wärmepumpe, Gaskessel und Elektroheizung für ein Privathaus: Installationskosten, Einsparungen im Betrieb und wann sich welche Option lohnt.",
+    excerpt:
+      "Teurer am Anfang oder teurer jeden Monat — bei der Wahl des Heizsystems geht es immer darum. Wir erklären, wann sich eine Wärmepumpe auszahlt und wann Gas noch die bessere Wahl ist.",
+    publishedAt: "2026-07-06",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Die Heizungsart ist eine der Entscheidungen, die sich nach Abschluss des Baus nur schwer ändern lässt — es lohnt sich also, sie im Voraus abzuwägen. Vergleichen wir die drei Hauptoptionen nicht nach Trend, sondern nach realen Zahlen: was die Installation kostet und was der Betrieb kostet.",
+      },
+      { type: "heading", text: "Gaskessel" },
+      {
+        type: "paragraph",
+        text: "Die günstigste Option am Anfang und nach wie vor die häufigste Lösung dort, wo ein Gasanschluss vorhanden ist. Vorhersehbare Betriebskosten, vertraute Wartung, große Auswahl an Fachkräften. Die Hauptbedingung: Gas muss bereits bis zum Grundstück reichen; wenn nicht, wird der Netzanschluss zu einem eigenen, nicht immer günstigen Kostenposten.",
+      },
+      { type: "heading", text: "Wärmepumpe" },
+      {
+        type: "paragraph",
+        text: "Kostet in der Installation deutlich mehr, spart aber bis zu 70 % beim Heizen im Vergleich zu Gas oder Strom — eine Pumpe erzeugt keine Wärme, sondern überträgt sie aus der Umgebung, daher verbraucht sie für dieselbe Wärmemenge deutlich weniger Strom. Die Differenz bei den Installationskosten amortisiert sich über einige Heizperioden, danach arbeitet sie nur noch zu Ihrem Vorteil, Monat für Monat.",
+      },
+      { type: "heading", text: "Elektroheizung" },
+      {
+        type: "paragraph",
+        text: "Der einfachste Anschluss, ohne jedes Netz außer dem elektrischen. Eine logische Wahl als Hauptquelle in milden Klimazonen oder als Reserve neben einer Wärmepumpe oder einem Kessel — nicht für die durchgehende Beheizung eines großen Hauses im Winter, wo die Rechnungen am Ende die höchsten der drei Optionen sein können.",
+      },
+      { type: "heading", text: "Wann sich welche Option lohnt" },
+      {
+        type: "list",
+        items: [
+          "Gas ist bereits am Grundstück vorhanden, das Anfangsbudget ist knapp — ein Gaskessel bleibt ein sinnvoller Standard",
+          "Sie planen, langfristig im Haus zu leben, und können anfangs mehr investieren — eine Wärmepumpe zahlt sich durch monatliche Einsparungen aus",
+          "Sie brauchen eine Reserve- oder Zusatzwärmequelle — Elektroheizung als zweiter Kreislauf",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Im Bau-Konfigurator können Sie mehrere Heizarten gleichzeitig wählen — sie funktionieren gut im Zusammenspiel. Wählen Sie eine Option oder eine Kombination und sehen Sie sofort, wie sich das auf das geschätzte Budget Ihres Hauses auswirkt.",
+      },
+    ],
+  },
+  {
+    slug: "strichkovyi-plytnyi-chy-palovyi-fundament",
+    title: "Streifen-, Platten- oder Pfahlfundament: wie wählt man richtig",
+    description:
+      "Vergleich von drei Fundamenttypen für Privathäuser — Platte, Streifen und Pfähle: für welchen Boden und welches Gelände sich jeder eignet und wie sich das auf die Baukosten auswirkt.",
+    excerpt:
+      "Das Fundament ist das Einzige, das sich nach dem Wandbau nicht mehr ändern lässt. Wir erklären, welchem Boden und Gelände welcher Typ entspricht, damit die Entscheidung bewusst getroffen wird und nicht aufs Geratewohl.",
+    publishedAt: "2026-07-13",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Der Fundamenttyp ist keine Frage des Geschmacks, sondern wird vom Grundstück bestimmt: von Gelände und Bodenbeschaffenheit. Ein Fehler kostet hier mehr als fast überall sonst — anders als bei der Ausstattung lässt sich das Fundament nicht mehr ändern, wenn das Haus bereits steht.",
+      },
+      { type: "heading", text: "Plattenfundament" },
+      {
+        type: "paragraph",
+        text: "Eine monolithische Platte unter der gesamten Grundfläche des Hauses — eine universelle Lösung für ebene Grundstücke mit stabilem Boden. Verteilt die Last gleichmäßig, verhält sich gut auf frostempfindlichen Böden und dient in Kombination mit Dämmung als Basis für eine Fußbodenheizung. Die kostentechnisch grundlegendste, am besten vorhersehbare Variante.",
+      },
+      { type: "heading", text: "Streifenfundament" },
+      {
+        type: "paragraph",
+        text: "Ein Klassiker für stabile Böden: Ein Stahlbetonstreifen verläuft unter den tragenden Wänden statt unter der gesamten Fläche, daher wird weniger Material verbraucht als bei einer Platte. Trägt Wandlasten gut und eignet sich, wenn ein Souterrain oder Kellergeschoss geplant ist.",
+      },
+      { type: "heading", text: "Pfahlfundament" },
+      {
+        type: "paragraph",
+        text: "Pfähle übertragen die Last auf tiefe, dichte Bodenschichten unter Umgehung schwacher oberer Schichten — die Lösung für schwieriges Gelände, schwache oder ungleichmäßige Böden und deutliche Höhenunterschiede. Teurer als Platte oder Streifen, aber genau dort, wo andere Fundamenttypen riskant sind, sorgt es für Zuverlässigkeit.",
+      },
+      { type: "heading", text: "Wie das Gelände die Wahl beeinflusst" },
+      {
+        type: "list",
+        items: [
+          "Ebenes Grundstück mit stabilem Boden — Plattenfundament als grundlegende und sparsamste Variante",
+          "Grundstück mit Hang — oft ist ein Streifen- oder Pfahlfundament sinnvoller, je nach Höhenunterschied",
+          "Schwieriges Gelände oder schwache Böden — Pfahlfundament, trotz höherer Kosten senkt es spätere Risiken",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Die endgültige Entscheidung fällt immer erst nach einer Bodenuntersuchung des Grundstücks — kein Online-Rechner ersetzt eine echte Bodenanalyse. Den geschätzten Einfluss von Gelände und Fundamenttyp auf das Budget sehen Sie aber schon jetzt im Bau-Konfigurator.",
+      },
+    ],
+  },
 ];

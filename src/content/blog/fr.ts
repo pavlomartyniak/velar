@@ -260,4 +260,90 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "teplovyi-nasos-chy-gazovyi-kotel",
+    title: "Pompe à chaleur ou chaudière à gaz : quel chauffage choisir pour sa maison",
+    description:
+      "Comparaison entre pompe à chaleur, chaudière à gaz et chauffage électrique pour une maison individuelle : coût d'installation, économies à l'usage, et quand chaque option est rentable.",
+    excerpt:
+      "Plus cher au départ ou plus cher chaque mois — le choix du système de chauffage se résume toujours à cela. On explique quand une pompe à chaleur se rentabilise et quand le gaz reste le meilleur choix.",
+    publishedAt: "2026-07-06",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Le type de chauffage est l'une des décisions difficiles à modifier une fois la construction terminée, il vaut donc mieux la peser à l'avance. Comparons les trois options principales non pas selon la mode, mais selon des chiffres réels : ce que coûte l'installation, et ce que coûte l'utilisation.",
+      },
+      { type: "heading", text: "Chaudière à gaz" },
+      {
+        type: "paragraph",
+        text: "L'option la moins chère au départ et toujours la solution la plus répandue là où le gaz est disponible. Coûts d'utilisation prévisibles, entretien courant, large choix de techniciens. La condition principale : le gaz doit déjà arriver jusqu'au terrain ; sinon, le raccordement au réseau devient un poste de dépense à part, pas toujours bon marché.",
+      },
+      { type: "heading", text: "Pompe à chaleur" },
+      {
+        type: "paragraph",
+        text: "Coûte nettement plus cher à l'installation, mais économise jusqu'à 70 % sur le chauffage par rapport au gaz ou à l'électricité — une pompe ne produit pas de chaleur, elle la puise dans l'environnement, elle consomme donc bien moins d'électricité pour la même quantité de chaleur. L'écart de coût d'installation se rentabilise en quelques saisons de chauffe, puis ne travaille plus qu'en votre faveur chaque mois.",
+      },
+      { type: "heading", text: "Chauffage électrique" },
+      {
+        type: "paragraph",
+        text: "Le raccordement le plus simple, sans aucun réseau à part l'électricité. Un choix logique comme source principale dans les climats doux, ou comme appoint aux côtés d'une pompe à chaleur ou d'une chaudière — pas pour chauffer en continu une grande maison en hiver, où les factures peuvent s'avérer les plus élevées des trois options.",
+      },
+      { type: "heading", text: "Quand chaque option est-elle rentable ?" },
+      {
+        type: "list",
+        items: [
+          "Le gaz est déjà sur le terrain et le budget de départ est serré : la chaudière à gaz reste un standard raisonnable",
+          "Vous prévoyez de vivre longtemps dans la maison et pouvez investir davantage au départ : la pompe à chaleur se rentabilise par les économies mensuelles",
+          "Vous avez besoin d'une source d'appoint ou de secours : le chauffage électrique en second circuit",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Dans le configurateur de construction, vous pouvez sélectionner plusieurs types de chauffage à la fois — ils fonctionnent bien ensemble. Choisissez une option ou une combinaison et voyez immédiatement l'effet sur le budget estimatif de votre maison.",
+      },
+    ],
+  },
+  {
+    slug: "strichkovyi-plytnyi-chy-palovyi-fundament",
+    title: "Fondation filante, dalle ou pieux : comment choisir",
+    description:
+      "Comparaison de trois types de fondations pour maison individuelle — dalle, filante et pieux : à quel sol et quel terrain chacune convient, et son impact sur le coût de construction.",
+    excerpt:
+      "La fondation est la seule chose qu'on ne peut plus refaire une fois les murs montés. On explique à quel sol et quel terrain correspond chaque type, pour une décision éclairée plutôt qu'un pari.",
+    publishedAt: "2026-07-13",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Le type de fondation n'est pas une question de préférence : il est déterminé par le terrain, son relief et les propriétés du sol. Une erreur ici coûte plus cher que presque partout ailleurs — contrairement à la finition, la fondation ne peut plus être refaite une fois la maison déjà debout.",
+      },
+      { type: "heading", text: "La dalle" },
+      {
+        type: "paragraph",
+        text: "Une dalle monolithique sous toute l'emprise de la maison — une solution universelle pour les terrains plats à sol stable. Répartit la charge uniformément, se comporte bien sur les sols gonflants, et combinée à l'isolation, sert de base à un plancher chauffant. L'option de base, la plus prévisible en termes de coût.",
+      },
+      { type: "heading", text: "La fondation filante" },
+      {
+        type: "paragraph",
+        text: "Un classique pour les sols stables : une bande de béton armé court sous les murs porteurs plutôt que sous toute la surface, elle utilise donc moins de matériau qu'une dalle. Elle retient bien les charges des murs et convient si un sous-sol ou une cave est prévu.",
+      },
+      { type: "heading", text: "Les pieux" },
+      {
+        type: "paragraph",
+        text: "Les pieux transmettent la charge vers des couches de sol profondes et denses, en contournant les couches supérieures faibles — la solution pour un terrain difficile, un sol faible ou hétérogène, et une forte dénivellation. Plus chers qu'une dalle ou une fondation filante, mais c'est précisément là où les autres types sont risqués qu'ils garantissent la fiabilité.",
+      },
+      { type: "heading", text: "Comment le terrain influence le choix" },
+      {
+        type: "list",
+        items: [
+          "Terrain plat à sol stable : la dalle comme option de base, la plus économique",
+          "Terrain en pente : une fondation filante ou sur pieux est souvent plus adaptée, selon la dénivellation",
+          "Terrain difficile ou sol faible : les pieux, malgré un coût plus élevé, réduisent les risques par la suite",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "La décision finale se prend toujours après une étude de sol du terrain — aucun calculateur en ligne ne remplace une véritable investigation géotechnique. Mais vous pouvez déjà voir l'impact estimatif du terrain et du type de fondation sur le budget dans le configurateur de construction.",
+      },
+    ],
+  },
 ];

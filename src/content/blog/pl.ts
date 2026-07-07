@@ -260,4 +260,90 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "teplovyi-nasos-chy-gazovyi-kotel",
+    title: "Pompa ciepła czy kocioł gazowy: jakie ogrzewanie wybrać do domu",
+    description:
+      "Porównanie pompy ciepła, kotła gazowego i ogrzewania elektrycznego dla domu jednorodzinnego: koszt instalacji, oszczędności w eksploatacji i kiedy która opcja się opłaca.",
+    excerpt:
+      "Drożej na starcie czy drożej co miesiąc — wybór systemu ogrzewania zawsze sprowadza się do tego pytania. Wyjaśniamy, kiedy pompa ciepła się zwraca, a kiedy gaz nadal jest lepszym wyborem.",
+    publishedAt: "2026-07-06",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Rodzaj ogrzewania to jedna z decyzji, które trudno zmienić po zakończeniu budowy, dlatego warto rozważyć ją wcześniej. Porównajmy trzy główne opcje nie według mody, lecz według realnych liczb: ile kosztuje instalacja i ile kosztuje eksploatacja.",
+      },
+      { type: "heading", text: "Kocioł gazowy" },
+      {
+        type: "paragraph",
+        text: "Najtańsza opcja na starcie i wciąż najpopularniejsze rozwiązanie tam, gdzie jest doprowadzona sieć gazowa. Przewidywalne koszty eksploatacji, znany serwis, szeroki wybór fachowców. Główny warunek: gaz musi już docierać do działki; jeśli nie, podłączenie sieci staje się osobną i nie zawsze tanią pozycją kosztową.",
+      },
+      { type: "heading", text: "Pompa ciepła" },
+      {
+        type: "paragraph",
+        text: "Kosztuje znacznie więcej na etapie instalacji, ale oszczędza do 70% na ogrzewaniu w porównaniu z gazem czy prądem — pompa nie wytwarza ciepła, lecz przenosi je z otoczenia, dzięki czemu zużywa znacznie mniej energii elektrycznej na tę samą ilość ciepła. Różnica w koszcie instalacji zwraca się po kilku sezonach grzewczych, a potem pracuje już tylko na Twoją korzyść co miesiąc.",
+      },
+      { type: "heading", text: "Ogrzewanie elektryczne" },
+      {
+        type: "paragraph",
+        text: "Najprostsze podłączenie, bez żadnej sieci poza elektryczną. Logiczny wybór jako główne źródło w łagodnym klimacie lub jako rezerwa obok pompy ciepła czy kotła — nie do ciągłego ogrzewania dużego domu zimą, gdzie rachunki mogą okazać się najwyższe spośród trzech opcji.",
+      },
+      { type: "heading", text: "Kiedy która opcja się opłaca" },
+      {
+        type: "list",
+        items: [
+          "Gaz jest już na działce, a budżet początkowy jest ograniczony — kocioł gazowy pozostaje rozsądnym standardem",
+          "Planujesz mieszkać w domu długo i możesz zainwestować więcej na starcie — pompa ciepła zwraca się dzięki miesięcznym oszczędnościom",
+          "Potrzebne jest rezerwowe lub dodatkowe źródło ciepła — ogrzewanie elektryczne jako drugi obieg",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "W kalkulatorze budowy możesz wybrać kilka rodzajów ogrzewania jednocześnie — dobrze ze sobą współpracują. Wybierz opcję lub kombinację i od razu zobacz, jak wpływa to na szacunkowy budżet Twojego domu.",
+      },
+    ],
+  },
+  {
+    slug: "strichkovyi-plytnyi-chy-palovyi-fundament",
+    title: "Fundament ławowy, płytowy czy palowy: jak wybrać",
+    description:
+      "Porównanie trzech typów fundamentów domu jednorodzinnego — płytowego, ławowego i palowego: do jakiego gruntu i terenu pasuje każdy z nich i jak wpływa na koszt budowy.",
+    excerpt:
+      "Fundament to jedyna rzecz, której nie da się przerobić po wzniesieniu ścian. Wyjaśniamy, jakiemu gruntowi i terenowi odpowiada każdy typ, aby decyzja była świadoma, a nie przypadkowa.",
+    publishedAt: "2026-07-13",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Typ fundamentu nie jest kwestią preferencji — określa go działka: jej ukształtowanie i właściwości gruntu. Błąd tutaj kosztuje więcej niż niemal wszędzie indziej — w odróżnieniu od wykończenia, fundamentu nie da się przerobić, gdy dom już stoi.",
+      },
+      { type: "heading", text: "Fundament płytowy" },
+      {
+        type: "paragraph",
+        text: "Monolityczna płyta pod całą powierzchnią domu — uniwersalne rozwiązanie dla płaskich działek ze stabilnym gruntem. Równomiernie rozkłada obciążenie, dobrze sprawdza się na gruntach wysadzinowych, a w połączeniu z ociepleniem stanowi podstawę pod ogrzewanie podłogowe. Podstawowy, najbardziej przewidywalny kosztowo wariant.",
+      },
+      { type: "heading", text: "Fundament ławowy" },
+      {
+        type: "paragraph",
+        text: "Klasyka dla stabilnych gruntów: żelbetowa ława biegnie pod ścianami nośnymi, a nie pod całą powierzchnią, dzięki czemu zużywa się mniej materiału niż na płytę. Dobrze przenosi obciążenia ścian i sprawdza się, gdy planowana jest kondygnacja podziemna lub piwnica.",
+      },
+      { type: "heading", text: "Fundament palowy" },
+      {
+        type: "paragraph",
+        text: "Pale przenoszą obciążenie na głębokie, gęste warstwy gruntu, omijając słabe warstwy górne — rozwiązanie dla trudnego terenu, słabych lub niejednorodnych gruntów oraz znacznych różnic wysokości. Droższy niż płyta czy ława, ale właśnie tam, gdzie inne typy fundamentów są ryzykowne, zapewnia niezawodność.",
+      },
+      { type: "heading", text: "Jak teren wpływa na wybór" },
+      {
+        type: "list",
+        items: [
+          "Płaska działka ze stabilnym gruntem — fundament płytowy jako podstawowy i najbardziej ekonomiczny wariant",
+          "Działka ze spadkiem — często bardziej odpowiedni jest fundament ławowy lub palowy, zależnie od różnicy wysokości",
+          "Trudny teren lub słabe grunty — fundament palowy, mimo wyższego kosztu, obniża ryzyko w przyszłości",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Ostateczna decyzja zawsze zapada po badaniu geologicznym działki — żaden kalkulator online nie zastąpi realnego badania gruntu. Orientacyjny wpływ terenu i typu fundamentu na budżet można jednak zobaczyć już teraz w kalkulatorze budowy.",
+      },
+    ],
+  },
 ];

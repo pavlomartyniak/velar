@@ -3,7 +3,7 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { motion, type Variants } from "framer-motion";
-import { Box, Container, Stack, Typography } from "@mui/material";
+import { Box, Container, Pagination, PaginationItem, Stack, Typography } from "@mui/material";
 import ArrowForwardRoundedIcon from "@mui/icons-material/ArrowForwardRounded";
 import type { Locale } from "@/i18n/routing";
 import type { BlogPost } from "@/lib/blog";
@@ -22,7 +22,17 @@ const item: Variants = {
   },
 };
 
-export default function BlogList({ locale, posts }: { locale: Locale; posts: BlogPost[] }) {
+export default function BlogList({
+  locale,
+  posts,
+  currentPage,
+  totalPages,
+}: {
+  locale: Locale;
+  posts: BlogPost[];
+  currentPage: number;
+  totalPages: number;
+}) {
   const t = useTranslations("blog");
   const formatter = new Intl.DateTimeFormat(locale, { dateStyle: "long" });
 
@@ -115,6 +125,28 @@ export default function BlogList({ locale, posts }: { locale: Locale; posts: Blo
             </Stack>
           ))}
         </Box>
+
+        {totalPages > 1 && (
+          <Stack sx={{ alignItems: "center", mt: { xs: 6, md: 8 } }}>
+            <Pagination
+              page={currentPage}
+              count={totalPages}
+              color="primary"
+              shape="rounded"
+              renderItem={(item) => (
+                <PaginationItem
+                  {...item}
+                  component={Link}
+                  href={
+                    item.page === 1
+                      ? "/blog"
+                      : { pathname: "/blog", query: { page: item.page } }
+                  }
+                />
+              )}
+            />
+          </Stack>
+        )}
       </Container>
     </Box>
   );
