@@ -64,6 +64,7 @@ export default function DesignPricing() {
                 variant="outlined"
                 sx={{
                   position: "relative",
+                  overflow: "visible",
                   p: { xs: 3, md: 4 },
                   display: "flex",
                   flexDirection: "column",

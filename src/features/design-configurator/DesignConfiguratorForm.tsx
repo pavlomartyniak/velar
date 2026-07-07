@@ -169,6 +169,7 @@ export default function DesignConfiguratorForm() {
         <Box
           sx={{
             overflowX: { xs: "auto", md: "visible" },
+            overflowY: "hidden",
             mb: { xs: 4, md: 6 },
             pb: 1,
           }}
