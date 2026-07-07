@@ -22,6 +22,7 @@ import {
 } from "@mui/material";
 import ArrowBackRoundedIcon from "@mui/icons-material/ArrowBackRounded";
 import ArrowForwardRoundedIcon from "@mui/icons-material/ArrowForwardRounded";
+import RestartAltRoundedIcon from "@mui/icons-material/RestartAltRounded";
 import {
   DESIGN_CONFIGURATOR_STORAGE_KEY,
   type DesignConfiguratorValues,
@@ -30,7 +31,7 @@ import {
   designConfiguratorSchema,
   formatDesignCurrency,
 } from "./schema";
-import { usePersistedWizard } from "@/lib/usePersistedWizard";
+import { clearPersistedWizard, usePersistedWizard } from "@/lib/usePersistedWizard";
 import PlotStep from "./steps/PlotStep";
 import HouseStep from "./steps/HouseStep";
 import LifestyleStep from "./steps/LifestyleStep";
@@ -127,17 +128,43 @@ export default function DesignConfiguratorForm() {
   const handleNext = () => handleStep(Math.min(activeStep + 1, lastStep));
   const handleBack = () => goTo(Math.max(activeStep - 1, 0));
 
+  const handleReset = () => {
+    clearPersistedWizard(DESIGN_CONFIGURATOR_STORAGE_KEY);
+    methods.reset(defaultDesignValues);
+    setActiveStep(0);
+    setMaxReached(0);
+  };
+
   return (
     <FormProvider {...methods}>
       <Container maxWidth="md" sx={{ py: { xs: 4, md: 8 } }}>
-        <Typography
-          component="h1"
-          variant="overline"
-          color="text.secondary"
-          sx={{ display: "block", mb: 1.5, letterSpacing: 2 }}
+        <Box
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+            gap: 2,
+            mb: 1.5,
+          }}
         >
-          {t("pageTitle")}
-        </Typography>
+          <Typography
+            component="h1"
+            variant="overline"
+            color="text.secondary"
+            sx={{ letterSpacing: 2 }}
+          >
+            {t("pageTitle")}
+          </Typography>
+          <Button
+            size="small"
+            color="inherit"
+            onClick={handleReset}
+            startIcon={<RestartAltRoundedIcon />}
+            sx={{ color: "text.secondary", flexShrink: 0 }}
+          >
+            {t("nav.reset")}
+          </Button>
+        </Box>
         <Box
           sx={{
             overflowX: { xs: "auto", md: "visible" },

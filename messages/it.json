@@ -298,7 +298,8 @@
       "next": "Avanti",
       "getResult": "Ottieni il risultato",
       "estimate": "Costo stimato",
-      "chooseStyle": "Scegli uno stile"
+      "chooseStyle": "Scegli uno stile",
+      "reset": "Ricomincia"
     },
     "style": {
       "heading": "Scegli lo stile architettonico",
@@ -696,7 +697,8 @@
       "back": "Indietro",
       "next": "Avanti",
       "getResult": "Ottieni il risultato",
-      "estimate": "Costo stimato del progetto"
+      "estimate": "Costo stimato del progetto",
+      "reset": "Ricomincia"
     },
     "plot": {
       "heading": "Parlaci del terreno",

@@ -298,7 +298,8 @@
       "next": "Dalej",
       "getResult": "Zobacz wynik",
       "estimate": "Szacunkowy koszt",
-      "chooseStyle": "Wybierz styl"
+      "chooseStyle": "Wybierz styl",
+      "reset": "Zacznij od nowa"
     },
     "style": {
       "heading": "Wybierz styl architektoniczny",
@@ -696,7 +697,8 @@
       "back": "Wstecz",
       "next": "Dalej",
       "getResult": "Zobacz wynik",
-      "estimate": "Szacowany koszt projektu"
+      "estimate": "Szacowany koszt projektu",
+      "reset": "Zacznij od nowa"
     },
     "plot": {
       "heading": "Opowiedz o działce",

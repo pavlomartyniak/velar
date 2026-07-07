@@ -298,7 +298,8 @@
       "next": "Weiter",
       "getResult": "Ergebnis erhalten",
       "estimate": "Geschätzte Kosten",
-      "chooseStyle": "Stil wählen"
+      "chooseStyle": "Stil wählen",
+      "reset": "Von vorn beginnen"
     },
     "style": {
       "heading": "Wählen Sie den Architekturstil",
@@ -696,7 +697,8 @@
       "back": "Zurück",
       "next": "Weiter",
       "getResult": "Ergebnis erhalten",
-      "estimate": "Geschätzte Projektkosten"
+      "estimate": "Geschätzte Projektkosten",
+      "reset": "Von vorn beginnen"
     },
     "plot": {
       "heading": "Erzählen Sie vom Grundstück",

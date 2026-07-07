@@ -298,7 +298,8 @@
       "next": "Next",
       "getResult": "Get the result",
       "estimate": "Estimated cost",
-      "chooseStyle": "Choose a style"
+      "chooseStyle": "Choose a style",
+      "reset": "Start over"
     },
     "style": {
       "heading": "Choose the architectural style",
@@ -696,7 +697,8 @@
       "back": "Back",
       "next": "Next",
       "getResult": "Get result",
-      "estimate": "Estimated project cost"
+      "estimate": "Estimated project cost",
+      "reset": "Start over"
     },
     "plot": {
       "heading": "Tell us about the plot",
