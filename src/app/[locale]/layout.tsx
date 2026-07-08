@@ -105,14 +105,22 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
   };
 
   const serviceItems = tServices.raw("items") as { title: string; description: string }[];
+  /** Індекс послуги (0-based, збігається з about.services.items) -> шлях власної сторінки. */
+  const SERVICE_PATHS: Record<number, string> = {
+    5: "/interior-design",
+    6: "/landscape-design",
+  };
   const servicesJsonLd = {
     "@context": "https://schema.org",
-    "@graph": serviceItems.map((item) => ({
+    "@graph": serviceItems.map((item, index) => ({
       "@type": "Service",
       name: item.title,
       description: item.description,
       provider: { "@id": `${siteConfig.url}/${locale}#organization` },
       areaServed: "UA",
+      ...(SERVICE_PATHS[index] && {
+        url: `${siteConfig.url}/${locale}${SERVICE_PATHS[index]}`,
+      }),
     })),
   };
 

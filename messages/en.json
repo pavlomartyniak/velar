@@ -118,7 +118,7 @@
       "items": [
         {
           "title": "Architectural design",
-          "description": "Architectural and structural sections, visualization and a construction cost estimate — from concept to finished documentation."
+          "description": "Architectural and structural sections, visualization and a construction cost estimate — from concept to finished documentation, with the option to add interior and landscape design within the same project."
         },
         {
           "title": "House construction",
@@ -135,8 +135,17 @@
         {
           "title": "Restoration",
           "description": "Restoring historic and old buildings while preserving their character."
+        },
+        {
+          "title": "Interior Design",
+          "description": "Layout and style solutions for every room — aligned with the house's architecture, not bolted on separately."
+        },
+        {
+          "title": "Landscape Design",
+          "description": "Site planning, planting and exterior lighting that complete the architectural concept."
         }
-      ]
+      ],
+      "readMore": "Learn more"
     },
     "values": {
       "overline": "Values",
@@ -685,6 +694,14 @@
     "blog": {
       "title": "Velar Development Blog",
       "description": "Articles on construction, design and the cost of houses, villas and cottages: practical advice from Velar Development."
+    },
+    "interiorDesign": {
+      "title": "House Interior Design in Lviv",
+      "description": "Interior design as part of the architectural project: room layouts, style and materials aligned with the house facade. Estimated cost from $8/m²."
+    },
+    "landscapeDesign": {
+      "title": "Plot Landscape Design in Lviv",
+      "description": "Site improvement, planting and exterior lighting as part of the house's architectural project. Estimated cost from $700."
     }
   },
   "designConfigurator": {
@@ -1187,5 +1204,39 @@
     "subtitle": "Practical answers to the questions people ask most often before starting to build their own house.",
     "readMore": "Read the article",
     "backToBlog": "Back to all articles"
+  },
+  "interiorDesignPage": {
+    "overline": "Interior Design",
+    "title": "House Interior Design",
+    "subtitle": "An interior designed alongside the architecture, not added after handover.",
+    "intro": "We don't offer interior design as a stand-alone, walk-in service — it's designed together with the house's architecture, by the same architect or a specialist coordinated with them, and added to your project in the design configurator. That means room layouts aligned with how you actually live, decided at the drafting stage, not fixed afterward.",
+    "includesTitle": "What's included",
+    "includes": [
+      "Layout solutions for every room, informed by the architecture rather than designed apart from it",
+      "A style concept aligned with the house's exterior",
+      "Selection of finishing materials, colours and lighting",
+      "Visualizations of key rooms"
+    ],
+    "pricingTitle": "Estimated cost",
+    "pricingValue": "from $8/m²",
+    "pricingNote": "Added to the design package as a separate service; the final amount depends on the area and complexity of the interior — the design configurator gives an exact estimate.",
+    "cta": "Calculate in the design configurator"
+  },
+  "landscapeDesignPage": {
+    "overline": "Landscape Design",
+    "title": "Plot Landscape Design",
+    "subtitle": "Site improvement that completes the house's architecture, not something separate from it.",
+    "intro": "We add landscape design to the architectural project rather than offering it as a disconnected, stand-alone service. Paths, zoning of the plot, planting and exterior lighting are planned together with the house's facade and siting — so the grounds read as an organic continuation of the project, not an afterthought.",
+    "includesTitle": "What's included",
+    "includes": [
+      "Plot zoning: entrance, parking, recreation areas and utility zone",
+      "Plant selection and planting suited to the climate and soil",
+      "Paths, paved areas and outdoor structures",
+      "Exterior lighting aligned with the house's facade"
+    ],
+    "pricingTitle": "Estimated cost",
+    "pricingValue": "from $700",
+    "pricingNote": "A fixed base service within the project; the cost can rise depending on plot size and the complexity of the solutions — the architect confirms the exact amount.",
+    "cta": "Calculate in the design configurator"
   }
 }

@@ -118,7 +118,7 @@
       "items": [
         {
           "title": "Conception architecturale",
-          "description": "Sections architecturale et structurelle, visualisation et estimation des coûts de construction — de l'idée au dossier complet."
+          "description": "Sections architecturale et structurelle, visualisation et estimation des coûts de construction — de l'idée au dossier complet, avec la possibilité d'ajouter le design d'intérieur et l'aménagement paysager dans le même projet."
         },
         {
           "title": "Construction de maisons",
@@ -135,8 +135,17 @@
         {
           "title": "Restauration",
           "description": "Restauration de bâtiments historiques et anciens en préservant leur caractère."
+        },
+        {
+          "title": "Design d'intérieur",
+          "description": "Solutions d'agencement et de style pour chaque pièce — en accord avec l'architecture de la maison, et non ajoutées à part."
+        },
+        {
+          "title": "Aménagement paysager",
+          "description": "Aménagement du terrain, plantations et éclairage extérieur qui complètent le concept architectural."
         }
-      ]
+      ],
+      "readMore": "En savoir plus"
     },
     "values": {
       "overline": "Valeurs",
@@ -685,6 +694,14 @@
     "blog": {
       "title": "Blog Velar Development",
       "description": "Articles sur la construction, la conception et le coût des maisons, villas et cottages : conseils pratiques de Velar Development."
+    },
+    "interiorDesign": {
+      "title": "Design d'intérieur de maison à Lviv",
+      "description": "Le design d'intérieur comme partie du projet architectural : agencement des pièces, style et matériaux en accord avec la façade de la maison. Coût estimatif à partir de 8 $/m²."
+    },
+    "landscapeDesign": {
+      "title": "Aménagement paysager de terrain à Lviv",
+      "description": "Aménagement du terrain, plantations et éclairage extérieur intégrés au projet architectural de la maison. Coût estimatif à partir de 700 $."
     }
   },
   "designConfigurator": {
@@ -1187,5 +1204,39 @@
     "subtitle": "Des réponses pratiques aux questions les plus fréquentes avant de commencer la construction de sa propre maison.",
     "readMore": "Lire l'article",
     "backToBlog": "Retour aux articles"
+  },
+  "interiorDesignPage": {
+    "overline": "Design d'intérieur",
+    "title": "Design d'intérieur de maison",
+    "subtitle": "Un intérieur pensé en parallèle de l'architecture, pas ajouté après la livraison de la maison.",
+    "intro": "Nous ne proposons pas le design d'intérieur comme un service isolé, accessible « au coin de la rue » — il est conçu avec l'architecture de la maison, par le même architecte ou un spécialiste coordonné avec lui, et ajouté à votre projet dans le configurateur de conception. Cela permet des agencements de pièces alignés sur votre mode de vie dès le stade des plans, plutôt que corrigés après coup.",
+    "includesTitle": "Ce qui est inclus",
+    "includes": [
+      "Solutions d'agencement pour chaque pièce, pensées avec l'architecture et non séparément d'elle",
+      "Un concept de style en accord avec l'aspect extérieur de la maison",
+      "Sélection des matériaux de finition, des couleurs et de l'éclairage",
+      "Visualisations des pièces clés"
+    ],
+    "pricingTitle": "Coût estimatif",
+    "pricingValue": "à partir de 8 $/m²",
+    "pricingNote": "Ajouté au forfait de conception comme service distinct ; le montant final dépend de la surface et de la complexité de l'intérieur — le configurateur de conception donne une estimation précise.",
+    "cta": "Calculer dans le configurateur de conception"
+  },
+  "landscapeDesignPage": {
+    "overline": "Aménagement paysager",
+    "title": "Aménagement paysager de terrain",
+    "subtitle": "Un aménagement extérieur qui complète l'architecture de la maison, pas quelque chose d'à part.",
+    "intro": "Nous intégrons l'aménagement paysager au projet architectural plutôt que de le proposer comme un service isolé et déconnecté. Allées, zonage du terrain, plantations et éclairage extérieur sont pensés avec la façade et l'implantation de la maison — pour que le terrain se lise comme un prolongement organique du projet, et non comme une improvisation tardive.",
+    "includesTitle": "Ce qui est inclus",
+    "includes": [
+      "Zonage du terrain : entrée, stationnement, espaces de détente et zone technique",
+      "Sélection et plantation végétale adaptées au climat et au sol",
+      "Allées, aires pavées et petites structures extérieures",
+      "Éclairage extérieur en accord avec la façade de la maison"
+    ],
+    "pricingTitle": "Coût estimatif",
+    "pricingValue": "à partir de 700 $",
+    "pricingNote": "Un service de base forfaitaire dans le cadre du projet ; le coût peut augmenter selon la taille du terrain et la complexité des solutions — l'architecte confirme le montant exact.",
+    "cta": "Calculer dans le configurateur de conception"
   }
 }

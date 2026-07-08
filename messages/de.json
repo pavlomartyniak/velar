@@ -118,7 +118,7 @@
       "items": [
         {
           "title": "Architekturplanung",
-          "description": "Architektur- und Konstruktionsteil, Visualisierung und Baukostenschätzung — von der Idee bis zur fertigen Dokumentation."
+          "description": "Architektur- und Konstruktionsteil, Visualisierung und Baukostenschätzung — von der Idee bis zur fertigen Dokumentation, mit der Möglichkeit, Innen- und Landschaftsgestaltung im selben Projekt zu ergänzen."
         },
         {
           "title": "Hausbau",
@@ -135,8 +135,17 @@
         {
           "title": "Restaurierung",
           "description": "Restaurierung historischer und alter Gebäude unter Wahrung ihres Charakters."
+        },
+        {
+          "title": "Innenarchitektur",
+          "description": "Grundriss- und Stillösungen für jeden Raum — abgestimmt auf die Architektur des Hauses, nicht nachträglich angehängt."
+        },
+        {
+          "title": "Landschaftsgestaltung",
+          "description": "Geländeplanung, Bepflanzung und Außenbeleuchtung, die das architektonische Konzept vervollständigen."
         }
-      ]
+      ],
+      "readMore": "Mehr erfahren"
     },
     "values": {
       "overline": "Werte",
@@ -685,6 +694,14 @@
     "blog": {
       "title": "Velar Development Blog",
       "description": "Artikel über Bau, Planung und die Kosten von Häusern, Villen und Cottages: praktische Ratschläge von Velar Development."
+    },
+    "interiorDesign": {
+      "title": "Innenarchitektur für Häuser in Lemberg",
+      "description": "Innenarchitektur als Teil des Architekturprojekts: Raumaufteilung, Stil und Materialien, abgestimmt auf die Fassade des Hauses. Geschätzte Kosten ab 8 $/m²."
+    },
+    "landscapeDesign": {
+      "title": "Landschaftsgestaltung für Grundstücke in Lemberg",
+      "description": "Geländegestaltung, Bepflanzung und Außenbeleuchtung als Teil des Architekturprojekts des Hauses. Geschätzte Kosten ab 700 $."
     }
   },
   "designConfigurator": {
@@ -1187,5 +1204,39 @@
     "subtitle": "Praktische Antworten auf die Fragen, die vor dem Baubeginn eines eigenen Hauses am häufigsten gestellt werden.",
     "readMore": "Artikel lesen",
     "backToBlog": "Zu allen Artikeln"
+  },
+  "interiorDesignPage": {
+    "overline": "Innenarchitektur",
+    "title": "Innenarchitektur für Häuser",
+    "subtitle": "Ein Interieur, das zusammen mit der Architektur entworfen wird — nicht nachträglich hinzugefügt.",
+    "intro": "Wir bieten Innenarchitektur nicht als eigenständige Dienstleistung „von der Straße“ an — sie wird gemeinsam mit der Architektur des Hauses entworfen, vom selben Architekten oder einem mit ihm abgestimmten Fachmann, und Ihrem Projekt im Projektierungs-Konfigurator hinzugefügt. So entstehen Raumlösungen, die bereits in der Entwurfsphase auf Ihre Lebensweise abgestimmt sind — nicht erst danach korrigiert werden.",
+    "includesTitle": "Was enthalten ist",
+    "includes": [
+      "Grundrisslösungen für jeden Raum — unter Berücksichtigung der Architektur, nicht getrennt von ihr",
+      "Ein mit der Außenansicht des Hauses abgestimmtes Stilkonzept",
+      "Auswahl von Ausstattungsmaterialien, Farben und Beleuchtung",
+      "Visualisierungen der wichtigsten Räume"
+    ],
+    "pricingTitle": "Geschätzte Kosten",
+    "pricingValue": "ab 8 $/m²",
+    "pricingNote": "Wird dem Projektierungspaket als separate Leistung hinzugefügt; die endgültige Summe hängt von Fläche und Komplexität des Interieurs ab — den genauen Preis liefert der Projektierungs-Konfigurator.",
+    "cta": "Im Projektierungs-Konfigurator berechnen"
+  },
+  "landscapeDesignPage": {
+    "overline": "Landschaftsgestaltung",
+    "title": "Landschaftsgestaltung für Grundstücke",
+    "subtitle": "Außenanlagen, die die Architektur des Hauses vervollständigen — nicht getrennt von ihr existieren.",
+    "intro": "Wir fügen die Landschaftsgestaltung dem Architekturprojekt hinzu, statt sie als losgelöste, eigenständige Leistung anzubieten. Wege, Zonierung des Grundstücks, Bepflanzung und Außenbeleuchtung werden gemeinsam mit Fassade und Lage des Hauses geplant — damit das Gelände wie eine organische Fortsetzung des Projekts wirkt, nicht wie eine nachträgliche Improvisation.",
+    "includesTitle": "Was enthalten ist",
+    "includes": [
+      "Zonierung des Grundstücks: Einfahrt, Parkplatz, Erholungsbereiche und Wirtschaftsteil",
+      "Pflanzenauswahl und Bepflanzung passend zu Klima und Boden",
+      "Wege, Terrassenflächen und kleine architektonische Elemente",
+      "Außenbeleuchtung, abgestimmt auf die Fassade des Hauses"
+    ],
+    "pricingTitle": "Geschätzte Kosten",
+    "pricingValue": "ab 700 $",
+    "pricingNote": "Eine feste Basisleistung innerhalb des Projekts; die Kosten können je nach Grundstücksgröße und Komplexität der Lösungen steigen — die genaue Summe bestätigt der Architekt.",
+    "cta": "Im Projektierungs-Konfigurator berechnen"
   }
 }

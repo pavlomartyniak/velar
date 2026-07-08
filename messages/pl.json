@@ -118,7 +118,7 @@
       "items": [
         {
           "title": "Projektowanie architektoniczne",
-          "description": "Część architektoniczna i konstrukcyjna, wizualizacja oraz kosztorys budowy — od koncepcji do kompletnej dokumentacji."
+          "description": "Część architektoniczna i konstrukcyjna, wizualizacja oraz kosztorys budowy — od koncepcji do kompletnej dokumentacji, z możliwością dodania projektu wnętrz i krajobrazu w ramach tego samego projektu."
         },
         {
           "title": "Budowa domów",
@@ -135,8 +135,17 @@
         {
           "title": "Renowacja",
           "description": "Odnawianie historycznych i starych budynków z zachowaniem ich charakteru."
+        },
+        {
+          "title": "Projekt wnętrz",
+          "description": "Rozwiązania układu i stylu dla każdego pomieszczenia — spójne z architekturą domu, a nie dodane osobno."
+        },
+        {
+          "title": "Projekt krajobrazu",
+          "description": "Zagospodarowanie działki, nasadzenia i oświetlenie zewnętrzne, które dopełniają koncepcję architektoniczną."
         }
-      ]
+      ],
+      "readMore": "Dowiedz się więcej"
     },
     "values": {
       "overline": "Wartości",
@@ -685,6 +694,14 @@
     "blog": {
       "title": "Blog Velar Development",
       "description": "Artykuły o budowie, projektowaniu i kosztach domów, willi i domków: praktyczne porady od Velar Development."
+    },
+    "interiorDesign": {
+      "title": "Projekt wnętrz domu we Lwowie",
+      "description": "Projekt wnętrz jako część projektu architektonicznego: układ pomieszczeń, styl i materiały spójne z elewacją domu. Szacunkowy koszt od 8 $/m²."
+    },
+    "landscapeDesign": {
+      "title": "Projekt krajobrazu działki we Lwowie",
+      "description": "Zagospodarowanie terenu, nasadzenia i oświetlenie zewnętrzne jako część projektu architektonicznego domu. Szacunkowy koszt od 700 $."
     }
   },
   "designConfigurator": {
@@ -1187,5 +1204,39 @@
     "subtitle": "Praktyczne odpowiedzi na pytania, które najczęściej pojawiają się przed rozpoczęciem budowy własnego domu.",
     "readMore": "Czytaj artykuł",
     "backToBlog": "Wróć do wszystkich artykułów"
+  },
+  "interiorDesignPage": {
+    "overline": "Projekt wnętrz",
+    "title": "Projekt wnętrz domu",
+    "subtitle": "Wnętrze zaprojektowane razem z architekturą, a nie dodane po odbiorze domu.",
+    "intro": "Nie oferujemy projektu wnętrz jako osobnej usługi „z ulicy“ — jest on projektowany razem z architekturą domu, przez tego samego architekta lub uzgodnionego z nim specjalistę, i dodawany do Twojego projektu w kalkulatorze projektowania. Dzięki temu układ pomieszczeń jest dopasowany do Twojego stylu życia już na etapie rysunków, a nie poprawiany później.",
+    "includesTitle": "Co obejmuje",
+    "includes": [
+      "Rozwiązania układu każdego pomieszczenia — uwzględniające architekturę, a nie oderwane od niej",
+      "Koncepcja stylu spójna z wyglądem zewnętrznym domu",
+      "Dobór materiałów wykończeniowych, kolorów i oświetlenia",
+      "Wizualizacje kluczowych pomieszczeń"
+    ],
+    "pricingTitle": "Szacunkowy koszt",
+    "pricingValue": "od 8 $/m²",
+    "pricingNote": "Dodawane do pakietu projektowego jako osobna usługa; ostateczna kwota zależy od powierzchni i złożoności wnętrza — dokładną wycenę daje kalkulator projektowania.",
+    "cta": "Oblicz w kalkulatorze projektowania"
+  },
+  "landscapeDesignPage": {
+    "overline": "Projekt krajobrazu",
+    "title": "Projekt krajobrazu działki",
+    "subtitle": "Zagospodarowanie terenu, które dopełnia architekturę domu, a nie istnieje osobno.",
+    "intro": "Projekt krajobrazu dodajemy do projektu architektonicznego, a nie oferujemy jako osobną, oderwaną usługę. Ścieżki, strefowanie działki, nasadzenia i oświetlenie zewnętrzne są planowane razem z elewacją i posadowieniem domu — aby otoczenie wyglądało jak organiczna kontynuacja projektu, a nie późniejsza improwizacja.",
+    "includesTitle": "Co obejmuje",
+    "includes": [
+      "Strefowanie działki: wjazd, parking, strefy wypoczynku i część gospodarcza",
+      "Dobór i nasadzenia roślin odpowiednich do klimatu i gleby",
+      "Ścieżki, nawierzchnie i małą architekturę",
+      "Oświetlenie zewnętrzne spójne z elewacją domu"
+    ],
+    "pricingTitle": "Szacunkowy koszt",
+    "pricingValue": "od 700 $",
+    "pricingNote": "Stała usługa bazowa w ramach projektu; koszt może rosnąć w zależności od powierzchni działki i złożoności rozwiązań — dokładną kwotę potwierdza architekt.",
+    "cta": "Oblicz w kalkulatorze projektowania"
   }
 }

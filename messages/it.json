@@ -118,7 +118,7 @@
       "items": [
         {
           "title": "Progettazione architettonica",
-          "description": "Sezioni architettonica e strutturale, visualizzazione e preventivo dei costi di costruzione — dall'idea alla documentazione completa."
+          "description": "Sezioni architettonica e strutturale, visualizzazione e preventivo dei costi di costruzione — dall'idea alla documentazione completa, con la possibilità di aggiungere interior design e progettazione del paesaggio nello stesso progetto."
         },
         {
           "title": "Costruzione di case",
@@ -135,8 +135,17 @@
         {
           "title": "Restauro",
           "description": "Restauro di edifici storici e antichi preservandone il carattere."
+        },
+        {
+          "title": "Interior Design",
+          "description": "Soluzioni distributive e di stile per ogni ambiente — in armonia con l'architettura della casa, non aggiunte a parte."
+        },
+        {
+          "title": "Progettazione del paesaggio",
+          "description": "Sistemazione del terreno, piantumazione e illuminazione esterna che completano il concept architettonico."
         }
-      ]
+      ],
+      "readMore": "Scopri di più"
     },
     "values": {
       "overline": "Valori",
@@ -685,6 +694,14 @@
     "blog": {
       "title": "Blog di Velar Development",
       "description": "Articoli su costruzione, progettazione e costo di case, ville e cottage: consigli pratici di Velar Development."
+    },
+    "interiorDesign": {
+      "title": "Interior Design per case a Leopoli",
+      "description": "L'interior design come parte del progetto architettonico: distribuzione degli ambienti, stile e materiali in armonia con la facciata della casa. Costo stimato da 8 $/m²."
+    },
+    "landscapeDesign": {
+      "title": "Progettazione del paesaggio a Leopoli",
+      "description": "Sistemazione del terreno, piantumazione e illuminazione esterna come parte del progetto architettonico della casa. Costo stimato da 700 $."
     }
   },
   "designConfigurator": {
@@ -1187,5 +1204,39 @@
     "subtitle": "Risposte pratiche alle domande più frequenti prima di iniziare a costruire la propria casa.",
     "readMore": "Leggi l'articolo",
     "backToBlog": "Torna a tutti gli articoli"
+  },
+  "interiorDesignPage": {
+    "overline": "Interior Design",
+    "title": "Interior Design della casa",
+    "subtitle": "Un interno pensato insieme all'architettura, non aggiunto dopo la consegna della casa.",
+    "intro": "Non offriamo l'interior design come servizio a sé stante, «da strada» — viene progettato insieme all'architettura della casa, dallo stesso architetto o da uno specialista coordinato con lui, e aggiunto al tuo progetto nel configuratore di progettazione. Questo garantisce soluzioni distributive in linea con il tuo stile di vita già in fase di disegno, non corrette in seguito.",
+    "includesTitle": "Cosa è incluso",
+    "includes": [
+      "Soluzioni distributive per ogni ambiente, pensate insieme all'architettura e non separatamente da essa",
+      "Un concept di stile in armonia con l'aspetto esterno della casa",
+      "Selezione di materiali di finitura, colori e illuminazione",
+      "Visualizzazioni degli ambienti principali"
+    ],
+    "pricingTitle": "Costo stimato",
+    "pricingValue": "da 8 $/m²",
+    "pricingNote": "Si aggiunge al pacchetto di progettazione come servizio separato; l'importo finale dipende dalla superficie e dalla complessità dell'interno — il configuratore di progettazione fornisce una stima precisa.",
+    "cta": "Calcola nel configuratore di progettazione"
+  },
+  "landscapeDesignPage": {
+    "overline": "Progettazione del paesaggio",
+    "title": "Progettazione del paesaggio del terreno",
+    "subtitle": "Una sistemazione esterna che completa l'architettura della casa, non qualcosa a parte.",
+    "intro": "Aggiungiamo la progettazione del paesaggio al progetto architettonico, invece di offrirla come servizio isolato e scollegato. Vialetti, zonizzazione del terreno, piantumazione e illuminazione esterna vengono pensati insieme alla facciata e alla collocazione della casa — perché il terreno risulti una continuazione organica del progetto, non un'improvvisazione successiva.",
+    "includesTitle": "Cosa è incluso",
+    "includes": [
+      "Zonizzazione del terreno: ingresso, parcheggio, aree relax e zona di servizio",
+      "Selezione e piantumazione di vegetazione adatta al clima e al terreno",
+      "Vialetti, aree pavimentate e piccole strutture esterne",
+      "Illuminazione esterna in armonia con la facciata della casa"
+    ],
+    "pricingTitle": "Costo stimato",
+    "pricingValue": "da 700 $",
+    "pricingNote": "Un servizio base fisso all'interno del progetto; il costo può aumentare in base alla superficie del terreno e alla complessità delle soluzioni — l'architetto conferma l'importo esatto.",
+    "cta": "Calcola nel configuratore di progettazione"
   }
 }

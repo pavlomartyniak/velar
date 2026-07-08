@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { motion, type Variants } from "framer-motion";
 import { Box, Container, Stack, Typography } from "@mui/material";
 import ArchitectureRoundedIcon from "@mui/icons-material/ArchitectureRounded";
@@ -8,8 +9,13 @@ import HomeWorkRoundedIcon from "@mui/icons-material/HomeWorkRounded";
 import VillaRoundedIcon from "@mui/icons-material/VillaRounded";
 import CottageRoundedIcon from "@mui/icons-material/CottageRounded";
 import RestoreRoundedIcon from "@mui/icons-material/RestoreRounded";
+import WeekendRoundedIcon from "@mui/icons-material/WeekendRounded";
+import YardRoundedIcon from "@mui/icons-material/YardRounded";
+import ArrowForwardRoundedIcon from "@mui/icons-material/ArrowForwardRounded";
 import type { SvgIconComponent } from "@mui/icons-material";
 import SectionHeading from "@/components/ui/SectionHeading";
+
+const MotionLink = motion.create(Link);
 
 const ICONS: SvgIconComponent[] = [
   ArchitectureRoundedIcon,
@@ -17,7 +23,15 @@ const ICONS: SvgIconComponent[] = [
   VillaRoundedIcon,
   CottageRoundedIcon,
   RestoreRoundedIcon,
+  WeekendRoundedIcon,
+  YardRoundedIcon,
 ];
+
+/** Індекс картки (0-based) -> шлях на окрему сторінку послуги, якщо є. */
+const ITEM_LINKS: Record<number, string> = {
+  5: "/interior-design",
+  6: "/landscape-design",
+};
 
 type Service = { title: string; description: string };
 
@@ -69,12 +83,14 @@ export default function AboutServices() {
         >
           {services.map((service, index) => {
             const Icon = ICONS[index] ?? ICONS[0];
+            const href = ITEM_LINKS[index];
             return (
               <Stack
                 key={service.title}
-                component={motion.div}
+                component={href ? MotionLink : motion.div}
                 variants={item}
                 spacing={1.5}
+                {...(href && { href })}
                 sx={{
                   alignItems: "flex-start",
                   p: 3,
@@ -83,6 +99,11 @@ export default function AboutServices() {
                   borderColor: "divider",
                   bgcolor: "background.paper",
                   height: "100%",
+                  ...(href && {
+                    textDecoration: "none",
+                    transition: "border-color .2s ease, box-shadow .2s ease",
+                    "&:hover": { borderColor: "primary.main", boxShadow: 2 },
+                  }),
                 }}
               >
                 <Box
@@ -99,12 +120,30 @@ export default function AboutServices() {
                 >
                   <Icon />
                 </Box>
-                <Typography variant="h6" sx={{ fontWeight: 700 }}>
+                <Typography
+                  variant="h6"
+                  sx={{ fontWeight: 700, color: "text.primary" }}
+                >
                   {service.title}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
                   {service.description}
                 </Typography>
+                {href && (
+                  <Typography
+                    variant="body2"
+                    sx={{
+                      display: "inline-flex",
+                      alignItems: "center",
+                      gap: 0.5,
+                      fontWeight: 600,
+                      color: "primary.main",
+                    }}
+                  >
+                    {t("readMore")}
+                    <ArrowForwardRoundedIcon fontSize="small" />
+                  </Typography>
+                )}
               </Stack>
             );
           })}

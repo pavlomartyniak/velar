@@ -12,6 +12,8 @@ const STATIC_PATHS = [
   { path: "/design-configurator", changeFrequency: "monthly" as const, priority: 0.8 },
   { path: "/faq", changeFrequency: "monthly" as const, priority: 0.6 },
   { path: "/blog", changeFrequency: "weekly" as const, priority: 0.6 },
+  { path: "/interior-design", changeFrequency: "monthly" as const, priority: 0.7 },
+  { path: "/landscape-design", changeFrequency: "monthly" as const, priority: 0.7 },
 ];
 
 /** Альтернативні мовні версії для одного шляху (hreflang у sitemap). */
