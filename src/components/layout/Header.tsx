@@ -7,6 +7,7 @@ import {
   AppBar,
   Box,
   Button,
+  Collapse,
   Container,
   Divider,
   Drawer,
@@ -14,7 +15,6 @@ import {
   List,
   ListItemButton,
   ListItemText,
-  ListSubheader,
   Menu,
   MenuItem,
   Stack,
@@ -58,6 +58,8 @@ export default function Header() {
   const servicesActive = SERVICES_MENU.some((link) => pathname === link.href);
   const [moreAnchor, setMoreAnchor] = useState<HTMLElement | null>(null);
   const moreActive = MORE_MENU.some((link) => pathname === link.href);
+  const [servicesExpanded, setServicesExpanded] = useState(false);
+  const [moreExpanded, setMoreExpanded] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);
@@ -291,21 +293,34 @@ export default function Header() {
               <ListItemText primary={t(link.key)} />
             </ListItemButton>
           ))}
-          <ListSubheader component="div" sx={{ lineHeight: 2.5, bgcolor: "transparent" }}>
-            {t("services")}
-          </ListSubheader>
-          {SERVICES_MENU.map((link) => (
-            <ListItemButton
-              key={link.href}
-              component={Link}
-              href={link.href}
-              selected={pathname === link.href}
-              onClick={() => setDrawerOpen(false)}
-              sx={{ pl: 4 }}
-            >
-              <ListItemText primary={t(link.key)} />
-            </ListItemButton>
-          ))}
+          <ListItemButton
+            onClick={() => setServicesExpanded((v) => !v)}
+            selected={servicesActive}
+          >
+            <ListItemText primary={t("services")} />
+            <KeyboardArrowDownRoundedIcon
+              sx={{
+                transition: "transform 0.25s ease",
+                transform: servicesExpanded ? "rotate(180deg)" : "rotate(0deg)",
+              }}
+            />
+          </ListItemButton>
+          <Collapse in={servicesExpanded} timeout="auto" unmountOnExit>
+            <List component="div" disablePadding>
+              {SERVICES_MENU.map((link) => (
+                <ListItemButton
+                  key={link.href}
+                  component={Link}
+                  href={link.href}
+                  selected={pathname === link.href}
+                  onClick={() => setDrawerOpen(false)}
+                  sx={{ pl: 4 }}
+                >
+                  <ListItemText primary={t(link.key)} />
+                </ListItemButton>
+              ))}
+            </List>
+          </Collapse>
           {NAV_HREFS_REST.map((link) => (
             <ListItemButton
               key={link.href}
@@ -317,21 +332,34 @@ export default function Header() {
               <ListItemText primary={t(link.key)} />
             </ListItemButton>
           ))}
-          <ListSubheader component="div" sx={{ lineHeight: 2.5, bgcolor: "transparent" }}>
-            {t("more")}
-          </ListSubheader>
-          {MORE_MENU.map((link) => (
-            <ListItemButton
-              key={link.href}
-              component={Link}
-              href={link.href}
-              selected={pathname === link.href}
-              onClick={() => setDrawerOpen(false)}
-              sx={{ pl: 4 }}
-            >
-              <ListItemText primary={t(link.key)} />
-            </ListItemButton>
-          ))}
+          <ListItemButton
+            onClick={() => setMoreExpanded((v) => !v)}
+            selected={moreActive}
+          >
+            <ListItemText primary={t("more")} />
+            <KeyboardArrowDownRoundedIcon
+              sx={{
+                transition: "transform 0.25s ease",
+                transform: moreExpanded ? "rotate(180deg)" : "rotate(0deg)",
+              }}
+            />
+          </ListItemButton>
+          <Collapse in={moreExpanded} timeout="auto" unmountOnExit>
+            <List component="div" disablePadding>
+              {MORE_MENU.map((link) => (
+                <ListItemButton
+                  key={link.href}
+                  component={Link}
+                  href={link.href}
+                  selected={pathname === link.href}
+                  onClick={() => setDrawerOpen(false)}
+                  sx={{ pl: 4 }}
+                >
+                  <ListItemText primary={t(link.key)} />
+                </ListItemButton>
+              ))}
+            </List>
+          </Collapse>
         </List>
         <Divider />
         <Box sx={{ px: 1, py: 1 }}>
