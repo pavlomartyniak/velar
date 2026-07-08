@@ -5,7 +5,11 @@
     "configurator": "Configurator",
     "design": "Design",
     "faq": "FAQ",
-    "blog": "Blog"
+    "blog": "Blog",
+    "services": "Services",
+    "interiorDesign": "Interior Design",
+    "landscapeDesign": "Landscape Design",
+    "more": "More"
   },
   "cta": {
     "startConfig": "Start configuration",
@@ -138,11 +142,11 @@
         },
         {
           "title": "Interior Design",
-          "description": "Layout and style solutions for every room — aligned with the house's architecture, not bolted on separately."
+          "description": "Interior design for your home or apartment — also available as a standalone service, even if we didn't build it."
         },
         {
           "title": "Landscape Design",
-          "description": "Site planning, planting and exterior lighting that complete the architectural concept."
+          "description": "Landscaping, planting and outdoor lighting — a standalone service for any home, not just our own projects."
         }
       ],
       "readMore": "Learn more"
@@ -696,12 +700,12 @@
       "description": "Articles on construction, design and the cost of houses, villas and cottages: practical advice from Velar Development."
     },
     "interiorDesign": {
-      "title": "House Interior Design in Lviv",
-      "description": "Interior design as part of the architectural project: room layouts, style and materials aligned with the house facade. Estimated cost from $8/m²."
+      "title": "Interior Design in Lviv — a Standalone Service",
+      "description": "Interior design for any home or apartment, even if we didn't build it. Layout, 3D visualization and author supervision — from $14/m²."
     },
     "landscapeDesign": {
-      "title": "Plot Landscape Design in Lviv",
-      "description": "Site improvement, planting and exterior lighting as part of the house's architectural project. Estimated cost from $700."
+      "title": "Landscape Design in Lviv — a Standalone Service",
+      "description": "Landscaping, planting and a full landscape project for any plot, even if we didn't build the house. From $12/m²."
     }
   },
   "designConfigurator": {
@@ -1207,36 +1211,140 @@
   },
   "interiorDesignPage": {
     "overline": "Interior Design",
-    "title": "House Interior Design",
-    "subtitle": "An interior designed alongside the architecture, not added after handover.",
-    "intro": "We don't offer interior design as a stand-alone, walk-in service — it's designed together with the house's architecture, by the same architect or a specialist coordinated with them, and added to your project in the design configurator. That means room layouts aligned with how you actually live, decided at the drafting stage, not fixed afterward.",
-    "includesTitle": "What's included",
-    "includes": [
-      "Layout solutions for every room, informed by the architecture rather than designed apart from it",
-      "A style concept aligned with the house's exterior",
-      "Selection of finishing materials, colours and lighting",
-      "Visualizations of key rooms"
-    ],
-    "pricingTitle": "Estimated cost",
-    "pricingValue": "from $8/m²",
-    "pricingNote": "Added to the design package as a separate service; the final amount depends on the area and complexity of the interior — the design configurator gives an exact estimate.",
-    "cta": "Calculate in the design configurator"
+    "title": "Interior Design",
+    "subtitle": "A standalone service for any home or apartment — even if we didn't design or build it.",
+    "intro": "Get in touch if you already have a finished house, a newly handed-over apartment, or a property after shell-and-core renovation and need an interior design project. We work on our own projects as well as homes built by other developers: we'll visit, measure the space, and propose solutions that fit your budget and timeline.",
+    "tiersTitle": "Service tiers and pricing",
+    "tiers": {
+      "basic": {
+        "name": "Layout",
+        "price": "$14–20",
+        "priceNote": "no 3D visualization",
+        "features": [
+          "Measured floor plan and technical brief",
+          "Layout and furniture placement",
+          "Electrical, lighting and plumbing schematics",
+          "Suitable if you're building it yourself and don't need visuals"
+        ]
+      },
+      "standard": {
+        "name": "Full Project",
+        "price": "$30–45",
+        "priceNote": "with 3D visualization",
+        "features": [
+          "Everything in the Layout tier",
+          "3D visualization of every room",
+          "Selection of finishes, furniture and lighting",
+          "Full set of working drawings for contractors"
+        ]
+      },
+      "premium": {
+        "name": "Author's Supervision",
+        "price": "from $70",
+        "priceNote": "full renovation support",
+        "features": [
+          "Everything in the Full Project tier",
+          "Regular on-site visits by the designer",
+          "Quality control of contractors' work",
+          "On-the-spot decisions during renovation"
+        ]
+      }
+    },
+    "perM2": "{price}/m²",
+    "popular": "Most popular",
+    "tierCta": "Choose this tier",
+    "note": "Pricing is per m² of living area. Minimum order — from $700 per project.",
+    "ctaTitle": "Not sure which tier to choose?",
+    "ctaText": "Leave your number — we'll discuss your situation and find the best fit.",
+    "ctaButton": "Send a request",
+    "success": "Thank you! We'll be in touch shortly.",
+    "faqTitle": "Frequently Asked Questions",
+    "faq": [
+      {
+        "question": "How much does interior design cost?",
+        "answer": "It depends on the tier: from $14–20/m² for a layout without visualization, $30–45/m² for a full project with 3D, and from $70/m² for author supervision throughout the renovation. We'll confirm the exact amount after a short conversation about your property."
+      },
+      {
+        "question": "Can I order interior design as a standalone service, without construction or an architectural project?",
+        "answer": "Yes. This is a standalone service — we work with any finished house or apartment, regardless of who built or designed it."
+      },
+      {
+        "question": "How long does it take to develop a project?",
+        "answer": "A technical project without visualization is ready in 2–3 weeks; a full project with 3D visualization takes 4–6 weeks depending on the area and number of rooms."
+      },
+      {
+        "question": "What do I need to get started?",
+        "answer": "A measured floor plan (or the option for us to visit and measure) and a short brief on your style preferences and budget."
+      }
+    ]
   },
   "landscapeDesignPage": {
     "overline": "Landscape Design",
-    "title": "Plot Landscape Design",
-    "subtitle": "Site improvement that completes the house's architecture, not something separate from it.",
-    "intro": "We add landscape design to the architectural project rather than offering it as a disconnected, stand-alone service. Paths, zoning of the plot, planting and exterior lighting are planned together with the house's facade and siting — so the grounds read as an organic continuation of the project, not an afterthought.",
-    "includesTitle": "What's included",
-    "includes": [
-      "Plot zoning: entrance, parking, recreation areas and utility zone",
-      "Plant selection and planting suited to the climate and soil",
-      "Paths, paved areas and outdoor structures",
-      "Exterior lighting aligned with the house's facade"
-    ],
-    "pricingTitle": "Estimated cost",
-    "pricingValue": "from $700",
-    "pricingNote": "A fixed base service within the project; the cost can rise depending on plot size and the complexity of the solutions — the architect confirms the exact amount.",
-    "cta": "Calculate in the design configurator"
+    "title": "Landscape Design",
+    "subtitle": "A standalone service for any plot — even if we didn't design or build the house.",
+    "intro": "Get in touch if you already have a plot with a house (ours or another developer's) and need planting, pathways, outdoor lighting, or a full landscape project. We'll visit the site, assess the terrain and soil, and propose solutions that fit your budget.",
+    "tiersTitle": "Service tiers and pricing",
+    "tiers": {
+      "basic": {
+        "name": "Sketch Project",
+        "price": "$12–15",
+        "priceNote": "master plan and concept",
+        "features": [
+          "Site master plan and zoning",
+          "Planting concept",
+          "Plant list",
+          "Suitable for early budget planning"
+        ]
+      },
+      "standard": {
+        "name": "With 3D Visualization",
+        "price": "$14–25",
+        "priceNote": "full working package",
+        "features": [
+          "Everything in the Sketch tier",
+          "Paving and hardscape drawings",
+          "Outdoor lighting design",
+          "3D visualization of the plot"
+        ]
+      },
+      "premium": {
+        "name": "Premium / Author Supervision",
+        "price": "from $25",
+        "priceNote": "engineering and supervision",
+        "features": [
+          "Everything in the 3D tier",
+          "Drainage and automatic irrigation",
+          "Detailed work on complex terrain",
+          "Author supervision during construction"
+        ]
+      }
+    },
+    "perM2": "{price}/m²",
+    "popular": "Most popular",
+    "tierCta": "Choose this tier",
+    "note": "Pricing is per m² of plot area. For plots of 6–10 sotka (units of 100 m²), fixed pricing applies: sketch project $300–500/sotka, full working project $500–800/sotka. Minimum order — from $700 per project.",
+    "ctaTitle": "Not sure which tier to choose?",
+    "ctaText": "Leave your number — we'll discuss your plot and find the best fit.",
+    "ctaButton": "Send a request",
+    "success": "Thank you! We'll be in touch shortly.",
+    "faqTitle": "Frequently Asked Questions",
+    "faq": [
+      {
+        "question": "How much does landscape design cost?",
+        "answer": "From $12–15/m² for a sketch project, $14–25/m² with 3D visualization and a full drawing package, from $25/m² for a premium format with complex engineering. For plots of 6–10 sotka, fixed pricing applies: $300–800 per sotka depending on the format."
+      },
+      {
+        "question": "Can I order landscape design separately if you didn't build the house?",
+        "answer": "Yes, this is a standalone service. We visit any plot — with a house built by us or by another developer — and assess the terrain, soil and your preferences on site."
+      },
+      {
+        "question": "What's the minimum order value?",
+        "answer": "The minimum order is from $700 per project, even for a small plot."
+      },
+      {
+        "question": "How long does a landscaping project take to develop?",
+        "answer": "A sketch project is ready in 1–2 weeks; a full working project with 3D takes 3–5 weeks depending on plot size."
+      }
+    ]
   }
 }

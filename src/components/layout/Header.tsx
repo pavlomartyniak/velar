@@ -14,19 +14,34 @@ import {
   List,
   ListItemButton,
   ListItemText,
+  ListSubheader,
+  Menu,
+  MenuItem,
   Stack,
   Toolbar,
   Typography,
 } from "@mui/material";
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
+import KeyboardArrowDownRoundedIcon from "@mui/icons-material/KeyboardArrowDownRounded";
 import LanguageSwitcher from "./LanguageSwitcher";
 
 const NAV_HREFS = [
   { key: "home", href: "/" },
   { key: "design", href: "/design" },
+] as const;
+
+const SERVICES_MENU = [
+  { key: "interiorDesign", href: "/interior-design" },
+  { key: "landscapeDesign", href: "/landscape-design" },
+] as const;
+
+const NAV_HREFS_REST = [
   { key: "about", href: "/about" },
   { key: "configurator", href: "/configurator" },
+] as const;
+
+const MORE_MENU = [
   { key: "blog", href: "/blog" },
   { key: "faq", href: "/faq" },
 ] as const;
@@ -39,6 +54,10 @@ export default function Header() {
 
   const [scrolled, setScrolled] = useState(false);
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const [servicesAnchor, setServicesAnchor] = useState<HTMLElement | null>(null);
+  const servicesActive = SERVICES_MENU.some((link) => pathname === link.href);
+  const [moreAnchor, setMoreAnchor] = useState<HTMLElement | null>(null);
+  const moreActive = MORE_MENU.some((link) => pathname === link.href);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);
@@ -106,6 +125,91 @@ export default function Header() {
                   </Button>
                 );
               })}
+
+              <Button
+                color="inherit"
+                onClick={(e) => setServicesAnchor(e.currentTarget)}
+                endIcon={<KeyboardArrowDownRoundedIcon />}
+                sx={{
+                  fontWeight: servicesActive ? 700 : 500,
+                  opacity: servicesActive ? 1 : 0.85,
+                  px: 1.5,
+                  whiteSpace: "nowrap",
+                  "&:hover": { opacity: 1 },
+                }}
+              >
+                {t("services")}
+              </Button>
+              <Menu
+                anchorEl={servicesAnchor}
+                open={Boolean(servicesAnchor)}
+                onClose={() => setServicesAnchor(null)}
+              >
+                {SERVICES_MENU.map((link) => (
+                  <MenuItem
+                    key={link.href}
+                    component={Link}
+                    href={link.href}
+                    selected={pathname === link.href}
+                    onClick={() => setServicesAnchor(null)}
+                  >
+                    {t(link.key)}
+                  </MenuItem>
+                ))}
+              </Menu>
+
+              {NAV_HREFS_REST.map((link) => {
+                const active = pathname === link.href;
+                return (
+                  <Button
+                    key={link.href}
+                    component={Link}
+                    href={link.href}
+                    color="inherit"
+                    sx={{
+                      fontWeight: active ? 700 : 500,
+                      opacity: active ? 1 : 0.85,
+                      px: 1.5,
+                      whiteSpace: "nowrap",
+                      "&:hover": { opacity: 1 },
+                    }}
+                  >
+                    {t(link.key)}
+                  </Button>
+                );
+              })}
+
+              <Button
+                color="inherit"
+                onClick={(e) => setMoreAnchor(e.currentTarget)}
+                endIcon={<KeyboardArrowDownRoundedIcon />}
+                sx={{
+                  fontWeight: moreActive ? 700 : 500,
+                  opacity: moreActive ? 1 : 0.85,
+                  px: 1.5,
+                  whiteSpace: "nowrap",
+                  "&:hover": { opacity: 1 },
+                }}
+              >
+                {t("more")}
+              </Button>
+              <Menu
+                anchorEl={moreAnchor}
+                open={Boolean(moreAnchor)}
+                onClose={() => setMoreAnchor(null)}
+              >
+                {MORE_MENU.map((link) => (
+                  <MenuItem
+                    key={link.href}
+                    component={Link}
+                    href={link.href}
+                    selected={pathname === link.href}
+                    onClick={() => setMoreAnchor(null)}
+                  >
+                    {t(link.key)}
+                  </MenuItem>
+                ))}
+              </Menu>
             </Stack>
 
             <Box sx={{ flexGrow: 1 }} />
@@ -183,6 +287,47 @@ export default function Header() {
               href={link.href}
               selected={pathname === link.href}
               onClick={() => setDrawerOpen(false)}
+            >
+              <ListItemText primary={t(link.key)} />
+            </ListItemButton>
+          ))}
+          <ListSubheader component="div" sx={{ lineHeight: 2.5, bgcolor: "transparent" }}>
+            {t("services")}
+          </ListSubheader>
+          {SERVICES_MENU.map((link) => (
+            <ListItemButton
+              key={link.href}
+              component={Link}
+              href={link.href}
+              selected={pathname === link.href}
+              onClick={() => setDrawerOpen(false)}
+              sx={{ pl: 4 }}
+            >
+              <ListItemText primary={t(link.key)} />
+            </ListItemButton>
+          ))}
+          {NAV_HREFS_REST.map((link) => (
+            <ListItemButton
+              key={link.href}
+              component={Link}
+              href={link.href}
+              selected={pathname === link.href}
+              onClick={() => setDrawerOpen(false)}
+            >
+              <ListItemText primary={t(link.key)} />
+            </ListItemButton>
+          ))}
+          <ListSubheader component="div" sx={{ lineHeight: 2.5, bgcolor: "transparent" }}>
+            {t("more")}
+          </ListSubheader>
+          {MORE_MENU.map((link) => (
+            <ListItemButton
+              key={link.href}
+              component={Link}
+              href={link.href}
+              selected={pathname === link.href}
+              onClick={() => setDrawerOpen(false)}
+              sx={{ pl: 4 }}
             >
               <ListItemText primary={t(link.key)} />
             </ListItemButton>

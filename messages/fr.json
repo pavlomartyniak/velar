@@ -5,7 +5,11 @@
     "configurator": "Configurateur",
     "design": "Conception",
     "faq": "FAQ",
-    "blog": "Blog"
+    "blog": "Blog",
+    "services": "Services",
+    "interiorDesign": "Design d'intérieur",
+    "landscapeDesign": "Aménagement paysager",
+    "more": "Plus"
   },
   "cta": {
     "startConfig": "Lancer la configuration",
@@ -138,11 +142,11 @@
         },
         {
           "title": "Design d'intérieur",
-          "description": "Solutions d'agencement et de style pour chaque pièce — en accord avec l'architecture de la maison, et non ajoutées à part."
+          "description": "Design d'intérieur pour votre maison ou appartement — aussi disponible en service autonome, même si nous ne l'avons pas construit."
         },
         {
           "title": "Aménagement paysager",
-          "description": "Aménagement du terrain, plantations et éclairage extérieur qui complètent le concept architectural."
+          "description": "Aménagement paysager, plantations et éclairage extérieur — un service autonome pour toute maison, pas seulement nos propres projets."
         }
       ],
       "readMore": "En savoir plus"
@@ -696,12 +700,12 @@
       "description": "Articles sur la construction, la conception et le coût des maisons, villas et cottages : conseils pratiques de Velar Development."
     },
     "interiorDesign": {
-      "title": "Design d'intérieur de maison à Lviv",
-      "description": "Le design d'intérieur comme partie du projet architectural : agencement des pièces, style et matériaux en accord avec la façade de la maison. Coût estimatif à partir de 8 $/m²."
+      "title": "Design d'intérieur à Lviv — un service autonome",
+      "description": "Design d'intérieur pour toute maison ou appartement, même si nous ne l'avons pas construit. Aménagement, visualisation 3D et suivi de chantier — à partir de 14 $/m²."
     },
     "landscapeDesign": {
-      "title": "Aménagement paysager de terrain à Lviv",
-      "description": "Aménagement du terrain, plantations et éclairage extérieur intégrés au projet architectural de la maison. Coût estimatif à partir de 700 $."
+      "title": "Aménagement paysager à Lviv — un service autonome",
+      "description": "Aménagement paysager, plantations et projet complet pour tout terrain, même si nous n'avons pas construit la maison. À partir de 12 $/m²."
     }
   },
   "designConfigurator": {
@@ -1207,36 +1211,140 @@
   },
   "interiorDesignPage": {
     "overline": "Design d'intérieur",
-    "title": "Design d'intérieur de maison",
-    "subtitle": "Un intérieur pensé en parallèle de l'architecture, pas ajouté après la livraison de la maison.",
-    "intro": "Nous ne proposons pas le design d'intérieur comme un service isolé, accessible « au coin de la rue » — il est conçu avec l'architecture de la maison, par le même architecte ou un spécialiste coordonné avec lui, et ajouté à votre projet dans le configurateur de conception. Cela permet des agencements de pièces alignés sur votre mode de vie dès le stade des plans, plutôt que corrigés après coup.",
-    "includesTitle": "Ce qui est inclus",
-    "includes": [
-      "Solutions d'agencement pour chaque pièce, pensées avec l'architecture et non séparément d'elle",
-      "Un concept de style en accord avec l'aspect extérieur de la maison",
-      "Sélection des matériaux de finition, des couleurs et de l'éclairage",
-      "Visualisations des pièces clés"
-    ],
-    "pricingTitle": "Coût estimatif",
-    "pricingValue": "à partir de 8 $/m²",
-    "pricingNote": "Ajouté au forfait de conception comme service distinct ; le montant final dépend de la surface et de la complexité de l'intérieur — le configurateur de conception donne une estimation précise.",
-    "cta": "Calculer dans le configurateur de conception"
+    "title": "Design d'intérieur",
+    "subtitle": "Un service autonome pour toute maison ou appartement — même si nous ne l'avons pas conçu ou construit.",
+    "intro": "Contactez-nous si vous avez déjà une maison achevée, un appartement tout juste livré ou un bien après gros œuvre, et que vous avez besoin d'un projet de design d'intérieur. Nous travaillons aussi bien sur nos propres projets que sur des maisons construites par d'autres constructeurs : nous nous déplaçons, mesurons les espaces et proposons des solutions adaptées à votre budget et à vos délais.",
+    "tiersTitle": "Formules et tarifs",
+    "tiers": {
+      "basic": {
+        "name": "Plan d'aménagement",
+        "price": "14–20 $",
+        "priceNote": "sans visualisation 3D",
+        "features": [
+          "Relevé de plan et cahier des charges",
+          "Aménagement et disposition du mobilier",
+          "Schémas électricité, éclairage et plomberie",
+          "Adapté si vous construisez vous-même sans besoin de visuels"
+        ]
+      },
+      "standard": {
+        "name": "Projet complet",
+        "price": "30–45 $",
+        "priceNote": "avec visualisation 3D",
+        "features": [
+          "Tout ce qui est inclus dans « Plan d'aménagement »",
+          "Visualisation 3D de chaque pièce",
+          "Sélection des matériaux, du mobilier et de l'éclairage",
+          "Jeu complet de plans d'exécution pour les artisans"
+        ]
+      },
+      "premium": {
+        "name": "Suivi de chantier",
+        "price": "à partir de 70 $",
+        "priceNote": "accompagnement de toute la rénovation",
+        "features": [
+          "Tout ce qui est inclus dans « Projet complet »",
+          "Visites régulières du designer sur le chantier",
+          "Contrôle qualité des entreprises",
+          "Décisions rapides pendant les travaux"
+        ]
+      }
+    },
+    "perM2": "{price}/m²",
+    "popular": "Le plus choisi",
+    "tierCta": "Choisir cette formule",
+    "note": "Le tarif s'entend par m² de surface habitable. Commande minimum — à partir de 700 $ par projet.",
+    "ctaTitle": "Vous hésitez sur la formule ?",
+    "ctaText": "Laissez votre numéro — nous discuterons de votre situation pour trouver la meilleure option.",
+    "ctaButton": "Envoyer une demande",
+    "success": "Merci ! Nous vous recontacterons très prochainement.",
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      {
+        "question": "Combien coûte le design d'intérieur ?",
+        "answer": "Cela dépend de la formule : à partir de 14–20 $/m² pour un plan d'aménagement sans visualisation, 30–45 $/m² pour un projet complet avec 3D, et à partir de 70 $/m² pour un suivi de chantier pendant toute la rénovation. Le montant exact sera confirmé après un court échange sur votre bien."
+      },
+      {
+        "question": "Puis-je commander le design d'intérieur en tant que service autonome, sans construction ni projet architectural ?",
+        "answer": "Oui. C'est un service autonome — nous travaillons avec toute maison ou appartement achevé, peu importe qui l'a construit ou conçu."
+      },
+      {
+        "question": "Combien de temps faut-il pour élaborer un projet ?",
+        "answer": "Un projet technique sans visualisation est prêt en 2 à 3 semaines ; un projet complet avec visualisation 3D prend 4 à 6 semaines selon la surface et le nombre de pièces."
+      },
+      {
+        "question": "De quoi ai-je besoin pour commencer ?",
+        "answer": "Un plan relevé du logement (ou la possibilité pour nous de nous déplacer pour prendre les mesures) et un bref descriptif de vos préférences de style et de votre budget."
+      }
+    ]
   },
   "landscapeDesignPage": {
-    "overline": "Aménagement paysager",
-    "title": "Aménagement paysager de terrain",
-    "subtitle": "Un aménagement extérieur qui complète l'architecture de la maison, pas quelque chose d'à part.",
-    "intro": "Nous intégrons l'aménagement paysager au projet architectural plutôt que de le proposer comme un service isolé et déconnecté. Allées, zonage du terrain, plantations et éclairage extérieur sont pensés avec la façade et l'implantation de la maison — pour que le terrain se lise comme un prolongement organique du projet, et non comme une improvisation tardive.",
-    "includesTitle": "Ce qui est inclus",
-    "includes": [
-      "Zonage du terrain : entrée, stationnement, espaces de détente et zone technique",
-      "Sélection et plantation végétale adaptées au climat et au sol",
-      "Allées, aires pavées et petites structures extérieures",
-      "Éclairage extérieur en accord avec la façade de la maison"
-    ],
-    "pricingTitle": "Coût estimatif",
-    "pricingValue": "à partir de 700 $",
-    "pricingNote": "Un service de base forfaitaire dans le cadre du projet ; le coût peut augmenter selon la taille du terrain et la complexité des solutions — l'architecte confirme le montant exact.",
-    "cta": "Calculer dans le configurateur de conception"
+    "overline": "Design paysager",
+    "title": "Aménagement paysager du terrain",
+    "subtitle": "Un service autonome pour tout terrain — même si nous n'avons pas conçu ou construit la maison.",
+    "intro": "Contactez-nous si vous possédez déjà un terrain avec une maison (construite par nous ou par un autre constructeur) et que vous avez besoin de plantations, d'allées, d'éclairage extérieur ou d'un projet paysager complet. Nous visitons le site, évaluons le relief et le sol, et proposons des solutions adaptées à votre budget.",
+    "tiersTitle": "Formules et tarifs",
+    "tiers": {
+      "basic": {
+        "name": "Projet d'esquisse",
+        "price": "12–15 $",
+        "priceNote": "plan de masse et concept",
+        "features": [
+          "Plan de masse et zonage du terrain",
+          "Concept de plantation",
+          "Liste des végétaux",
+          "Adapté pour une première estimation budgétaire"
+        ]
+      },
+      "standard": {
+        "name": "Avec visualisation 3D",
+        "price": "14–25 $",
+        "priceNote": "dossier d'exécution complet",
+        "features": [
+          "Tout ce qui est inclus dans « Projet d'esquisse »",
+          "Plans de revêtements et d'aménagements",
+          "Conception de l'éclairage extérieur",
+          "Visualisation 3D du terrain"
+        ]
+      },
+      "premium": {
+        "name": "Premium / suivi de chantier",
+        "price": "à partir de 25 $",
+        "priceNote": "ingénierie et suivi",
+        "features": [
+          "Tout ce qui est inclus dans « Avec visualisation 3D »",
+          "Drainage et arrosage automatique",
+          "Traitement détaillé d'un relief complexe",
+          "Suivi de chantier pendant la réalisation"
+        ]
+      }
+    },
+    "perM2": "{price}/m²",
+    "popular": "Le plus choisi",
+    "tierCta": "Choisir cette formule",
+    "note": "Le tarif s'entend par m² de surface du terrain. Pour les terrains de 6 à 10 sotki (unités de 100 m²), un tarif fixe s'applique : projet d'esquisse 300–500 $/sotka, projet d'exécution complet 500–800 $/sotka. Commande minimum — à partir de 700 $ par projet.",
+    "ctaTitle": "Vous hésitez sur la formule ?",
+    "ctaText": "Laissez votre numéro — nous discuterons de votre terrain pour trouver la meilleure option.",
+    "ctaButton": "Envoyer une demande",
+    "success": "Merci ! Nous vous recontacterons très prochainement.",
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      {
+        "question": "Combien coûte l'aménagement paysager ?",
+        "answer": "À partir de 12–15 $/m² pour un projet d'esquisse, 14–25 $/m² avec visualisation 3D et dossier complet, à partir de 25 $/m² pour une formule premium avec ingénierie complexe. Pour les terrains de 6 à 10 sotki, un tarif fixe s'applique : 300–800 $ par sotka selon la formule."
+      },
+      {
+        "question": "Puis-je commander un aménagement paysager séparément si vous n'avez pas construit la maison ?",
+        "answer": "Oui, c'est un service autonome. Nous visitons tout terrain — avec une maison construite par nous ou par un autre constructeur — et évaluons le relief, le sol et vos souhaits sur place."
+      },
+      {
+        "question": "Quel est le montant minimum de commande ?",
+        "answer": "La commande minimum est de 700 $ par projet, même pour un petit terrain."
+      },
+      {
+        "question": "Combien de temps prend un projet paysager ?",
+        "answer": "Un projet d'esquisse est prêt en 1 à 2 semaines ; un projet d'exécution complet avec 3D prend 3 à 5 semaines selon la taille du terrain."
+      }
+    ]
   }
 }

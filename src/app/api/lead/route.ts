@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { formatLeadMessage, sendTelegramMessage } from "@/lib/telegram";
 import { formatDesignLeadMessage } from "@/lib/design-lead";
+import { formatServiceLeadMessage } from "@/lib/service-lead";
 
 export async function POST(request: Request) {
   const body = await request.json().catch(() => null);
@@ -14,6 +15,8 @@ export async function POST(request: Request) {
   let message: string;
   if (body.kind === "design") {
     message = formatDesignLeadMessage(body.name, body.phone, body.payload ?? {});
+  } else if (body.kind === "service") {
+    message = formatServiceLeadMessage(body.name, body.phone, body.payload ?? {});
   } else {
     // construction / звичайна заявка (configurator — для зворотної сумісності)
     message = formatLeadMessage({

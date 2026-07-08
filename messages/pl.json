@@ -5,7 +5,11 @@
     "configurator": "Konfigurator",
     "design": "Projektowanie",
     "faq": "FAQ",
-    "blog": "Blog"
+    "blog": "Blog",
+    "services": "Usługi",
+    "interiorDesign": "Projektowanie wnętrz",
+    "landscapeDesign": "Architektura krajobrazu",
+    "more": "Więcej"
   },
   "cta": {
     "startConfig": "Rozpocznij konfigurację",
@@ -138,11 +142,11 @@
         },
         {
           "title": "Projekt wnętrz",
-          "description": "Rozwiązania układu i stylu dla każdego pomieszczenia — spójne z architekturą domu, a nie dodane osobno."
+          "description": "Projektowanie wnętrz dla Twojego domu lub mieszkania — dostępne także jako usługa samodzielna, nawet jeśli nie my go budowaliśmy."
         },
         {
           "title": "Projekt krajobrazu",
-          "description": "Zagospodarowanie działki, nasadzenia i oświetlenie zewnętrzne, które dopełniają koncepcję architektoniczną."
+          "description": "Zagospodarowanie terenu, nasadzenia i oświetlenie zewnętrzne — samodzielna usługa dla każdego domu, nie tylko naszych projektów."
         }
       ],
       "readMore": "Dowiedz się więcej"
@@ -696,12 +700,12 @@
       "description": "Artykuły o budowie, projektowaniu i kosztach domów, willi i domków: praktyczne porady od Velar Development."
     },
     "interiorDesign": {
-      "title": "Projekt wnętrz domu we Lwowie",
-      "description": "Projekt wnętrz jako część projektu architektonicznego: układ pomieszczeń, styl i materiały spójne z elewacją domu. Szacunkowy koszt od 8 $/m²."
+      "title": "Projektowanie wnętrz we Lwowie — usługa samodzielna",
+      "description": "Projektowanie wnętrz dla każdego domu lub mieszkania, nawet jeśli nie my go budowaliśmy. Układ, wizualizacja 3D i nadzór autorski — od 14 $/m²."
     },
     "landscapeDesign": {
-      "title": "Projekt krajobrazu działki we Lwowie",
-      "description": "Zagospodarowanie terenu, nasadzenia i oświetlenie zewnętrzne jako część projektu architektonicznego domu. Szacunkowy koszt od 700 $."
+      "title": "Architektura krajobrazu we Lwowie — usługa samodzielna",
+      "description": "Zagospodarowanie terenu, nasadzenia i pełny projekt dla każdej działki, nawet jeśli nie my budowaliśmy dom. Od 12 $/m²."
     }
   },
   "designConfigurator": {
@@ -1206,37 +1210,141 @@
     "backToBlog": "Wróć do wszystkich artykułów"
   },
   "interiorDesignPage": {
-    "overline": "Projekt wnętrz",
-    "title": "Projekt wnętrz domu",
-    "subtitle": "Wnętrze zaprojektowane razem z architekturą, a nie dodane po odbiorze domu.",
-    "intro": "Nie oferujemy projektu wnętrz jako osobnej usługi „z ulicy“ — jest on projektowany razem z architekturą domu, przez tego samego architekta lub uzgodnionego z nim specjalistę, i dodawany do Twojego projektu w kalkulatorze projektowania. Dzięki temu układ pomieszczeń jest dopasowany do Twojego stylu życia już na etapie rysunków, a nie poprawiany później.",
-    "includesTitle": "Co obejmuje",
-    "includes": [
-      "Rozwiązania układu każdego pomieszczenia — uwzględniające architekturę, a nie oderwane od niej",
-      "Koncepcja stylu spójna z wyglądem zewnętrznym domu",
-      "Dobór materiałów wykończeniowych, kolorów i oświetlenia",
-      "Wizualizacje kluczowych pomieszczeń"
-    ],
-    "pricingTitle": "Szacunkowy koszt",
-    "pricingValue": "od 8 $/m²",
-    "pricingNote": "Dodawane do pakietu projektowego jako osobna usługa; ostateczna kwota zależy od powierzchni i złożoności wnętrza — dokładną wycenę daje kalkulator projektowania.",
-    "cta": "Oblicz w kalkulatorze projektowania"
+    "overline": "Projektowanie wnętrz",
+    "title": "Projektowanie wnętrz",
+    "subtitle": "Samodzielna usługa dla każdego domu lub mieszkania — nawet jeśli nie my go projektowaliśmy lub budowaliśmy.",
+    "intro": "Zgłoś się do nas, jeśli masz już gotowy dom, mieszkanie po odbiorze lub obiekt po stanie deweloperskim i potrzebujesz projektu wnętrz. Pracujemy zarówno przy własnych projektach, jak i przy domach budowanych przez innych deweloperów: przyjedziemy, zmierzymy pomieszczenia i zaproponujemy rozwiązania dopasowane do Twojego budżetu i terminu.",
+    "tiersTitle": "Warianty usługi i ceny",
+    "tiers": {
+      "basic": {
+        "name": "Układ funkcjonalny",
+        "price": "14–20 $",
+        "priceNote": "bez wizualizacji 3D",
+        "features": [
+          "Plan inwentaryzacyjny i założenia techniczne",
+          "Układ pomieszczeń i rozmieszczenie mebli",
+          "Schematy instalacji elektrycznej, oświetlenia i hydraulicznej",
+          "Odpowiednie, jeśli budujesz samodzielnie i nie potrzebujesz wizualizacji"
+        ]
+      },
+      "standard": {
+        "name": "Projekt pełny",
+        "price": "30–45 $",
+        "priceNote": "z wizualizacją 3D",
+        "features": [
+          "Wszystko z wariantu „Układ funkcjonalny”",
+          "Wizualizacja 3D każdego pomieszczenia",
+          "Dobór materiałów wykończeniowych, mebli i oświetlenia",
+          "Pełny komplet rysunków wykonawczych dla ekipy"
+        ]
+      },
+      "premium": {
+        "name": "Nadzór autorski",
+        "price": "od 70 $",
+        "priceNote": "wsparcie przez cały remont",
+        "features": [
+          "Wszystko z wariantu „Projekt pełny”",
+          "Regularne wizyty projektanta na budowie",
+          "Kontrola jakości prac wykonawców",
+          "Szybkie decyzje w trakcie remontu"
+        ]
+      }
+    },
+    "perM2": "{price}/m²",
+    "popular": "Najpopularniejszy",
+    "tierCta": "Wybierz ten wariant",
+    "note": "Cena dotyczy m² powierzchni mieszkalnej. Minimalne zamówienie — od 700 $ za obiekt.",
+    "ctaTitle": "Nie wiesz, który wariant wybrać?",
+    "ctaText": "Zostaw numer — omówimy Twoją sytuację i dobierzemy najlepsze rozwiązanie.",
+    "ctaButton": "Wyślij zapytanie",
+    "success": "Dziękujemy! Skontaktujemy się wkrótce.",
+    "faqTitle": "Najczęstsze pytania",
+    "faq": [
+      {
+        "question": "Ile kosztuje projektowanie wnętrz?",
+        "answer": "Zależy od wariantu: od 14–20 $/m² za układ funkcjonalny bez wizualizacji, 30–45 $/m² za projekt pełny z wizualizacją 3D, od 70 $/m² za nadzór autorski przez cały remont. Dokładną kwotę podamy po krótkiej rozmowie o Twojej nieruchomości."
+      },
+      {
+        "question": "Czy mogę zamówić projekt wnętrz jako samodzielną usługę, bez budowy czy projektu architektonicznego?",
+        "answer": "Tak. To samodzielna usługa — pracujemy z każdym gotowym domem lub mieszkaniem, niezależnie od tego, kto je budował lub projektował."
+      },
+      {
+        "question": "Ile czasu zajmuje opracowanie projektu?",
+        "answer": "Projekt techniczny bez wizualizacji jest gotowy w 2–3 tygodnie, projekt pełny z wizualizacją 3D — w 4–6 tygodni, w zależności od powierzchni i liczby pomieszczeń."
+      },
+      {
+        "question": "Co jest potrzebne, żeby zacząć?",
+        "answer": "Plan inwentaryzacyjny pomieszczenia (lub możliwość przyjazdu na pomiary) oraz krótki brief dotyczący stylu i budżetu."
+      }
+    ]
   },
   "landscapeDesignPage": {
-    "overline": "Projekt krajobrazu",
-    "title": "Projekt krajobrazu działki",
-    "subtitle": "Zagospodarowanie terenu, które dopełnia architekturę domu, a nie istnieje osobno.",
-    "intro": "Projekt krajobrazu dodajemy do projektu architektonicznego, a nie oferujemy jako osobną, oderwaną usługę. Ścieżki, strefowanie działki, nasadzenia i oświetlenie zewnętrzne są planowane razem z elewacją i posadowieniem domu — aby otoczenie wyglądało jak organiczna kontynuacja projektu, a nie późniejsza improwizacja.",
-    "includesTitle": "Co obejmuje",
-    "includes": [
-      "Strefowanie działki: wjazd, parking, strefy wypoczynku i część gospodarcza",
-      "Dobór i nasadzenia roślin odpowiednich do klimatu i gleby",
-      "Ścieżki, nawierzchnie i małą architekturę",
-      "Oświetlenie zewnętrzne spójne z elewacją domu"
-    ],
-    "pricingTitle": "Szacunkowy koszt",
-    "pricingValue": "od 700 $",
-    "pricingNote": "Stała usługa bazowa w ramach projektu; koszt może rosnąć w zależności od powierzchni działki i złożoności rozwiązań — dokładną kwotę potwierdza architekt.",
-    "cta": "Oblicz w kalkulatorze projektowania"
+    "overline": "Architektura krajobrazu",
+    "title": "Projekt zagospodarowania działki",
+    "subtitle": "Samodzielna usługa dla każdej działki — nawet jeśli nie my projektowaliśmy lub budowaliśmy dom.",
+    "intro": "Zgłoś się do nas, jeśli masz już działkę z domem (naszego lub innego dewelopera) i potrzebujesz nasadzeń, ścieżek, oświetlenia zewnętrznego lub pełnego projektu zagospodarowania terenu. Przyjedziemy na miejsce, ocenimy ukształtowanie terenu i glebę oraz zaproponujemy rozwiązania dopasowane do budżetu.",
+    "tiersTitle": "Warianty usługi i ceny",
+    "tiers": {
+      "basic": {
+        "name": "Projekt koncepcyjny",
+        "price": "12–15 $",
+        "priceNote": "plan ogólny i koncepcja",
+        "features": [
+          "Plan ogólny i podział działki na strefy",
+          "Koncepcja nasadzeń",
+          "Wykaz roślin",
+          "Odpowiedni do wstępnego planowania budżetu"
+        ]
+      },
+      "standard": {
+        "name": "Z wizualizacją 3D",
+        "price": "14–25 $",
+        "priceNote": "pełny pakiet wykonawczy",
+        "features": [
+          "Wszystko z wariantu „Projekt koncepcyjny”",
+          "Rysunki nawierzchni i małej architektury",
+          "Projekt oświetlenia zewnętrznego",
+          "Wizualizacja 3D działki"
+        ]
+      },
+      "premium": {
+        "name": "Premium / nadzór autorski",
+        "price": "od 25 $",
+        "priceNote": "instalacje i nadzór",
+        "features": [
+          "Wszystko z wariantu „Z wizualizacją 3D”",
+          "Drenaż i automatyczne nawadnianie",
+          "Szczegółowe opracowanie trudnego terenu",
+          "Nadzór autorski podczas realizacji"
+        ]
+      }
+    },
+    "perM2": "{price}/m²",
+    "popular": "Najpopularniejszy",
+    "tierCta": "Wybierz ten wariant",
+    "note": "Cena dotyczy m² powierzchni działki. Dla działek 6–10 arów obowiązuje cena stała: projekt koncepcyjny 300–500 $/ar, pełny projekt wykonawczy 500–800 $/ar. Minimalne zamówienie — od 700 $ za obiekt.",
+    "ctaTitle": "Nie wiesz, który wariant wybrać?",
+    "ctaText": "Zostaw numer — omówimy Twoją działkę i dobierzemy najlepsze rozwiązanie.",
+    "ctaButton": "Wyślij zapytanie",
+    "success": "Dziękujemy! Skontaktujemy się wkrótce.",
+    "faqTitle": "Najczęstsze pytania",
+    "faq": [
+      {
+        "question": "Ile kosztuje projekt zagospodarowania działki?",
+        "answer": "Od 12–15 $/m² za projekt koncepcyjny, 14–25 $/m² z wizualizacją 3D i pełnym pakietem rysunków, od 25 $/m² za wariant premium ze złożonymi instalacjami. Dla działek 6–10 arów obowiązuje cena stała: 300–800 $ za ar w zależności od wariantu."
+      },
+      {
+        "question": "Czy mogę zamówić projekt zagospodarowania działki osobno, jeśli to nie Wy budowaliście dom?",
+        "answer": "Tak, to samodzielna usługa. Przyjeżdżamy na każdą działkę — z domem od nas lub od innego dewelopera — i oceniamy teren, glebę oraz Twoje potrzeby na miejscu."
+      },
+      {
+        "question": "Jakie jest minimalne zamówienie?",
+        "answer": "Minimalne zamówienie to 700 $ za obiekt, nawet dla małej działki."
+      },
+      {
+        "question": "Ile czasu zajmuje opracowanie projektu zagospodarowania?",
+        "answer": "Projekt koncepcyjny jest gotowy w 1–2 tygodnie, pełny projekt wykonawczy z 3D — w 3–5 tygodni, w zależności od wielkości działki."
+      }
+    ]
   }
 }

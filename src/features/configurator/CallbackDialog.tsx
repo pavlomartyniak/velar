@@ -19,7 +19,7 @@ import {
 } from "@mui/material";
 /** Тип заявки визначає, який форматер використає бекенд для Telegram-повідомлення. */
 export interface LeadDetails {
-  kind: "construction" | "design";
+  kind: "construction" | "design" | "service";
   values: Record<string, unknown>;
 }
 

@@ -5,7 +5,11 @@
     "configurator": "Konfigurator",
     "design": "Projektierung",
     "faq": "FAQ",
-    "blog": "Blog"
+    "blog": "Blog",
+    "services": "Leistungen",
+    "interiorDesign": "Innenarchitektur",
+    "landscapeDesign": "Landschaftsgestaltung",
+    "more": "Mehr"
   },
   "cta": {
     "startConfig": "Konfiguration starten",
@@ -138,11 +142,11 @@
         },
         {
           "title": "Innenarchitektur",
-          "description": "Grundriss- und Stillösungen für jeden Raum — abgestimmt auf die Architektur des Hauses, nicht nachträglich angehängt."
+          "description": "Innenarchitektur für Ihr Haus oder Ihre Wohnung — auch als eigenständiger Service erhältlich, selbst wenn wir es nicht gebaut haben."
         },
         {
           "title": "Landschaftsgestaltung",
-          "description": "Geländeplanung, Bepflanzung und Außenbeleuchtung, die das architektonische Konzept vervollständigen."
+          "description": "Landschaftsgestaltung, Bepflanzung und Außenbeleuchtung — ein eigenständiger Service für jedes Haus, nicht nur unsere eigenen Projekte."
         }
       ],
       "readMore": "Mehr erfahren"
@@ -696,12 +700,12 @@
       "description": "Artikel über Bau, Planung und die Kosten von Häusern, Villen und Cottages: praktische Ratschläge von Velar Development."
     },
     "interiorDesign": {
-      "title": "Innenarchitektur für Häuser in Lemberg",
-      "description": "Innenarchitektur als Teil des Architekturprojekts: Raumaufteilung, Stil und Materialien, abgestimmt auf die Fassade des Hauses. Geschätzte Kosten ab 8 $/m²."
+      "title": "Innenarchitektur in Lwiw — eigenständiger Service",
+      "description": "Innenarchitektur für jedes Haus oder jede Wohnung, auch wenn wir es nicht gebaut haben. Grundriss, 3D-Visualisierung und Bauüberwachung — ab $14/m²."
     },
     "landscapeDesign": {
-      "title": "Landschaftsgestaltung für Grundstücke in Lemberg",
-      "description": "Geländegestaltung, Bepflanzung und Außenbeleuchtung als Teil des Architekturprojekts des Hauses. Geschätzte Kosten ab 700 $."
+      "title": "Landschaftsgestaltung in Lwiw — eigenständiger Service",
+      "description": "Landschaftsgestaltung, Bepflanzung und ein vollständiges Projekt für jedes Grundstück, auch wenn wir das Haus nicht gebaut haben. Ab $12/m²."
     }
   },
   "designConfigurator": {
@@ -1207,36 +1211,140 @@
   },
   "interiorDesignPage": {
     "overline": "Innenarchitektur",
-    "title": "Innenarchitektur für Häuser",
-    "subtitle": "Ein Interieur, das zusammen mit der Architektur entworfen wird — nicht nachträglich hinzugefügt.",
-    "intro": "Wir bieten Innenarchitektur nicht als eigenständige Dienstleistung „von der Straße“ an — sie wird gemeinsam mit der Architektur des Hauses entworfen, vom selben Architekten oder einem mit ihm abgestimmten Fachmann, und Ihrem Projekt im Projektierungs-Konfigurator hinzugefügt. So entstehen Raumlösungen, die bereits in der Entwurfsphase auf Ihre Lebensweise abgestimmt sind — nicht erst danach korrigiert werden.",
-    "includesTitle": "Was enthalten ist",
-    "includes": [
-      "Grundrisslösungen für jeden Raum — unter Berücksichtigung der Architektur, nicht getrennt von ihr",
-      "Ein mit der Außenansicht des Hauses abgestimmtes Stilkonzept",
-      "Auswahl von Ausstattungsmaterialien, Farben und Beleuchtung",
-      "Visualisierungen der wichtigsten Räume"
-    ],
-    "pricingTitle": "Geschätzte Kosten",
-    "pricingValue": "ab 8 $/m²",
-    "pricingNote": "Wird dem Projektierungspaket als separate Leistung hinzugefügt; die endgültige Summe hängt von Fläche und Komplexität des Interieurs ab — den genauen Preis liefert der Projektierungs-Konfigurator.",
-    "cta": "Im Projektierungs-Konfigurator berechnen"
+    "title": "Innenarchitektur",
+    "subtitle": "Eigenständiger Service für jedes Haus oder jede Wohnung — auch wenn wir es nicht geplant oder gebaut haben.",
+    "intro": "Wenden Sie sich an uns, wenn Sie bereits ein fertiges Haus, eine gerade übergebene Wohnung oder ein Objekt nach dem Rohbau-Ausbau besitzen und ein Innenarchitektur-Projekt benötigen. Wir arbeiten sowohl an eigenen Projekten als auch an Häusern anderer Bauunternehmen: Wir besichtigen das Objekt, vermessen die Räume und schlagen Lösungen passend zu Ihrem Budget und Zeitrahmen vor.",
+    "tiersTitle": "Leistungsstufen und Preise",
+    "tiers": {
+      "basic": {
+        "name": "Grundriss",
+        "price": "$14–20",
+        "priceNote": "ohne 3D-Visualisierung",
+        "features": [
+          "Aufmaßplan und technisches Briefing",
+          "Raumaufteilung und Möblierung",
+          "Elektro-, Beleuchtungs- und Sanitärschemata",
+          "Geeignet, wenn Sie selbst bauen und keine Visualisierung benötigen"
+        ]
+      },
+      "standard": {
+        "name": "Vollständiges Projekt",
+        "price": "$30–45",
+        "priceNote": "mit 3D-Visualisierung",
+        "features": [
+          "Alles aus der Stufe „Grundriss“",
+          "3D-Visualisierung jedes Raumes",
+          "Auswahl von Materialien, Möbeln und Beleuchtung",
+          "Vollständige Ausführungspläne für Handwerker"
+        ]
+      },
+      "premium": {
+        "name": "Bauüberwachung",
+        "price": "ab $70",
+        "priceNote": "Begleitung der gesamten Renovierung",
+        "features": [
+          "Alles aus der Stufe „Vollständiges Projekt“",
+          "Regelmäßige Besuche des Designers vor Ort",
+          "Qualitätskontrolle der ausführenden Firmen",
+          "Schnelle Entscheidungen während der Renovierung"
+        ]
+      }
+    },
+    "perM2": "{price}/m²",
+    "popular": "Beliebteste Wahl",
+    "tierCta": "Diese Stufe wählen",
+    "note": "Der Preis gilt pro m² Wohnfläche. Mindestauftrag — ab $700 pro Objekt.",
+    "ctaTitle": "Nicht sicher, welche Stufe passt?",
+    "ctaText": "Hinterlassen Sie Ihre Nummer — wir besprechen Ihre Situation und finden die passende Lösung.",
+    "ctaButton": "Anfrage senden",
+    "success": "Danke! Wir melden uns in Kürze bei Ihnen.",
+    "faqTitle": "Häufig gestellte Fragen",
+    "faq": [
+      {
+        "question": "Wie viel kostet Innenarchitektur?",
+        "answer": "Das hängt vom Format ab: ab $14–20/m² für einen Grundriss ohne Visualisierung, $30–45/m² für ein vollständiges Projekt mit 3D, ab $70/m² für Bauüberwachung während der gesamten Renovierung. Den genauen Betrag nennen wir nach einem kurzen Gespräch über Ihr Objekt."
+      },
+      {
+        "question": "Kann ich Innenarchitektur als eigenständigen Service beauftragen, ohne Bau oder Architekturprojekt?",
+        "answer": "Ja. Das ist ein eigenständiger Service — wir arbeiten mit jedem fertigen Haus oder jeder Wohnung, unabhängig davon, wer es gebaut oder geplant hat."
+      },
+      {
+        "question": "Wie lange dauert die Projekterstellung?",
+        "answer": "Ein technisches Projekt ohne Visualisierung ist in 2–3 Wochen fertig, ein vollständiges Projekt mit 3D-Visualisierung dauert je nach Fläche und Raumanzahl 4–6 Wochen."
+      },
+      {
+        "question": "Was brauche ich, um zu starten?",
+        "answer": "Ein Aufmaßplan (oder die Möglichkeit für uns, vor Ort zu vermessen) sowie ein kurzes Briefing zu Stil und Budget."
+      }
+    ]
   },
   "landscapeDesignPage": {
     "overline": "Landschaftsgestaltung",
-    "title": "Landschaftsgestaltung für Grundstücke",
-    "subtitle": "Außenanlagen, die die Architektur des Hauses vervollständigen — nicht getrennt von ihr existieren.",
-    "intro": "Wir fügen die Landschaftsgestaltung dem Architekturprojekt hinzu, statt sie als losgelöste, eigenständige Leistung anzubieten. Wege, Zonierung des Grundstücks, Bepflanzung und Außenbeleuchtung werden gemeinsam mit Fassade und Lage des Hauses geplant — damit das Gelände wie eine organische Fortsetzung des Projekts wirkt, nicht wie eine nachträgliche Improvisation.",
-    "includesTitle": "Was enthalten ist",
-    "includes": [
-      "Zonierung des Grundstücks: Einfahrt, Parkplatz, Erholungsbereiche und Wirtschaftsteil",
-      "Pflanzenauswahl und Bepflanzung passend zu Klima und Boden",
-      "Wege, Terrassenflächen und kleine architektonische Elemente",
-      "Außenbeleuchtung, abgestimmt auf die Fassade des Hauses"
-    ],
-    "pricingTitle": "Geschätzte Kosten",
-    "pricingValue": "ab 700 $",
-    "pricingNote": "Eine feste Basisleistung innerhalb des Projekts; die Kosten können je nach Grundstücksgröße und Komplexität der Lösungen steigen — die genaue Summe bestätigt der Architekt.",
-    "cta": "Im Projektierungs-Konfigurator berechnen"
+    "title": "Landschaftsgestaltung des Grundstücks",
+    "subtitle": "Eigenständiger Service für jedes Grundstück — auch wenn wir das Haus nicht geplant oder gebaut haben.",
+    "intro": "Wenden Sie sich an uns, wenn Sie bereits ein Grundstück mit Haus besitzen (von uns oder einem anderen Bauunternehmen) und Bepflanzung, Wege, Außenbeleuchtung oder ein vollständiges Landschaftsprojekt benötigen. Wir besichtigen das Grundstück, bewerten Gelände und Boden und schlagen passende Lösungen vor.",
+    "tiersTitle": "Leistungsstufen und Preise",
+    "tiers": {
+      "basic": {
+        "name": "Entwurfsprojekt",
+        "price": "$12–15",
+        "priceNote": "Lageplan und Konzept",
+        "features": [
+          "Lageplan und Zonierung des Grundstücks",
+          "Bepflanzungskonzept",
+          "Pflanzenliste",
+          "Geeignet für eine frühe Budgetplanung"
+        ]
+      },
+      "standard": {
+        "name": "Mit 3D-Visualisierung",
+        "price": "$14–25",
+        "priceNote": "vollständiges Arbeitspaket",
+        "features": [
+          "Alles aus der Stufe „Entwurfsprojekt“",
+          "Pläne für Wege und Pflasterung",
+          "Konzept für die Außenbeleuchtung",
+          "3D-Visualisierung des Grundstücks"
+        ]
+      },
+      "premium": {
+        "name": "Premium / Bauüberwachung",
+        "price": "ab $25",
+        "priceNote": "Technik und Überwachung",
+        "features": [
+          "Alles aus der Stufe „Mit 3D-Visualisierung“",
+          "Drainage und automatische Bewässerung",
+          "Detaillierte Bearbeitung komplexen Geländes",
+          "Bauüberwachung während der Umsetzung"
+        ]
+      }
+    },
+    "perM2": "{price}/m²",
+    "popular": "Beliebteste Wahl",
+    "tierCta": "Diese Stufe wählen",
+    "note": "Der Preis gilt pro m² Grundstücksfläche. Für Grundstücke von 6–10 Sotka (Einheiten à 100 m²) gilt eine Festpreisregelung: Entwurfsprojekt $300–500/Sotka, vollständiges Arbeitsprojekt $500–800/Sotka. Mindestauftrag — ab $700 pro Objekt.",
+    "ctaTitle": "Nicht sicher, welche Stufe passt?",
+    "ctaText": "Hinterlassen Sie Ihre Nummer — wir besprechen Ihr Grundstück und finden die passende Lösung.",
+    "ctaButton": "Anfrage senden",
+    "success": "Danke! Wir melden uns in Kürze bei Ihnen.",
+    "faqTitle": "Häufig gestellte Fragen",
+    "faq": [
+      {
+        "question": "Wie viel kostet Landschaftsgestaltung?",
+        "answer": "Ab $12–15/m² für ein Entwurfsprojekt, $14–25/m² mit 3D-Visualisierung und vollständigem Plansatz, ab $25/m² für ein Premium-Format mit komplexer Technik. Für Grundstücke von 6–10 Sotka gilt eine Festpreisregelung: $300–800 pro Sotka je nach Format."
+      },
+      {
+        "question": "Kann ich Landschaftsgestaltung separat beauftragen, wenn Sie das Haus nicht gebaut haben?",
+        "answer": "Ja, das ist ein eigenständiger Service. Wir besichtigen jedes Grundstück — mit einem Haus von uns oder einem anderen Bauunternehmen — und bewerten Gelände, Boden und Ihre Wünsche vor Ort."
+      },
+      {
+        "question": "Wie hoch ist der Mindestauftragswert?",
+        "answer": "Der Mindestauftrag liegt bei $700 pro Objekt, auch für ein kleines Grundstück."
+      },
+      {
+        "question": "Wie lange dauert ein Landschaftsprojekt?",
+        "answer": "Ein Entwurfsprojekt ist in 1–2 Wochen fertig, ein vollständiges Arbeitsprojekt mit 3D dauert je nach Grundstücksgröße 3–5 Wochen."
+      }
+    ]
   }
 }

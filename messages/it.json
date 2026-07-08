@@ -5,7 +5,11 @@
     "configurator": "Configuratore",
     "design": "Progettazione",
     "faq": "FAQ",
-    "blog": "Blog"
+    "blog": "Blog",
+    "services": "Servizi",
+    "interiorDesign": "Interior design",
+    "landscapeDesign": "Progettazione del giardino",
+    "more": "Altro"
   },
   "cta": {
     "startConfig": "Avvia la configurazione",
@@ -138,11 +142,11 @@
         },
         {
           "title": "Interior Design",
-          "description": "Soluzioni distributive e di stile per ogni ambiente — in armonia con l'architettura della casa, non aggiunte a parte."
+          "description": "Interior design per la vostra casa o appartamento — disponibile anche come servizio autonomo, anche se non l'abbiamo costruita noi."
         },
         {
           "title": "Progettazione del paesaggio",
-          "description": "Sistemazione del terreno, piantumazione e illuminazione esterna che completano il concept architettonico."
+          "description": "Progettazione del giardino, piantumazioni e illuminazione esterna — un servizio autonomo per qualsiasi casa, non solo per i nostri progetti."
         }
       ],
       "readMore": "Scopri di più"
@@ -696,12 +700,12 @@
       "description": "Articoli su costruzione, progettazione e costo di case, ville e cottage: consigli pratici di Velar Development."
     },
     "interiorDesign": {
-      "title": "Interior Design per case a Leopoli",
-      "description": "L'interior design come parte del progetto architettonico: distribuzione degli ambienti, stile e materiali in armonia con la facciata della casa. Costo stimato da 8 $/m²."
+      "title": "Interior design a Leopoli — servizio autonomo",
+      "description": "Interior design per qualsiasi casa o appartamento, anche se non l'abbiamo costruito noi. Planimetrie, render 3D e direzione lavori — da 14 $/m²."
     },
     "landscapeDesign": {
-      "title": "Progettazione del paesaggio a Leopoli",
-      "description": "Sistemazione del terreno, piantumazione e illuminazione esterna come parte del progetto architettonico della casa. Costo stimato da 700 $."
+      "title": "Progettazione del giardino a Leopoli — servizio autonomo",
+      "description": "Progettazione paesaggistica, piantumazioni e progetto completo per qualsiasi terreno, anche se non abbiamo costruito la casa. Da 12 $/m²."
     }
   },
   "designConfigurator": {
@@ -1206,37 +1210,141 @@
     "backToBlog": "Torna a tutti gli articoli"
   },
   "interiorDesignPage": {
-    "overline": "Interior Design",
-    "title": "Interior Design della casa",
-    "subtitle": "Un interno pensato insieme all'architettura, non aggiunto dopo la consegna della casa.",
-    "intro": "Non offriamo l'interior design come servizio a sé stante, «da strada» — viene progettato insieme all'architettura della casa, dallo stesso architetto o da uno specialista coordinato con lui, e aggiunto al tuo progetto nel configuratore di progettazione. Questo garantisce soluzioni distributive in linea con il tuo stile di vita già in fase di disegno, non corrette in seguito.",
-    "includesTitle": "Cosa è incluso",
-    "includes": [
-      "Soluzioni distributive per ogni ambiente, pensate insieme all'architettura e non separatamente da essa",
-      "Un concept di stile in armonia con l'aspetto esterno della casa",
-      "Selezione di materiali di finitura, colori e illuminazione",
-      "Visualizzazioni degli ambienti principali"
-    ],
-    "pricingTitle": "Costo stimato",
-    "pricingValue": "da 8 $/m²",
-    "pricingNote": "Si aggiunge al pacchetto di progettazione come servizio separato; l'importo finale dipende dalla superficie e dalla complessità dell'interno — il configuratore di progettazione fornisce una stima precisa.",
-    "cta": "Calcola nel configuratore di progettazione"
+    "overline": "Interior design",
+    "title": "Interior design",
+    "subtitle": "Un servizio autonomo per qualsiasi casa o appartamento — anche se non l'abbiamo progettato o costruito noi.",
+    "intro": "Contattateci se avete già una casa finita, un appartamento appena consegnato o un immobile dopo i lavori al grezzo e avete bisogno di un progetto di interior design. Lavoriamo sia sui nostri progetti sia su case costruite da altri costruttori: veniamo sul posto, misuriamo gli ambienti e proponiamo soluzioni adatte al vostro budget e ai vostri tempi.",
+    "tiersTitle": "Livelli di servizio e prezzi",
+    "tiers": {
+      "basic": {
+        "name": "Planimetria",
+        "price": "14–20 $",
+        "priceNote": "senza visualizzazione 3D",
+        "features": [
+          "Rilievo planimetrico e capitolato tecnico",
+          "Disposizione degli ambienti e degli arredi",
+          "Schemi elettrici, illuminotecnici e idraulici",
+          "Adatto se costruite da soli e non serve il render"
+        ]
+      },
+      "standard": {
+        "name": "Progetto completo",
+        "price": "30–45 $",
+        "priceNote": "con visualizzazione 3D",
+        "features": [
+          "Tutto quanto incluso nel livello «Planimetria»",
+          "Render 3D di ogni ambiente",
+          "Selezione di materiali, arredi e illuminazione",
+          "Set completo di tavole esecutive per gli artigiani"
+        ]
+      },
+      "premium": {
+        "name": "Direzione lavori",
+        "price": "da 70 $",
+        "priceNote": "assistenza per tutta la ristrutturazione",
+        "features": [
+          "Tutto quanto incluso nel livello «Progetto completo»",
+          "Sopralluoghi regolari del designer in cantiere",
+          "Controllo qualità delle imprese esecutrici",
+          "Decisioni rapide durante i lavori"
+        ]
+      }
+    },
+    "perM2": "{price}/m²",
+    "popular": "Più scelto",
+    "tierCta": "Scegli questo livello",
+    "note": "Il prezzo è per m² di superficie abitabile. Ordine minimo — a partire da 700 $ per progetto.",
+    "ctaTitle": "Non sai quale livello scegliere?",
+    "ctaText": "Lasciateci il vostro numero — parleremo della vostra situazione per trovare la soluzione migliore.",
+    "ctaButton": "Invia una richiesta",
+    "success": "Grazie! Vi ricontatteremo a breve.",
+    "faqTitle": "Domande frequenti",
+    "faq": [
+      {
+        "question": "Quanto costa l'interior design?",
+        "answer": "Dipende dal livello: da 14–20 $/m² per una planimetria senza visualizzazione, 30–45 $/m² per un progetto completo con 3D, da 70 $/m² per la direzione lavori durante tutta la ristrutturazione. L'importo esatto sarà confermato dopo un breve confronto sul vostro immobile."
+      },
+      {
+        "question": "Posso richiedere l'interior design come servizio autonomo, senza costruzione o progetto architettonico?",
+        "answer": "Sì. È un servizio autonomo — lavoriamo con qualsiasi casa o appartamento già realizzato, indipendentemente da chi l'ha costruito o progettato."
+      },
+      {
+        "question": "Quanto tempo serve per sviluppare un progetto?",
+        "answer": "Un progetto tecnico senza visualizzazione è pronto in 2–3 settimane; un progetto completo con render 3D richiede 4–6 settimane a seconda della superficie e del numero di ambienti."
+      },
+      {
+        "question": "Di cosa ho bisogno per iniziare?",
+        "answer": "Un rilievo planimetrico (o la possibilità che veniamo noi a misurare) e un breve brief sulle preferenze di stile e sul budget."
+      }
+    ]
   },
   "landscapeDesignPage": {
-    "overline": "Progettazione del paesaggio",
-    "title": "Progettazione del paesaggio del terreno",
-    "subtitle": "Una sistemazione esterna che completa l'architettura della casa, non qualcosa a parte.",
-    "intro": "Aggiungiamo la progettazione del paesaggio al progetto architettonico, invece di offrirla come servizio isolato e scollegato. Vialetti, zonizzazione del terreno, piantumazione e illuminazione esterna vengono pensati insieme alla facciata e alla collocazione della casa — perché il terreno risulti una continuazione organica del progetto, non un'improvvisazione successiva.",
-    "includesTitle": "Cosa è incluso",
-    "includes": [
-      "Zonizzazione del terreno: ingresso, parcheggio, aree relax e zona di servizio",
-      "Selezione e piantumazione di vegetazione adatta al clima e al terreno",
-      "Vialetti, aree pavimentate e piccole strutture esterne",
-      "Illuminazione esterna in armonia con la facciata della casa"
-    ],
-    "pricingTitle": "Costo stimato",
-    "pricingValue": "da 700 $",
-    "pricingNote": "Un servizio base fisso all'interno del progetto; il costo può aumentare in base alla superficie del terreno e alla complessità delle soluzioni — l'architetto conferma l'importo esatto.",
-    "cta": "Calcola nel configuratore di progettazione"
+    "overline": "Landscape design",
+    "title": "Progettazione del giardino",
+    "subtitle": "Un servizio autonomo per qualsiasi terreno — anche se non abbiamo progettato o costruito la casa.",
+    "intro": "Contattateci se avete già un terreno con una casa (costruita da noi o da un altro costruttore) e avete bisogno di piantumazioni, vialetti, illuminazione esterna o un progetto paesaggistico completo. Veniamo sul posto, valutiamo il terreno e il suolo e proponiamo soluzioni adatte al vostro budget.",
+    "tiersTitle": "Livelli di servizio e prezzi",
+    "tiers": {
+      "basic": {
+        "name": "Progetto di massima",
+        "price": "12–15 $",
+        "priceNote": "planimetria generale e concept",
+        "features": [
+          "Planimetria generale e zonizzazione del terreno",
+          "Concept di piantumazione",
+          "Elenco delle piante",
+          "Adatto per una prima stima di budget"
+        ]
+      },
+      "standard": {
+        "name": "Con visualizzazione 3D",
+        "price": "14–25 $",
+        "priceNote": "pacchetto esecutivo completo",
+        "features": [
+          "Tutto quanto incluso nel livello «Progetto di massima»",
+          "Tavole di pavimentazione e arredo esterno",
+          "Progetto di illuminazione esterna",
+          "Render 3D del terreno"
+        ]
+      },
+      "premium": {
+        "name": "Premium / direzione lavori",
+        "price": "da 25 $",
+        "priceNote": "impiantistica e direzione lavori",
+        "features": [
+          "Tutto quanto incluso nel livello «Con visualizzazione 3D»",
+          "Drenaggio e irrigazione automatica",
+          "Elaborazione dettagliata di terreni complessi",
+          "Direzione lavori durante la realizzazione"
+        ]
+      }
+    },
+    "perM2": "{price}/m²",
+    "popular": "Più scelto",
+    "tierCta": "Scegli questo livello",
+    "note": "Il prezzo è per m² di superficie del terreno. Per terreni di 6–10 sotka (unità da 100 m²) si applica un prezzo fisso: progetto di massima 300–500 $/sotka, progetto esecutivo completo 500–800 $/sotka. Ordine minimo — a partire da 700 $ per progetto.",
+    "ctaTitle": "Non sai quale livello scegliere?",
+    "ctaText": "Lasciateci il vostro numero — parleremo del vostro terreno per trovare la soluzione migliore.",
+    "ctaButton": "Invia una richiesta",
+    "success": "Grazie! Vi ricontatteremo a breve.",
+    "faqTitle": "Domande frequenti",
+    "faq": [
+      {
+        "question": "Quanto costa la progettazione del giardino?",
+        "answer": "Da 12–15 $/m² per un progetto di massima, 14–25 $/m² con visualizzazione 3D e pacchetto completo di tavole, da 25 $/m² per un formato premium con impiantistica complessa. Per terreni di 6–10 sotka si applica un prezzo fisso: 300–800 $ a sotka a seconda del livello."
+      },
+      {
+        "question": "Posso richiedere la progettazione del giardino separatamente se non avete costruito voi la casa?",
+        "answer": "Sì, è un servizio autonomo. Veniamo su qualsiasi terreno — con una casa costruita da noi o da un altro costruttore — e valutiamo sul posto il terreno, il suolo e le vostre esigenze."
+      },
+      {
+        "question": "Qual è l'ordine minimo?",
+        "answer": "L'ordine minimo è di 700 $ per progetto, anche per un terreno piccolo."
+      },
+      {
+        "question": "Quanto tempo richiede un progetto di giardino?",
+        "answer": "Un progetto di massima è pronto in 1–2 settimane; un progetto esecutivo completo con 3D richiede 3–5 settimane a seconda delle dimensioni del terreno."
+      }
+    ]
   }
 }
