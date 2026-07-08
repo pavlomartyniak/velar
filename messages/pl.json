@@ -102,8 +102,14 @@
     "story": {
       "overline": "Kim jesteśmy",
       "title": "Projektujemy i budujemy domy, które przetrwają pokolenia",
-      "p1": "Velar Development prowadzi Twój projekt od idei po przekazanie kluczy. Koordynujemy architektów, inżynierów i zespoły budowlane w ramach jednej umowy, dzięki czemu masz jeden punkt kontaktu, a nie dziesiątkę podwykonawców do uzgadniania osobno. Wszystko zaczyna się od projektu architektonicznego: przygotowujemy kompletny pakiet dokumentacji, a na życzenie realizujemy go pod klucz.",
+      "p1": "Velar Development prowadzi Twój projekt od idei po przekazanie kluczy. Budujemy proces tak, byś miał jeden punkt kontaktu, a nie dziesiątkę podwykonawców do uzgadniania osobno. Do każdego projektu dobieramy architektów, inżynierów i ekipy budowlane, których doświadczenie i styl najlepiej odpowiadają Twoim celom. Wszystko zaczyna się od projektu architektonicznego: przygotowujemy kompletny pakiet dokumentacji, a na życzenie realizujemy go pod klucz.",
       "p2": "Osobną usługą jest renowacja: troskliwe przywracanie do życia historycznych i zaniedbanych budynków, z zachowaniem ich charakteru i jednoczesnym wyposażeniem w nowoczesną instalację i komfort."
+    },
+    "founder": {
+      "overline": "Od założyciela",
+      "quote": "Do budownictwa trafiłem z praktyki prawniczej — i pierwsze, co rzuciło mi się w oczy, to jak często klienci gubią się między architektem, wykonawcą a własnymi domysłami, podpisując niejasne ustalenia. Od pięciu lat tworzę też produkty cyfrowe — i widziałem, że w tej branży brakuje narzędzi dających od razu jasną odpowiedź na pierwsze pytanie każdego: ile to będzie kosztować. Velar Development to próba połączenia obu doświadczeń: prawnie przejrzystych umów bez drobnego druku oraz kalkulatorów online, które pokazują orientacyjny koszt jeszcze przed pierwszą rozmową. Jesteśmy młodym studiem: do każdego projektu świadomie dobieramy sprawdzony zespół architektów, inżynierów i ekip budowlanych, zamiast utrzymywać rozdmuchany sztab dla pozoru. Moim osobistym zadaniem jest to, by ten zespół działał jak jedna całość — żebyś otrzymał rezultat, a nie wymówki.",
+      "name": "Pavlo Martyniak",
+      "title": "Założyciel Velar Development"
     },
     "services": {
       "overline": "Obszary działalności",
@@ -139,7 +145,7 @@
       "items": [
         {
           "title": "Jakość bez kompromisów",
-          "description": "Sprawdzone materiały, kontrola na każdym etapie i gwarantowany rezultat."
+          "description": "Osobista kontrola na każdym etapie, jasne kryteria jakości i odpowiedzialność za rezultat zapisana w umowie."
         },
         {
           "title": "Przejrzystość",

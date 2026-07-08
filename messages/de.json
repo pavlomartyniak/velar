@@ -102,8 +102,14 @@
     "story": {
       "overline": "Wer wir sind",
       "title": "Wir projektieren und bauen Häuser, die Generationen überdauern",
-      "p1": "Velar Development begleitet Ihr Projekt von der Idee bis zur Schlüsselübergabe. Wir koordinieren Architekten, Ingenieure und Baufirmen unter einem Vertrag, damit Sie einen Ansprechpartner haben statt mit einem Dutzend einzelner Auftragnehmer zu verhandeln. Alles beginnt mit dem Architekturprojekt: Wir erstellen das komplette Dokumentationspaket und setzen es auf Wunsch schlüsselfertig um.",
+      "p1": "Velar Development begleitet Ihr Projekt von der Idee bis zur Schlüsselübergabe. Wir gestalten den Prozess so, dass Sie einen Ansprechpartner haben statt mit einem Dutzend einzelner Auftragnehmer zu verhandeln. Für jedes Projekt wählen wir gezielt Architekten, Ingenieure und Baufirmen aus, deren Erfahrung und Stil am besten zu Ihren Zielen passen. Alles beginnt mit dem Architekturprojekt: Wir erstellen das komplette Dokumentationspaket und setzen es auf Wunsch schlüsselfertig um.",
       "p2": "Ein eigenständiger Service ist die Restaurierung: die behutsame Wiederbelebung historischer und vernachlässigter Gebäude, bei der ihr Charakter erhalten und zugleich moderne Technik und Komfort integriert werden."
+    },
+    "founder": {
+      "overline": "Vom Gründer",
+      "quote": "Ich kam aus der juristischen Praxis zum Bauwesen — und das Erste, was mir auffiel: wie oft Kunden zwischen Architekt, Bauunternehmer und eigenen Vermutungen verloren gehen und dabei vage Vereinbarungen unterschreiben. Außerdem entwickle ich seit fünf Jahren digitale Produkte — und sah, dass es in dieser Branche kaum Werkzeuge gibt, die sofort eine klare Antwort auf die wichtigste Frage geben: Was wird das kosten. Velar Development ist der Versuch, beide Erfahrungen zu verbinden: rechtlich transparente Verträge ohne Kleingedrucktes und Online-Rechner, die die geschätzten Kosten schon vor dem ersten Anruf zeigen. Wir sind ein junges Studio: Für jedes Projekt stellen wir bewusst ein geprüftes Team aus Architekten, Ingenieuren und Baubrigaden zusammen, statt einen aufgeblähten Stab nur zum Schein zu halten. Meine persönliche Aufgabe ist es, dafür zu sorgen, dass dieses Team wie eine Einheit arbeitet — damit Sie ein Ergebnis erhalten, keine Ausreden.",
+      "name": "Pavlo Martyniak",
+      "title": "Gründer von Velar Development"
     },
     "services": {
       "overline": "Tätigkeitsbereiche",
@@ -139,7 +145,7 @@
       "items": [
         {
           "title": "Kompromisslose Qualität",
-          "description": "Bewährte Materialien, Kontrolle in jeder Phase und ein garantiertes Ergebnis."
+          "description": "Persönliche Kontrolle in jeder Phase, klare Qualitätskriterien und eine im Vertrag festgehaltene Verantwortung für das Ergebnis."
         },
         {
           "title": "Transparenz",

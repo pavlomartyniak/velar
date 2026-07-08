@@ -102,8 +102,14 @@
     "story": {
       "overline": "Qui nous sommes",
       "title": "Nous concevons et construisons des maisons qui traversent les générations",
-      "p1": "Velar Development pilote votre projet de l'idée jusqu'aux clés. Nous coordonnons architectes, ingénieurs et équipes de construction sous un seul contrat, afin que vous ayez un seul interlocuteur plutôt que de négocier avec une dizaine de prestataires. Tout commence par le projet architectural : nous élaborons l'ensemble du dossier et, si vous le souhaitez, le réalisons clé en main.",
+      "p1": "Velar Development pilote votre projet de l'idée jusqu'aux clés. Nous construisons le processus pour que vous ayez un seul interlocuteur plutôt que de négocier avec une dizaine de prestataires. Pour chaque projet, nous sélectionnons des architectes, ingénieurs et équipes de construction dont l'expérience et le style correspondent le mieux à vos objectifs. Tout commence par le projet architectural : nous élaborons l'ensemble du dossier et, si vous le souhaitez, le réalisons clé en main.",
       "p2": "La restauration est un service à part : la remise en valeur soignée de bâtiments historiques et délaissés, en préservant leur caractère tout en les dotant d'une ingénierie et d'un confort modernes."
+    },
+    "founder": {
+      "overline": "Le mot du fondateur",
+      "quote": "Je suis arrivé à la construction depuis le droit — et la première chose qui m'a frappé, c'est à quel point les clients se perdent souvent entre l'architecte, l'entrepreneur et leurs propres suppositions, en signant des accords flous. Je développe aussi des produits numériques depuis cinq ans — et j'ai constaté que ce secteur ne dispose presque d'aucun outil donnant une réponse claire à la première question que tout le monde se pose : combien cela va-t-il coûter. Velar Development est une tentative de combiner les deux : des contrats juridiquement transparents, sans petits caractères, et des calculateurs en ligne qui affichent un coût estimatif avant même le premier appel. Nous sommes un jeune studio : pour chaque projet, nous constituons délibérément une équipe éprouvée d'architectes, d'ingénieurs et d'équipes de construction, plutôt que de maintenir un effectif gonflé pour la façade. Mon rôle personnel est de veiller à ce que cette équipe fonctionne comme un seul bloc — pour que vous obteniez un résultat, pas des excuses.",
+      "name": "Pavlo Martyniak",
+      "title": "Fondateur de Velar Development"
     },
     "services": {
       "overline": "Domaines d'activité",
@@ -139,7 +145,7 @@
       "items": [
         {
           "title": "Qualité sans compromis",
-          "description": "Matériaux éprouvés, contrôle à chaque étape et résultat garanti."
+          "description": "Suivi personnel à chaque étape, critères de qualité clairs et responsabilité du résultat inscrite dans le contrat."
         },
         {
           "title": "Transparence",

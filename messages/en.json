@@ -102,8 +102,14 @@
     "story": {
       "overline": "Who we are",
       "title": "We design and build homes that outlive generations",
-      "p1": "Velar Development manages your project from idea to keys. We coordinate architects, engineers and construction teams under a single contract, so you have one point of contact instead of negotiating with a dozen separate contractors. It all starts with the architectural project: we develop the full documentation package and, if you wish, build it turnkey.",
+      "p1": "Velar Development manages your project from idea to keys. We build the process so you have one point of contact instead of negotiating with a dozen separate contractors. For every project, we hand-pick architects, engineers and construction teams whose experience and style best match your goals. It all starts with the architectural project: we develop the full documentation package and, if you wish, build it turnkey.",
       "p2": "A separate service is restoration: careful revival of historic and neglected buildings, preserving their character while upgrading them with modern engineering and comfort."
+    },
+    "founder": {
+      "overline": "From the founder",
+      "quote": "I came into construction from a legal background — and the first thing I noticed was how often clients get lost between the architect, the contractor and their own guesswork, signing vague agreements. I've also spent five years building digital products — and saw that this industry has almost no tools that give a clear answer to the first question anyone asks: how much will this cost. Velar Development is an attempt to combine both: legally transparent contracts with no fine print, and online calculators that show an estimated cost before the first phone call. We're a young studio: for every project, we deliberately assemble a vetted team of architects, engineers and construction crews, rather than keeping an inflated staff for appearances. My personal job is to make sure that team works as one — so you get a result, not excuses.",
+      "name": "Pavlo Martyniak",
+      "title": "Founder of Velar Development"
     },
     "services": {
       "overline": "What we do",
@@ -139,7 +145,7 @@
       "items": [
         {
           "title": "Uncompromising quality",
-          "description": "Proven materials, control at every stage and a guaranteed result."
+          "description": "Personal oversight at every stage, clear quality criteria, and accountability for the result, written into the contract."
         },
         {
           "title": "Transparency",

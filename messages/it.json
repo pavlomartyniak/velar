@@ -102,8 +102,14 @@
     "story": {
       "overline": "Chi siamo",
       "title": "Progettiamo e costruiamo case che attraversano le generazioni",
-      "p1": "Velar Development gestisce il tuo progetto dall'idea alle chiavi. Coordiniamo architetti, ingegneri e squadre di costruzione sotto un unico contratto, così hai un solo referente invece di trattare con dieci fornitori diversi. Tutto inizia con il progetto architettonico: sviluppiamo l'intero pacchetto di documentazione e, se lo desideri, lo realizziamo chiavi in mano.",
+      "p1": "Velar Development gestisce il tuo progetto dall'idea alle chiavi. Costruiamo il processo in modo che tu abbia un solo referente invece di trattare con dieci fornitori diversi. Per ogni progetto selezioniamo architetti, ingegneri e squadre di costruzione la cui esperienza e il cui stile rispondono meglio ai tuoi obiettivi. Tutto inizia con il progetto architettonico: sviluppiamo l'intero pacchetto di documentazione e, se lo desideri, lo realizziamo chiavi in mano.",
       "p2": "Un servizio a parte è il restauro: il recupero attento di edifici storici e abbandonati, preservandone il carattere e dotandoli al contempo di impiantistica e comfort moderni."
+    },
+    "founder": {
+      "overline": "Dal fondatore",
+      "quote": "Sono arrivato all'edilizia dalla pratica legale — e la prima cosa che ho notato è quanto spesso i clienti si perdano tra architetto, impresa e proprie supposizioni, firmando accordi vaghi. Sviluppo anche prodotti digitali da cinque anni — e ho visto che in questo settore mancano quasi del tutto strumenti capaci di dare subito una risposta chiara alla prima domanda che tutti si pongono: quanto costerà. Velar Development è un tentativo di unire entrambe le esperienze: contratti legalmente trasparenti senza clausole nascoste e calcolatori online che mostrano un costo stimato prima ancora della prima chiamata. Siamo uno studio giovane: per ogni progetto assembliamo consapevolmente un team verificato di architetti, ingegneri e squadre di costruzione, invece di mantenere un organico gonfiato solo per apparenza. Il mio compito personale è far sì che questo team lavori come un unico corpo — perché tu ottenga un risultato, non delle scuse.",
+      "name": "Pavlo Martyniak",
+      "title": "Fondatore di Velar Development"
     },
     "services": {
       "overline": "Aree di attività",
@@ -139,7 +145,7 @@
       "items": [
         {
           "title": "Qualità senza compromessi",
-          "description": "Materiali comprovati, controllo in ogni fase e risultato garantito."
+          "description": "Controllo personale in ogni fase, criteri di qualità chiari e responsabilità sul risultato, scritta nel contratto."
         },
         {
           "title": "Trasparenza",
