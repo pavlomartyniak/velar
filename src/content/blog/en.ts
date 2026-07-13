@@ -346,4 +346,90 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "tsokolnyi-poverh-chy-potriben",
+    title: "Basement level: does your house actually need one",
+    description:
+      "Comparing three basement options — none, technical, and living space: how much area and function each adds, and how it affects the construction budget.",
+    excerpt:
+      "Extra usable space without expanding the footprint, or an extra line item? We break down when a basement level pays for itself and when you're better off without one.",
+    publishedAt: "2026-07-20",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "A basement level is one of those decisions that's easy to put off for later, since it doesn't affect the house's exterior. That's exactly why it's most often underestimated when planning the budget, even though it can add significant usable area without increasing the building's footprint.",
+      },
+      { type: "heading", text: "No basement" },
+      {
+        type: "paragraph",
+        text: "A standard foundation with no additional underground level — the most predictable option in terms of cost and construction timeline. The logical choice if you don't need extra area, or if the plot or budget doesn't allow for it.",
+      },
+      { type: "heading", text: "Technical basement" },
+      {
+        type: "paragraph",
+        text: "Space for the boiler room, storage, and technical systems, moved out of the living part of the house. A practical solution that frees up the main floors from utility rooms, adding only a modest few percent to the budget.",
+      },
+      { type: "heading", text: "Living basement" },
+      {
+        type: "paragraph",
+        text: "A full-fledged space for living functions — a gym, spa area, home cinema, or an extra guest room. A more expensive option due to waterproofing, ventilation, and lighting requirements, but it delivers substantially more usable area on the same plot.",
+      },
+      { type: "heading", text: "When it's worth it, and when it isn't" },
+      {
+        type: "list",
+        items: [
+          "A small plot, or wanting to make the most of every square meter — a living basement justifies the higher cost",
+          "Limited budget with enough area on the main floors already — a standard foundation without a basement is the smarter choice",
+          "You need space for utilities but no extra comfort requirements — a technical basement as the middle ground",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The cost difference between the three options depends on the area and terrain of your specific plot. In the construction configurator you can compare all three at once and see how each affects the estimated budget for your house.",
+      },
+    ],
+  },
+  {
+    slug: "yaki-vikna-obraty-dlya-budynku",
+    title: "Which windows to choose for your house: standard, energy-efficient, or premium",
+    description:
+      "Comparing three window types for a private house by insulation, price, and appearance — and how to choose the right one for your project.",
+    excerpt:
+      "Windows affect both your heating bills and the house's facade — yet the decision about them often gets made last. Here's which type to choose, and when.",
+    publishedAt: "2026-07-27",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Windows are one of the few elements of a house that affect both the facade's aesthetics and your monthly heating bills at the same time. Yet the decision about window type is often made last, already during construction, even though it's worth planning at the design stage.",
+      },
+      { type: "heading", text: "Standard windows" },
+      {
+        type: "paragraph",
+        text: "A double-chamber glass unit — the optimal balance of price and insulation for most climate conditions. A sensible baseline choice if windows aren't the top budget priority.",
+      },
+      { type: "heading", text: "Energy-efficient windows" },
+      {
+        type: "paragraph",
+        text: "A triple-chamber profile with reinforced insulation noticeably reduces heat loss compared to the standard option. The extra cost of the windows pays for itself through lower heating expenses — especially noticeable when paired with a heat pump.",
+      },
+      { type: "heading", text: "Premium windows" },
+      {
+        type: "paragraph",
+        text: "Large-format panoramic windows with maximum energy efficiency — the choice for projects where large glazed surfaces are part of the architectural concept (minimalism, modern contemporary). A more expensive option that requires a more precise calculation of the house's thermal balance.",
+      },
+      { type: "heading", text: "How to choose for your own project" },
+      {
+        type: "list",
+        items: [
+          "Standard budget, modest window area relative to the facade — the standard option is enough",
+          "Planning a heat pump or long-term savings on heating — energy-efficient windows pay for themselves quickly",
+          "An architectural style with large glass surfaces or panoramic glazing — premium windows are practically mandatory",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Window type is one of the parameters accounted for directly in the construction configurator: choose an option and see how it affects the estimated budget and energy efficiency of your future house.",
+      },
+    ],
+  },
 ];

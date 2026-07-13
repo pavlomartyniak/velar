@@ -622,7 +622,8 @@
             "label": "Wohnlich",
             "description": "Fitnessraum, Spa, Heimkino usw."
           }
-        }
+        },
+        "articleLink": "Kellergeschoss: Braucht Ihr Haus wirklich eins"
       },
       "windows": {
         "title": "Fenstertyp",
@@ -640,7 +641,8 @@
             "label": "Premium",
             "description": "Großformatige Fenster, maximale Energieeffizienz."
           }
-        }
+        },
+        "articleLink": "Welche Fenster fürs Haus wählen"
       }
     }
   },
@@ -822,7 +824,8 @@
             "label": "Wohnlich",
             "description": "Fitness, SPA, Kino usw."
           }
-        }
+        },
+        "articleLink": "Kellergeschoss: Braucht Ihr Haus wirklich eins"
       },
       "garage": {
         "title": "Garage",

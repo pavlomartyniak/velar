@@ -346,4 +346,90 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "tsokolnyi-poverh-chy-potriben",
+    title: "Kellergeschoss: Braucht Ihr Haus wirklich eins",
+    description:
+      "Wir vergleichen drei Kellervarianten — ohne Keller, technischer Keller und Wohnkeller: wie viel Fläche und Funktion jede Variante bringt und wie sich das auf das Baubudget auswirkt.",
+    excerpt:
+      "Zusätzliche Nutzfläche ohne größeres Grundstück oder nur ein zusätzlicher Kostenpunkt? Wir erklären, wann sich ein Kellergeschoss lohnt und wann man besser darauf verzichtet.",
+    publishedAt: "2026-07-20",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Ein Kellergeschoss ist eine jener Entscheidungen, die man leicht auf später verschieben kann, da sie das äußere Erscheinungsbild des Hauses nicht beeinflusst. Genau deshalb wird sie bei der Budgetplanung am häufigsten unterschätzt, obwohl sie erhebliche Nutzfläche hinzufügen kann, ohne die bebaute Fläche des Grundstücks zu vergrößern.",
+      },
+      { type: "heading", text: "Ohne Keller" },
+      {
+        type: "paragraph",
+        text: "Ein Standardfundament ohne zusätzliches Untergeschoss — die berechenbarste Variante hinsichtlich Kosten und Bauzeit. Die logische Wahl, wenn keine zusätzliche Fläche benötigt wird oder Grundstück bzw. Budget dies nicht zulassen.",
+      },
+      { type: "heading", text: "Technisches Kellergeschoss" },
+      {
+        type: "paragraph",
+        text: "Räume für Heizraum, Abstellräume und Haustechnik, ausgelagert aus dem Wohnbereich. Eine praktische Lösung, die die Hauptgeschosse von technischen Räumen entlastet und dem Budget nur moderate paar Prozent hinzufügt.",
+      },
+      { type: "heading", text: "Wohnkeller" },
+      {
+        type: "paragraph",
+        text: "Ein vollwertiger Raum für Wohnfunktionen — Fitnessraum, Spa-Bereich, Heimkino oder ein zusätzliches Gästezimmer. Aufgrund der Anforderungen an Abdichtung, Belüftung und Beleuchtung teurer, bringt aber deutlich mehr Nutzfläche auf demselben Grundstück.",
+      },
+      { type: "heading", text: "Wann es sich lohnt und wann nicht" },
+      {
+        type: "list",
+        items: [
+          "Kleines Grundstück oder der Wunsch, jeden Quadratmeter optimal zu nutzen — ein Wohnkeller rechtfertigt die höheren Kosten",
+          "Begrenztes Budget und ausreichend Fläche in den Hauptgeschossen — ein Standardfundament ohne Keller ist die klügere Wahl",
+          "Platzbedarf für Haustechnik, aber ohne zusätzliche Komfortansprüche — der technische Keller als Mittelweg",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Der Kostenunterschied zwischen den drei Varianten hängt von Fläche und Geländeform Ihres konkreten Grundstücks ab. Im Baukonfigurator können Sie alle drei Varianten direkt vergleichen und sehen, wie sich jede auf das geschätzte Budget Ihres Hauses auswirkt.",
+      },
+    ],
+  },
+  {
+    slug: "yaki-vikna-obraty-dlya-budynku",
+    title: "Welche Fenster fürs Haus: Standard, energieeffizient oder Premium",
+    description:
+      "Wir vergleichen drei Fenstertypen für ein Einfamilienhaus nach Wärmedämmung, Preis und Optik — und wie Sie die richtige Variante für Ihr Projekt wählen.",
+    excerpt:
+      "Fenster beeinflussen sowohl die Heizkosten als auch die Fassade des Hauses — trotzdem wird die Entscheidung darüber oft zuletzt getroffen. Wir erklären, welcher Typ wann sinnvoll ist.",
+    publishedAt: "2026-07-27",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Fenster sind eines der wenigen Hauselemente, die gleichzeitig die Ästhetik der Fassade und die monatlichen Heizkosten beeinflussen. Trotzdem wird die Entscheidung über den Fenstertyp oft erst zuletzt getroffen, schon während des Baus, obwohl man sie bereits in der Planungsphase festlegen sollte.",
+      },
+      { type: "heading", text: "Standardfenster" },
+      {
+        type: "paragraph",
+        text: "Ein Zweikammer-Glasverbund — das optimale Verhältnis von Preis und Wärmedämmung für die meisten Klimabedingungen. Eine sinnvolle Basiswahl, wenn Fenster nicht die höchste Budgetpriorität haben.",
+      },
+      { type: "heading", text: "Energieeffiziente Fenster" },
+      {
+        type: "paragraph",
+        text: "Ein Dreikammerprofil mit verstärkter Wärmedämmung reduziert die Wärmeverluste im Vergleich zur Standardvariante deutlich. Der Mehrpreis der Fenster amortisiert sich durch geringere Heizkosten — besonders spürbar in Kombination mit einer Wärmepumpe.",
+      },
+      { type: "heading", text: "Premium-Fenster" },
+      {
+        type: "paragraph",
+        text: "Großformatige Panoramafenster mit maximaler Energieeffizienz — die Wahl für Projekte, bei denen große Glasflächen Teil des architektonischen Konzepts sind (Minimalismus, moderner zeitgenössischer Stil). Eine teurere Variante, die eine präzisere Berechnung der Wärmebilanz des Hauses erfordert.",
+      },
+      { type: "heading", text: "Wie Sie für Ihr eigenes Projekt wählen" },
+      {
+        type: "list",
+        items: [
+          "Standardbudget, geringer Fensteranteil an der Fassade — die Standardvariante genügt",
+          "Sie planen eine Wärmepumpe oder langfristige Einsparungen bei der Heizung — energieeffiziente Fenster amortisieren sich schnell",
+          "Architektonischer Stil mit großen Glasflächen oder Panoramaverglasung — Premium-Fenster sind praktisch unverzichtbar",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Der Fenstertyp ist einer der Parameter, die direkt im Baukonfigurator berücksichtigt werden: Wählen Sie eine Variante und sehen Sie, wie sie sich auf das geschätzte Budget und die Energieeffizienz Ihres zukünftigen Hauses auswirkt.",
+      },
+    ],
+  },
 ];

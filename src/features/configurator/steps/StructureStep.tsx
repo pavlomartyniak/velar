@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { Box, Stack, Typography } from "@mui/material";
 import { BASEMENT_OPTIONS, WINDOWS_OPTIONS } from "../schema";
 import ChoiceQuestion from "./ChoiceQuestion";
+import ArticleLinkHint from "@/components/shared/ArticleLinkHint";
 
 export default function StructureStep() {
   const t = useTranslations("configurator.structure");
@@ -36,11 +37,19 @@ export default function StructureStep() {
         hint={t("basement.hint")}
         options={basement}
       />
+      <ArticleLinkHint
+        slug="tsokolnyi-poverh-chy-potriben"
+        label={t("basement.articleLink")}
+      />
       <ChoiceQuestion
         name="windows"
         title={t("windows.title")}
         hint={t("windows.hint")}
         options={windows}
+      />
+      <ArticleLinkHint
+        slug="yaki-vikna-obraty-dlya-budynku"
+        label={t("windows.articleLink")}
       />
     </Stack>
   );

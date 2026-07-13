@@ -622,7 +622,8 @@
             "label": "Abitabile",
             "description": "Palestra, spa, home cinema, ecc."
           }
-        }
+        },
+        "articleLink": "Piano interrato: la tua casa ne ha bisogno"
       },
       "windows": {
         "title": "Tipo di finestre",
@@ -640,7 +641,8 @@
             "label": "Premium",
             "description": "Finestre di grande formato, massima efficienza energetica."
           }
-        }
+        },
+        "articleLink": "Quali finestre scegliere per la casa"
       }
     }
   },
@@ -822,7 +824,8 @@
             "label": "Abitabile",
             "description": "Palestra, SPA, cinema, ecc."
           }
-        }
+        },
+        "articleLink": "Piano interrato: la tua casa ne ha bisogno"
       },
       "garage": {
         "title": "Garage",

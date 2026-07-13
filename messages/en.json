@@ -622,7 +622,8 @@
             "label": "Livable",
             "description": "Gym, spa, home cinema, etc."
           }
-        }
+        },
+        "articleLink": "Basement level: does your house need one"
       },
       "windows": {
         "title": "Window type",
@@ -640,7 +641,8 @@
             "label": "Premium",
             "description": "Large-format windows, maximum energy efficiency."
           }
-        }
+        },
+        "articleLink": "Which windows to choose for your house"
       }
     }
   },
@@ -822,7 +824,8 @@
             "label": "Living",
             "description": "Gym, SPA, cinema, etc."
           }
-        }
+        },
+        "articleLink": "Basement level: does your house need one"
       },
       "garage": {
         "title": "Garage",

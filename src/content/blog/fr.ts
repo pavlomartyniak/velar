@@ -346,4 +346,90 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "tsokolnyi-poverh-chy-potriben",
+    title: "Sous-sol : votre maison en a-t-elle vraiment besoin",
+    description:
+      "Comparaison de trois options de sous-sol — absence, technique et habitable : la surface et les fonctions qu'apporte chacune, et leur impact sur le budget de construction.",
+    excerpt:
+      "Surface utile supplémentaire sans agrandir le terrain, ou simple poste de dépense en plus ? Voyons quand un sous-sol se rentabilise et quand mieux vaut s'en passer.",
+    publishedAt: "2026-07-20",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Le sous-sol est une de ces décisions qu'on remet facilement à plus tard, car elle n'affecte pas l'apparence extérieure de la maison. C'est justement pour cela qu'elle est souvent sous-estimée lors de la planification du budget, alors qu'elle peut ajouter une surface utile importante sans augmenter l'emprise au sol du bâtiment.",
+      },
+      { type: "heading", text: "Sans sous-sol" },
+      {
+        type: "paragraph",
+        text: "Une fondation standard sans niveau souterrain supplémentaire — l'option la plus prévisible en termes de coût et de délai de construction. Un choix logique si vous n'avez pas besoin de surface supplémentaire, ou si le terrain ou le budget ne le permettent pas.",
+      },
+      { type: "heading", text: "Sous-sol technique" },
+      {
+        type: "paragraph",
+        text: "Des espaces pour la chaufferie, le rangement et les équipements techniques, sortis de la partie habitable de la maison. Une solution pratique qui libère les étages principaux des pièces techniques, pour seulement quelques pour cent de budget en plus.",
+      },
+      { type: "heading", text: "Sous-sol habitable" },
+      {
+        type: "paragraph",
+        text: "Un espace à part entière pour des fonctions de vie — salle de sport, espace spa, cinéma maison ou chambre d'amis supplémentaire. Une option plus coûteuse en raison des exigences d'étanchéité, de ventilation et d'éclairage, mais qui offre nettement plus de surface utile sur le même terrain.",
+      },
+      { type: "heading", text: "Quand cela vaut le coup, et quand non" },
+      {
+        type: "list",
+        items: [
+          "Petit terrain ou volonté d'exploiter chaque mètre carré au maximum — un sous-sol habitable justifie le coût plus élevé",
+          "Budget limité et surface suffisante aux étages principaux — une fondation standard sans sous-sol est le choix le plus judicieux",
+          "Besoin d'espace pour les équipements techniques mais sans exigence de confort supplémentaire — le sous-sol technique comme solution intermédiaire",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "La différence de coût entre les trois options dépend de la surface et du relief de votre terrain spécifique. Le configurateur de construction permet de comparer les trois options en même temps et de voir comment chacune influence le budget estimé de votre maison.",
+      },
+    ],
+  },
+  {
+    slug: "yaki-vikna-obraty-dlya-budynku",
+    title: "Quelles fenêtres choisir pour sa maison : standard, à haute efficacité énergétique ou premium",
+    description:
+      "Comparaison de trois types de fenêtres pour une maison individuelle selon l'isolation, le prix et l'aspect esthétique — et comment choisir l'option adaptée à votre projet.",
+    excerpt:
+      "Les fenêtres influencent à la fois les factures de chauffage et la façade de la maison — pourtant la décision les concernant est souvent prise en dernier. Voyons quel type choisir, et quand.",
+    publishedAt: "2026-07-27",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Les fenêtres sont l'un des rares éléments de la maison à influencer à la fois l'esthétique de la façade et les factures de chauffage mensuelles. Pourtant, la décision sur le type de fenêtres est souvent prise en dernier, déjà pendant la construction, alors qu'il vaudrait mieux la planifier dès la phase de conception.",
+      },
+      { type: "heading", text: "Fenêtres standard" },
+      {
+        type: "paragraph",
+        text: "Un double vitrage — le meilleur rapport entre prix et isolation pour la plupart des conditions climatiques. Un choix de base judicieux si les fenêtres ne sont pas la priorité budgétaire principale.",
+      },
+      { type: "heading", text: "Fenêtres à haute efficacité énergétique" },
+      {
+        type: "paragraph",
+        text: "Un profilé à triple chambre avec isolation renforcée réduit nettement les pertes de chaleur par rapport à l'option standard. La différence de prix des fenêtres se rentabilise grâce à des coûts de chauffage réduits — particulièrement visible en association avec une pompe à chaleur.",
+      },
+      { type: "heading", text: "Fenêtres premium" },
+      {
+        type: "paragraph",
+        text: "Des fenêtres panoramiques grand format à l'efficacité énergétique maximale — le choix pour les projets où de grandes surfaces vitrées font partie du concept architectural (minimalisme, moderne contemporain). Une option plus coûteuse qui exige un calcul plus précis du bilan thermique de la maison.",
+      },
+      { type: "heading", text: "Comment choisir pour votre propre projet" },
+      {
+        type: "list",
+        items: [
+          "Budget standard, surface vitrée modeste par rapport à la façade — l'option standard suffit",
+          "Vous prévoyez une pompe à chaleur ou des économies de chauffage à long terme — les fenêtres à haute efficacité énergétique se rentabilisent rapidement",
+          "Style architectural avec de grandes surfaces vitrées ou un vitrage panoramique — les fenêtres premium sont pratiquement indispensables",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Le type de fenêtres est un des paramètres pris en compte directement dans le configurateur de construction : choisissez une option et voyez comment elle influence le budget estimé et l'efficacité énergétique de votre future maison.",
+      },
+    ],
+  },
 ];

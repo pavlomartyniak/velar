@@ -13,6 +13,7 @@ import {
   type DesignConfiguratorValues,
 } from "../schema";
 import DesignChoiceQuestion from "./DesignChoiceQuestion";
+import ArticleLinkHint from "@/components/shared/ArticleLinkHint";
 
 const marks = [
   { value: 60, label: "60" },
@@ -83,6 +84,10 @@ export default function HouseStep() {
 
       <DesignChoiceQuestion name="floors" title={t("floors.title")} options={floors} />
       <DesignChoiceQuestion name="basement" title={t("basement.title")} options={basement} />
+      <ArticleLinkHint
+        slug="tsokolnyi-poverh-chy-potriben"
+        label={t("basement.articleLink")}
+      />
       <DesignChoiceQuestion name="garage" title={t("garage.title")} options={garage} />
     </Stack>
   );

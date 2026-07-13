@@ -346,4 +346,90 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "tsokolnyi-poverh-chy-potriben",
+    title: "Poziom piwnicy: czy twój dom naprawdę go potrzebuje",
+    description:
+      "Porównujemy trzy warianty piwnicy — brak, techniczna i mieszkalna: ile powierzchni i funkcji dodaje każdy z nich oraz jak wpływa to na budżet budowy.",
+    excerpt:
+      "Dodatkowa powierzchnia użytkowa bez powiększania działki czy zbędny koszt? Sprawdzamy, kiedy piwnica się opłaca, a kiedy lepiej z niej zrezygnować.",
+    publishedAt: "2026-07-20",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Piwnica to jedna z tych decyzji, które łatwo odłożyć na później, bo nie wpływa na wygląd zewnętrzny domu. Właśnie dlatego jest najczęściej niedoceniana na etapie planowania budżetu, choć może dodać znaczną powierzchnię użytkową bez powiększania rzutu budynku.",
+      },
+      { type: "heading", text: "Bez piwnicy" },
+      {
+        type: "paragraph",
+        text: "Standardowy fundament bez dodatkowej kondygnacji podziemnej — najbardziej przewidywalny wariant pod względem kosztów i terminu budowy. Logiczny wybór, jeśli dodatkowa powierzchnia nie jest potrzebna albo działka czy budżet na to nie pozwalają.",
+      },
+      { type: "heading", text: "Piwnica techniczna" },
+      {
+        type: "paragraph",
+        text: "Pomieszczenia na kotłownię, schowki i instalacje techniczne, wyniesione poza część mieszkalną domu. Praktyczne rozwiązanie, które odciąża główne kondygnacje od pomieszczeń technicznych, dodając do budżetu jedynie kilka procent.",
+      },
+      { type: "heading", text: "Piwnica mieszkalna" },
+      {
+        type: "paragraph",
+        text: "Pełnoprawna przestrzeń o funkcji mieszkalnej — siłownia, strefa SPA, kino domowe czy dodatkowy pokój gościnny. Droższy wariant ze względu na wymagania hydroizolacji, wentylacji i oświetlenia, ale daje znacznie więcej powierzchni użytkowej na tej samej działce.",
+      },
+      { type: "heading", text: "Kiedy warto, a kiedy nie" },
+      {
+        type: "list",
+        items: [
+          "Mała działka lub chęć maksymalnego wykorzystania każdego metra kwadratowego — piwnica mieszkalna uzasadnia wyższy koszt",
+          "Ograniczony budżet i wystarczająca powierzchnia na głównych kondygnacjach — standardowy fundament bez piwnicy będzie rozsądniejszym wyborem",
+          "Potrzebne miejsce na instalacje, ale bez dodatkowych wymagań co do komfortu — piwnica techniczna jako rozwiązanie pośrednie",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Różnica w kosztach między trzema wariantami zależy od powierzchni i ukształtowania terenu konkretnej działki. W konfiguratorze budowy można porównać wszystkie trzy warianty naraz i zobaczyć, jak każdy wpływa na orientacyjny budżet twojego domu.",
+      },
+    ],
+  },
+  {
+    slug: "yaki-vikna-obraty-dlya-budynku",
+    title: "Jakie okna wybrać do domu: standardowe, energooszczędne czy premium",
+    description:
+      "Porównujemy trzy typy okien dla domu jednorodzinnego pod względem izolacyjności, ceny i wyglądu — i jak wybrać wariant odpowiedni dla twojego projektu.",
+    excerpt:
+      "Okna wpływają zarówno na rachunki za ogrzewanie, jak i na fasadę domu — a decyzję o nich podejmuje się często na końcu. Sprawdzamy, który typ wybrać i kiedy.",
+    publishedAt: "2026-07-27",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Okna to jeden z niewielu elementów domu, które jednocześnie wpływają na estetykę fasady i na comiesięczne rachunki za ogrzewanie. Mimo to decyzję o typie okien podejmuje się często na końcu, już w trakcie budowy, choć warto zaplanować ją już na etapie projektu.",
+      },
+      { type: "heading", text: "Okna standardowe" },
+      {
+        type: "paragraph",
+        text: "Dwukomorowy pakiet szybowy — optymalny stosunek ceny do izolacyjności dla większości warunków klimatycznych. Rozsądny wybór bazowy, jeśli okna nie są największym priorytetem budżetu.",
+      },
+      { type: "heading", text: "Okna energooszczędne" },
+      {
+        type: "paragraph",
+        text: "Trzykomorowy profil ze wzmocnioną izolacją termiczną wyraźnie ogranicza straty ciepła w porównaniu do wariantu standardowego. Różnica w cenie okien zwraca się dzięki niższym kosztom ogrzewania — szczególnie widoczne w połączeniu z pompą ciepła.",
+      },
+      { type: "heading", text: "Okna premium" },
+      {
+        type: "paragraph",
+        text: "Wielkoformatowe okna panoramiczne o maksymalnej energooszczędności — wybór dla projektów, gdzie duże przeszklone powierzchnie są częścią koncepcji architektonicznej (minimalizm, nowoczesny modernizm). Droższy wariant, który wymaga dokładniejszego obliczenia bilansu cieplnego domu.",
+      },
+      { type: "heading", text: "Jak wybrać dla własnego projektu" },
+      {
+        type: "list",
+        items: [
+          "Standardowy budżet, niewielka powierzchnia okien względem fasady — wariant standardowy wystarczy",
+          "Planujesz pompę ciepła lub długoterminowe oszczędności na ogrzewaniu — okna energooszczędne szybko się zwracają",
+          "Styl architektoniczny z dużymi przeszkleniami lub oszkleniem panoramicznym — okna premium są praktycznie obowiązkowe",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Typ okien to jeden z parametrów uwzględnianych bezpośrednio w konfiguratorze budowy: wybierz wariant i zobacz, jak wpływa na orientacyjny budżet i efektywność energetyczną twojego przyszłego domu.",
+      },
+    ],
+  },
 ];

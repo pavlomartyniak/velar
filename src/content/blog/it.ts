@@ -346,4 +346,90 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "tsokolnyi-poverh-chy-potriben",
+    title: "Piano interrato: la tua casa ne ha davvero bisogno",
+    description:
+      "Confrontiamo tre opzioni di piano interrato — assente, tecnico e abitabile: quanta superficie e funzionalità aggiunge ciascuna e come incide sul budget di costruzione.",
+    excerpt:
+      "Superficie utile extra senza ampliare il lotto, o solo una voce di spesa in più? Analizziamo quando un piano interrato si ripaga e quando è meglio farne a meno.",
+    publishedAt: "2026-07-20",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Il piano interrato è una di quelle decisioni facili da rimandare, perché non incide sull'aspetto esterno della casa. Proprio per questo viene spesso sottovalutato in fase di pianificazione del budget, anche se può aggiungere superficie utile significativa senza aumentare l'impronta a terra dell'edificio.",
+      },
+      { type: "heading", text: "Senza piano interrato" },
+      {
+        type: "paragraph",
+        text: "Una fondazione standard senza livello interrato aggiuntivo — l'opzione più prevedibile in termini di costi e tempi di costruzione. Scelta logica se non serve superficie extra, o se il lotto o il budget non lo consentono.",
+      },
+      { type: "heading", text: "Piano interrato tecnico" },
+      {
+        type: "paragraph",
+        text: "Spazi per la centrale termica, ripostigli e impianti tecnici, spostati fuori dalla zona abitativa. Una soluzione pratica che libera i piani principali dai locali tecnici, aggiungendo al budget solo qualche punto percentuale.",
+      },
+      { type: "heading", text: "Piano interrato abitabile" },
+      {
+        type: "paragraph",
+        text: "Uno spazio a tutti gli effetti per funzioni abitative — palestra, zona spa, home cinema o una camera ospiti in più. Opzione più costosa per i requisiti di impermeabilizzazione, ventilazione e illuminazione, ma offre molta più superficie utile sullo stesso lotto.",
+      },
+      { type: "heading", text: "Quando conviene e quando no" },
+      {
+        type: "list",
+        items: [
+          "Lotto piccolo o volontà di sfruttare al massimo ogni metro quadro — il piano interrato abitabile giustifica il costo maggiore",
+          "Budget limitato e superficie sufficiente ai piani principali — una fondazione standard senza interrato è la scelta più sensata",
+          "Serve spazio per gli impianti ma senza ulteriori esigenze di comfort — il piano interrato tecnico come soluzione intermedia",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "La differenza di costo tra le tre opzioni dipende dalla superficie e dalla conformazione del tuo lotto specifico. Nel configuratore di costruzione puoi confrontare tutte e tre le opzioni contemporaneamente e vedere come ciascuna incide sul budget stimato della tua casa.",
+      },
+    ],
+  },
+  {
+    slug: "yaki-vikna-obraty-dlya-budynku",
+    title: "Quali finestre scegliere per la casa: standard, ad alta efficienza energetica o premium",
+    description:
+      "Confrontiamo tre tipi di finestre per una casa unifamiliare in base a isolamento, prezzo e aspetto estetico — e come scegliere l'opzione giusta per il tuo progetto.",
+    excerpt:
+      "Le finestre incidono sia sulle bollette del riscaldamento sia sulla facciata della casa — eppure la decisione viene spesso presa per ultima. Vediamo quale tipo scegliere e quando.",
+    publishedAt: "2026-07-27",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Le finestre sono uno dei pochi elementi della casa che influenzano contemporaneamente l'estetica della facciata e le bollette mensili del riscaldamento. Eppure la decisione sul tipo di finestre viene spesso presa per ultima, già in fase di cantiere, anche se andrebbe pianificata già nella fase di progetto.",
+      },
+      { type: "heading", text: "Finestre standard" },
+      {
+        type: "paragraph",
+        text: "Un vetro doppia camera — il rapporto ottimale tra prezzo e isolamento per la maggior parte delle condizioni climatiche. Una scelta di base sensata se le finestre non sono la priorità principale del budget.",
+      },
+      { type: "heading", text: "Finestre ad alta efficienza energetica" },
+      {
+        type: "paragraph",
+        text: "Un profilo a tripla camera con isolamento rinforzato riduce sensibilmente le dispersioni di calore rispetto alla variante standard. La differenza di prezzo delle finestre si ripaga con minori costi di riscaldamento — particolarmente evidente insieme a una pompa di calore.",
+      },
+      { type: "heading", text: "Finestre premium" },
+      {
+        type: "paragraph",
+        text: "Finestre panoramiche di grande formato con la massima efficienza energetica — la scelta per progetti in cui grandi superfici vetrate fanno parte del concetto architettonico (minimalismo, moderno contemporaneo). Un'opzione più costosa che richiede un calcolo più preciso del bilancio termico della casa.",
+      },
+      { type: "heading", text: "Come scegliere per il tuo progetto" },
+      {
+        type: "list",
+        items: [
+          "Budget standard, superficie vetrata contenuta rispetto alla facciata — la variante standard è sufficiente",
+          "Prevedi una pompa di calore o un risparmio a lungo termine sul riscaldamento — le finestre ad alta efficienza energetica si ripagano rapidamente",
+          "Stile architettonico con grandi superfici vetrate o vetrate panoramiche — le finestre premium sono praticamente indispensabili",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Il tipo di finestre è uno dei parametri considerati direttamente nel configuratore di costruzione: scegli un'opzione e osserva come incide sul budget stimato e sull'efficienza energetica della tua futura casa.",
+      },
+    ],
+  },
 ];
