@@ -9,6 +9,7 @@
     "services": "Servizi",
     "interiorDesign": "Interior design",
     "landscapeDesign": "Progettazione del giardino",
+    "gallery": "Galleria 3D",
     "more": "Altro"
   },
   "cta": {
@@ -76,6 +77,11 @@
     "overline": "La filosofia Velar",
     "title": "Una casa che riflette il tuo stile di vita",
     "subtitle": "Uniamo espressione architettonica, ingegneria impeccabile e materiali naturali — perché ogni metro quadro ti serva per decenni."
+  },
+  "galleryTeaser": {
+    "title": "Non solo immaginarla — ruotala in 3D",
+    "subtitle": "5 esempi di case che puoi ruotare, ingrandire e osservare da ogni angolazione direttamente nel browser — su computer o smartphone.",
+    "cta": "Apri la galleria 3D"
   },
   "howItWorks": {
     "overline": "Come funziona",
@@ -288,7 +294,8 @@
       "title": "Pronto a scoprire il prezzo del tuo progetto?",
       "text": "Apri il configuratore — rispondi a qualche domanda e ottieni un prezzo stimato e una visualizzazione in pochi minuti. Oppure lascia il tuo numero e un architetto ti contatterà.",
       "primaryCta": "Apri il configuratore",
-      "phoneCta": "Lascia il numero di telefono"
+      "phoneCta": "Lascia il numero di telefono",
+      "galleryLink": "Oppure sfoglia esempi di case in 3D"
     }
   },
   "footer": {
@@ -525,7 +532,8 @@
       "edit": "Modifica i parametri",
       "unlockCta": "Ottieni la visualizzazione",
       "unlockedNote": "Richiesta ricevuta — il tuo consulente ti invierà la visualizzazione personalizzata.",
-      "bigCta": "Ottieni la visualizzazione e una consulenza"
+      "bigCta": "Ottieni la visualizzazione e una consulenza",
+      "galleryLink": "Guarda esempi reali di case nella galleria 3D →"
     },
     "callback": {
       "title": "Chiamata di un consulente",
@@ -694,6 +702,10 @@
     "configuratorBuild": {
       "title": "Calcolatore costi di costruzione",
       "description": "Il calcolatore di costruzione online di Velar: scegli stile, superficie, finiture e opzioni — calcola il costo di costruzione e ottieni un progetto, una visualizzazione 3D e un budget stimato in 3 minuti."
+    },
+    "gallery": {
+      "title": "Galleria 3D delle case",
+      "description": "Sfoglia esempi di case in 3D — ruota, ingrandisci e visualizza a schermo intero direttamente nel browser, su computer o smartphone."
     },
     "faq": {
       "title": "Domande frequenti",
@@ -1087,6 +1099,7 @@
       "bigCta": "Ottieni la visualizzazione e una consulenza",
       "unlockCta": "Ottieni la visualizzazione",
       "unlockedNote": "Richiesta ricevuta — l'architetto invierà la visualizzazione.",
+      "galleryLink": "Guarda esempi reali di case nella galleria 3D →",
       "successTitle": "Richiesta ricevuta!",
       "successText": "Grazie. L'architetto elaborerà i tuoi parametri e preparerà pianta e visualizzazione. Cosa succede ora:",
       "edit": "Modifica i parametri",
@@ -1214,6 +1227,40 @@
     "subtitle": "Risposte pratiche alle domande più frequenti prima di iniziare a costruire la propria casa.",
     "readMore": "Leggi l'articolo",
     "backToBlog": "Torna a tutti gli articoli"
+  },
+  "gallery": {
+    "overline": "Galleria 3D",
+    "title": "Esplora le case in 3D",
+    "subtitle": "Ruota, ingrandisci ed esplora esempi di case in una vista 3D interattiva — su computer o smartphone.",
+    "disclaimer": "Questi sono progetti di esempio per illustrare stili e forme — non necessariamente l'aspetto esatto della tua futura casa.",
+    "badge": "3D",
+    "viewIn3d": "Guarda in 3D",
+    "backToGallery": "A tutte le case",
+    "otherHouses": "Altre case",
+    "loading": "Caricamento del modello",
+    "dragHint": "Trascina per ruotare",
+    "houses": {
+      "house-1": {
+        "title": "Villa moderna",
+        "description": "Casa a un piano con pareti chiare e accenti in pietra e legno sulla facciata."
+      },
+      "house-2": {
+        "title": "Casa in stile toscano",
+        "description": "Casa in stile mediterraneo con tetto in tegole, intonaco caldo e vialetto pavimentato tutt'intorno."
+      },
+      "house-3": {
+        "title": "Casa moderna spaziosa",
+        "description": "Grande casa contemporanea con facciata scura, garage e linee del tetto pulite e diritte."
+      },
+      "house-4": {
+        "title": "Cottage accogliente",
+        "description": "Cottage compatto con tetto scuro e camino, su un proprio prato."
+      },
+      "house-5": {
+        "title": "Casa minimalista",
+        "description": "Facciata bianca e nera a contrasto con vetrate panoramiche in stile minimalista."
+      }
+    }
   },
   "interiorDesignPage": {
     "overline": "Interior design",

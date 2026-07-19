@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { siteConfig } from "@/lib/site";
 import { routing, type Locale } from "@/i18n/routing";
 import { BLOG_SLUGS, getPostBySlug } from "@/lib/blog";
+import { HOUSE_MODELS } from "@/lib/models";
 
 const STATIC_PATHS = [
   { path: "", changeFrequency: "monthly" as const, priority: 1 },
@@ -14,6 +15,7 @@ const STATIC_PATHS = [
   { path: "/blog", changeFrequency: "weekly" as const, priority: 0.6 },
   { path: "/interior-design", changeFrequency: "monthly" as const, priority: 0.7 },
   { path: "/landscape-design", changeFrequency: "monthly" as const, priority: 0.7 },
+  { path: "/gallery", changeFrequency: "monthly" as const, priority: 0.6 },
 ];
 
 /** Альтернативні мовні версії для одного шляху (hreflang у sitemap). */
@@ -48,6 +50,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: "monthly",
         priority: 0.5,
         alternates: { languages: languageAlternates(`/blog/${slug}`) },
+      });
+    }
+
+    for (const house of HOUSE_MODELS) {
+      entries.push({
+        url: `${siteConfig.url}/${locale}/gallery/${house.id}`,
+        lastModified: now,
+        changeFrequency: "monthly",
+        priority: 0.5,
+        alternates: { languages: languageAlternates(`/gallery/${house.id}`) },
       });
     }
   }

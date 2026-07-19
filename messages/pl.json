@@ -9,6 +9,7 @@
     "services": "Usługi",
     "interiorDesign": "Projektowanie wnętrz",
     "landscapeDesign": "Architektura krajobrazu",
+    "gallery": "Galeria 3D",
     "more": "Więcej"
   },
   "cta": {
@@ -76,6 +77,11 @@
     "overline": "Filozofia Velar",
     "title": "Dom, który odzwierciedla Twój styl życia",
     "subtitle": "Łączymy wyraz architektoniczny, nienaganną inżynierię i naturalne materiały — aby każdy metr kwadratowy służył Ci przez dziesięciolecia."
+  },
+  "galleryTeaser": {
+    "title": "Nie wyobrażaj sobie — obróć w 3D",
+    "subtitle": "5 przykładowych domów, które możesz obracać, przybliżać i oglądać z każdej strony wprost w przeglądarce — na komputerze lub telefonie.",
+    "cta": "Otwórz galerię 3D"
   },
   "howItWorks": {
     "overline": "Jak to działa",
@@ -288,7 +294,8 @@
       "title": "Gotowy sprawdzić cenę swojego projektu?",
       "text": "Otwórz konfigurator — odpowiedz na kilka pytań i w kilka minut otrzymaj szacunkową cenę oraz wizualizację. Albo zostaw numer telefonu — architekt się odezwie.",
       "primaryCta": "Otwórz konfigurator",
-      "phoneCta": "Zostaw numer telefonu"
+      "phoneCta": "Zostaw numer telefonu",
+      "galleryLink": "Albo zobacz przykładowe domy w 3D"
     }
   },
   "footer": {
@@ -525,7 +532,8 @@
       "edit": "Zmień parametry",
       "unlockCta": "Otrzymaj wizualizację",
       "unlockedNote": "Zgłoszenie przyjęte — menedżer wyśle Ci spersonalizowaną wizualizację.",
-      "bigCta": "Otrzymaj wizualizację i konsultację"
+      "bigCta": "Otrzymaj wizualizację i konsultację",
+      "galleryLink": "Zobacz prawdziwe przykłady domów w galerii 3D →"
     },
     "callback": {
       "title": "Rozmowa z menedżerem",
@@ -694,6 +702,10 @@
     "configuratorBuild": {
       "title": "Kalkulator kosztów budowy",
       "description": "Kalkulator budowy online Velar: wybierz styl, powierzchnię, wykończenie i opcje — oblicz koszt budowy i otrzymaj projekt, wizualizację 3D oraz szacunkowy budżet w 3 minuty."
+    },
+    "gallery": {
+      "title": "Galeria domów 3D",
+      "description": "Przeglądaj przykładowe domy w 3D — obracaj, przybliżaj i oglądaj w trybie pełnoekranowym bezpośrednio w przeglądarce, na komputerze lub telefonie."
     },
     "faq": {
       "title": "Najczęstsze pytania",
@@ -1087,6 +1099,7 @@
       "bigCta": "Otrzymaj wizualizację i konsultację",
       "unlockCta": "Otrzymaj wizualizację",
       "unlockedNote": "Zgłoszenie przyjęte — architekt prześle wizualizację.",
+      "galleryLink": "Zobacz prawdziwe przykłady domów w galerii 3D →",
       "successTitle": "Zgłoszenie przyjęte!",
       "successText": "Dziękujemy. Architekt opracuje Twoje parametry i przygotuje plan oraz wizualizację. Co dalej:",
       "edit": "Zmień parametry",
@@ -1214,6 +1227,40 @@
     "subtitle": "Praktyczne odpowiedzi na pytania, które najczęściej pojawiają się przed rozpoczęciem budowy własnego domu.",
     "readMore": "Czytaj artykuł",
     "backToBlog": "Wróć do wszystkich artykułów"
+  },
+  "gallery": {
+    "overline": "Galeria 3D",
+    "title": "Zobacz domy w 3D",
+    "subtitle": "Obracaj, przybliżaj i przeglądaj przykładowe domy w interaktywnym widoku 3D — na komputerze lub telefonie.",
+    "disclaimer": "To przykładowe projekty ilustrujące style i formy — niekoniecznie dokładny wygląd twojego przyszłego domu.",
+    "badge": "3D",
+    "viewIn3d": "Zobacz w 3D",
+    "backToGallery": "Do wszystkich domów",
+    "otherHouses": "Inne domy",
+    "loading": "Ładowanie modelu",
+    "dragHint": "Przeciągnij, aby obracać",
+    "houses": {
+      "house-1": {
+        "title": "Nowoczesna willa",
+        "description": "Parterowy dom z jasnymi ścianami i akcentami z kamienia i drewna na elewacji."
+      },
+      "house-2": {
+        "title": "Dom w stylu toskańskim",
+        "description": "Dom w stylu śródziemnomorskim z dachówką, ciepłym tynkiem i wybrukowaną ścieżką dookoła."
+      },
+      "house-3": {
+        "title": "Przestronny dom nowoczesny",
+        "description": "Duży, nowoczesny dom z ciemną elewacją, garażem i czystymi, prostymi liniami dachu."
+      },
+      "house-4": {
+        "title": "Przytulny domek",
+        "description": "Kompaktowy domek z ciemnym dachem i kominem na własnym trawniku."
+      },
+      "house-5": {
+        "title": "Dom minimalistyczny",
+        "description": "Kontrastowa czarno-biała elewacja z panoramicznym przeszkleniem w minimalistycznym stylu."
+      }
+    }
   },
   "interiorDesignPage": {
     "overline": "Projektowanie wnętrz",

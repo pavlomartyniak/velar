@@ -39,6 +39,7 @@ const SERVICES_MENU = [
 const NAV_HREFS_REST = [
   { key: "about", href: "/about" },
   { key: "configurator", href: "/configurator" },
+  { key: "gallery", href: "/gallery" },
 ] as const;
 
 const MORE_MENU = [

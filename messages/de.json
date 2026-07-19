@@ -9,6 +9,7 @@
     "services": "Leistungen",
     "interiorDesign": "Innenarchitektur",
     "landscapeDesign": "Landschaftsgestaltung",
+    "gallery": "3D-Galerie",
     "more": "Mehr"
   },
   "cta": {
@@ -76,6 +77,11 @@
     "overline": "Die Velar-Philosophie",
     "title": "Ein Zuhause, das Ihren Lebensstil widerspiegelt",
     "subtitle": "Wir verbinden architektonische Ausdruckskraft, einwandfreie Ingenieurskunst und natürliche Materialien — damit jeder Quadratmeter Ihnen über Jahrzehnte dient."
+  },
+  "galleryTeaser": {
+    "title": "Nicht nur vorstellen — in 3D drehen",
+    "subtitle": "5 Beispielhäuser, die Sie direkt im Browser drehen, zoomen und von allen Seiten betrachten können — am Computer oder auf dem Smartphone.",
+    "cta": "3D-Galerie öffnen"
   },
   "howItWorks": {
     "overline": "So funktioniert es",
@@ -288,7 +294,8 @@
       "title": "Bereit, den Preis Ihres Projekts zu sehen?",
       "text": "Öffnen Sie den Konfigurator — beantworten Sie ein paar Fragen und erhalten Sie in wenigen Minuten einen geschätzten Preis und eine Visualisierung. Oder hinterlassen Sie Ihre Nummer, und ein Architekt meldet sich.",
       "primaryCta": "Konfigurator öffnen",
-      "phoneCta": "Telefonnummer hinterlassen"
+      "phoneCta": "Telefonnummer hinterlassen",
+      "galleryLink": "Oder Beispielhäuser in 3D ansehen"
     }
   },
   "footer": {
@@ -525,7 +532,8 @@
       "edit": "Parameter ändern",
       "unlockCta": "Visualisierung erhalten",
       "unlockedNote": "Anfrage erhalten — Ihr Manager sendet Ihnen die persönliche Visualisierung.",
-      "bigCta": "Visualisierung und Beratung erhalten"
+      "bigCta": "Visualisierung und Beratung erhalten",
+      "galleryLink": "Echte Hausbeispiele in der 3D-Galerie ansehen →"
     },
     "callback": {
       "title": "Anruf eines Managers",
@@ -694,6 +702,10 @@
     "configuratorBuild": {
       "title": "Baukostenrechner",
       "description": "Velars Online-Baurechner: Wählen Sie Stil, Fläche, Ausstattung und Optionen — berechnen Sie die Baukosten und erhalten Sie ein Projekt, eine 3D-Visualisierung und ein geschätztes Budget in 3 Minuten."
+    },
+    "gallery": {
+      "title": "3D-Hausgalerie",
+      "description": "Entdecken Sie Beispielhäuser in 3D — drehen, zoomen und im Vollbildmodus betrachten, direkt im Browser, am Computer oder auf dem Smartphone."
     },
     "faq": {
       "title": "Häufig gestellte Fragen",
@@ -1087,6 +1099,7 @@
       "bigCta": "Visualisierung und Beratung erhalten",
       "unlockCta": "Visualisierung erhalten",
       "unlockedNote": "Anfrage erhalten — der Architekt sendet die Visualisierung.",
+      "galleryLink": "Echte Hausbeispiele in der 3D-Galerie ansehen →",
       "successTitle": "Anfrage erhalten!",
       "successText": "Danke. Der Architekt bearbeitet Ihre Parameter und erstellt Plan und Visualisierung. Wie es weitergeht:",
       "edit": "Parameter ändern",
@@ -1214,6 +1227,40 @@
     "subtitle": "Praktische Antworten auf die Fragen, die vor dem Baubeginn eines eigenen Hauses am häufigsten gestellt werden.",
     "readMore": "Artikel lesen",
     "backToBlog": "Zu allen Artikeln"
+  },
+  "gallery": {
+    "overline": "3D-Galerie",
+    "title": "Entdecken Sie Häuser in 3D",
+    "subtitle": "Drehen, zoomen und erkunden Sie Beispielhäuser in einer interaktiven 3D-Ansicht — am Computer oder auf dem Smartphone.",
+    "disclaimer": "Dies sind Beispielprojekte zur Veranschaulichung von Stilen und Formen — nicht unbedingt das genaue Aussehen Ihres zukünftigen Hauses.",
+    "badge": "3D",
+    "viewIn3d": "In 3D ansehen",
+    "backToGallery": "Zu allen Häusern",
+    "otherHouses": "Weitere Häuser",
+    "loading": "Modell wird geladen",
+    "dragHint": "Ziehen, um zu drehen",
+    "houses": {
+      "house-1": {
+        "title": "Moderne Villa",
+        "description": "Ein eingeschossiges Haus mit hellen Wänden und Fassadenakzenten aus Stein und Holz."
+      },
+      "house-2": {
+        "title": "Haus im toskanischen Stil",
+        "description": "Ein mediterranes Haus mit Ziegeldach, warmem Putz und gepflastertem Weg ringsum."
+      },
+      "house-3": {
+        "title": "Geräumiges modernes Haus",
+        "description": "Ein großes zeitgenössisches Haus mit dunkler Fassade, Garage und klaren, geraden Dachlinien."
+      },
+      "house-4": {
+        "title": "Gemütliches Cottage",
+        "description": "Ein kompaktes Cottage mit dunklem Dach und Schornstein auf eigenem Rasen."
+      },
+      "house-5": {
+        "title": "Minimalistisches Haus",
+        "description": "Eine kontrastreiche schwarz-weiße Fassade mit Panoramaverglasung im minimalistischen Stil."
+      }
+    }
   },
   "interiorDesignPage": {
     "overline": "Innenarchitektur",

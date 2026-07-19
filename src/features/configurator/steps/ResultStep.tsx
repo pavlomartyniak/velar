@@ -30,6 +30,7 @@ import {
 } from "../schema";
 import CallbackDialog from "../CallbackDialog";
 import { clearPersistedWizard } from "@/lib/usePersistedWizard";
+import { Link } from "@/i18n/navigation";
 
 function VisualizationPanel({
   image,
@@ -217,6 +218,22 @@ export default function ResultStep({ onEdit }: { onEdit: () => void }) {
           unlockedNote={t("unlockedNote")}
           onUnlock={() => setCallOpen(true)}
         />
+      </Box>
+
+      <Box sx={{ textAlign: "center" }}>
+        <Typography
+          component={Link}
+          href="/gallery"
+          variant="body2"
+          sx={{
+            fontWeight: 600,
+            color: "primary.main",
+            textDecoration: "none",
+            "&:hover": { textDecoration: "underline" },
+          }}
+        >
+          {t("galleryLink")}
+        </Typography>
       </Box>
 
       {/* CTA — отримати візуалізацію та консультацію */}

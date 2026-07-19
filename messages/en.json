@@ -9,6 +9,7 @@
     "services": "Services",
     "interiorDesign": "Interior Design",
     "landscapeDesign": "Landscape Design",
+    "gallery": "3D Gallery",
     "more": "More"
   },
   "cta": {
@@ -76,6 +77,11 @@
     "overline": "The Velar philosophy",
     "title": "A home that reflects your lifestyle",
     "subtitle": "We combine architectural expression, flawless engineering and natural materials — so that every square metre serves you for decades."
+  },
+  "galleryTeaser": {
+    "title": "Don't just imagine it — spin it in 3D",
+    "subtitle": "5 example houses you can rotate, zoom, and view from every angle right in your browser — on desktop or mobile.",
+    "cta": "Open the 3D gallery"
   },
   "howItWorks": {
     "overline": "How it works",
@@ -288,7 +294,8 @@
       "title": "Ready to see your project's price?",
       "text": "Open the configurator — answer a few questions and get an estimated price and visualization in minutes. Or leave your number and an architect will reach out.",
       "primaryCta": "Open the configurator",
-      "phoneCta": "Leave your phone number"
+      "phoneCta": "Leave your phone number",
+      "galleryLink": "Or browse example houses in 3D"
     }
   },
   "footer": {
@@ -525,7 +532,8 @@
       "edit": "Change parameters",
       "unlockCta": "Get the visualization",
       "unlockedNote": "Request received — your manager will send the personalized visualization.",
-      "bigCta": "Get the visualization and a consultation"
+      "bigCta": "Get the visualization and a consultation",
+      "galleryLink": "See real house examples in the 3D gallery →"
     },
     "callback": {
       "title": "Manager call",
@@ -694,6 +702,10 @@
     "configuratorBuild": {
       "title": "Construction Cost Calculator",
       "description": "Velar's online construction calculator: choose the style, area, finishes and options — calculate construction cost and get a project, 3D visualization and an estimated budget in 3 minutes."
+    },
+    "gallery": {
+      "title": "3D House Gallery",
+      "description": "Browse example houses in 3D — rotate, zoom, and view them fullscreen right in your browser, on desktop or mobile."
     },
     "faq": {
       "title": "FAQ",
@@ -1087,6 +1099,7 @@
       "bigCta": "Get the visualization and a consultation",
       "unlockCta": "Get the visualization",
       "unlockedNote": "Request received — the architect will send the visualization.",
+      "galleryLink": "See real house examples in the 3D gallery →",
       "successTitle": "Request received!",
       "successText": "Thank you. The architect will process your parameters and prepare the plan and visualization. What's next:",
       "edit": "Change parameters",
@@ -1214,6 +1227,40 @@
     "subtitle": "Practical answers to the questions people ask most often before starting to build their own house.",
     "readMore": "Read the article",
     "backToBlog": "Back to all articles"
+  },
+  "gallery": {
+    "overline": "3D Gallery",
+    "title": "Explore houses in 3D",
+    "subtitle": "Rotate, zoom, and browse example houses in an interactive 3D view — on desktop or mobile.",
+    "disclaimer": "These are example projects to illustrate styles and forms — not necessarily the exact look of your future house.",
+    "badge": "3D",
+    "viewIn3d": "View in 3D",
+    "backToGallery": "Back to all houses",
+    "otherHouses": "Other houses",
+    "loading": "Loading model",
+    "dragHint": "Drag to rotate",
+    "houses": {
+      "house-1": {
+        "title": "Modern Villa",
+        "description": "A single-story house with light-colored walls and stone-and-wood facade accents."
+      },
+      "house-2": {
+        "title": "Tuscan House",
+        "description": "A Mediterranean-style house with a tiled roof, warm stucco, and a paved path around it."
+      },
+      "house-3": {
+        "title": "Spacious Modern Home",
+        "description": "A large contemporary house with a dark facade, a garage, and clean, straight roof lines."
+      },
+      "house-4": {
+        "title": "Cozy Cottage",
+        "description": "A compact cottage with a dark roof and a chimney, set on its own lawn."
+      },
+      "house-5": {
+        "title": "Minimalist House",
+        "description": "A contrasting black-and-white facade with panoramic glazing in a minimalist style."
+      }
+    }
   },
   "interiorDesignPage": {
     "overline": "Interior Design",

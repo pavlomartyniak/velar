@@ -9,6 +9,7 @@
     "services": "Services",
     "interiorDesign": "Design d'intérieur",
     "landscapeDesign": "Aménagement paysager",
+    "gallery": "Galerie 3D",
     "more": "Plus"
   },
   "cta": {
@@ -76,6 +77,11 @@
     "overline": "La philosophie Velar",
     "title": "Une maison qui reflète votre art de vivre",
     "subtitle": "Nous associons expression architecturale, ingénierie irréprochable et matériaux naturels — pour que chaque mètre carré vous serve pendant des décennies."
+  },
+  "galleryTeaser": {
+    "title": "Ne l'imaginez pas — faites-la pivoter en 3D",
+    "subtitle": "5 exemples de maisons que vous pouvez faire pivoter, zoomer et observer sous tous les angles directement dans le navigateur — sur ordinateur ou mobile.",
+    "cta": "Ouvrir la galerie 3D"
   },
   "howItWorks": {
     "overline": "Comment ça marche",
@@ -288,7 +294,8 @@
       "title": "Prêt à découvrir le prix de votre projet ?",
       "text": "Ouvrez le configurateur — répondez à quelques questions et obtenez un prix estimatif et une visualisation en quelques minutes. Ou laissez votre numéro, un architecte vous contactera.",
       "primaryCta": "Ouvrir le configurateur",
-      "phoneCta": "Laisser mon numéro"
+      "phoneCta": "Laisser mon numéro",
+      "galleryLink": "Ou parcourez des exemples de maisons en 3D"
     }
   },
   "footer": {
@@ -525,7 +532,8 @@
       "edit": "Modifier les paramètres",
       "unlockCta": "Obtenir la visualisation",
       "unlockedNote": "Demande reçue — votre conseiller vous envoie la visualisation personnalisée.",
-      "bigCta": "Obtenir la visualisation et une consultation"
+      "bigCta": "Obtenir la visualisation et une consultation",
+      "galleryLink": "Voir de vrais exemples de maisons dans la galerie 3D →"
     },
     "callback": {
       "title": "Appel d'un conseiller",
@@ -694,6 +702,10 @@
     "configuratorBuild": {
       "title": "Calculateur de coût de construction",
       "description": "Le calculateur de construction en ligne de Velar : choisissez le style, la surface, les finitions et les options — estimez le coût de construction et obtenez un projet, une visualisation 3D et un budget estimatif en 3 minutes."
+    },
+    "gallery": {
+      "title": "Galerie 3D de maisons",
+      "description": "Parcourez des exemples de maisons en 3D — faites pivoter, zoomez et affichez en plein écran directement dans le navigateur, sur ordinateur ou mobile."
     },
     "faq": {
       "title": "Questions fréquentes",
@@ -1087,6 +1099,7 @@
       "bigCta": "Obtenir la visualisation et une consultation",
       "unlockCta": "Obtenir la visualisation",
       "unlockedNote": "Demande reçue — l'architecte enverra la visualisation.",
+      "galleryLink": "Voir de vrais exemples de maisons dans la galerie 3D →",
       "successTitle": "Demande reçue !",
       "successText": "Merci. L'architecte traitera vos paramètres et préparera le plan et la visualisation. La suite :",
       "edit": "Modifier les paramètres",
@@ -1214,6 +1227,40 @@
     "subtitle": "Des réponses pratiques aux questions les plus fréquentes avant de commencer la construction de sa propre maison.",
     "readMore": "Lire l'article",
     "backToBlog": "Retour aux articles"
+  },
+  "gallery": {
+    "overline": "Galerie 3D",
+    "title": "Explorez des maisons en 3D",
+    "subtitle": "Faites pivoter, zoomez et explorez des exemples de maisons dans une vue 3D interactive — sur ordinateur ou mobile.",
+    "disclaimer": "Il s'agit de projets d'exemple pour illustrer les styles et les formes — pas nécessairement l'aspect exact de votre future maison.",
+    "badge": "3D",
+    "viewIn3d": "Voir en 3D",
+    "backToGallery": "Retour à toutes les maisons",
+    "otherHouses": "Autres maisons",
+    "loading": "Chargement du modèle",
+    "dragHint": "Faites glisser pour faire pivoter",
+    "houses": {
+      "house-1": {
+        "title": "Villa moderne",
+        "description": "Maison de plain-pied aux murs clairs avec des accents de pierre et de bois sur la façade."
+      },
+      "house-2": {
+        "title": "Maison de style toscan",
+        "description": "Maison de style méditerranéen avec toit en tuiles, enduit chaleureux et allée pavée tout autour."
+      },
+      "house-3": {
+        "title": "Maison moderne spacieuse",
+        "description": "Grande maison contemporaine à la façade sombre, avec garage et lignes de toit épurées."
+      },
+      "house-4": {
+        "title": "Cottage chaleureux",
+        "description": "Cottage compact avec toit sombre et cheminée, sur sa propre pelouse."
+      },
+      "house-5": {
+        "title": "Maison minimaliste",
+        "description": "Façade contrastée noir et blanc avec vitrages panoramiques dans un style minimaliste."
+      }
+    }
   },
   "interiorDesignPage": {
     "overline": "Design d'intérieur",
