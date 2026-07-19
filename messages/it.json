@@ -346,7 +346,8 @@
           "label": "Toscana",
           "description": "Tonalità calde, pietra naturale e lo spirito di una villa italiana."
         }
-      }
+      },
+      "articleLink": "Quale stile architettonico scegliere"
     },
     "area": {
       "heading": "Qual è la superficie della casa?",
@@ -417,7 +418,8 @@
             "label": "Struttura monolitica",
             "description": "Libertà di pianta e altezza."
           }
-        }
+        },
+        "articleLink": "Quale materiale per le pareti scegliere"
       },
       "roof": {
         "title": "Tipo di tetto",
@@ -962,7 +964,8 @@
             "label": "Classico",
             "description": "Simmetria e decoro."
           }
-        }
+        },
+        "articleLink": "Quale stile architettonico scegliere"
       },
       "roof": {
         "title": "Tipo di tetto",

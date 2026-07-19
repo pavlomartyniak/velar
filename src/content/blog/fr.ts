@@ -432,4 +432,101 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "yakyi-material-sten-obraty",
+    title: "Quel matériau de murs choisir : béton cellulaire, brique ou ossature monolithique",
+    description:
+      "Comparaison de trois matériaux de murs pour une maison individuelle — béton cellulaire, brique et ossature monolithique : coût, isolation et possibilités architecturales de chacun.",
+    excerpt:
+      "Le matériau des murs détermine non seulement le budget, mais aussi les solutions architecturales possibles. Voyons en quoi ces trois options diffèrent.",
+    publishedAt: "2026-08-03",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Le matériau des murs est l'une des premières décisions structurelles, et elle détermine non seulement le budget mais aussi les solutions architecturales qui seront disponibles ensuite : taille des fenêtres, hauteur sous plafond, possibilité d'un plan ouvert.",
+      },
+      { type: "heading", text: "Béton cellulaire" },
+      {
+        type: "paragraph",
+        text: "Le meilleur rapport entre prix et isolation — le choix le plus courant dans la construction individuelle. Plus léger que la brique, plus rapide à construire, retient bien la chaleur. Un choix de base judicieux si le matériau des murs n'est pas la priorité budgétaire principale.",
+      },
+      { type: "heading", text: "Brique" },
+      {
+        type: "paragraph",
+        text: "Durabilité et prestige — la brique reste la référence d'une construction solide, faite pour durer des générations. Une masse murale plus importante signifie une meilleure inertie thermique et une meilleure isolation phonique, mais aussi des fondations plus exigeantes et coûteuses, et un délai de construction plus long.",
+      },
+      { type: "heading", text: "Ossature monolithique" },
+      {
+        type: "paragraph",
+        text: "Liberté d'aménagement et de hauteur — l'ossature porte la charge, si bien que les murs entre les étages peuvent être supprimés presque partout, et les fenêtres peuvent occuper un mur entier. L'option la plus coûteuse en raison d'une technologie plus complexe, mais la seule à offrir une liberté architecturale totale.",
+      },
+      { type: "heading", text: "Comment choisir" },
+      {
+        type: "list",
+        items: [
+          "Plan standard, contrôle du budget important — le béton cellulaire comme choix de base judicieux",
+          "Vous voulez de la solidité et un aspect traditionnel pour des décennies — la brique justifie le coût plus élevé",
+          "Vous prévoyez de grandes surfaces vitrées, un plan ouvert ou un style moderne avec des fenêtres panoramiques — l'ossature monolithique est pratiquement la seule option",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Le matériau des murs influence aussi d'autres choix — le type de fenêtres ou le chauffage, par exemple. Dans le configurateur de construction, vous voyez immédiatement comment la combinaison du matériau des murs avec les autres options façonne le budget final.",
+      },
+    ],
+  },
+  {
+    slug: "yakyi-arhitekturnyi-styl-obraty",
+    title: "Quel style architectural choisir pour sa maison",
+    description:
+      "Comparaison de cinq styles architecturaux pour une maison individuelle — classique, néoclassique, moderne, minimaliste et toscan : caractère, coût et à qui convient chaque style.",
+    excerpt:
+      "Le style est la première décision du projet, et il influence le budget plus qu'il n'y paraît. « Simple en apparence » ne veut pas toujours dire « moins cher ».",
+    publishedAt: "2026-08-10",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Le style architectural est généralement choisi en premier — intuitivement, selon les goûts. Mais cette décision façonne non seulement le caractère de la maison, mais aussi le coût de base de la construction — mieux vaut donc comprendre les différences entre les styles avant de trancher.",
+      },
+      { type: "heading", text: "Classique" },
+      {
+        type: "paragraph",
+        text: "Façades symétriques, proportions nobles, élégance sobre. Un aspect prestigieux et éprouvé par le temps — le coût provient des éléments décoratifs de la façade et de la précision des proportions.",
+      },
+      { type: "heading", text: "Néoclassique" },
+      {
+        type: "paragraph",
+        text: "Symétrie, colonnes, décor raffiné — une lecture plus contemporaine et plus légère des formes classiques, sans ornementation excessive. Un coût modéré, entre le classique et le minimaliste.",
+      },
+      { type: "heading", text: "Moderne" },
+      {
+        type: "paragraph",
+        text: "Lignes épurées, vitrages panoramiques, détails minimalistes. Semble sobre, mais s'avère souvent l'un des styles les plus coûteux : les grandes surfaces vitrées et les espaces ouverts exigent une ingénierie plus complexe et des matériaux de façade plus chers qu'il n'y paraît de prime abord.",
+      },
+      { type: "heading", text: "Minimaliste" },
+      {
+        type: "paragraph",
+        text: "Formes épurées et un maximum d'espace sans décor superflu. Contrairement au style moderne, l'économie vient ici précisément du renoncement aux éléments complexes — c'est donc généralement le style le plus économique des cinq.",
+      },
+      { type: "heading", text: "Toscan" },
+      {
+        type: "paragraph",
+        text: "Tons chauds, pierre naturelle, l'esprit d'une villa italienne. Le coût repose sur les matériaux de finition — pierre naturelle et enduits texturés — plutôt que sur la complexité des formes.",
+      },
+      { type: "heading", text: "Comment choisir" },
+      {
+        type: "list",
+        items: [
+          "La priorité absolue est un budget serré avec une forme épurée et moderne — minimaliste",
+          "Vous appréciez un aspect traditionnel et prestigieux et êtes prêt à investir dans le décor — classique ou néoclassique",
+          "Vous rêvez de fenêtres panoramiques et d'espaces ouverts — moderne, mais prévoyez un tarif de base plus élevé",
+          "Vous voulez de la chaleur et un caractère méditerranéen — toscan",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Le style est la première étape du configurateur de construction : choisissez une option et découvrez immédiatement le coût estimé au m² pour ce style, avant même de passer aux autres paramètres.",
+      },
+    ],
+  },
 ];

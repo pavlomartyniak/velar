@@ -346,7 +346,8 @@
           "label": "Tuscan",
           "description": "Warm tones, natural stone, the spirit of an Italian villa."
         }
-      }
+      },
+      "articleLink": "Which architectural style to choose"
     },
     "area": {
       "heading": "What is the home's area?",
@@ -417,7 +418,8 @@
             "label": "Monolithic frame",
             "description": "Freedom of layout and height."
           }
-        }
+        },
+        "articleLink": "Which wall material to choose"
       },
       "roof": {
         "title": "Roof type",
@@ -962,7 +964,8 @@
             "label": "Classic",
             "description": "Symmetry and decor."
           }
-        }
+        },
+        "articleLink": "Which architectural style to choose"
       },
       "roof": {
         "title": "Roof type",

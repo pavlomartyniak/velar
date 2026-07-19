@@ -346,7 +346,8 @@
           "label": "Toskana",
           "description": "Warme Töne, Naturstein und der Geist einer italienischen Villa."
         }
-      }
+      },
+      "articleLink": "Welchen Architekturstil wählen"
     },
     "area": {
       "heading": "Wie groß ist das Haus?",
@@ -417,7 +418,8 @@
             "label": "Monolithischer Rahmen",
             "description": "Freiheit bei Grundriss und Höhe."
           }
-        }
+        },
+        "articleLink": "Welches Wandmaterial wählen"
       },
       "roof": {
         "title": "Dachtyp",
@@ -962,7 +964,8 @@
             "label": "Klassik",
             "description": "Symmetrie und Dekor."
           }
-        }
+        },
+        "articleLink": "Welchen Architekturstil wählen"
       },
       "roof": {
         "title": "Dachtyp",

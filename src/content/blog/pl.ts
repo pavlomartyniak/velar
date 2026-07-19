@@ -432,4 +432,101 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "yakyi-material-sten-obraty",
+    title: "Jaki materiał na ściany wybrać: gazobeton, cegła czy monolityczny szkielet",
+    description:
+      "Porównujemy trzy warianty materiału ścian domu jednorodzinnego — gazobeton, cegłę i monolityczny szkielet: koszt, izolacyjność i możliwości architektoniczne każdego z nich.",
+    excerpt:
+      "Materiał ścian kształtuje nie tylko budżet, ale też to, jakie rozwiązania architektoniczne są w ogóle możliwe. Sprawdzamy, czym różnią się trzy główne warianty.",
+    publishedAt: "2026-08-03",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Materiał ścian to jedna z pierwszych decyzji konstrukcyjnych i determinuje nie tylko budżet, ale też to, jakie rozwiązania architektoniczne będą dostępne później: wielkość okien, wysokość pomieszczeń, możliwość otwartego planu.",
+      },
+      { type: "heading", text: "Gazobeton" },
+      {
+        type: "paragraph",
+        text: "Optymalny stosunek ceny do izolacyjności — najpopularniejszy wybór w budownictwie jednorodzinnym. Lżejszy od cegły, szybszy w budowie, dobrze trzyma ciepło. Rozsądny wariant bazowy, jeśli materiał ścian nie jest największym priorytetem budżetu.",
+      },
+      { type: "heading", text: "Cegła" },
+      {
+        type: "paragraph",
+        text: "Trwałość i prestiż — cegła pozostaje wzorcem solidnego budownictwa na pokolenia. Większa masa ścian oznacza lepszą akumulację ciepła i izolację akustyczną, ale też bardziej wymagający, droższy fundament oraz dłuższy czas budowy.",
+      },
+      { type: "heading", text: "Monolityczny szkielet" },
+      {
+        type: "paragraph",
+        text: "Swoboda układu i wysokości — szkielet przejmuje obciążenia, więc ściany między kondygnacjami można usunąć niemal wszędzie, a okna zrobić na całą ścianę. Najdroższy wariant ze względu na bardziej złożoną technologię, ale jedyny dający pełną swobodę architektoniczną.",
+      },
+      { type: "heading", text: "Jak wybrać" },
+      {
+        type: "list",
+        items: [
+          "Standardowy układ, ważna kontrola budżetu — gazobeton jako rozsądny wariant bazowy",
+          "Zależy Ci na solidności i tradycyjnym wyglądzie na dekady — cegła uzasadnia wyższy koszt",
+          "Planujesz duże przeszklenia, otwarty układ lub nowoczesny styl z panoramicznymi oknami — monolityczny szkielet to praktycznie jedyna opcja",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Materiał ścian wpływa też na inne wybory — na przykład typ okien czy ogrzewania. W konfiguratorze budowy od razu zobaczysz, jak połączenie materiału ścian z innymi opcjami kształtuje ostateczny budżet.",
+      },
+    ],
+  },
+  {
+    slug: "yakyi-arhitekturnyi-styl-obraty",
+    title: "Jaki styl architektoniczny wybrać dla domu",
+    description:
+      "Porównujemy pięć stylów architektonicznych domu jednorodzinnego — klasyczny, neoklasyczny, nowoczesny, minimalistyczny i toskański: charakter, koszt i dla kogo pasuje każdy z nich.",
+    excerpt:
+      "Styl to pierwsza decyzja w projekcie i wpływa na budżet bardziej, niż mogłoby się wydawać. „Prosty z wyglądu” nie zawsze znaczy „tańszy”.",
+    publishedAt: "2026-08-10",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Styl architektoniczny wybiera się zwykle jako pierwszy — intuicyjnie, według gustu. Ale ta decyzja kształtuje nie tylko charakter domu, lecz też bazowy koszt budowy, więc warto poznać różnice między stylami przed ostatecznym wyborem.",
+      },
+      { type: "heading", text: "Klasyczny" },
+      {
+        type: "paragraph",
+        text: "Symetryczne elewacje, szlachetne proporcje, stonowana elegancja. Prestiżowy, sprawdzony czasem wygląd — koszt wynika z elementów dekoracyjnych elewacji i precyzji proporcji.",
+      },
+      { type: "heading", text: "Neoklasyczny" },
+      {
+        type: "paragraph",
+        text: "Symetria, kolumny, wytworny detal — bardziej współczesne, lżejsze odczytanie form klasycznych, bez nadmiernej dekoracyjności. Umiarkowany koszt pomiędzy klasykiem a minimalizmem.",
+      },
+      { type: "heading", text: "Nowoczesny" },
+      {
+        type: "paragraph",
+        text: "Czyste linie, panoramiczne przeszklenia, minimalizm w detalach. Wygląda oszczędnie, ale często okazuje się jednym z droższych stylów: duże przeszklone powierzchnie i otwarte przestrzenie wymagają bardziej złożonej inżynierii i droższych materiałów elewacyjnych, niż mogłoby się wydawać.",
+      },
+      { type: "heading", text: "Minimalistyczny" },
+      {
+        type: "paragraph",
+        text: "Lakoniczne formy i maksimum przestrzeni bez zbędnego dekoru. W przeciwieństwie do stylu nowoczesnego, oszczędności wynikają tu właśnie z rezygnacji ze złożonych elementów — dlatego to zazwyczaj najbardziej budżetowy z pięciu stylów.",
+      },
+      { type: "heading", text: "Toskański" },
+      {
+        type: "paragraph",
+        text: "Ciepłe barwy, naturalny kamień, duch włoskiej willi. Koszt opiera się na materiałach wykończeniowych — naturalnym kamieniu i fakturowych tynkach — a nie na złożoności form.",
+      },
+      { type: "heading", text: "Jak wybrać" },
+      {
+        type: "list",
+        items: [
+          "Priorytetem jest ograniczony budżet przy czystej, nowoczesnej formie — minimalizm",
+          "Cenisz tradycyjny, prestiżowy wygląd i jesteś gotów zainwestować w dekor — klasyczny lub neoklasyczny",
+          "Marzysz o panoramicznych oknach i otwartych przestrzeniach — nowoczesny, ale uwzględnij wyższą stawkę bazową",
+          "Chcesz ciepła i śródziemnomorskiego charakteru — toskański",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Styl to pierwszy krok w konfiguratorze budowy: wybierz wariant i od razu zobacz orientacyjny koszt za m² właśnie dla niego, jeszcze przed przejściem do pozostałych parametrów.",
+      },
+    ],
+  },
 ];

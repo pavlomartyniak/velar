@@ -37,6 +37,10 @@ export default function EngineeringStep() {
       </Box>
 
       <ChoiceQuestion name="wallMaterial" title={t("wall.title")} options={wall} />
+      <ArticleLinkHint
+        slug="yakyi-material-sten-obraty"
+        label={t("wall.articleLink")}
+      />
       <ChoiceQuestion name="roof" title={t("roof.title")} options={roof} />
       <ChoiceQuestion
         name="heating"

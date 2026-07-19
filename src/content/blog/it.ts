@@ -432,4 +432,101 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "yakyi-material-sten-obraty",
+    title: "Quale materiale per le pareti scegliere: blocchi di calcestruzzo cellulare, mattoni o struttura monolitica",
+    description:
+      "Confrontiamo tre opzioni di materiale per le pareti di una casa unifamiliare — calcestruzzo cellulare, mattoni e struttura monolitica: costo, isolamento e possibilità architettoniche di ciascuna.",
+    excerpt:
+      "Il materiale delle pareti definisce non solo il budget, ma anche quali soluzioni architettoniche sono possibili. Vediamo come si differenziano le tre opzioni principali.",
+    publishedAt: "2026-08-03",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Il materiale delle pareti è una delle prime decisioni strutturali e determina non solo il budget, ma anche quali soluzioni architettoniche saranno disponibili in seguito: dimensione delle finestre, altezza dei soffitti, possibilità di planimetrie open space.",
+      },
+      { type: "heading", text: "Calcestruzzo cellulare (blocchi gasbeton)" },
+      {
+        type: "paragraph",
+        text: "Il rapporto ottimale tra prezzo e isolamento — la scelta più diffusa nell'edilizia unifamiliare. Più leggero dei mattoni, più veloce da costruire, trattiene bene il calore. Un'opzione di base sensata se il materiale delle pareti non è la priorità principale del budget.",
+      },
+      { type: "heading", text: "Mattoni" },
+      {
+        type: "paragraph",
+        text: "Durabilità e prestigio — il mattone resta il punto di riferimento per una costruzione solida che dura generazioni. La maggiore massa delle pareti significa migliore accumulo termico e isolamento acustico, ma anche una fondazione più impegnativa e costosa e tempi di costruzione più lunghi.",
+      },
+      { type: "heading", text: "Struttura monolitica" },
+      {
+        type: "paragraph",
+        text: "Libertà di planimetria e altezza — la struttura porta il carico, quindi le pareti tra i piani possono essere rimosse quasi ovunque e le finestre possono occupare un'intera parete. L'opzione più costosa per la tecnologia più complessa, ma l'unica che offre piena libertà architettonica.",
+      },
+      { type: "heading", text: "Come scegliere" },
+      {
+        type: "list",
+        items: [
+          "Planimetria standard, importante il controllo del budget — il calcestruzzo cellulare come opzione di base sensata",
+          "Vuoi solidità e un aspetto tradizionale per decenni — i mattoni giustificano il costo maggiore",
+          "Prevedi grandi superfici vetrate, planimetrie open space o uno stile moderno con finestre panoramiche — la struttura monolitica è praticamente l'unica opzione",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Il materiale delle pareti influisce anche su altre scelte — ad esempio il tipo di finestre o il riscaldamento. Nel configuratore di costruzione puoi vedere subito come la combinazione del materiale delle pareti con le altre opzioni forma il budget finale.",
+      },
+    ],
+  },
+  {
+    slug: "yakyi-arhitekturnyi-styl-obraty",
+    title: "Quale stile architettonico scegliere per la casa",
+    description:
+      "Confrontiamo cinque stili architettonici per una casa unifamiliare — classico, neoclassico, moderno, minimalista e toscano: carattere, costo e a chi si adatta ciascuno stile.",
+    excerpt:
+      "Lo stile è la prima decisione del progetto e incide sul budget più di quanto sembri. «Semplice all'aspetto» non sempre significa «più economico».",
+    publishedAt: "2026-08-10",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Lo stile architettonico viene solitamente scelto per primo — istintivamente, secondo il gusto. Ma questa decisione plasma non solo il carattere della casa, ma anche il costo base della costruzione, quindi vale la pena capire le differenze tra gli stili prima di decidere.",
+      },
+      { type: "heading", text: "Classico" },
+      {
+        type: "paragraph",
+        text: "Facciate simmetriche, proporzioni nobili, eleganza sobria. Un aspetto prestigioso e collaudato nel tempo — il costo deriva dagli elementi decorativi della facciata e dalla precisione delle proporzioni.",
+      },
+      { type: "heading", text: "Neoclassico" },
+      {
+        type: "paragraph",
+        text: "Simmetria, colonne, decoro raffinato — una lettura più contemporanea e leggera delle forme classiche, senza eccessiva decorazione. Costo moderato, tra il classico e il minimalista.",
+      },
+      { type: "heading", text: "Moderno" },
+      {
+        type: "paragraph",
+        text: "Linee pulite, vetrate panoramiche, dettagli minimali. Sembra essenziale, ma spesso risulta uno degli stili più costosi: le grandi superfici vetrate e gli spazi aperti richiedono un'ingegneria più complessa e materiali di facciata più costosi di quanto sembri a prima vista.",
+      },
+      { type: "heading", text: "Minimalista" },
+      {
+        type: "paragraph",
+        text: "Forme essenziali e il massimo dello spazio senza decorazioni superflue. A differenza del moderno, qui il risparmio deriva proprio dalla rinuncia a elementi complessi — per questo è in genere lo stile più economico tra i cinque.",
+      },
+      { type: "heading", text: "Toscano" },
+      {
+        type: "paragraph",
+        text: "Toni caldi, pietra naturale, lo spirito di una villa italiana. Il costo si basa sui materiali di finitura — pietra naturale e intonaci testurizzati — non sulla complessità delle forme.",
+      },
+      { type: "heading", text: "Come scegliere" },
+      {
+        type: "list",
+        items: [
+          "La priorità è un budget contenuto con una forma pulita e moderna — minimalista",
+          "Apprezzi un aspetto tradizionale e prestigioso e sei pronto a investire nel decoro — classico o neoclassico",
+          "Sogni finestre panoramiche e spazi aperti — moderno, ma preventiva una tariffa base più alta",
+          "Vuoi calore e un carattere mediterraneo — toscano",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Lo stile è il primo passo nel configuratore di costruzione: scegli un'opzione e vedi subito il costo stimato al m² per quello stile, ancora prima di passare agli altri parametri.",
+      },
+    ],
+  },
 ];

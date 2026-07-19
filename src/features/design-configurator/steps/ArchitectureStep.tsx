@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { Box, Stack, Typography } from "@mui/material";
 import { DESIGN_ROOF_OPTIONS, DESIGN_STYLE_OPTIONS, FACADE_OPTIONS } from "../schema";
 import DesignChoiceQuestion from "./DesignChoiceQuestion";
+import ArticleLinkHint from "@/components/shared/ArticleLinkHint";
 
 export default function ArchitectureStep() {
   const t = useTranslations("designConfigurator.architecture");
@@ -36,6 +37,10 @@ export default function ArchitectureStep() {
       </Box>
 
       <DesignChoiceQuestion name="style" title={t("style.title")} options={style} />
+      <ArticleLinkHint
+        slug="yakyi-arhitekturnyi-styl-obraty"
+        label={t("style.articleLink")}
+      />
       <DesignChoiceQuestion name="roof" title={t("roof.title")} options={roof} />
       <DesignChoiceQuestion
         name="facade"

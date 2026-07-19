@@ -346,7 +346,8 @@
           "label": "Toscane",
           "description": "Tons chauds, pierre naturelle, l'esprit d'une villa italienne."
         }
-      }
+      },
+      "articleLink": "Quel style architectural choisir"
     },
     "area": {
       "heading": "Quelle est la surface de la maison ?",
@@ -417,7 +418,8 @@
             "label": "Ossature monolithique",
             "description": "Liberté de plan et de hauteur."
           }
-        }
+        },
+        "articleLink": "Quel matériau de murs choisir"
       },
       "roof": {
         "title": "Type de toit",
@@ -962,7 +964,8 @@
             "label": "Classique",
             "description": "Symétrie et décor."
           }
-        }
+        },
+        "articleLink": "Quel style architectural choisir"
       },
       "roof": {
         "title": "Type de toit",

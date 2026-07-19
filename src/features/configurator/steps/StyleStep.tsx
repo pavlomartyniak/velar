@@ -13,6 +13,7 @@ import {
 } from "@mui/material";
 import CheckCircleRoundedIcon from "@mui/icons-material/CheckCircleRounded";
 import { type ConfiguratorValues, HOUSE_STYLES, formatCurrency } from "../schema";
+import ArticleLinkHint from "@/components/shared/ArticleLinkHint";
 
 export default function StyleStep() {
   const { control } = useFormContext<ConfiguratorValues>();
@@ -106,6 +107,10 @@ export default function StyleStep() {
             )}
           </>
         )}
+      />
+      <ArticleLinkHint
+        slug="yakyi-arhitekturnyi-styl-obraty"
+        label={t("articleLink")}
       />
     </Stack>
   );

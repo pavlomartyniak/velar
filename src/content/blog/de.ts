@@ -432,4 +432,101 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "yakyi-material-sten-obraty",
+    title: "Welches Wandmaterial wählen: Porenbeton, Ziegel oder Massivbau-Skelett",
+    description:
+      "Wir vergleichen drei Wandmaterialien für ein Einfamilienhaus — Porenbeton, Ziegel und ein monolithisches Skelett: Kosten, Wärmedämmung und die architektonischen Möglichkeiten jedes Materials.",
+    excerpt:
+      "Das Wandmaterial bestimmt nicht nur das Budget, sondern auch, welche architektonischen Lösungen überhaupt möglich sind. Wir zeigen, wie sich die drei Hauptoptionen unterscheiden.",
+    publishedAt: "2026-08-03",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Das Wandmaterial ist eine der ersten konstruktiven Entscheidungen und bestimmt nicht nur das Budget, sondern auch, welche architektonischen Lösungen später möglich sind: Fenstergröße, Deckenhöhe, offene Grundrisse.",
+      },
+      { type: "heading", text: "Porenbeton" },
+      {
+        type: "paragraph",
+        text: "Das optimale Verhältnis von Preis und Wärmedämmung — die häufigste Wahl im Einfamilienhausbau. Leichter als Ziegel, schneller verbaut, speichert Wärme gut. Eine sinnvolle Basisoption, wenn das Wandmaterial nicht die höchste Budgetpriorität hat.",
+      },
+      { type: "heading", text: "Ziegel" },
+      {
+        type: "paragraph",
+        text: "Langlebigkeit und Prestige — Ziegel bleibt der Maßstab für solides, generationenübergreifendes Bauen. Die größere Wandmasse bedeutet bessere Wärmespeicherung und Schalldämmung, aber auch ein anspruchsvolleres, teureres Fundament und eine längere Bauzeit.",
+      },
+      { type: "heading", text: "Monolithisches Skelett" },
+      {
+        type: "paragraph",
+        text: "Freiheit bei Grundriss und Höhe — das Skelett trägt die Last, sodass Wände zwischen den Geschossen fast überall entfernt werden können und Fenster über die gesamte Wandbreite reichen können. Die teuerste Option aufgrund der komplexeren Technik, aber die einzige mit voller architektonischer Freiheit.",
+      },
+      { type: "heading", text: "Wie Sie wählen" },
+      {
+        type: "list",
+        items: [
+          "Standardgrundriss, Budgetkontrolle wichtig — Porenbeton als sinnvolle Basisoption",
+          "Sie wünschen Solidität und einen traditionellen Look für Jahrzehnte — Ziegel rechtfertigt die höheren Kosten",
+          "Sie planen große Glasflächen, offene Grundrisse oder einen modernen Stil mit Panoramafenstern — ein monolithisches Skelett ist praktisch die einzige Option",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Das Wandmaterial beeinflusst auch andere Entscheidungen — etwa den Fenstertyp oder die Heizung. Im Baukonfigurator sehen Sie sofort, wie die Kombination aus Wandmaterial und anderen Optionen das endgültige Budget formt.",
+      },
+    ],
+  },
+  {
+    slug: "yakyi-arhitekturnyi-styl-obraty",
+    title: "Welchen Architekturstil für Ihr Haus wählen",
+    description:
+      "Wir vergleichen fünf Architekturstile für ein Einfamilienhaus — Klassik, Neoklassik, Modern, Minimalismus und Toskana: Charakter, Kosten und für wen sich welcher Stil eignet.",
+    excerpt:
+      "Der Stil ist die erste Entscheidung im Projekt und beeinflusst das Budget stärker, als es scheint. „Einfach aussehend“ bedeutet nicht immer „günstiger“.",
+    publishedAt: "2026-08-10",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Der Architekturstil wird meist zuerst gewählt — intuitiv, nach Geschmack. Doch diese Entscheidung prägt nicht nur den Charakter des Hauses, sondern auch die Basiskosten des Baus — es lohnt sich also, die Unterschiede zwischen den Stilen zu kennen, bevor man sich entscheidet.",
+      },
+      { type: "heading", text: "Klassik" },
+      {
+        type: "paragraph",
+        text: "Symmetrische Fassaden, edle Proportionen, zurückhaltende Eleganz. Ein prestigeträchtiger, zeitloser Look — die Kosten entstehen durch die dekorativen Fassadenelemente und die Präzision der Proportionen.",
+      },
+      { type: "heading", text: "Neoklassik" },
+      {
+        type: "paragraph",
+        text: "Symmetrie, Säulen, edles Dekor — eine zeitgemäßere, leichtere Interpretation klassischer Formen ohne übermäßige Verzierung. Moderate Kosten zwischen Klassik und Minimalismus.",
+      },
+      { type: "heading", text: "Modern" },
+      {
+        type: "paragraph",
+        text: "Klare Linien, Panoramaverglasung, minimalistische Details. Wirkt schlicht, entpuppt sich aber oft als einer der teureren Stile: große Glasflächen und offene Räume erfordern aufwendigere Technik und teurere Fassadenmaterialien, als es zunächst scheint.",
+      },
+      { type: "heading", text: "Minimalismus" },
+      {
+        type: "paragraph",
+        text: "Lakonische Formen und maximaler Raum ohne überflüssiges Dekor. Anders als beim modernen Stil entsteht die Ersparnis hier gerade durch den Verzicht auf aufwendige Elemente — deshalb ist dies meist der budgetfreundlichste der fünf Stile.",
+      },
+      { type: "heading", text: "Toskana" },
+      {
+        type: "paragraph",
+        text: "Warme Töne, Naturstein, der Geist einer italienischen Villa. Die Kosten liegen in den Oberflächenmaterialien — Naturstein und strukturierter Putz — und nicht in der Formkomplexität.",
+      },
+      { type: "heading", text: "Wie Sie wählen" },
+      {
+        type: "list",
+        items: [
+          "Oberste Priorität ist ein knappes Budget bei klarer, moderner Form — Minimalismus",
+          "Sie schätzen einen traditionellen, prestigeträchtigen Look und investieren gern in Dekor — Klassik oder Neoklassik",
+          "Sie träumen von Panoramafenstern und offenen Räumen — Modern, aber kalkulieren Sie eine höhere Basisrate ein",
+          "Sie wünschen Wärme und mediterranen Charakter — Toskana",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Der Stil ist der erste Schritt im Baukonfigurator: Wählen Sie eine Option und sehen Sie sofort die geschätzten Kosten pro Quadratmeter dafür, noch bevor Sie zu den übrigen Parametern übergehen.",
+      },
+    ],
+  },
 ];

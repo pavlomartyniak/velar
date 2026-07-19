@@ -432,4 +432,101 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "yakyi-material-sten-obraty",
+    title: "Which wall material to choose: aerated concrete, brick, or a monolithic frame",
+    description:
+      "Comparing three wall material options for a private house — aerated concrete, brick, and a monolithic frame: cost, insulation, and the architectural possibilities each allows.",
+    excerpt:
+      "Wall material shapes not just the budget, but which architectural solutions are even possible. Here's how the three main options differ.",
+    publishedAt: "2026-08-03",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Wall material is one of the first structural decisions, and it determines not just the budget but also what architectural solutions will be available later: window size, ceiling height, the possibility of open-plan layouts.",
+      },
+      { type: "heading", text: "Aerated concrete" },
+      {
+        type: "paragraph",
+        text: "The optimal balance of price and insulation — the most common choice for private construction. Lighter than brick, faster to build with, holds heat well. A sensible baseline option if wall material isn't the top budget priority.",
+      },
+      { type: "heading", text: "Brick" },
+      {
+        type: "paragraph",
+        text: "Durability and prestige — brick remains the benchmark for solid, generations-lasting construction. The greater wall mass means better heat retention and sound insulation, but also a more demanding, costlier foundation and a longer build time.",
+      },
+      { type: "heading", text: "Monolithic frame" },
+      {
+        type: "paragraph",
+        text: "Freedom of layout and height — the frame carries the load, so walls between floors can be removed almost anywhere, and windows can span an entire wall. The most expensive option due to more complex technology, but the only one that gives full architectural freedom.",
+      },
+      { type: "heading", text: "How to choose" },
+      {
+        type: "list",
+        items: [
+          "Standard layout, tight budget control matters — aerated concrete as the sensible baseline",
+          "You want solidity and a traditional look for decades — brick justifies the higher cost",
+          "Planning large glazed surfaces, open-plan layouts, or a modern style with panoramic windows — a monolithic frame is practically the only option",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Wall material also affects other choices — window type or heating, for example. In the construction configurator you can immediately see how combining wall material with other options shapes the final budget.",
+      },
+    ],
+  },
+  {
+    slug: "yakyi-arhitekturnyi-styl-obraty",
+    title: "Which architectural style to choose for your house",
+    description:
+      "Comparing five architectural styles for a private house — classic, neoclassic, modern, minimalist, and Tuscan: character, cost, and who each style suits.",
+    excerpt:
+      "Style is the first decision in the project, and it affects the budget more than it might seem. \"Simple-looking\" doesn't always mean \"cheaper.\"",
+    publishedAt: "2026-08-10",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "The architectural style is usually chosen first — intuitively, by taste. But this decision shapes not just the house's character but also the baseline construction cost, so it's worth understanding the differences between styles before deciding.",
+      },
+      { type: "heading", text: "Classic" },
+      {
+        type: "paragraph",
+        text: "Symmetrical facades, noble proportions, restrained elegance. A prestigious, time-tested look — the cost comes from the facade's decorative elements and the precision of its proportions.",
+      },
+      { type: "heading", text: "Neoclassic" },
+      {
+        type: "paragraph",
+        text: "Symmetry, columns, refined decor — a more contemporary, lighter reading of classical forms, without excessive ornamentation. A moderate cost between classic and minimalist.",
+      },
+      { type: "heading", text: "Modern" },
+      {
+        type: "paragraph",
+        text: "Clean lines, panoramic glazing, minimal detailing. Looks understated, but often turns out to be one of the pricier styles: large glazed surfaces and open spaces require more complex engineering and pricier facade materials than it first appears.",
+      },
+      { type: "heading", text: "Minimalist" },
+      {
+        type: "paragraph",
+        text: "Laconic forms and maximum space with no excess decor. Unlike modern, here the savings come specifically from avoiding complex elements — so this is typically the most budget-friendly of the five styles.",
+      },
+      { type: "heading", text: "Tuscan" },
+      {
+        type: "paragraph",
+        text: "Warm tones, natural stone, the spirit of an Italian villa. The cost rests on finishing materials — natural stone and textured plaster — rather than on the complexity of the forms.",
+      },
+      { type: "heading", text: "How to choose" },
+      {
+        type: "list",
+        items: [
+          "Top priority is a tight budget with a clean, modern form — minimalist",
+          "You value a traditional, prestigious look and are ready to invest in decor — classic or neoclassic",
+          "You're dreaming of panoramic windows and open spaces — modern, but budget for a higher baseline rate",
+          "You want warmth and a Mediterranean character — Tuscan",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Style is the first step in the construction configurator: pick an option and immediately see the estimated cost per square meter for it, before moving on to the rest of the parameters.",
+      },
+    ],
+  },
 ];

@@ -346,7 +346,8 @@
           "label": "Toskania",
           "description": "Ciepłe barwy, naturalny kamień i duch włoskiej willi."
         }
-      }
+      },
+      "articleLink": "Jaki styl architektoniczny wybrać"
     },
     "area": {
       "heading": "Jaka jest powierzchnia domu?",
@@ -417,7 +418,8 @@
             "label": "Konstrukcja monolityczna",
             "description": "Swoboda układu i wysokości."
           }
-        }
+        },
+        "articleLink": "Jaki materiał na ściany wybrać"
       },
       "roof": {
         "title": "Rodzaj dachu",
@@ -962,7 +964,8 @@
             "label": "Klasyczny",
             "description": "Symetria i detal."
           }
-        }
+        },
+        "articleLink": "Jaki styl architektoniczny wybrać"
       },
       "roof": {
         "title": "Typ dachu",
