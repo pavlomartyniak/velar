@@ -1281,6 +1281,14 @@
       "house-5": {
         "title": "Dom minimalistyczny",
         "description": "Kontrastowa czarno-biała elewacja z panoramicznym przeszkleniem w minimalistycznym stylu."
+      },
+      "house-6": {
+        "title": "Klasyczna willa",
+        "description": "Dwupiętrowa willa z jasną elewacją, klasycznym dachem i okrężnym podjazdem."
+      },
+      "house-7": {
+        "title": "Czarny minimalizm",
+        "description": "Kompaktowy dom z ciemną elewacją, panoramicznym przeszkleniem i kontrastowym dachem."
       }
     }
   },

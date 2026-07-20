@@ -1281,6 +1281,14 @@
       "house-5": {
         "title": "Minimalist House",
         "description": "A contrasting black-and-white facade with panoramic glazing in a minimalist style."
+      },
+      "house-6": {
+        "title": "Classic Villa",
+        "description": "A two-story villa with a light facade, a classic roof, and a circular driveway."
+      },
+      "house-7": {
+        "title": "Black Minimalism",
+        "description": "A compact house with a dark facade, panoramic glazing, and a contrasting roof."
       }
     }
   },

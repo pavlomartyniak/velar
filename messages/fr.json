@@ -1281,6 +1281,14 @@
       "house-5": {
         "title": "Maison minimaliste",
         "description": "Façade contrastée noir et blanc avec vitrages panoramiques dans un style minimaliste."
+      },
+      "house-6": {
+        "title": "Villa classique",
+        "description": "Villa à deux étages avec façade claire, toit classique et allée circulaire."
+      },
+      "house-7": {
+        "title": "Minimalisme noir",
+        "description": "Maison compacte à façade sombre, vitrage panoramique et toit contrasté."
       }
     }
   },

@@ -11,4 +11,6 @@ export const HOUSE_MODELS: Model3D[] = [
   { id: "house-3", file: "/models/house-3.glb", thumbnail: "/models/thumbs/house-3.jpg" },
   { id: "house-4", file: "/models/house-4.glb", thumbnail: "/models/thumbs/house-4.jpg" },
   { id: "house-5", file: "/models/house-5.glb", thumbnail: "/models/thumbs/house-5.jpg" },
+  { id: "house-6", file: "/models/house-6.glb", thumbnail: "/models/thumbs/house-6.jpg" },
+  { id: "house-7", file: "/models/house-7.glb", thumbnail: "/models/thumbs/house-7.jpg" },
 ];

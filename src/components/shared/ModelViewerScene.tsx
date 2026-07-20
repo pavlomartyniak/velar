@@ -117,18 +117,19 @@ export default function ModelViewerScene({ modelUrl, onReady }: ModelViewerScene
       shadows
       camera={{ position: FINAL_CAMERA_POSITION, fov: 38 }}
       dpr={[1, 1.5]}
-      gl={{ antialias: true, powerPreference: "low-power" }}
+      gl={{ antialias: true, powerPreference: "low-power", toneMappingExposure: 1.35 }}
     >
-      <ambientLight intensity={1.2} />
+      <ambientLight intensity={1.9} />
       <directionalLight
         position={[5, 8, 4]}
-        intensity={2.2}
+        intensity={3.2}
         castShadow
         shadow-mapSize={[512, 512]}
       />
-      <directionalLight position={[-4, 3, -5]} intensity={0.9} />
-      <directionalLight position={[0, 4, -6]} intensity={0.6} />
-      <hemisphereLight args={["#ffffff", "#8a8f94", 0.8]} />
+      <directionalLight position={[-4, 3, -5]} intensity={1.5} />
+      <directionalLight position={[0, 4, -6]} intensity={1} />
+      <directionalLight position={[0, -2, 5]} intensity={0.6} />
+      <hemisphereLight args={["#ffffff", "#8a8f94", 1.3]} />
 
       <Suspense fallback={null}>
         <FittedModel url={modelUrl} onFitted={handleFitted} />

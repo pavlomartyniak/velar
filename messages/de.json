@@ -1281,6 +1281,14 @@
       "house-5": {
         "title": "Minimalistisches Haus",
         "description": "Eine kontrastreiche schwarz-weiße Fassade mit Panoramaverglasung im minimalistischen Stil."
+      },
+      "house-6": {
+        "title": "Klassische Villa",
+        "description": "Zweistöckige Villa mit heller Fassade, klassischem Dach und kreisförmiger Auffahrt."
+      },
+      "house-7": {
+        "title": "Schwarzer Minimalismus",
+        "description": "Kompaktes Haus mit dunkler Fassade, Panoramaverglasung und kontrastreichem Dach."
       }
     }
   },
