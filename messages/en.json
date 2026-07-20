@@ -83,6 +83,23 @@
     "subtitle": "5 example houses you can rotate, zoom, and view from every angle right in your browser — on desktop or mobile.",
     "cta": "Open the 3D gallery"
   },
+  "galleryCta": {
+    "overline": "FROM 3D MODEL TO YOUR HOME",
+    "title": "Like one of these houses?",
+    "titleWithHouse": "Like the “{house}”?",
+    "subtitle": "Request a personalized design and we'll create a house in a similar style for your plot and wishes, with a full set of drawings and its own 3D model. Or choose turnkey construction and we'll bring your project to life.",
+    "design": {
+      "badge": "Design",
+      "title": "Get a custom design",
+      "description": "A full set of drawings, calculations, and a 3D model of your future house — designed from scratch around your wishes, in a similar style, for your plot.",
+      "cta": "Request a design"
+    },
+    "build": {
+      "title": "Build the house of your dreams",
+      "description": "We'll calculate the construction cost and build your custom project from foundation to roof.",
+      "cta": "Get a construction estimate"
+    }
+  },
   "howItWorks": {
     "overline": "How it works",
     "title": "Your project in three simple steps",
@@ -212,6 +229,11 @@
           "label": "Payment stages"
         }
       ]
+    },
+    "galleryTeaser": {
+      "title": "Before you order a design — see examples in 3D",
+      "subtitle": "5 finished houses you can rotate, zoom, and view from every angle — to get a clearer sense of what you'll receive.",
+      "cta": "View 3D examples"
     },
     "pricing": {
       "overline": "Pricing",
@@ -533,7 +555,7 @@
       "unlockCta": "Get the visualization",
       "unlockedNote": "Request received — your manager will send the personalized visualization.",
       "bigCta": "Get the visualization and a consultation",
-      "galleryLink": "See real house examples in the 3D gallery →"
+      "galleryLink": "See real house examples in the 3D gallery"
     },
     "callback": {
       "title": "Manager call",
@@ -1099,7 +1121,7 @@
       "bigCta": "Get the visualization and a consultation",
       "unlockCta": "Get the visualization",
       "unlockedNote": "Request received — the architect will send the visualization.",
-      "galleryLink": "See real house examples in the 3D gallery →",
+      "galleryLink": "See real house examples in the 3D gallery",
       "successTitle": "Request received!",
       "successText": "Thank you. The architect will process your parameters and prepare the plan and visualization. What's next:",
       "edit": "Change parameters",

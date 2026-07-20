@@ -6,7 +6,7 @@ import { createMetadata } from "@/lib/seo";
 import { siteConfig } from "@/lib/site";
 import { HOUSE_MODELS } from "@/lib/models";
 import HouseDetailSection from "@/components/gallery/HouseDetailSection";
-import ServicesCta from "@/components/shared/ServicesCta";
+import GalleryCta from "@/components/gallery/GalleryCta";
 
 type PageProps = { params: Promise<{ locale: string; id: string }> };
 
@@ -59,7 +59,7 @@ export default async function HouseDetailPage({ params }: PageProps) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }}
       />
       <HouseDetailSection key={id} house={house} />
-      <ServicesCta />
+      <GalleryCta houseTitle={t(`houses.${id}.title`)} />
     </>
   );
 }

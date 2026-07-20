@@ -9,7 +9,10 @@ import ThreeDRotationRoundedIcon from "@mui/icons-material/ThreeDRotationRounded
 import ArrowForwardRoundedIcon from "@mui/icons-material/ArrowForwardRounded";
 import { HOUSE_MODELS } from "@/lib/models";
 
-const PREVIEW_HOUSES = HOUSE_MODELS.slice(0, 3);
+const HOUSE_SETS = {
+  home: HOUSE_MODELS.slice(0, 3),
+  design: HOUSE_MODELS.slice(-3),
+};
 
 const container: Variants = {
   hidden: {},
@@ -21,12 +24,20 @@ const item: Variants = {
   show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] } },
 };
 
-export default function GalleryTeaser() {
+export default function GalleryTeaser({
+  variant = "home",
+}: {
+  variant?: "home" | "design";
+}) {
   const t = useTranslations("gallery");
-  const tHome = useTranslations("galleryTeaser");
+  const tHome = useTranslations(variant === "design" ? "design.galleryTeaser" : "galleryTeaser");
+  const houses = HOUSE_SETS[variant];
 
   return (
-    <Box component="section" sx={{ py: { xs: 9, md: 12 }, bgcolor: "background.default" }}>
+    <Box
+      component="section"
+      sx={{ py: { xs: 9, md: 12 }, bgcolor: "primary.main", color: "primary.contrastText" }}
+    >
       <Container maxWidth="lg">
         <Stack
           component={motion.div}
@@ -35,7 +46,7 @@ export default function GalleryTeaser() {
           whileInView="show"
           viewport={{ once: true, amount: 0.3 }}
           direction={{ xs: "column", md: "row" }}
-          spacing={{ xs: 4, md: 6 }}
+          spacing={{ xs: 6, md: 6 }}
           sx={{ alignItems: "center" }}
         >
           <Box
@@ -47,13 +58,13 @@ export default function GalleryTeaser() {
               textAlign: { xs: "center", md: "left" },
             }}
           >
-            <Typography variant="overline" color="text.secondary" sx={{ letterSpacing: 4 }}>
+            <Typography variant="overline" sx={{ letterSpacing: 4, opacity: 0.7 }}>
               {t("overline")}
             </Typography>
             <Typography variant="h3" sx={{ fontWeight: 800, mt: 1, mb: 2 }}>
               {tHome("title")}
             </Typography>
-            <Typography variant="body1" color="text.secondary" sx={{ mb: 3 }}>
+            <Typography variant="body1" sx={{ opacity: 0.8, mb: 3 }}>
               {tHome("subtitle")}
             </Typography>
             <Button
@@ -62,24 +73,26 @@ export default function GalleryTeaser() {
               variant="contained"
               size="large"
               endIcon={<ArrowForwardRoundedIcon />}
-              sx={{ px: 4, py: 1.5 }}
+              sx={{
+                px: 4,
+                py: 1.5,
+                bgcolor: "common.white",
+                color: "text.primary",
+                "&:hover": { bgcolor: "grey.200" },
+              }}
             >
               {tHome("cta")}
             </Button>
           </Box>
 
-          <Box
+          <Stack
             component={motion.div}
             variants={item}
-            sx={{
-              flex: 1,
-              width: "100%",
-              display: "grid",
-              gap: 2,
-              gridTemplateColumns: "repeat(3, 1fr)",
-            }}
+            direction="row"
+            spacing={2}
+            sx={{ flex: 1, width: "100%" }}
           >
-            {PREVIEW_HOUSES.map((house) => (
+            {houses.map((house) => (
               <Box
                 key={house.id}
                 component={Link}
@@ -87,18 +100,24 @@ export default function GalleryTeaser() {
                 sx={{
                   position: "relative",
                   display: "block",
+                  flex: 1,
                   aspectRatio: "3 / 4",
                   borderRadius: 2,
                   overflow: "hidden",
-                  transition: "transform .25s ease",
-                  "&:hover": { transform: "translateY(-4px)" },
+                  border: "1px solid rgba(255,255,255,0.12)",
+                  boxShadow: "0 12px 28px rgba(0,0,0,0.35)",
+                  transition: "transform .25s ease, box-shadow .25s ease",
+                  "&:hover": {
+                    transform: "translateY(-4px)",
+                    boxShadow: "0 16px 36px rgba(0,0,0,0.45)",
+                  },
                 }}
               >
                 <Image
                   src={house.thumbnail}
                   alt={t(`houses.${house.id}.title`)}
                   fill
-                  sizes="(max-width: 900px) 33vw, 220px"
+                  sizes="(max-width: 900px) 30vw, 220px"
                   style={{ objectFit: "cover" }}
                 />
                 <Chip
@@ -109,16 +128,16 @@ export default function GalleryTeaser() {
                     position: "absolute",
                     top: 8,
                     left: 8,
-                    bgcolor: "rgba(0,0,0,0.65)",
-                    color: "common.white",
+                    bgcolor: "common.white",
+                    color: "text.primary",
                     fontWeight: 700,
                     height: 22,
-                    "& .MuiChip-icon": { color: "common.white" },
+                    "& .MuiChip-icon": { color: "text.primary" },
                   }}
                 />
               </Box>
             ))}
-          </Box>
+          </Stack>
         </Stack>
       </Container>
     </Box>

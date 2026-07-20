@@ -8,6 +8,7 @@ import DesignIntro from "@/components/design/DesignIntro";
 import DesignPricing from "@/components/design/DesignPricing";
 import DesignPayment from "@/components/design/DesignPayment";
 import DesignAdvantages from "@/components/design/DesignAdvantages";
+import GalleryTeaser from "@/components/home/GalleryTeaser";
 import DesignCta from "@/components/design/DesignCta";
 
 type PageProps = { params: Promise<{ locale: string }> };
@@ -69,6 +70,7 @@ export default async function DesignPage({ params }: PageProps) {
       <DesignIntro />
       <DesignPricing />
       <DesignPayment />
+      <GalleryTeaser variant="design" />
       <DesignAdvantages />
       <DesignCta />
     </>

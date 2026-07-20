@@ -74,19 +74,6 @@ export default function DesignCta() {
               {t("phoneCta")}
             </Button>
           </Stack>
-          <Typography
-            component={Link}
-            href="/gallery"
-            variant="body2"
-            sx={{
-              color: "common.white",
-              opacity: 0.85,
-              textDecoration: "underline",
-              "&:hover": { opacity: 1 },
-            }}
-          >
-            {t("galleryLink")}
-          </Typography>
         </Stack>
       </Container>
 

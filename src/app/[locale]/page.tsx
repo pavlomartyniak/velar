@@ -35,9 +35,9 @@ export default async function Home({ params }: PageProps) {
       <Hero />
       <DesignPromo />
       <HowItWorks />
+      <GalleryTeaser />
       <WhyUs />
       <ShowcaseBanner />
-      <GalleryTeaser />
       <ServicesCta />
     </>
   );

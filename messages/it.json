@@ -83,6 +83,23 @@
     "subtitle": "5 esempi di case che puoi ruotare, ingrandire e osservare da ogni angolazione direttamente nel browser — su computer o smartphone.",
     "cta": "Apri la galleria 3D"
   },
+  "galleryCta": {
+    "overline": "DAL MODELLO 3D ALLA TUA CASA",
+    "title": "Ti piace una di queste case?",
+    "titleWithHouse": "Ti piace “{house}”?",
+    "subtitle": "Richiedi un progetto personalizzato e creeremo una casa in uno stile simile per il tuo terreno e le tue esigenze, con l'intero set di disegni tecnici e un modello 3D dedicato. Oppure scegli la costruzione chiavi in mano e realizzeremo il tuo progetto.",
+    "design": {
+      "badge": "Progettazione",
+      "title": "Ottieni un progetto personalizzato",
+      "description": "Set completo di disegni tecnici, calcoli e un modello 3D della tua futura casa, progettata da zero secondo le tue esigenze, in uno stile simile, per il tuo terreno.",
+      "cta": "Richiedi il progetto"
+    },
+    "build": {
+      "title": "Costruisci la casa dei tuoi sogni",
+      "description": "Calcoleremo il costo di costruzione e realizzeremo il tuo progetto personalizzato dalle fondamenta al tetto.",
+      "cta": "Richiedi un preventivo"
+    }
+  },
   "howItWorks": {
     "overline": "Come funziona",
     "title": "Il tuo progetto in tre semplici passi",
@@ -212,6 +229,11 @@
           "label": "Fasi di pagamento"
         }
       ]
+    },
+    "galleryTeaser": {
+      "title": "Prima di ordinare un progetto — guarda gli esempi in 3D",
+      "subtitle": "5 case già pronte che puoi ruotare, ingrandire e osservare da ogni lato — per farti un'idea più chiara di cosa riceverai.",
+      "cta": "Guarda gli esempi in 3D"
     },
     "pricing": {
       "overline": "Tariffe",
@@ -533,7 +555,7 @@
       "unlockCta": "Ottieni la visualizzazione",
       "unlockedNote": "Richiesta ricevuta — il tuo consulente ti invierà la visualizzazione personalizzata.",
       "bigCta": "Ottieni la visualizzazione e una consulenza",
-      "galleryLink": "Guarda esempi reali di case nella galleria 3D →"
+      "galleryLink": "Guarda esempi reali di case nella galleria 3D"
     },
     "callback": {
       "title": "Chiamata di un consulente",
@@ -1099,7 +1121,7 @@
       "bigCta": "Ottieni la visualizzazione e una consulenza",
       "unlockCta": "Ottieni la visualizzazione",
       "unlockedNote": "Richiesta ricevuta — l'architetto invierà la visualizzazione.",
-      "galleryLink": "Guarda esempi reali di case nella galleria 3D →",
+      "galleryLink": "Guarda esempi reali di case nella galleria 3D",
       "successTitle": "Richiesta ricevuta!",
       "successText": "Grazie. L'architetto elaborerà i tuoi parametri e preparerà pianta e visualizzazione. Cosa succede ora:",
       "edit": "Modifica i parametri",

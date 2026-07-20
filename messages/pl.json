@@ -83,6 +83,23 @@
     "subtitle": "5 przykładowych domów, które możesz obracać, przybliżać i oglądać z każdej strony wprost w przeglądarce — na komputerze lub telefonie.",
     "cta": "Otwórz galerię 3D"
   },
+  "galleryCta": {
+    "overline": "OD MODELU 3D DO TWOJEGO DOMU",
+    "title": "Podoba Ci się jeden z tych domów?",
+    "titleWithHouse": "Podoba Ci się „{house}”?",
+    "subtitle": "Zamów indywidualny projekt, a stworzymy dom w podobnym stylu, dopasowany do Twojej działki i oczekiwań, wraz z pełnym pakietem rysunków i własnym modelem 3D. Albo wybierz budowę pod klucz, a zrealizujemy Twój projekt.",
+    "design": {
+      "badge": "Projektowanie",
+      "title": "Zamów indywidualny projekt",
+      "description": "Pełny pakiet rysunków, obliczenia i model 3D Twojego przyszłego domu — zaprojektowanego od podstaw zgodnie z Twoimi życzeniami, w podobnym stylu, pod Twoją działkę.",
+      "cta": "Zamów projekt"
+    },
+    "build": {
+      "title": "Zbuduj dom swoich marzeń",
+      "description": "Obliczymy koszt budowy i zrealizujemy Twój indywidualny projekt od fundamentów po dach.",
+      "cta": "Wycena budowy"
+    }
+  },
   "howItWorks": {
     "overline": "Jak to działa",
     "title": "Twój projekt w trzech prostych krokach",
@@ -212,6 +229,11 @@
           "label": "Etapy płatności"
         }
       ]
+    },
+    "galleryTeaser": {
+      "title": "Zanim zamówisz projekt — zobacz przykłady w 3D",
+      "subtitle": "5 gotowych domów, które możesz obracać, przybliżać i oglądać z każdej strony — aby lepiej wyobrazić sobie efekt.",
+      "cta": "Zobacz przykłady w 3D"
     },
     "pricing": {
       "overline": "Cennik",
@@ -533,7 +555,7 @@
       "unlockCta": "Otrzymaj wizualizację",
       "unlockedNote": "Zgłoszenie przyjęte — menedżer wyśle Ci spersonalizowaną wizualizację.",
       "bigCta": "Otrzymaj wizualizację i konsultację",
-      "galleryLink": "Zobacz prawdziwe przykłady domów w galerii 3D →"
+      "galleryLink": "Zobacz prawdziwe przykłady domów w galerii 3D"
     },
     "callback": {
       "title": "Rozmowa z menedżerem",
@@ -1099,7 +1121,7 @@
       "bigCta": "Otrzymaj wizualizację i konsultację",
       "unlockCta": "Otrzymaj wizualizację",
       "unlockedNote": "Zgłoszenie przyjęte — architekt prześle wizualizację.",
-      "galleryLink": "Zobacz prawdziwe przykłady domów w galerii 3D →",
+      "galleryLink": "Zobacz prawdziwe przykłady domów w galerii 3D",
       "successTitle": "Zgłoszenie przyjęte!",
       "successText": "Dziękujemy. Architekt opracuje Twoje parametry i przygotuje plan oraz wizualizację. Co dalej:",
       "edit": "Zmień parametry",

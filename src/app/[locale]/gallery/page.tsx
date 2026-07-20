@@ -3,7 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { createMetadata } from "@/lib/seo";
 import GallerySection from "@/components/gallery/GallerySection";
-import ServicesCta from "@/components/shared/ServicesCta";
+import GalleryCta from "@/components/gallery/GalleryCta";
 
 type PageProps = { params: Promise<{ locale: string }> };
 
@@ -27,7 +27,7 @@ export default async function GalleryPage({ params }: PageProps) {
   return (
     <>
       <GallerySection />
-      <ServicesCta />
+      <GalleryCta />
     </>
   );
 }

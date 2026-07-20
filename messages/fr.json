@@ -83,6 +83,23 @@
     "subtitle": "5 exemples de maisons que vous pouvez faire pivoter, zoomer et observer sous tous les angles directement dans le navigateur — sur ordinateur ou mobile.",
     "cta": "Ouvrir la galerie 3D"
   },
+  "galleryCta": {
+    "overline": "DU MODÈLE 3D À VOTRE MAISON",
+    "title": "Une de ces maisons vous plaît ?",
+    "titleWithHouse": "« {house} » vous plaît ?",
+    "subtitle": "Commandez une conception personnalisée et nous créerons une maison dans un style similaire, adaptée à votre terrain et à vos souhaits, avec l'ensemble des plans et un modèle 3D dédié. Ou optez pour la construction clé en main et nous réaliserons votre projet.",
+    "design": {
+      "badge": "Conception",
+      "title": "Obtenir une conception personnalisée",
+      "description": "Ensemble complet de plans, calculs et un modèle 3D de votre future maison, conçue de zéro selon vos souhaits, dans un style similaire, pour votre terrain.",
+      "cta": "Demander une conception"
+    },
+    "build": {
+      "title": "Construisez la maison de vos rêves",
+      "description": "Nous calculerons le coût de construction et réaliserons votre projet personnalisé, des fondations à la toiture.",
+      "cta": "Obtenir un devis"
+    }
+  },
   "howItWorks": {
     "overline": "Comment ça marche",
     "title": "Votre projet en trois étapes simples",
@@ -212,6 +229,11 @@
           "label": "Étapes de paiement"
         }
       ]
+    },
+    "galleryTeaser": {
+      "title": "Avant de commander un projet — découvrez des exemples en 3D",
+      "subtitle": "5 maisons prêtes que vous pouvez faire pivoter, zoomer et observer sous tous les angles — pour mieux visualiser ce que vous obtiendrez.",
+      "cta": "Voir les exemples en 3D"
     },
     "pricing": {
       "overline": "Tarifs",
@@ -533,7 +555,7 @@
       "unlockCta": "Obtenir la visualisation",
       "unlockedNote": "Demande reçue — votre conseiller vous envoie la visualisation personnalisée.",
       "bigCta": "Obtenir la visualisation et une consultation",
-      "galleryLink": "Voir de vrais exemples de maisons dans la galerie 3D →"
+      "galleryLink": "Voir de vrais exemples de maisons dans la galerie 3D"
     },
     "callback": {
       "title": "Appel d'un conseiller",
@@ -1099,7 +1121,7 @@
       "bigCta": "Obtenir la visualisation et une consultation",
       "unlockCta": "Obtenir la visualisation",
       "unlockedNote": "Demande reçue — l'architecte enverra la visualisation.",
-      "galleryLink": "Voir de vrais exemples de maisons dans la galerie 3D →",
+      "galleryLink": "Voir de vrais exemples de maisons dans la galerie 3D",
       "successTitle": "Demande reçue !",
       "successText": "Merci. L'architecte traitera vos paramètres et préparera le plan et la visualisation. La suite :",
       "edit": "Modifier les paramètres",

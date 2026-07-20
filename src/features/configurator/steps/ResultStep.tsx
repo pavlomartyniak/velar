@@ -19,6 +19,7 @@ import PhoneInTalkRoundedIcon from "@mui/icons-material/PhoneInTalkRounded";
 import EditRoundedIcon from "@mui/icons-material/EditRounded";
 import LockRoundedIcon from "@mui/icons-material/LockRounded";
 import LockOpenRoundedIcon from "@mui/icons-material/LockOpenRounded";
+import ThreeDRotationRoundedIcon from "@mui/icons-material/ThreeDRotationRounded";
 import {
   ADDONS,
   CONFIGURATOR_STORAGE_KEY,
@@ -221,19 +222,16 @@ export default function ResultStep({ onEdit }: { onEdit: () => void }) {
       </Box>
 
       <Box sx={{ textAlign: "center" }}>
-        <Typography
+        <Button
           component={Link}
           href="/gallery"
-          variant="body2"
-          sx={{
-            fontWeight: 600,
-            color: "primary.main",
-            textDecoration: "none",
-            "&:hover": { textDecoration: "underline" },
-          }}
+          variant="outlined"
+          size="large"
+          startIcon={<ThreeDRotationRoundedIcon />}
+          sx={{ px: 4, py: 1.5 }}
         >
           {t("galleryLink")}
-        </Typography>
+        </Button>
       </Box>
 
       {/* CTA — отримати візуалізацію та консультацію */}
