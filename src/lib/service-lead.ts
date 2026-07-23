@@ -28,6 +28,7 @@ export function formatServiceLeadMessage(
   name: string,
   phone: string,
   payload: ServiceLeadPayload,
+  email?: string,
 ): string {
   const service = payload.service ? SERVICE_LABELS[payload.service] ?? payload.service : "—";
   const tier =
@@ -40,6 +41,7 @@ export function formatServiceLeadMessage(
     "",
     `👤 Ім'я: ${escapeHtml(name)}`,
     `📞 Телефон: ${escapeHtml(phone)}`,
+    ...(email ? [`📧 Email: ${escapeHtml(email)}`] : []),
     "",
     `🛋️ Послуга: ${escapeHtml(service)}`,
   ];

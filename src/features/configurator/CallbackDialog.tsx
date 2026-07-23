@@ -2,9 +2,11 @@
 
 import { useMemo, useState } from "react";
 import { useTranslations } from "next-intl";
-import { useForm } from "react-hook-form";
+import { useForm, Controller } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
+import PhoneInput, { isValidPhoneNumber } from "react-phone-number-input";
+import "react-phone-number-input/style.css";
 import {
   Box,
   Button,
@@ -12,8 +14,9 @@ import {
   DialogActions,
   DialogContent,
   DialogContentText,
-  DialogTitle,
+  FormHelperText,
   Stack,
+  DialogTitle,
   TextField,
   Typography,
 } from "@mui/material";
@@ -47,7 +50,8 @@ export default function CallbackDialog({
         name: z.string().min(2, t("nameError")),
         phone: z
           .string()
-          .regex(/^\+?[0-9\s\-()]{10,}$/, t("phoneError")),
+          .refine((value) => !!value && isValidPhoneNumber(value), t("phoneError")),
+        email: z.union([z.literal(""), z.string().email(t("emailError"))]),
       }),
     [t],
   );
@@ -56,12 +60,13 @@ export default function CallbackDialog({
 
   const {
     register,
+    control,
     handleSubmit,
     reset,
     formState: { errors, isSubmitting },
   } = useForm<CallbackValues>({
     resolver: zodResolver(callbackSchema),
-    defaultValues: { name: "", phone: "" },
+    defaultValues: { name: "", phone: "", email: "" },
   });
 
   const onSubmit = handleSubmit(async (values) => {
@@ -78,6 +83,8 @@ export default function CallbackDialog({
         }),
       });
       if (!response.ok) throw new Error("failed");
+      const result = await response.json();
+      if (!result.delivered) throw new Error("not_delivered");
       window.gtag?.("event", "generate_lead", { source, kind: lead?.kind });
       reset();
       onClose();
@@ -101,12 +108,43 @@ export default function CallbackDialog({
               helperText={errors.name?.message}
               fullWidth
             />
+            <Box>
+              <Typography
+                variant="caption"
+                sx={{
+                  display: "block",
+                  mb: 0.5,
+                  color: errors.phone ? "error.main" : "text.secondary",
+                }}
+              >
+                {t("phone")}
+              </Typography>
+              <Controller
+                name="phone"
+                control={control}
+                render={({ field: { onChange, value, onBlur } }) => (
+                  <PhoneInput
+                    international
+                    defaultCountry="UA"
+                    value={value}
+                    onChange={(next) => onChange(next ?? "")}
+                    onBlur={onBlur}
+                    className={errors.phone ? "PhoneInput--error" : undefined}
+                  />
+                )}
+              />
+              {errors.phone && (
+                <FormHelperText error sx={{ mx: "14px" }}>
+                  {errors.phone.message}
+                </FormHelperText>
+              )}
+            </Box>
             <TextField
-              label={t("phone")}
-              placeholder="+380 00 000 00 00"
-              {...register("phone")}
-              error={!!errors.phone}
-              helperText={errors.phone?.message}
+              label={t("email")}
+              placeholder="you@example.com"
+              {...register("email")}
+              error={!!errors.email}
+              helperText={errors.email?.message ?? t("emailHint")}
               fullWidth
             />
           </Stack>

@@ -19,3 +19,47 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+/* Телефонне поле (react-phone-number-input) під вигляд MUI outlined TextField */
+.PhoneInput {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  padding: 0 14px;
+  border: 1px solid var(--mui-palette-divider, rgba(0, 0, 0, 0.23));
+  border-radius: var(--mui-shape-borderRadius, 8px);
+  font-family: var(--mui-font-family, inherit);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.PhoneInput:focus-within {
+  border-color: var(--mui-palette-primary-main, #141414);
+  box-shadow: 0 0 0 1px var(--mui-palette-primary-main, #141414);
+}
+
+.PhoneInput--error {
+  border-color: var(--mui-palette-error-main, #d32f2f);
+}
+
+.PhoneInput--error:focus-within {
+  box-shadow: 0 0 0 1px var(--mui-palette-error-main, #d32f2f);
+}
+
+.PhoneInputCountry {
+  margin-right: 8px;
+}
+
+.PhoneInputCountrySelect:focus + .PhoneInputCountryIcon {
+  outline: none;
+}
+
+.PhoneInputInput {
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font: inherit;
+  font-size: 1rem;
+  color: inherit;
+}

@@ -11,17 +11,19 @@ export async function POST(request: Request) {
   }
 
   const source = typeof body.source === "string" ? body.source : "site";
+  const email = typeof body.email === "string" && body.email.trim() ? body.email.trim() : undefined;
 
   let message: string;
   if (body.kind === "design") {
-    message = formatDesignLeadMessage(body.name, body.phone, body.payload ?? {});
+    message = formatDesignLeadMessage(body.name, body.phone, body.payload ?? {}, email);
   } else if (body.kind === "service") {
-    message = formatServiceLeadMessage(body.name, body.phone, body.payload ?? {});
+    message = formatServiceLeadMessage(body.name, body.phone, body.payload ?? {}, email);
   } else {
     // construction / звичайна заявка (configurator — для зворотної сумісності)
     message = formatLeadMessage({
       name: body.name,
       phone: body.phone,
+      email,
       source,
       configurator: body.payload ?? body.configurator,
     });

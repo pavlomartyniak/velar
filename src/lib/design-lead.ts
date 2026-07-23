@@ -195,6 +195,7 @@ export function formatDesignLeadMessage(
   name: string,
   phone: string,
   v: Partial<DesignConfiguratorValues>,
+  email?: string,
 ): string {
   const price = computeDesignPrice(v);
   const pkg = v.package ? PACKAGE_LABELS[v.package] : "—";
@@ -205,6 +206,7 @@ export function formatDesignLeadMessage(
     "",
     `👤 Ім'я: ${name}`,
     `📞 Телефон: ${phone}`,
+    ...(email ? [`📧 Email: ${email}`] : []),
     "",
     "📐 <b>Ділянка:</b>",
     `Статус: ${v.plotStatus ? PLOT_STATUS[v.plotStatus] : "—"}`,

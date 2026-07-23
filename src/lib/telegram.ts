@@ -168,17 +168,19 @@ export const escapeHtml = (text: string) =>
 export interface LeadPayload {
   name: string;
   phone: string;
+  email?: string;
   source: string;
   configurator?: Partial<ConfiguratorValues>;
 }
 
-export function formatLeadMessage({ name, phone, source, configurator }: LeadPayload): string {
+export function formatLeadMessage({ name, phone, email, source, configurator }: LeadPayload): string {
   const lines = [
     "🆕 <b>Нова заявка з сайту Velar</b>",
     `Джерело: ${SOURCE_LABELS[source] ?? source}`,
     "",
     `👤 Ім'я: ${name}`,
     `📞 Телефон: ${phone}`,
+    ...(email ? [`📧 Email: ${email}`] : []),
   ];
 
   if (configurator?.style) {
